@@ -28,9 +28,47 @@ CONFIG(debug, debug|release) {
   message(Building release version)
 }
 
-RESOURCES += data/mainRes.qrc
+RESOURCES += mainRes.qrc
 
 QMAKE_CXXFLAGS_RELEASE += -Ofast
+
+UBUNTU_TOUCH {
+   DEFINES += Q_OS_UBUNTU_TOUCH
+
+    target.path = /
+    INSTALLS += target
+
+    click_files.path = /
+    click_files.files = $$PWD/ubuntu_touch/*
+
+    INSTALLS += click_files
+
+    data_dir.path = /data
+    data_dir.files = $$PWD/mobileData/data/*
+
+    landscapes_dir.path = /landscapes
+    landscapes_dir.files = $$PWD/mobileData/landscapes/*
+
+    nebulae_dir.files = $$PWD/mobileData/nebulae/*
+    nebulae_dir.path = /nebulae
+
+    skycultures_dir.files = $$PWD/mobileData/skycultures/*
+    skycultures_dir.path = /skycultures
+
+    stars_dir.files = $$PWD/mobileData/stars/*
+    stars_dir.path = /stars
+
+    textures_dir.files = $$PWD/mobileData/textures/*
+    textures_dir.path = /textures
+
+    translations_dir.files = $$PWD/mobileData/translations/*
+    translations_dir.path = /translations
+
+    INSTALLS +=  data_dir textures_dir landscapes_dir nebulae_dir skycultures_dir stars_dir translations_dir
+    #DEPLOYMENTFOLDERS = data_dir textures_dir landscapes_dir nebulae_dir skycultures_dir stars_dir translations_dir
+
+    #include(deployment.pri)
+}
 
 android {
 	QT += androidextras
@@ -106,8 +144,8 @@ DEFINES += PACKAGE_VERSION_NOSTR=$${VERSION}
 DEFINES += MOBILE_GUI_VERSION_NOSTR=$${MOBILE_VERSION}
 DEFINES += INSTALL_DATADIR_NOSTR=
 
-QMAKE_CFLAGS += -include src/config.h
-QMAKE_CXXFLAGS += -include src/config.h
+#QMAKE_CFLAGS += -include src/config.h
+#QMAKE_CXXFLAGS += -include src/config.h
 
 contains(QT, quick) {
 	DEFINES += USE_QUICKVIEW

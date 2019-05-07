@@ -33,7 +33,7 @@ Item {
 
 	id: root
 	width: parent.width
-	height: 45*rootStyle.scale
+    height: 45*rootStyle.scale
 
 	StelAction {
 		id: stelAction

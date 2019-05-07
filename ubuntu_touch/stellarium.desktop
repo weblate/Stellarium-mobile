@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=stellarium
+Exec=stellarium
+Icon=assets/stellarium.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+Name[en_US]=stellarium.desktop

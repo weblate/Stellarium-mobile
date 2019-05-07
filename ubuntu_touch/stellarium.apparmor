@@ -1,0 +1,4 @@
+{
+    "policy_groups": ["sensors","networking","location"],
+    "policy_version": 16.04
+}

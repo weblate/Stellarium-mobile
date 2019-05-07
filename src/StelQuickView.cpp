@@ -101,11 +101,11 @@ void QmlGuiActionItem::trigger()
 StelQuickView::StelQuickView() : stelApp(NULL), nightMode(false), quitRequested(false)
 {
 	singleton = this;
-	timer = new QTimer(this);
-	timer->setTimerType(Qt::PreciseTimer);
-	connect(timer, SIGNAL(timeout()), this, SLOT(update()));
-	timer->setInterval(15);
-	setSource(QUrl("qrc:/qml/Splash.qml"));
+    timer = new QTimer(this);
+    timer->setTimerType(Qt::PreciseTimer);
+    connect(timer, SIGNAL(timeout()), this, SLOT(update()));
+    timer->setInterval(15);
+    setSource(QUrl("qrc:/qml/Splash.qml"));
 	connect(this, SIGNAL(widthChanged(int)), this, SLOT(handleResize()));
 	connect(this, SIGNAL(heightChanged(int)), this, SLOT(handleResize()));
 	connect(this, SIGNAL(beforeSynchronizing()), this, SLOT(synchronize()), Qt::DirectConnection);
@@ -167,26 +167,24 @@ void StelQuickView::handleResize()
 
 float StelQuickView::getScreenDensity() const
 {
-#if defined(Q_OS_IOS)
+#if defined(Q_OS_IOS) || defined(Q_OS_ANDROID) || defined(Q_OS_UBUNTU_TOUCH)
 	return screen()->physicalDotsPerInch()/160.f;
-#elif defined(Q_OS_ANDROID)
-	return StelAndroid::getScreenDensity()/160.f;
 #else
-	return screen()->physicalDotsPerInch()/96.f;
+    return screen()->physicalDotsPerInch()/96.f;
 #endif
 }
 
 void StelQuickView::synchronize()
 {
-	const int splashTime = 2;
-	static int initState = 0;
-	if (initState < splashTime) // Give Qt the time to render the splash screen.
-	{
-		initState++;
-		return;
-	}
-	if (initState == splashTime)
-	{
+    const int splashTime = 2;
+    static int initState = 0;
+    if (initState < splashTime) // Give Qt the time to render the splash screen.
+    {
+        initState++;
+        return;
+    }
+    if (initState == splashTime)
+    {
 		stelApp = new StelApp();
 		StelApp::initStatic();
 		stelApp->setGlobalScalingRatio(getScreenDensity());
@@ -198,10 +196,10 @@ void StelQuickView::synchronize()
 		stelApp->glWindowHasBeenResized(0, 0, width(), height());
 		setFlags(Qt::Window);
 		setNightMode(globalConf->value("viewing/flag_night", false).toBool());
-		initState++;
+        initState++;
 
 		emit initialized();
-	}
+    }
 	if (quitRequested)
 	{
 		// For the moment we just quit the app as fast as possible.

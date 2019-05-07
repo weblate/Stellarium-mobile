@@ -163,7 +163,7 @@ public:
 	//! Get the scaling ratio to apply on all display elements, like GUI, text etc..
 	//! When this ratio is 1, all pixel sizes used in Stellarium will look OK on a regular
 	//! computer screen with 96 pixel per inch (reference for tuning sizes).
-	float getGlobalScalingRatio() const {return globalScalingRatio;}
+    float getGlobalScalingRatio() const {return globalScalingRatio;}
 	void setGlobalScalingRatio(float r) {globalScalingRatio=r;}
 	
 	//! Get the GUI instance implementing the abstract GUI interface.

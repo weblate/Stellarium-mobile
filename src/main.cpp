@@ -119,10 +119,7 @@ int main(int argc, char **argv)
 	// crashes on android.
 	setenv("QSG_RENDER_LOOP", "basic", 1);
 
-	QCoreApplication::setApplicationName("Stellarium Mobile");
-	QCoreApplication::setApplicationVersion(StelUtils::getApplicationVersion());
-	QCoreApplication::setOrganizationDomain("stellarium.org");
-	QCoreApplication::setOrganizationName("stellarium");
+
 	
 #ifndef USE_QUICKVIEW
 	QGuiApplication::setDesktopSettingsAware(false);
@@ -133,9 +130,17 @@ int main(int argc, char **argv)
 	// The QApplication MUST be created before the StelFileMgr is initialized.
 	QApplication app(argc, argv);
 #else
+
 	QGuiApplication::setDesktopSettingsAware(false);
 	QGuiApplication app(argc, argv);
 #endif
+
+     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
+
+    //app.setApplicationName("stellarium");
+    //app.setApplicationVersion(StelUtils::getApplicationVersion());
+    //app.setOrganizationDomain("stellarium.org");
+    app.setOrganizationName(QStringLiteral("me.lduboeuf.stellarium"));
 
 	// QApplication sets current locale, but
 	// we need scanf()/printf() and friends to always work in the C locale,
