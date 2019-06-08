@@ -10,14 +10,17 @@ msgstr ""
 "Project-Id-Version: de\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-19 16:37+0700\n"
-"PO-Revision-Date: 2016-11-19 22:56+0000\n"
-"Last-Translator: gzotti <Georg.Zotti@univie.ac.at>\n"
-"Language-Team: <de@li.org>\n"
+"PO-Revision-Date: 2019-06-18 19:06+0000\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/stellarium-mobile/"
+"app/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.7\n"
 "X-Launchpad-Export-Date: 2016-11-20 05:27+0000\n"
-"X-Generator: Launchpad (build 18269)\n"
 
 #: src/core/modules/CustomObject.cpp:67 src/core/modules/CustomObject.cpp:69
 #: src/core/modules/Constellation.cpp:296 src/core/modules/Nebula.cpp:191
@@ -1205,7 +1208,7 @@ msgstr "Aktuelle Zeit verwenden"
 
 #: src/core/StelCore.cpp:239
 msgid "Add 1 solar minute"
-msgstr ""
+msgstr "1 Sonnenminute hinzufügen"
 
 #: src/core/StelCore.cpp:240
 msgid "Add 1 solar hour"
@@ -1221,7 +1224,7 @@ msgstr "7 Sonnentage weiter"
 
 #: src/core/StelCore.cpp:243
 msgid "Subtract 1 solar minute"
-msgstr ""
+msgstr "1 Sonnenminute abziehen"
 
 #: src/core/StelCore.cpp:244
 msgid "Subtract 1 solar hour"
@@ -1701,7 +1704,7 @@ msgid ""
 "by the user."
 msgstr ""
 "Platz für Ihre frei programmierbare quadratische Formel für %1T mit "
-"benutzerdefinerten Koeffizienten!"
+"benutzerdefinerten Koeffizienten."
 
 #: src/core/StelCore.cpp:2045 src/core/SimbadSearcher.cpp:156
 msgid "Error"
@@ -3148,7 +3151,7 @@ msgstr "Planetarische Nebel"
 
 #: src/gui/AstroCalcDialog.cpp:534
 msgid "Bright nebulae (<10 mag.)"
-msgstr ""
+msgstr "Heller Nebel (< 10 mag.)"
 
 #. TRANSLATORS: Type of objects (for "Lists" in the search tool)
 #: src/gui/AstroCalcDialog.cpp:535 src/translations.h:101
@@ -3158,7 +3161,7 @@ msgstr "Dunkelwolken"
 
 #: src/gui/AstroCalcDialog.cpp:536
 msgid "Bright galaxies (<10 mag.)"
-msgstr ""
+msgstr "Helle Galaxien (<10 mag.)"
 
 #: src/gui/AstroCalcDialog.cpp:549
 msgid "Phenomenon"
@@ -4252,7 +4255,7 @@ msgstr "Grundfarben"
 
 #: src/translations.h:380
 msgid "&Pick Screen Color"
-msgstr ""
+msgstr "&Bildschirmfarbe wählen"
 
 #: src/translations.h:381
 msgid "&Custom colors"
@@ -4413,7 +4416,7 @@ msgstr "Bolivien"
 
 #: src/translations_countries.h:60
 msgid "Caribbean NL"
-msgstr ""
+msgstr "Karibik NL"
 
 #: src/translations_countries.h:61
 msgid "Brazil"
@@ -5221,7 +5224,7 @@ msgstr "Uganda"
 
 #: src/translations_countries.h:262
 msgid "US minor outlying islands"
-msgstr ""
+msgstr "Kleine amerikanische Überseeinseln"
 
 #: src/translations_countries.h:263
 msgid "United States"
@@ -5329,7 +5332,7 @@ msgstr "Standort"
 msgid ""
 "Standard list of locations contains only English names (without diacritics!)"
 msgstr ""
-"Die Standardliste der Orte enthält nur englische Namen (ohne Umlaute etc.)!"
+"Die Standardliste der Orte enthält nur englische Namen (ohne Umlaute etc.!)"
 
 #: src/ui_locationDialogGui.h:441
 msgid "Reset location list to show all known locations"
@@ -5585,7 +5588,7 @@ msgstr "Wortsuche ab Wortanfang"
 
 #: src/ui_searchDialogGui.h:721
 msgid "Lock position when coordinates are used"
-msgstr ""
+msgstr "Sperren der Position bei Verwendung von Koordinaten"
 
 #: src/ui_searchDialogGui.h:722 src/ui_viewDialog.h:2241
 #: src/ui_viewDialog.h:2263 src/ui_viewDialog.h:2289
@@ -6656,7 +6659,7 @@ msgstr ""
 
 #: src/ui_configurationDialog.h:1327
 msgid "Display formats of date and time"
-msgstr ""
+msgstr "Anzeigeformate von Datum und Uhrzeit"
 
 #: src/ui_configurationDialog.h:1328
 #: plugins/MeteorShowers/src/ui_MSConfigDialog.h:457
@@ -6795,6 +6798,8 @@ msgstr "Azimut von Süd"
 #: src/ui_configurationDialog.h:1388
 msgid "Toggle display the button of Digitized Sky Survey."
 msgstr ""
+"Schaltet die Anzeige der Schaltfläche der digitalisierten Himmelsvermessung "
+"um."
 
 #: src/ui_configurationDialog.h:1390
 msgid "Show DSS button"
@@ -7375,7 +7380,7 @@ msgstr "Winkelmesser"
 #. TRANSLATORS: instructions for using the AngleMeasure plugin.
 #: plugins/AngleMeasure/src/AngleMeasure.cpp:532
 msgid "The Angle Measure is enabled:"
-msgstr "Winkelmessung aktiviert"
+msgstr "Winkelmessung ist aktiviert:"
 
 #. TRANSLATORS: instructions for using the AngleMeasure plugin.
 #: plugins/AngleMeasure/src/AngleMeasure.cpp:534
@@ -7482,8 +7487,8 @@ msgid ""
 "Support is provided via the Launchpad website.  Be sure to put \"%1\" in the "
 "subject when posting."
 msgstr ""
-"Unterstützung gibt es über die Launchpad-Website. Bitte \"%1\" als Betreff "
-"eintragen!"
+"Unterstützung gibt es über die Launchpad-Website. Achten Sie darauf, dass "
+"Sie beim Posten \"%1\" in den Betreff eingeben."
 
 #. TRANSLATORS: The numbers contain the opening and closing tag of an HTML link
 #: plugins/AngleMeasure/src/gui/AngleMeasureDialog.cpp:103
@@ -8195,10 +8200,13 @@ msgid ""
 "Enable automatic install the type of mount from the telescope settings for "
 "saving horizontal orientation of CCD frame."
 msgstr ""
+"Aktivieren Sie die automatische Installation der Befestigungsart aus den "
+"Teleskopeinstellungen, um die horizontale Ausrichtung des CCD-Rahmens zu "
+"speichern."
 
 #: plugins/Oculars/src/ui_ocularDialog.h:1145
 msgid "Enable automatic install the type of mount"
-msgstr ""
+msgstr "Aktivieren Sie die automatische Installation der Art der Befestigung"
 
 #: plugins/Oculars/src/ui_ocularDialog.h:1146
 msgid "Use degrees and minutes for FOV of CCD"
@@ -10612,7 +10620,7 @@ msgstr "Helligkeit der Milchstraße:"
 
 #: plugins/TextUserInterface/src/TextUserInterface.cpp:475
 msgid "Zodiacal light intensity:"
-msgstr "Helligkeit das Zodiakallicht"
+msgstr "Helligkeit das Zodiakallicht:"
 
 #: plugins/TextUserInterface/src/TextUserInterface.cpp:500
 msgid "Run local script"
@@ -10816,10 +10824,12 @@ msgid ""
 "Solar System configuration.<br/>Note that adding a large number of objects "
 "may cause Stellarium to run slowly."
 msgstr ""
-"Markieren Sie die Objekte, die Sie importieren wollen.  Namen von schon "
-"geladenen Objekten sind <i>kursiv</i> dargestellt. Standardmäßig in "
-"Stellarium enthaltene Objekte sind <b>fett</b> dargestellt. Beachten Sie, "
-"dass viele Objekte Stellarium verlangsamen können."
+"Markieren Sie die Objekte, die Sie importieren möchten. In <i>kursiv</i> "
+"sind Namen aufgelistet, die mit den Namen bereits geladener Objekte "
+"übereinstimmen. In <b>fett</b> sind Namen aufgelistet, die mit den Namen von "
+"Objekten übereinstimmen, die von Stellariums Standard-Sonnensystem-"
+"Konfiguration geerbt wurden. <br/>Hinweis: Das Hinzufügen einer großen "
+"Anzahl von Objekten kann dazu führen, dass Stellarium langsam läuft."
 
 #: plugins/SolarSystemEditor/src/ui_mpcImportWindow.h:530
 msgid "Overwrite existing objects"
@@ -11116,8 +11126,8 @@ msgstr ""
 "Die 57 \"selected stars\" aus dem <em>Nautical Almanac</em>, einer "
 "Gemeinschaftsausgabe des Her Majesty's Nautical Almanac Office und des US "
 "Naval Observatory seit 1958; in der Folge werden diese Sterne auch in "
-"Navigationshilfsmitteln wie dem <em>2102D Star Finder and Identifier</em> "
-"genutzt."
+"Navigationshilfsmitteln wie <em>2102D Star Finder</em> und "
+"<em>Identifier</em> genutzt."
 
 #. TRANSLATORS: The emphasis tags mark a book title.
 #: plugins/NavStars/src/NavStars.cpp:300
@@ -12276,7 +12286,7 @@ msgid ""
 "disturbances, from German for <em>noisy ghost</em>."
 msgstr ""
 "Poltergeister sind übernatürliche Wesen, die physisch wahrnehmbare Störungen "
-" verursachen können (Lärm, Möbelrücken, ...)."
+"verursachen können, etwas wie ein <em>lauter Geist</em>."
 
 #: plugins/Exoplanets/src/gui/ExoplanetsDialog.cpp:225
 msgid ""
@@ -12605,7 +12615,7 @@ msgstr "Nur die möglicherweise bewohnbaren Exoplaneten anzeigen"
 
 #: plugins/Exoplanets/src/ui_exoplanetsDialog.h:484
 msgid "Enable display designations of exoplanets"
-msgstr ""
+msgstr "Anzeigebezeichnungen von Exoplaneten aktivieren"
 
 #: plugins/Exoplanets/src/ui_exoplanetsDialog.h:486
 msgid "Show exoplanets button on toolbar"
@@ -12934,7 +12944,7 @@ msgstr ""
 
 #: plugins/Observability/src/gui/ObservabilityDialog.cpp:143
 msgid "Horizon altitude:"
-msgstr "Horizonthöhe"
+msgstr "Horizonthöhe:"
 
 #: plugins/Observability/src/gui/ObservabilityDialog.cpp:143
 msgid ""
@@ -13987,7 +13997,7 @@ msgstr ""
 
 #: plugins/MeteorShowers/src/gui/MSSearchDialog.cpp:107
 msgid "Start date greater than end date!"
-msgstr "Beginndatum nach dem Enddatum"
+msgstr "Beginndatum nach dem Enddatum!"
 
 #: plugins/MeteorShowers/src/gui/MSSearchDialog.cpp:111
 msgid "Time interval must be less than one year!"
@@ -14222,7 +14232,7 @@ msgstr "Zeige Schaltfläche in der Werkzeugleiste"
 
 #: plugins/PointerCoordinates/src/ui_pointerCoordinatesWindow.h:283
 msgid "Which coordinate system will be used for displaying"
-msgstr "Welche Koordinaten sollen dargestellt werden?"
+msgstr "Welches Koordinatensystem wird für die Anzeige verwendet"
 
 #: plugins/PointerCoordinates/src/ui_pointerCoordinatesWindow.h:285
 msgid "Coordinates:"
@@ -14275,7 +14285,7 @@ msgid ""
 "projection!"
 msgstr ""
 "Hardware beherrscht kein Cubemapping, bitte \"perspektivische Projektion\" "
-"einstellen."
+"einstellen!"
 
 #: plugins/Scenery3d/src/Scenery3d.cpp:2167
 msgid "Geometry shader is not supported. Falling back to '6 Textures' mode."
@@ -14344,7 +14354,7 @@ msgstr "Lade Szenerie '%1'"
 
 #: plugins/Scenery3d/src/Scenery3dMgr.cpp:361
 msgid "Could not load scene, please check log for error messages!"
-msgstr "Konnte Modell nicht laden. Details im Logfile."
+msgstr "Konnte Szene nicht laden. Details über Fehlermeldungen im Logfile!"
 
 #: plugins/Scenery3d/src/Scenery3dMgr.cpp:365
 msgid "Scene successfully loaded."
@@ -14352,7 +14362,8 @@ msgstr "Modell geladen."
 
 #: plugins/Scenery3d/src/Scenery3dMgr.cpp:424
 msgid "Could not load scene info, please check log for error messages!"
-msgstr "Konnte Szene/Modellinfo nicht laden. Details im Logfile."
+msgstr ""
+"Konnte Szene/Modellinfo nicht laden. Details über Fehlermeldungen im Logfile!"
 
 #: plugins/Scenery3d/src/Scenery3dMgr.cpp:448
 #, qt-format
@@ -14602,7 +14613,7 @@ msgstr ""
 #: plugins/Scenery3d/src/gui/Scenery3dDialog.cpp:274
 msgid ""
 "This does NOT work with the &quot;Geometry-Shader&quot; cubemapping mode!"
-msgstr "Funktioniert NICHT im &quot;Geometry-Shader&quot;-Modus."
+msgstr "Funktioniert NICHT im &quot;Geometry-Shader&quot;-Modus!"
 
 #: plugins/Scenery3d/src/gui/Scenery3dDialog.cpp:276
 msgid ""
