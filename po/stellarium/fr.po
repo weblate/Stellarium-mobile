@@ -18,8 +18,8 @@ msgstr ""
 "Project-Id-Version: fr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-19 16:37+0700\n"
-"PO-Revision-Date: 2019-07-15 06:02+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"PO-Revision-Date: 2019-08-28 12:25+0000\n"
+"Last-Translator: Swann Martinet <swann.ranskassa@laposte.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/stellarium-mobile/"
 "app/fr/>\n"
 "Language: fr\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.8-dev\n"
+"X-Generator: Weblate 3.9-dev\n"
 "X-Launchpad-Export-Date: 2016-11-20 05:26+0000\n"
 
 #: src/core/modules/CustomObject.cpp:67 src/core/modules/CustomObject.cpp:69
@@ -1164,7 +1164,7 @@ msgstr "Lumière zodiacale"
 
 #: src/core/modules/ToastMgr.cpp:67
 msgid "Digitized Sky Survey (experimental)"
-msgstr ""
+msgstr "Sondage numérisé du ciel (expérimental)"
 
 #: src/core/StelApp.cpp:523
 msgid "Night mode"
@@ -1208,7 +1208,7 @@ msgstr "Arrêter le temps"
 
 #: src/core/StelCore.cpp:237
 msgid "Set reverse time direction"
-msgstr ""
+msgstr "Définir la direction du temps inverse"
 
 #: src/core/StelCore.cpp:238
 msgid "Set time to now"
@@ -2031,13 +2031,13 @@ msgstr "Trouvé"
 #: src/core/StelLocaleMgr.cpp:273
 msgctxt "solar time"
 msgid "LMST"
-msgstr ""
+msgstr "TSML"
 
 #. TRANSLATORS: Local True Solar Time. Please use abbreviation.
 #: src/core/StelLocaleMgr.cpp:279
 msgctxt "solar time"
 msgid "LTST"
-msgstr ""
+msgstr "TSVL"
 
 #: src/gui/ConfigurationDialog.cpp:539
 msgid "Select screenshot directory"
@@ -2346,43 +2346,43 @@ msgstr "Ctrl+Haut/Bas"
 
 #: src/gui/HelpDialog.cpp:157
 msgid "Time dragging"
-msgstr ""
+msgstr "Faire défiler"
 
 #: src/gui/HelpDialog.cpp:158
 msgid "Ctrl & left mouse drag"
-msgstr ""
+msgstr "Ctrl & clic gauche long"
 
 #: src/gui/HelpDialog.cpp:159
 msgid "Time scrolling: minutes"
-msgstr ""
+msgstr "Défilement du temps : minutes"
 
 #: src/gui/HelpDialog.cpp:160
 msgid "Ctrl & mouse wheel"
-msgstr ""
+msgstr "Ctrl & molette de la souris"
 
 #: src/gui/HelpDialog.cpp:161
 msgid "Time scrolling: hours"
-msgstr ""
+msgstr "Défilement du temps : heures"
 
 #: src/gui/HelpDialog.cpp:162
 msgid "Ctrl+Shift & mouse wheel"
-msgstr ""
+msgstr "Ctrl+Maj. & molette de la souris"
 
 #: src/gui/HelpDialog.cpp:163
 msgid "Time scrolling: days"
-msgstr ""
+msgstr "Défilement du temps : jours"
 
 #: src/gui/HelpDialog.cpp:164
 msgid "Ctrl+Alt & mouse wheel"
-msgstr ""
+msgstr "Ctrl+Alt & molette de la souris"
 
 #: src/gui/HelpDialog.cpp:165
 msgid "Time scrolling: years"
-msgstr ""
+msgstr "Défilement du temps : années"
 
 #: src/gui/HelpDialog.cpp:166
 msgid "Ctrl+Alt+Shift & mouse wheel"
-msgstr ""
+msgstr "Ctrl+Alt+Maj. $ mollete de la souris"
 
 #: src/gui/HelpDialog.cpp:169
 msgid "Select object"
@@ -2398,7 +2398,7 @@ msgstr "Effacer la sélection"
 
 #: src/gui/HelpDialog.cpp:175
 msgid "Ctrl & left click"
-msgstr ""
+msgstr "Ctrl & clic gauche"
 
 #: src/gui/HelpDialog.cpp:177
 msgid "Right click"
@@ -2410,7 +2410,7 @@ msgstr "Ajouter un marqueur"
 
 #: src/gui/HelpDialog.cpp:181
 msgid "Shift & left click"
-msgstr ""
+msgstr "Maj. & clic gauche"
 
 #: src/gui/HelpDialog.cpp:183
 msgid "Delete all custom markers"
@@ -2418,7 +2418,7 @@ msgstr "Supprimer tous les marqueurs personnalisés"
 
 #: src/gui/HelpDialog.cpp:184
 msgid "Shift & right click"
-msgstr ""
+msgstr "Maj. & clic droit"
 
 #: src/gui/HelpDialog.cpp:187
 #, qt-format
@@ -2661,11 +2661,11 @@ msgstr "Fuseau horaire"
 
 #: src/gui/StelGuiItems.cpp:637 src/gui/LocationDialog.cpp:407
 msgid "Local Mean Solar Time"
-msgstr ""
+msgstr "Temps solaire moyen local"
 
 #: src/gui/StelGuiItems.cpp:640 src/gui/LocationDialog.cpp:408
 msgid "Local True Solar Time"
-msgstr ""
+msgstr "Temps solaire vrai local"
 
 #: src/gui/StelGuiItems.cpp:679
 #, c-format, qt-format
@@ -2685,7 +2685,7 @@ msgstr "Observateur planétocentriques"
 #: src/gui/StelGuiItems.cpp:728
 msgctxt "abbreviation"
 msgid "FOV"
-msgstr ""
+msgstr "CDV"
 
 #: src/gui/StelGuiItems.cpp:744
 msgid "Field of view"
@@ -2695,7 +2695,7 @@ msgstr "Champ de vision"
 #: src/gui/StelGuiItems.cpp:763
 msgctxt "abbreviation"
 msgid "FPS"
-msgstr ""
+msgstr "IPS"
 
 #: src/gui/StelGuiItems.cpp:771
 msgid "Frames per second"
@@ -3158,7 +3158,7 @@ msgstr "Nébuleuses planétaires"
 
 #: src/gui/AstroCalcDialog.cpp:534
 msgid "Bright nebulae (<10 mag.)"
-msgstr ""
+msgstr "Nébuleuses lumineuses (<10 mag.)"
 
 #. TRANSLATORS: Type of objects (for "Lists" in the search tool)
 #: src/gui/AstroCalcDialog.cpp:535 src/translations.h:101
@@ -3168,7 +3168,7 @@ msgstr "Nébuleuses obscures"
 
 #: src/gui/AstroCalcDialog.cpp:536
 msgid "Bright galaxies (<10 mag.)"
-msgstr ""
+msgstr "Galaxies lumineuses (<10 mag.)"
 
 #: src/gui/AstroCalcDialog.cpp:549
 msgid "Phenomenon"
@@ -3196,15 +3196,15 @@ msgstr "Opposition"
 
 #: src/gui/AstroCalcDialog.cpp:814
 msgid "Transit"
-msgstr ""
+msgstr "Transit"
 
 #: src/gui/AstroCalcDialog.cpp:816 src/gui/AstroCalcDialog.cpp:979
 msgid "Occultation"
-msgstr ""
+msgstr "Occultation"
 
 #: src/gui/AstroCalcDialog.cpp:820
 msgid "Eclipse"
-msgstr ""
+msgstr "Éclipse"
 
 #: src/gui/BookmarksDialog.cpp:100 src/ui_searchDialogGui.h:702
 msgid "Object"
@@ -4265,7 +4265,7 @@ msgstr "Couleurs de &base"
 
 #: src/translations.h:380
 msgid "&Pick Screen Color"
-msgstr ""
+msgstr "&Choisir une couleur d'écran"
 
 #: src/translations.h:381
 msgid "&Custom colors"
@@ -4350,7 +4350,7 @@ msgstr "Argentine"
 
 #: src/translations_countries.h:41
 msgid "Samoa (American)"
-msgstr ""
+msgstr "Samoa (américaines)"
 
 #: src/translations_countries.h:42
 msgid "Austria"
@@ -4366,7 +4366,7 @@ msgstr "Aruba"
 
 #: src/translations_countries.h:45
 msgid "Åland Islands"
-msgstr ""
+msgstr "Åland (îles)"
 
 #: src/translations_countries.h:46
 msgid "Azerbaijan"
@@ -4374,7 +4374,7 @@ msgstr "Azerbaïdjan"
 
 #: src/translations_countries.h:47
 msgid "Bosnia and Herzegovina"
-msgstr ""
+msgstr "Bosnie-Herzégovine"
 
 #: src/translations_countries.h:48
 msgid "Barbados"
@@ -4410,7 +4410,7 @@ msgstr "Bénin"
 
 #: src/translations_countries.h:56
 msgid "St Barthelemy"
-msgstr ""
+msgstr "Saint-Barthélemy"
 
 #: src/translations_countries.h:57
 msgid "Bermuda"
@@ -4418,7 +4418,7 @@ msgstr "Bermudes"
 
 #: src/translations_countries.h:58
 msgid "Brunei"
-msgstr ""
+msgstr "Brunei"
 
 #: src/translations_countries.h:59
 msgid "Bolivia"
@@ -4426,7 +4426,7 @@ msgstr "Bolivie"
 
 #: src/translations_countries.h:60
 msgid "Caribbean NL"
-msgstr ""
+msgstr "Caraïbes (NL)"
 
 #: src/translations_countries.h:61
 msgid "Brazil"
@@ -4462,19 +4462,19 @@ msgstr "Canada"
 
 #: src/translations_countries.h:69
 msgid "Cocos (Keeling) Islands"
-msgstr ""
+msgstr "Cocos (Keeling) [îles]"
 
 #: src/translations_countries.h:70
 msgid "Congo (Dem. Rep.)"
-msgstr ""
+msgstr "Congo (RDC)"
 
 #: src/translations_countries.h:71
 msgid "Central African Rep."
-msgstr ""
+msgstr "Centrafrique"
 
 #: src/translations_countries.h:72
 msgid "Congo (Rep.)"
-msgstr ""
+msgstr "Congo (République du)"
 
 #: src/translations_countries.h:73
 msgid "Switzerland"
@@ -4482,7 +4482,7 @@ msgstr "Suisse"
 
 #: src/translations_countries.h:74
 msgid "Côte d'Ivoire"
-msgstr ""
+msgstr "Côte d'Ivoire"
 
 #: src/translations_countries.h:75
 msgid "Cook Islands"
@@ -4518,7 +4518,7 @@ msgstr "Cabo Verde"
 
 #: src/translations_countries.h:83
 msgid "Curacao"
-msgstr ""
+msgstr "Curaçao"
 
 #: src/translations_countries.h:84
 msgid "Christmas Island"
@@ -4614,7 +4614,7 @@ msgstr "Gabon"
 
 #: src/translations_countries.h:107
 msgid "Britain (UK)"
-msgstr ""
+msgstr "Grande-Bretagne (Royaume-Uni)"
 
 #: src/translations_countries.h:108
 msgid "Grenada"
@@ -4630,7 +4630,7 @@ msgstr "Guyane française"
 
 #: src/translations_countries.h:111
 msgid "Guernsey"
-msgstr ""
+msgstr "Guernsey"
 
 #: src/translations_countries.h:112
 msgid "Ghana"
@@ -4722,7 +4722,7 @@ msgstr "Israël"
 
 #: src/translations_countries.h:134
 msgid "Isle of Man"
-msgstr ""
+msgstr "Île de Man"
 
 #: src/translations_countries.h:135
 msgid "India"
@@ -4750,7 +4750,7 @@ msgstr "Italie"
 
 #: src/translations_countries.h:141
 msgid "Jersey"
-msgstr ""
+msgstr "Jersey"
 
 #: src/translations_countries.h:142
 msgid "Jamaica"
@@ -4786,15 +4786,15 @@ msgstr "Comores"
 
 #: src/translations_countries.h:150
 msgid "St Kitts and Nevis"
-msgstr ""
+msgstr "Saint-Kitts-et-Nevis"
 
 #: src/translations_countries.h:151
 msgid "Korea (North)"
-msgstr ""
+msgstr "Corée du Nord"
 
 #: src/translations_countries.h:152
 msgid "Korea (South)"
-msgstr ""
+msgstr "Corée du Sud"
 
 #: src/translations_countries.h:153
 msgid "Kuwait"
@@ -4810,7 +4810,7 @@ msgstr "Kazakhstan"
 
 #: src/translations_countries.h:156
 msgid "Laos"
-msgstr ""
+msgstr "Laos"
 
 #: src/translations_countries.h:157
 msgid "Lebanon"
@@ -4818,7 +4818,7 @@ msgstr "Liban"
 
 #: src/translations_countries.h:158
 msgid "St Lucia"
-msgstr ""
+msgstr "Sainte-Lucie"
 
 #: src/translations_countries.h:159
 msgid "Liechtenstein"
@@ -4850,7 +4850,7 @@ msgstr "Lettonie"
 
 #: src/translations_countries.h:166
 msgid "Libya"
-msgstr ""
+msgstr "Libye"
 
 #: src/translations_countries.h:167
 msgid "Morocco"
@@ -4870,7 +4870,7 @@ msgstr "Monténégro"
 
 #: src/translations_countries.h:171
 msgid "St Martin (French)"
-msgstr ""
+msgstr "Saint-Martin (France)"
 
 #: src/translations_countries.h:172
 msgid "Madagascar"
@@ -4890,7 +4890,7 @@ msgstr "Mali"
 
 #: src/translations_countries.h:176
 msgid "Myanmar (Burma)"
-msgstr ""
+msgstr "Myanmar (Birmanie)"
 
 #: src/translations_countries.h:177
 msgid "Mongolia"
@@ -5026,7 +5026,7 @@ msgstr "Pologne"
 
 #: src/translations_countries.h:210
 msgid "St Pierre and Miquelon"
-msgstr ""
+msgstr "Saint-Pierre-et-Miquelon"
 
 #: src/translations_countries.h:211
 msgid "Pitcairn"
@@ -5038,7 +5038,7 @@ msgstr "Porto Rico"
 
 #: src/translations_countries.h:213
 msgid "Palestine"
-msgstr ""
+msgstr "Palestine"
 
 #: src/translations_countries.h:214
 msgid "Portugal"
@@ -5070,7 +5070,7 @@ msgstr "Serbie"
 
 #: src/translations_countries.h:221
 msgid "Russia"
-msgstr ""
+msgstr "Russie"
 
 #: src/translations_countries.h:222
 msgid "Rwanda"
@@ -5102,7 +5102,7 @@ msgstr "Singapour"
 
 #: src/translations_countries.h:229
 msgid "St Helena"
-msgstr ""
+msgstr "Sainte-Hélène"
 
 #: src/translations_countries.h:230
 msgid "Slovenia"
@@ -5138,7 +5138,7 @@ msgstr "Suriname"
 
 #: src/translations_countries.h:238
 msgid "South Sudan"
-msgstr ""
+msgstr "Soudan du Sud"
 
 #: src/translations_countries.h:239
 msgid "Sao Tome and Principe"
@@ -5150,11 +5150,11 @@ msgstr "Salvador"
 
 #: src/translations_countries.h:241
 msgid "St Maarten (Dutch)"
-msgstr ""
+msgstr "Saint-Martin (Pays-Bas)"
 
 #: src/translations_countries.h:242
 msgid "Syria"
-msgstr ""
+msgstr "Syrie"
 
 #: src/translations_countries.h:243
 msgid "Swaziland"
@@ -5162,7 +5162,7 @@ msgstr "Swaziland"
 
 #: src/translations_countries.h:244
 msgid "Turks and Caicos Is"
-msgstr ""
+msgstr "Turks et Caicos (îles)"
 
 #: src/translations_countries.h:245
 msgid "Chad"
@@ -5170,7 +5170,7 @@ msgstr "Tchad"
 
 #: src/translations_countries.h:246
 msgid "French Southern and Antarctic Lands"
-msgstr ""
+msgstr "Terres australes et antarctiques françaises"
 
 #: src/translations_countries.h:247
 msgid "Togo"
@@ -5234,7 +5234,7 @@ msgstr "Ouganda"
 
 #: src/translations_countries.h:262
 msgid "US minor outlying islands"
-msgstr ""
+msgstr "Îles mineures périphériques des États-Unis"
 
 #: src/translations_countries.h:263
 msgid "United States"
@@ -5250,11 +5250,11 @@ msgstr "Ouzbékistan"
 
 #: src/translations_countries.h:266
 msgid "Vatican City"
-msgstr ""
+msgstr "Cité du Vatican"
 
 #: src/translations_countries.h:267
 msgid "St Vincent"
-msgstr ""
+msgstr "Saint-Vincent"
 
 #: src/translations_countries.h:268
 msgid "Venezuela"
@@ -5262,15 +5262,15 @@ msgstr "Vénézuela"
 
 #: src/translations_countries.h:269
 msgid "Virgin Islands (UK)"
-msgstr ""
+msgstr "Îles Vierges (Royaume-Uni)"
 
 #: src/translations_countries.h:270
 msgid "Virgin Islands (US)"
-msgstr ""
+msgstr "Îles Vierges (États-Unis)"
 
 #: src/translations_countries.h:271
 msgid "Vietnam"
-msgstr ""
+msgstr "Vietnam"
 
 #: src/translations_countries.h:272
 msgid "Vanuatu"
@@ -5282,7 +5282,7 @@ msgstr "Wallis-et-Futuna"
 
 #: src/translations_countries.h:274
 msgid "Samoa (western)"
-msgstr ""
+msgstr "Samoa (occidental)"
 
 #: src/translations_countries.h:275
 msgid "Yemen"
@@ -5363,7 +5363,7 @@ msgstr "Ajouter à la liste"
 
 #: src/ui_locationDialogGui.h:446
 msgid "Delete from list"
-msgstr ""
+msgstr "Supprimer de la liste"
 
 #: src/ui_locationDialogGui.h:447
 msgid "Return to default location"
@@ -5418,11 +5418,11 @@ msgstr "Planète :"
 
 #: src/ui_locationDialogGui.h:465
 msgid "Use custom time zone"
-msgstr ""
+msgstr "Utiliser le fuseau horaire personnalisé"
 
 #: src/ui_locationDialogGui.h:466
 msgid "Time zone:"
-msgstr ""
+msgstr "Fuseau horaire :"
 
 #: src/ui_locationDialogGui.h:467
 msgid "Name/City:"
@@ -5434,7 +5434,7 @@ msgstr "Pays :"
 
 #: src/ui_locationDialogGui.h:472
 msgid "Enable daylight saving time"
-msgstr ""
+msgstr "Activer l'heure d'été"
 
 #: src/ui_searchDialogGui.h:617
 msgid "Find Object"
@@ -5901,7 +5901,7 @@ msgstr "Marqueurs"
 
 #: src/ui_viewDialog.h:2048
 msgid "Configure colors of markers"
-msgstr ""
+msgstr "Configurer les couleurs et les marqueurs"
 
 #: src/ui_viewDialog.h:2049
 msgid "Celestial Sphere"
@@ -6287,7 +6287,7 @@ msgstr "Valeur en pixels"
 
 #: src/ui_viewDialog.h:2270
 msgid "Color of lines of constellations"
-msgstr ""
+msgstr "Couleur des lignes des constellations"
 
 #: src/ui_viewDialog.h:2273
 msgid "Use native names for planets from current culture"
@@ -6312,7 +6312,7 @@ msgstr "Indiquez sous quelle forme vous désirez l'affichage des noms"
 
 #: src/ui_viewDialog.h:2283
 msgid "Color of names of constellations"
-msgstr ""
+msgstr "Couleur des noms des constellations"
 
 #: src/ui_viewDialog.h:2285
 msgid "Show boundaries"
@@ -6320,7 +6320,7 @@ msgstr "Afficher les délimitations"
 
 #: src/ui_viewDialog.h:2287
 msgid "Color of boundaries of constellations"
-msgstr ""
+msgstr "Couleur des limites des constellations"
 
 #: src/ui_viewDialog.h:2290
 msgid "Visible"
@@ -6519,7 +6519,7 @@ msgstr "Ascension droite/déclinaison (de la date)"
 
 #: src/ui_configurationDialog.h:1251
 msgid "Supergalactic coordinates"
-msgstr ""
+msgstr "Coordonnées supergalactiques"
 
 #: src/ui_configurationDialog.h:1253
 msgid "Spectral class, nebula type, etc."
@@ -6539,11 +6539,11 @@ msgstr "Magnitude absolue"
 
 #: src/ui_configurationDialog.h:1262
 msgid "Ecliptic coordinates, equinox of date (only for Earth)"
-msgstr ""
+msgstr "Coordonnées écliptiques, équinoxe de date (seulement pour la Terre)"
 
 #: src/ui_configurationDialog.h:1264
 msgid "Ecliptic coordinates (of date)"
-msgstr ""
+msgstr "Coordonnées écliptiques (de la date)"
 
 #: src/ui_configurationDialog.h:1266
 msgid "Horizontal coordinates"
@@ -6584,11 +6584,11 @@ msgstr "Ascension droite/déclinaison (J2000)"
 
 #: src/ui_configurationDialog.h:1282
 msgid "Ecliptic coordinates, equinox J2000.0"
-msgstr ""
+msgstr "Coordonnées écliptiques, équinoxe J2000.0"
 
 #: src/ui_configurationDialog.h:1284
 msgid "Ecliptic coordinates (J2000)"
-msgstr ""
+msgstr "Coordonnées écliptiques (J2000)"
 
 #: src/ui_configurationDialog.h:1288
 #: plugins/PointerCoordinates/src/gui/PointerCoordinatesWindow.cpp:198
@@ -6682,7 +6682,7 @@ msgstr ""
 
 #: src/ui_configurationDialog.h:1327
 msgid "Display formats of date and time"
-msgstr ""
+msgstr "Afficher les formats de la date et de l'heure"
 
 #: src/ui_configurationDialog.h:1328
 #: plugins/MeteorShowers/src/ui_MSConfigDialog.h:457
@@ -6691,7 +6691,7 @@ msgstr "Date:"
 
 #: src/ui_configurationDialog.h:1329
 msgid "and time:"
-msgstr ""
+msgstr "et l'heure :"
 
 #: src/ui_configurationDialog.h:1330
 msgid "Time correction"
@@ -6820,11 +6820,11 @@ msgstr "Azimut compté depuis le Sud"
 
 #: src/ui_configurationDialog.h:1388
 msgid "Toggle display the button of Digitized Sky Survey."
-msgstr ""
+msgstr "Basculer l'affichage du bouton du sondage numérisé du ciel."
 
 #: src/ui_configurationDialog.h:1390
 msgid "Show DSS button"
-msgstr ""
+msgstr "Afficher le bouton DSS"
 
 #: src/ui_configurationDialog.h:1392
 msgid "Automatic change of landscape when planet is changed"
@@ -7206,83 +7206,83 @@ msgstr "Aller à..."
 
 #: src/ui_dsoColorsDialog.h:476
 msgid "Colors settings"
-msgstr ""
+msgstr "Paramètres de couleurs"
 
 #: src/ui_dsoColorsDialog.h:478
 msgid "Colors of labels and markers of deep-sky objects"
-msgstr ""
+msgstr "Couleurs des étiquettes et des marqueurs des objets de ciel profond"
 
 #: src/ui_dsoColorsDialog.h:480
 msgid "Color of markers of open star clusters"
-msgstr ""
+msgstr "Couleur des marqueurs des amas d'étoiles ouverts"
 
 #: src/ui_dsoColorsDialog.h:483
 msgid "Color of markers of BL Lac objects"
-msgstr ""
+msgstr "Couleur des marqueurs des objets BL Lac"
 
 #: src/ui_dsoColorsDialog.h:487
 msgid "Color of markers of dark nebulae"
-msgstr ""
+msgstr "Couleur des marqueurs des nébuleuses sombres"
 
 #: src/ui_dsoColorsDialog.h:491
 msgid "Color of markers of star clouds"
-msgstr ""
+msgstr "Couleur des marqueurs des nuages d'étoiles"
 
 #: src/ui_dsoColorsDialog.h:494
 msgid "Color of markers of reflection nebulae"
-msgstr ""
+msgstr "Couleur des marqueurs de nébuleuses réfléchissantes"
 
 #: src/ui_dsoColorsDialog.h:499
 msgid "Clusters with neb."
-msgstr ""
+msgstr "Amas avec nébuleuses"
 
 #: src/ui_dsoColorsDialog.h:502
 msgid "Color of markers of stars"
-msgstr ""
+msgstr "Couleur des marqueurs des étoiles"
 
 #: src/ui_dsoColorsDialog.h:505
 msgid "Color of markers of nebulae"
-msgstr ""
+msgstr "Couleur des marqueurs des nébuleuses"
 
 #: src/ui_dsoColorsDialog.h:509
 msgid "Color of markers of quasars"
-msgstr ""
+msgstr "Couleur des marqueurs des quasars"
 
 #: src/ui_dsoColorsDialog.h:512
 msgid "Color of markers of blazars"
-msgstr ""
+msgstr "Couleur des marqueurs des blazars"
 
 #: src/ui_dsoColorsDialog.h:515
 msgid "Possible quasars"
-msgstr ""
+msgstr "Quasars possibles"
 
 #: src/ui_dsoColorsDialog.h:517
 msgid "Color of markers of clusters associated with nebulosity"
-msgstr ""
+msgstr "Couleur des marqueurs des amas associés à la nébulosité"
 
 #: src/ui_dsoColorsDialog.h:521
 msgid "Color of markers of interacting galaxies"
-msgstr ""
+msgstr "Couleur des marqueurs des galaxies en interaction"
 
 #: src/ui_dsoColorsDialog.h:524
 msgid "Markers of deep-sky objects"
-msgstr ""
+msgstr "Marqueurs d'objets du ciel profond"
 
 #: src/ui_dsoColorsDialog.h:526
 msgid "Markers of DSOs"
-msgstr ""
+msgstr "Marqueurs des OCP"
 
 #: src/ui_dsoColorsDialog.h:528
 msgid "Color of markers of possible quasars"
-msgstr ""
+msgstr "Couleur des marqueurs des quasars possibles"
 
 #: src/ui_dsoColorsDialog.h:531
 msgid "Color of markers of active galaxies"
-msgstr ""
+msgstr "Couleur des marqueurs des galaxies actives"
 
 #: src/ui_dsoColorsDialog.h:538
 msgid "Color of markers of globular star clusters"
-msgstr ""
+msgstr "Couleur des marqueurs des amas d'étoiles globulaires"
 
 #: src/ui_dsoColorsDialog.h:543 plugins/Quasars/src/Quasars.cpp:72
 #: plugins/Quasars/src/Quasars.cpp:169 plugins/Quasars/src/Quasars.cpp:170
@@ -7291,99 +7291,99 @@ msgstr "Quasars"
 
 #: src/ui_dsoColorsDialog.h:545
 msgid "Color of markers of galaxies"
-msgstr ""
+msgstr "Couleur des marqueurs des galaxies"
 
 #: src/ui_dsoColorsDialog.h:548
 msgid "Color of markers of bipolar nebulae"
-msgstr ""
+msgstr "Couleur des marqueurs des nébuleuses bipolaires"
 
 #: src/ui_dsoColorsDialog.h:552
 msgid "Color of markers of emission objects"
-msgstr ""
+msgstr "Couleur des marqueurs d'objets d'émission"
 
 #: src/ui_dsoColorsDialog.h:555
 msgid "Color of markers of deep-sky objects"
-msgstr ""
+msgstr "Couleur des marqueurs des objets du ciel profond"
 
 #: src/ui_dsoColorsDialog.h:558
 msgid "Labels of deep-sky objects"
-msgstr ""
+msgstr "Étiquettes des objets du ciel profond"
 
 #: src/ui_dsoColorsDialog.h:560
 msgid "Labels of DSOs"
-msgstr ""
+msgstr "Étiquettes des OCP"
 
 #: src/ui_dsoColorsDialog.h:562
 msgid "Color of labels of deep-sky objects"
-msgstr ""
+msgstr "Couleur des étiquettes des objets du ciel profond"
 
 #: src/ui_dsoColorsDialog.h:566
 msgid "Color of markers of interstellar matter"
-msgstr ""
+msgstr "Couleur des marqueurs de matière interstellaire"
 
 #: src/ui_dsoColorsDialog.h:569
 msgid "Color of markers of stellar associations"
-msgstr ""
+msgstr "Couleur des marqueurs des associations stellaires"
 
 #: src/ui_dsoColorsDialog.h:574
 msgid "Color of markers of radio galaxies"
-msgstr ""
+msgstr "Couleur des marqueurs des galaxies radio"
 
 #: src/ui_dsoColorsDialog.h:578
 msgid "Color of markers of star clusters"
-msgstr ""
+msgstr "Couleur des marqueurs des amas d'étoiles"
 
 #: src/ui_dsoColorsDialog.h:582
 msgid "Color of markers of planetary nebulae"
-msgstr ""
+msgstr "Couleur des marqueurs des nébuleuses planétaires"
 
 #: src/ui_dsoColorsDialog.h:585
 msgid "Possible planetary nebulae"
-msgstr ""
+msgstr "Nébuleuses planétaires possibles"
 
 #: src/ui_dsoColorsDialog.h:587
 msgid "Possible pl. nebulae"
-msgstr ""
+msgstr "Nébuleuses pl. possibles"
 
 #: src/ui_dsoColorsDialog.h:589
 msgid "Color of markers of possible planetary nebulae"
-msgstr ""
+msgstr "Couleur des marqueurs des nébuleuses planétaires possibles"
 
 #: src/ui_dsoColorsDialog.h:591
 msgid "Protoplanetary nebulae"
-msgstr ""
+msgstr "Nébuleuses protoplanétaires"
 
 #: src/ui_dsoColorsDialog.h:593
 msgid "Color of markers of protoplanetary nebulae"
-msgstr ""
+msgstr "Couleur des marqueurs des nébuleuses protoplanétaires"
 
 #: src/ui_dsoColorsDialog.h:597
 msgid "Color of markers of emission nebulae"
-msgstr ""
+msgstr "Couleur des marqueurs des nébuleuses d'émission"
 
 #: src/ui_dsoColorsDialog.h:601
 msgid "Color of markers of hydrogen regions"
-msgstr ""
+msgstr "Couleur des marqueurs des régions d'hydrogène"
 
 #: src/ui_dsoColorsDialog.h:603
 msgid "Molecular clouds"
-msgstr ""
+msgstr "Nuages moléculaires"
 
 #: src/ui_dsoColorsDialog.h:605
 msgid "Color of markers of molecular clouds"
-msgstr ""
+msgstr "Couleur des marqueurs des nuages moléculaires"
 
 #: src/ui_dsoColorsDialog.h:610
 msgid "YSOs"
-msgstr ""
+msgstr "JOS"
 
 #: src/ui_dsoColorsDialog.h:612
 msgid "Color of markers of Young Stellar Objects"
-msgstr ""
+msgstr "Couleur des marqueurs des jeunes objets stellaires"
 
 #: src/ui_dsoColorsDialog.h:616
 msgid "Color of markers of supernova remnants"
-msgstr ""
+msgstr "Couleur des marqueurs des restes de supernova"
 
 #: plugins/AngleMeasure/src/AngleMeasure.cpp:57
 #: plugins/AngleMeasure/src/AngleMeasure.cpp:138
@@ -8467,12 +8467,12 @@ msgstr "Stations"
 #. TRANSLATORS: Satellite group: Education satellites
 #: plugins/Satellites/src/Satellites.cpp:1757
 msgid "education"
-msgstr "Éducation"
+msgstr "éducation"
 
 #. TRANSLATORS: Satellite group: Satellites belonging to the space observatories
 #: plugins/Satellites/src/Satellites.cpp:1759
 msgid "observatory"
-msgstr "Observatoire"
+msgstr "observatoire"
 
 #. TRANSLATORS: Satellite group:
 #. N_("");
@@ -8497,42 +8497,42 @@ msgstr "Première station spatiale de Chine"
 #. TRANSLATORS: Satellite description.
 #: plugins/Satellites/src/Satellites.cpp:1775
 msgid "The russian space radio telescope RadioAstron"
-msgstr ""
+msgstr "Le radiotélescope spatial russe RadioAstron"
 
 #. TRANSLATORS: Satellite description.
 #: plugins/Satellites/src/Satellites.cpp:1777
 msgid "International Gamma-Ray Astrophysics Laboratory"
-msgstr ""
+msgstr "Laboratoire international d'astrophysique à rayon gamma"
 
 #. TRANSLATORS: Satellite description.
 #: plugins/Satellites/src/Satellites.cpp:1779
 msgid "The Gamma-Ray Observatory"
-msgstr ""
+msgstr "L'Observatoire à rayon gamma"
 
 #. TRANSLATORS: Satellite name: International Space Station
 #: plugins/Satellites/src/Satellites.cpp:1783
 msgid "ISS (ZARYA)"
-msgstr ""
+msgstr "SSI (ZARYA)"
 
 #. TRANSLATORS: Satellite name: Hubble Space Telescope
 #: plugins/Satellites/src/Satellites.cpp:1785
 msgid "HST"
-msgstr ""
+msgstr "TSH"
 
 #. TRANSLATORS: Satellite name: Spektr-R Space Observatory (or RadioAstron)
 #: plugins/Satellites/src/Satellites.cpp:1787
 msgid "SPEKTR-R"
-msgstr ""
+msgstr "SPEKTR-R"
 
 #. TRANSLATORS: Satellite name: International Gamma-Ray Astrophysics Laboratory (INTEGRAL)
 #: plugins/Satellites/src/Satellites.cpp:1789
 msgid "INTEGRAL"
-msgstr ""
+msgstr "INTEGRAL"
 
 #. TRANSLATORS: China's first space station name
 #: plugins/Satellites/src/Satellites.cpp:1791
 msgid "TIANGONG 1"
-msgstr ""
+msgstr "TIANGONG 1"
 
 #: plugins/Satellites/src/Satellite.cpp:261
 #: plugins/Satellites/src/Satellite.cpp:265
@@ -8541,7 +8541,7 @@ msgstr "Catalogue #"
 
 #: plugins/Satellites/src/Satellite.cpp:267
 msgid "International Designator"
-msgstr "Indicatif International"
+msgstr "Indicatif international"
 
 #: plugins/Satellites/src/Satellite.cpp:274
 msgid "artificial satellite"
