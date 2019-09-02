@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: fr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-19 16:37+0700\n"
-"PO-Revision-Date: 2019-08-28 12:25+0000\n"
+"PO-Revision-Date: 2019-09-03 01:25+0000\n"
 "Last-Translator: Swann Martinet <swann.ranskassa@laposte.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/stellarium-mobile/"
 "app/fr/>\n"
@@ -2561,7 +2561,7 @@ msgid ""
 "made Stellarium better (sorted alphabetically): %1."
 msgstr ""
 "De nombreuses personnes ont participé au projet, et leur travail a contribué "
-"à rendre Stellarium meilleur (par ordre alphabétique) : %1"
+"à rendre Stellarium meilleur (par ordre alphabétique) : %1."
 
 #: src/gui/StelGui.cpp:203
 msgid "Windows"
@@ -3938,12 +3938,12 @@ msgstr "Plus beaux objets du catalogue NGC"
 #. TRANSLATORS: Description of the landscape tour script.
 #: src/translations.h:321
 msgid "Look around each installed landscape."
-msgstr "Faire le tour des paysages installés"
+msgstr "Faire le tour des paysages installés."
 
 #. TRANSLATORS: Description of the sky culture tour script.
 #: src/translations.h:323
 msgid "Look at each installed sky culture."
-msgstr "Une visite de chaque culture céleste installée"
+msgstr "Une visite de chaque culture céleste installée."
 
 #: src/translations.h:324
 msgid "Script to demonstrate a partial lunar eclipse."
@@ -4040,17 +4040,18 @@ msgstr ""
 msgid ""
 "Screensaver of various happenings in the Solar System. 261 events in all!"
 msgstr ""
-"Présentation en boucle de divers événements du système solaire, comprenant "
-"261 événements."
+"Présentation en boucle de divers évènements du système solaire, comprenant "
+"261 évènements !"
 
 #: src/translations.h:337
 msgid "A tour of the western constellations."
-msgstr "Une visite des constallations de l'ouest"
+msgstr "Une visite des constallations occidentales."
 
 #: src/translations.h:338
 msgid "Look at the Sun from big planets of Solar System and Pluto."
 msgstr ""
-"Vue du Soleil depuis les grandes planètes du système solaire et depuis Pluton"
+"Vue du Soleil depuis les grandes planètes du système solaire et depuis "
+"Pluton."
 
 #: src/translations.h:339
 msgid ""
@@ -14943,7 +14944,7 @@ msgstr ""
 
 #: plugins/ArchaeoLines/src/ArchaeoLines.cpp:1253
 msgid "Equinox"
-msgstr "Equinoxe"
+msgstr "Équinoxe"
 
 #: plugins/ArchaeoLines/src/ArchaeoLines.cpp:1256
 msgid "Solstice"
