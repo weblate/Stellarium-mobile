@@ -578,7 +578,7 @@ bool StelQuickStelItem::isDay() const
 
 bool StelQuickStelItem::isDesktop() const
 {
-#if defined Q_OS_ANDROID || defined Q_OS_IOS
+#if defined Q_OS_ANDROID || defined Q_OS_IOS || defined Q_OS_UBUNTU_TOUCH
 	return false;
 #else
 	return true;
