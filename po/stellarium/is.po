@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: po_stellarium_stellarium-is\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-19 16:37+0700\n"
-"PO-Revision-Date: 2019-08-02 22:12+0000\n"
+"PO-Revision-Date: 2019-10-01 19:56+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <https://hosted.weblate.org/projects/"
 "stellarium-mobile/app/is/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n % 10 != 1 || n % 100 == 11;\n"
-"X-Generator: Weblate 3.8-dev\n"
+"X-Generator: Weblate 3.9-dev\n"
 "X-Launchpad-Export-Date: 2016-11-20 05:29+0000\n"
 
 #: src/core/modules/CustomObject.cpp:67 src/core/modules/CustomObject.cpp:69
@@ -198,7 +198,7 @@ msgstr "SGP"
 #. TRANSLATORS: North Supergalactic Pole
 #: src/core/modules/GridLinesMgr.cpp:971
 msgid "NSGP"
-msgstr ""
+msgstr "NSGP"
 
 #. TRANSLATORS: South Supergalactic Pole
 #: src/core/modules/GridLinesMgr.cpp:973
@@ -300,7 +300,7 @@ msgstr "Himinskaut"
 
 #: src/core/modules/GridLinesMgr.cpp:1237
 msgid "Zenith and nadir"
-msgstr ""
+msgstr "Hvirfilpunktur og ilpunktur"
 
 #: src/core/modules/GridLinesMgr.cpp:1238
 msgid "Ecliptic J2000 poles"
@@ -901,7 +901,7 @@ msgstr "Sýndarþvermál: %1, með hringjum: %2"
 #: src/core/modules/Planet.cpp:312 src/core/modules/Planet.cpp:316
 #, qt-format
 msgid "Apparent diameter: %1, scaled up to: %2"
-msgstr ""
+msgstr "Sýndarþvermál: %1, kvarðað upp í: %2"
 
 #: src/core/modules/Planet.cpp:323 src/core/modules/Planet.cpp:325
 #: src/core/modules/MinorPlanet.cpp:286 src/core/modules/MinorPlanet.cpp:288
@@ -3631,7 +3631,7 @@ msgstr "Tunglið"
 #. TRANSLATORS: Landscape name: Hurricane Ridge
 #: src/translations.h:215
 msgid "Hurricane"
-msgstr "Hurricane"
+msgstr "Hurricane Ridge"
 
 #. TRANSLATORS: Name of landscape
 #: src/translations.h:217
@@ -3641,7 +3641,7 @@ msgstr "Úthaf"
 #. TRANSLATORS: Landscape name: Garching bei Munchen
 #: src/translations.h:219
 msgid "Garching"
-msgstr "Garching"
+msgstr "Garching nálægt Munchen"
 
 #. TRANSLATORS: Name of landscape
 #: src/translations.h:221 plugins/ArchaeoLines/src/ArchaeoLines.cpp:1292
@@ -7920,7 +7920,7 @@ msgstr "Ljósháls í þessari samsetningu augnglers/linsu/sjónauka"
 #. TRANSLATORS: tFOV for binoculars (tFOV = True Field of View)
 #: plugins/Oculars/src/gui/OcularDialog.cpp:498
 msgid "tFOV:"
-msgstr "tFOV:"
+msgstr "Rétt sjónsvið (tFOV):"
 
 #. TRANSLATORS: Magnification factor for binoculars
 #: plugins/Oculars/src/gui/OcularDialog.cpp:500
@@ -7935,7 +7935,7 @@ msgstr "Þvermál:"
 #: plugins/Oculars/src/gui/OcularDialog.cpp:505
 #: plugins/Oculars/src/ui_ocularDialog.h:1152
 msgid "aFOV:"
-msgstr "aFOV:"
+msgstr "Sýndarsjónsvið (aFOV):"
 
 #: plugins/Oculars/src/gui/OcularDialog.cpp:506
 #: plugins/Oculars/src/ui_ocularDialog.h:1153
@@ -8303,17 +8303,17 @@ msgstr "gps"
 #. TRANSLATORS: Satellite group: Satellites belonging to the GLONASS constellation (GLObal NAvigation Satellite System)
 #: plugins/Satellites/src/Satellites.cpp:1749
 msgid "glonass"
-msgstr "glonass"
+msgstr "GLONASS"
 
 #. TRANSLATORS: Satellite group: Satellites belonging to the Galileo constellation (global navigation satellite system by the European Union)
 #: plugins/Satellites/src/Satellites.cpp:1751
 msgid "galileo"
-msgstr "galileo"
+msgstr "Galileo"
 
 #. TRANSLATORS: Satellite group: Satellites belonging to the Iridium constellation (Iridium is a proper name)
 #: plugins/Satellites/src/Satellites.cpp:1753
 msgid "iridium"
-msgstr "iridium"
+msgstr "Iridium"
 
 #. TRANSLATORS: Satellite group: Space stations
 #: plugins/Satellites/src/Satellites.cpp:1755
