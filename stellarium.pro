@@ -35,8 +35,20 @@ QMAKE_CXXFLAGS_RELEASE += -Ofast
 UBUNTU_TOUCH {
    DEFINES += Q_OS_UBUNTU_TOUCH
 
+
+
     target.path = /
     INSTALLS += target
+
+    # figure out the current build architecture
+    CLICK_ARCH=$$system(dpkg-architecture -qDEB_HOST_ARCH)
+
+
+    # substitute the architecture in the manifest file
+    QMAKE_SUBSTITUTES += $$PWD/ubuntu_touch/manifest.json.in
+    manifest.files = ubuntu_touch/manifest.json
+    manifest.path = /
+    INSTALLS += manifest
 
     click_files.path = /
     click_files.files = $$PWD/ubuntu_touch/*
