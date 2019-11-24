@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: stellarium\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-19 16:37+0700\n"
-"PO-Revision-Date: 2019-10-18 17:53+0000\n"
+"PO-Revision-Date: 2019-11-26 08:05+0000\n"
 "Last-Translator: Mattias Münster <mattiasmun@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/"
 "stellarium-mobile/app/sv/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1-dev\n"
+"X-Generator: Weblate 3.10-dev\n"
 "X-Launchpad-Export-Date: 2016-11-20 05:39+0000\n"
 
 #: src/core/modules/CustomObject.cpp:67 src/core/modules/CustomObject.cpp:69
@@ -194,12 +194,12 @@ msgstr "SGP"
 #. TRANSLATORS: North Supergalactic Pole
 #: src/core/modules/GridLinesMgr.cpp:971
 msgid "NSGP"
-msgstr ""
+msgstr "NSGP"
 
 #. TRANSLATORS: South Supergalactic Pole
 #: src/core/modules/GridLinesMgr.cpp:973
 msgid "SSGP"
-msgstr ""
+msgstr "SSGP"
 
 #: src/core/modules/GridLinesMgr.cpp:1215
 #: plugins/TextUserInterface/src/TextUserInterface.cpp:339
@@ -312,15 +312,15 @@ msgstr "Galaktiska poler"
 
 #: src/core/modules/GridLinesMgr.cpp:1241 src/ui_viewDialog.h:2117
 msgid "Supergalactic poles"
-msgstr ""
+msgstr "Supergalaktiska poler"
 
 #: src/core/modules/GridLinesMgr.cpp:1242
 msgid "Equinox J2000 points"
-msgstr ""
+msgstr "Equinox J2000 points"
 
 #: src/core/modules/GridLinesMgr.cpp:1243
 msgid "Equinox points"
-msgstr ""
+msgstr "Equinox points"
 
 #: src/core/modules/LandscapeMgr.cpp:415 src/ui_viewDialog.h:1936
 msgid "Atmosphere"
@@ -460,12 +460,12 @@ msgstr "Mpc"
 #. TRANSLATORS: Unit of measure for distance - Millions of Light Years
 #: src/core/modules/Nebula.cpp:292
 msgid "Mio. ly"
-msgstr ""
+msgstr "Mio. ly"
 
 #: src/core/modules/Nebula.cpp:306
 #, qt-format
 msgid "Distance: %1 %2 (%3 %4)"
-msgstr ""
+msgstr "Avstånd: %1 %2 (%3 %4)"
 
 #: src/core/modules/Nebula.cpp:320
 #, qt-format
@@ -897,13 +897,13 @@ msgstr "Synbar diameter: %1, med ringar: %2"
 #: src/core/modules/Planet.cpp:312 src/core/modules/Planet.cpp:316
 #, qt-format
 msgid "Apparent diameter: %1, scaled up to: %2"
-msgstr ""
+msgstr "Skenbar diameter: %1, skalad upp till: %2"
 
 #: src/core/modules/Planet.cpp:323 src/core/modules/Planet.cpp:325
 #: src/core/modules/MinorPlanet.cpp:286 src/core/modules/MinorPlanet.cpp:288
 #, qt-format
 msgid "Apparent diameter: %1"
-msgstr "Apparent diameter: %1"
+msgstr "Skenbar diameter: %1"
 
 #. TRANSLATORS: Sidereal (orbital) period for solar system bodies in days and in Julian years (symbol: a)
 #: src/core/modules/Planet.cpp:342 src/core/modules/MinorPlanet.cpp:296
@@ -928,42 +928,42 @@ msgstr "Rotationsperioden är kaotisk"
 #: src/core/modules/Planet.cpp:369
 msgctxt "Moon phase"
 msgid "Waxing Crescent"
-msgstr ""
+msgstr "Vaxande halvmåne"
 
 #: src/core/modules/Planet.cpp:371
 msgctxt "Moon phase"
 msgid "First Quarter"
-msgstr ""
+msgstr "Första kvartalet"
 
 #: src/core/modules/Planet.cpp:373
 msgctxt "Moon phase"
 msgid "Waxing Gibbous"
-msgstr ""
+msgstr "Vaxande Gibbous"
 
 #: src/core/modules/Planet.cpp:375
 msgctxt "Moon phase"
 msgid "Full Moon"
-msgstr ""
+msgstr "Fullmåne"
 
 #: src/core/modules/Planet.cpp:377
 msgctxt "Moon phase"
 msgid "Waning Gibbous"
-msgstr ""
+msgstr "Avtagande Gibbous"
 
 #: src/core/modules/Planet.cpp:379
 msgctxt "Moon phase"
 msgid "Third Quarter"
-msgstr ""
+msgstr "Tredje kvartalet"
 
 #: src/core/modules/Planet.cpp:381
 msgctxt "Moon phase"
 msgid "Waning Crescent"
-msgstr ""
+msgstr "Avtagande halvmåne"
 
 #: src/core/modules/Planet.cpp:383
 msgctxt "Moon phase"
 msgid "New Moon"
-msgstr ""
+msgstr "Nymåne"
 
 #: src/core/modules/Planet.cpp:388 src/core/modules/Planet.cpp:393
 #, qt-format
@@ -973,7 +973,7 @@ msgstr "Fasvinkel: %1"
 #: src/core/modules/Planet.cpp:389 src/core/modules/Planet.cpp:394
 #, qt-format
 msgid "Elongation: %1"
-msgstr "Elongation: %1"
+msgstr "Förlängning: %1"
 
 #: src/core/modules/Planet.cpp:397
 #, qt-format
@@ -10221,7 +10221,7 @@ msgstr ""
 
 #: plugins/TextUserInterface/src/TextUserInterface.cpp:90
 msgid "Text User Interface"
-msgstr "Text User Interface"
+msgstr "Textanvändargränssnitt"
 
 #: plugins/TextUserInterface/src/TextUserInterface.cpp:93
 msgid ""
