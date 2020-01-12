@@ -8,14 +8,17 @@ msgstr ""
 "Project-Id-Version: stellarium\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-11-19 16:37+0700\n"
-"PO-Revision-Date: 2016-07-19 04:52+0000\n"
-"Last-Translator: Alexander Wolf <Unknown>\n"
-"Language-Team: Hindi <hi@li.org>\n"
+"PO-Revision-Date: 2020-01-14 03:21+0000\n"
+"Last-Translator: Venkat Sub <venkatiaf2004@gmail.com>\n"
+"Language-Team: Hindi <https://hosted.weblate.org/projects/stellarium-mobile/"
+"app/hi/>\n"
+"Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.11-dev\n"
 "X-Launchpad-Export-Date: 2016-11-20 05:29+0000\n"
-"X-Generator: Launchpad (build 18269)\n"
 
 #: src/core/modules/CustomObject.cpp:67 src/core/modules/CustomObject.cpp:69
 #: src/core/modules/Constellation.cpp:296 src/core/modules/Nebula.cpp:191
@@ -43,7 +46,7 @@ msgstr ""
 
 #: src/core/modules/Constellation.cpp:296
 msgid "constellation"
-msgstr "नक्षत्र"
+msgstr "तारामंडल"
 
 #: src/core/modules/ConstellationMgr.cpp:143 src/core/modules/StarMgr.cpp:433
 #: src/core/modules/GridLinesMgr.cpp:1214 src/core/modules/LandscapeMgr.cpp:414
@@ -53,16 +56,16 @@ msgstr "नक्षत्र"
 #: src/core/StelApp.cpp:523 src/core/StelCore.cpp:229
 #: src/core/StelSkyLayerMgr.cpp:89 src/StelMainView.cpp:575
 msgid "Display Options"
-msgstr "कंप्यूटर स्क्रीन विकल्प"
+msgstr "दिखावट विकल्प"
 
 #: src/core/modules/ConstellationMgr.cpp:144
 #: plugins/TextUserInterface/src/TextUserInterface.cpp:287
 msgid "Constellation lines"
-msgstr "तारामंडल की रेखाएं"
+msgstr "तारामंडलें के रेखें"
 
 #: src/core/modules/ConstellationMgr.cpp:145
 msgid "Constellation art"
-msgstr "तारामंडल की चित्रकारी"
+msgstr "तारामंडलों  की चित्रकारी"
 
 #: src/core/modules/ConstellationMgr.cpp:146
 #: plugins/TextUserInterface/src/TextUserInterface.cpp:292
