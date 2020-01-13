@@ -8,14 +8,17 @@ msgstr ""
 "Project-Id-Version: stellarium\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-11-19 16:37+0700\n"
-"PO-Revision-Date: 2013-11-30 12:45+0000\n"
-"Last-Translator: Alexander Wolf <Unknown>\n"
-"Language-Team: Punjabi <pa@li.org>\n"
+"PO-Revision-Date: 2020-01-14 03:21+0000\n"
+"Last-Translator: Aman ALam <alam.yellow@gmail.com>\n"
+"Language-Team: Punjabi <https://hosted.weblate.org/projects/"
+"stellarium-mobile/app/pa/>\n"
+"Language: pa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.11-dev\n"
 "X-Launchpad-Export-Date: 2016-11-20 05:36+0000\n"
-"X-Generator: Launchpad (build 18269)\n"
 
 #: src/core/modules/CustomObject.cpp:67 src/core/modules/CustomObject.cpp:69
 #: src/core/modules/Constellation.cpp:296 src/core/modules/Nebula.cpp:191
@@ -27,23 +30,23 @@ msgstr ""
 #: plugins/Pulsars/src/Pulsar.cpp:158 plugins/Exoplanets/src/Exoplanet.cpp:270
 #, qt-format
 msgid "Type: <b>%1</b>"
-msgstr ""
+msgstr "ਕਿਸਮ: <b>%1</b>"
 
 #: src/core/modules/CustomObject.cpp:67
 msgid "custom marker"
-msgstr ""
+msgstr "ਕਸਟਮ ਮਾਰਕਰ"
 
 #: src/core/modules/CustomObject.cpp:69
 msgid "custom object"
-msgstr ""
+msgstr "ਕਸਟਮ ਆਬਜੈਕਟ"
 
 #: src/core/modules/CustomObjectMgr.cpp:81
 msgid "Marker"
-msgstr ""
+msgstr "ਮਾਰਕਰ"
 
 #: src/core/modules/Constellation.cpp:296
 msgid "constellation"
-msgstr ""
+msgstr "ਤਾਰਾ-ਮੰਡਲ"
 
 #: src/core/modules/ConstellationMgr.cpp:143 src/core/modules/StarMgr.cpp:433
 #: src/core/modules/GridLinesMgr.cpp:1214 src/core/modules/LandscapeMgr.cpp:414
@@ -58,25 +61,25 @@ msgstr "ਵੇਖਾਉਣ ਚੋਣਾਂ"
 #: src/core/modules/ConstellationMgr.cpp:144
 #: plugins/TextUserInterface/src/TextUserInterface.cpp:287
 msgid "Constellation lines"
-msgstr ""
+msgstr "ਤਾਰਾ-ਮੰਡਲ ਰੇਖਾਵਾਂ"
 
 #: src/core/modules/ConstellationMgr.cpp:145
 msgid "Constellation art"
-msgstr ""
+msgstr "ਤਾਰਾ-ਮੰਡਲ ਕਲਾਕਾਰੀ"
 
 #: src/core/modules/ConstellationMgr.cpp:146
 #: plugins/TextUserInterface/src/TextUserInterface.cpp:292
 msgid "Constellation labels"
-msgstr ""
+msgstr "ਤਾਰਾ-ਮੰਡਲ ਲੇਬਲ"
 
 #: src/core/modules/ConstellationMgr.cpp:147
 #: plugins/TextUserInterface/src/TextUserInterface.cpp:305
 msgid "Constellation boundaries"
-msgstr ""
+msgstr "ਤਾਰਾ-ਮੰਡਲ ਹੱਦਾਂ"
 
 #: src/core/modules/ConstellationMgr.cpp:148 src/ui_configurationDialog.h:1374
 msgid "Select single constellation"
-msgstr ""
+msgstr "ਇਕੱਲਾ ਤਾਰਾ-ਮੰਡਲ ਚੁਣੋ"
 
 #: src/core/modules/StarMgr.cpp:434 src/ui_viewDialog.h:1909
 #: src/ui_dsoColorsDialog.h:541
@@ -86,7 +89,7 @@ msgstr "ਤਾਰੇ"
 
 #: src/core/modules/StarMgr.cpp:435
 msgid "Stars labels"
-msgstr ""
+msgstr "ਤਾਰਿਆਂ ਦੇ ਲੇਬਲ"
 
 #: src/core/modules/GridLinesMgr.cpp:645 src/ui_viewDialog.h:2099
 msgid "Meridian"
@@ -110,7 +113,7 @@ msgstr "ਭੂਮੱਧ"
 
 #: src/core/modules/GridLinesMgr.cpp:666
 msgid "Precession Circle"
-msgstr ""
+msgstr "ਅਗੇਤਰਾ ਚੱਕਰ"
 
 #: src/core/modules/GridLinesMgr.cpp:670 src/ui_viewDialog.h:2091
 msgid "Horizon"
@@ -118,11 +121,11 @@ msgstr "ਹੱਦਾਂ"
 
 #: src/core/modules/GridLinesMgr.cpp:674
 msgid "Galactic Equator"
-msgstr ""
+msgstr "ਗੈਲਕਸੀ ਦੀ ਭੂਮੱਧ-ਰੇਖਾ"
 
 #: src/core/modules/GridLinesMgr.cpp:678
 msgid "Supergalactic Equator"
-msgstr ""
+msgstr "ਸੁਪਰ-ਗਲੈਕਸੀ ਦੀ ਭੂਮੱਧ-ਰੇਖਾ"
 
 #. TRANSLATORS: Full term is "opposition/conjunction longitude"
 #: src/core/modules/GridLinesMgr.cpp:683 src/ui_viewDialog.h:2106
@@ -132,7 +135,7 @@ msgstr ""
 #: src/core/modules/GridLinesMgr.cpp:687 src/core/modules/GridLinesMgr.cpp:1232
 #: src/ui_viewDialog.h:2151
 msgid "Prime Vertical"
-msgstr ""
+msgstr "ਮੌਲਿਕ ਚੋਟੀ"
 
 #: src/core/modules/GridLinesMgr.cpp:691
 msgid "Equinoctial Colure"
@@ -160,13 +163,13 @@ msgstr ""
 #: src/core/modules/GridLinesMgr.cpp:935
 msgctxt "zenith"
 msgid "Z"
-msgstr ""
+msgstr "Z"
 
 #. TRANSLATORS: Nadir
 #: src/core/modules/GridLinesMgr.cpp:937
 msgctxt "nadir"
 msgid "Z'"
-msgstr ""
+msgstr "Z'"
 
 #. TRANSLATORS: North Ecliptic Pole
 #: src/core/modules/GridLinesMgr.cpp:944 src/core/modules/GridLinesMgr.cpp:953
@@ -201,7 +204,7 @@ msgstr ""
 #: src/core/modules/GridLinesMgr.cpp:1215
 #: plugins/TextUserInterface/src/TextUserInterface.cpp:339
 msgid "Equatorial grid"
-msgstr ""
+msgstr "ਭੂਮੱਧ-ਰੇਖਾਈ ਜਾਲ"
 
 #: src/core/modules/GridLinesMgr.cpp:1216 src/ui_viewDialog.h:2181
 #: plugins/TextUserInterface/src/TextUserInterface.cpp:334
@@ -220,7 +223,7 @@ msgstr ""
 #: src/core/modules/GridLinesMgr.cpp:1219
 #: plugins/TextUserInterface/src/TextUserInterface.cpp:349
 msgid "Equator line"
-msgstr ""
+msgstr "ਭੂ-ਮੱਧ ਰੇਖਾ"
 
 #: src/core/modules/GridLinesMgr.cpp:1220
 msgid "Equator J2000 line"
@@ -229,12 +232,12 @@ msgstr ""
 #: src/core/modules/GridLinesMgr.cpp:1221
 #: plugins/TextUserInterface/src/TextUserInterface.cpp:329
 msgid "Meridian line"
-msgstr ""
+msgstr "ਸਿਖਰ ਰੇਖਾ"
 
 #: src/core/modules/GridLinesMgr.cpp:1222
 #: plugins/TextUserInterface/src/TextUserInterface.cpp:390
 msgid "Horizon line"
-msgstr ""
+msgstr "ਦੁਮੇਲ ਰੇਖਾ"
 
 #: src/core/modules/GridLinesMgr.cpp:1223
 #: plugins/TextUserInterface/src/TextUserInterface.cpp:344
@@ -5937,7 +5940,7 @@ msgstr ""
 
 #: src/ui_viewDialog.h:2245
 msgid "Show ground"
-msgstr ""
+msgstr "ਧਰਤੀ ਵੇਖਾਓ"
 
 #: src/ui_viewDialog.h:2247
 msgid "Use minimal brightness to leave landscape visible also in darkness"
@@ -5945,7 +5948,7 @@ msgstr ""
 
 #: src/ui_viewDialog.h:2249
 msgid "Minimal brightness:"
-msgstr ""
+msgstr "ਘੱਟ ਤੋਂ ਘੱਟ ਚਮਕ:"
 
 #: src/ui_viewDialog.h:2251
 msgid ""
@@ -5962,11 +5965,11 @@ msgstr ""
 
 #: src/ui_viewDialog.h:2258
 msgid "Show illumination layer (bright windows, light pollution, etc.)"
-msgstr ""
+msgstr "ਚਾਨਣ ਪਰਤ ਵੇਖਾਓ (ਚਮਕਦਾਰ ਖਿੜਕੀਆਂ, ਚਾਨਣ ਪ੍ਰਦੂਸ਼ਣ ਆਦਿ)"
 
 #: src/ui_viewDialog.h:2260
 msgid "Show illumination "
-msgstr ""
+msgstr "ਚਾਨਣ ਵੇਖਾਓ "
 
 #: src/ui_viewDialog.h:2261
 msgid "Show landscape labels"
@@ -5978,7 +5981,7 @@ msgstr ""
 
 #: src/ui_viewDialog.h:2264
 msgid "Show art in brightness"
-msgstr ""
+msgstr "ਚਾਨਣ ਵਿੱਚ ਕਲਾਕਾਰੀ ਵੇਖਾਓ"
 
 #: src/ui_viewDialog.h:2265
 msgid "Show lines with thickness"
@@ -5986,11 +5989,11 @@ msgstr ""
 
 #: src/ui_viewDialog.h:2267
 msgid "Value in pixels"
-msgstr ""
+msgstr "ਪਿਕਸਲ ਵਿੱਚ ਮੁੱਲ"
 
 #: src/ui_viewDialog.h:2270
 msgid "Color of lines of constellations"
-msgstr ""
+msgstr "ਤਾਰਾ-ਮੰਡਲਾਂ ਦੀਆਂ ਰੇਖਾਵਾਂ ਦਾ ਰੰਗ"
 
 #: src/ui_viewDialog.h:2273
 msgid "Use native names for planets from current culture"
@@ -5998,15 +6001,15 @@ msgstr ""
 
 #: src/ui_viewDialog.h:2275
 msgid "Use native names for planets"
-msgstr ""
+msgstr "ਗ੍ਰਹਿਆਂ ਦੇ ਖ਼ਾਲਸ ਨਾਂ ਵਰਤੋਂ"
 
 #: src/ui_viewDialog.h:2276
 msgid "Use this sky culture as default"
-msgstr ""
+msgstr "ਇਹ ਅਸਮਾਨੀ ਸੱਭਿਅਤਾ ਨੂੰ ਮੂਲ ਵਜੋਂ ਵਰਤੋ"
 
 #: src/ui_viewDialog.h:2277
 msgid "Show labels"
-msgstr ""
+msgstr "ਲੇਬਲ ਵੇਖਾਓ"
 
 #: src/ui_viewDialog.h:2279
 msgid "Select if you want names abbreviated, original or translated"
@@ -6014,15 +6017,15 @@ msgstr ""
 
 #: src/ui_viewDialog.h:2283
 msgid "Color of names of constellations"
-msgstr ""
+msgstr "ਤਾਰਾ-ਮੰਡਲਾਂ ਦੇ ਨਾਵਾਂ ਲਈ ਰੰਗ"
 
 #: src/ui_viewDialog.h:2285
 msgid "Show boundaries"
-msgstr ""
+msgstr "ਹੱਦਾਂ ਵੇਖਾਓ"
 
 #: src/ui_viewDialog.h:2287
 msgid "Color of boundaries of constellations"
-msgstr ""
+msgstr "ਤਾਰਾ-ਮੰਡਲਾਂ ਦੀਆਂ ਹੱਦਾਂ ਦਾ ਰੰਗ"
 
 #: src/ui_viewDialog.h:2290
 msgid "Visible"
@@ -6043,7 +6046,7 @@ msgstr ""
 
 #: src/ui_viewDialog.h:2302
 msgid "Markings"
-msgstr ""
+msgstr "ਨਿਸ਼ਾਨ"
 
 #: src/ui_viewDialog.h:2304
 #: plugins/TextUserInterface/src/TextUserInterface.cpp:445
@@ -6053,7 +6056,7 @@ msgstr ""
 #: src/ui_viewDialog.h:2306
 #: plugins/TextUserInterface/src/TextUserInterface.cpp:229
 msgid "Starlore"
-msgstr ""
+msgstr "ਤਾਰਾ-ਗਿਆਨ"
 
 #: src/ui_configurationDialog.h:1190
 msgid "Configuration"
@@ -6061,15 +6064,15 @@ msgstr "ਸੰਰਚਨਾ"
 
 #: src/ui_configurationDialog.h:1192
 msgid "Language settings"
-msgstr ""
+msgstr "ਭਾਸ਼ਾ ਸੈਟਿੰਗਾਂ"
 
 #: src/ui_configurationDialog.h:1193
 msgid "Program Language"
-msgstr ""
+msgstr "ਪਰੋਗਰਾਮ ਭਾਸ਼ਾ"
 
 #: src/ui_configurationDialog.h:1194
 msgid "Sky Culture Language"
-msgstr ""
+msgstr "ਅਸਮਾਨੀ ਸੱਭਿਅਤਾ ਭਾਸ਼ਾ"
 
 #: src/ui_configurationDialog.h:1196
 msgid "This feature has not been thoroughly tested yet!"
@@ -6081,7 +6084,7 @@ msgstr ""
 
 #: src/ui_configurationDialog.h:1199 src/ui_configurationDialog.h:1200
 msgid "Not installed"
-msgstr ""
+msgstr "ਇੰਸਟਾਲ ਨਹੀਂ ਹੈ"
 
 #: src/ui_configurationDialog.h:1202
 msgid ""
@@ -6091,7 +6094,7 @@ msgstr ""
 
 #: src/ui_configurationDialog.h:1204
 msgid "Use DE431 (long-time data)"
-msgstr ""
+msgstr "DE431 ਵਰਤੋਂ (ਲੰਮੇ-ਸਮੇਂ ਦਾ ਡਾਟਾ)"
 
 #: src/ui_configurationDialog.h:1206
 msgid "DE430 provides highest accuracy, only for years 1550...2650."
@@ -6114,7 +6117,7 @@ msgstr ""
 
 #: src/ui_configurationDialog.h:1213
 msgid "Default options"
-msgstr ""
+msgstr "ਮੂਲ ਚੋਣਾਂ"
 
 #: src/ui_configurationDialog.h:1215
 msgid ""
@@ -6128,7 +6131,7 @@ msgstr ""
 #: plugins/EquationOfTime/src/ui_equationOfTimeWindow.h:281
 #: plugins/PointerCoordinates/src/ui_pointerCoordinatesWindow.h:299
 msgid "Save settings"
-msgstr "ਸੈਟਿੰਗ ਸੰਭਾਲੋ"
+msgstr "ਸੈਟਿੰਗਾਂ ਸੰਭਾਲੋ"
 
 #: src/ui_configurationDialog.h:1219
 msgid "Restore the default settings that came with Stellarium"
@@ -6159,19 +6162,19 @@ msgstr ""
 
 #: src/ui_configurationDialog.h:1229 src/ui_configurationDialog.h:1435
 msgid "Selected object information"
-msgstr ""
+msgstr "ਚੁਣੇ ਆਬਜੈਕਟ ਦੀ ਜਾਣਕਾਰੀ"
 
 #: src/ui_configurationDialog.h:1231
 msgid "Display all information available"
-msgstr ""
+msgstr "ਸਾਰੀ ਉਪਲੱਬਧ ਜਾਣਕਾਰੀ ਵੇਖਾਓ"
 
 #: src/ui_configurationDialog.h:1233
 msgid "All available"
-msgstr ""
+msgstr "ਸਾਰੇ ਉਪਲੱਬਧ"
 
 #: src/ui_configurationDialog.h:1235
 msgid "Display no information"
-msgstr ""
+msgstr "ਕੋਈ ਜਾਣਕਾਰੀ ਨਾ ਵੇਖਾਓ"
 
 #: src/ui_configurationDialog.h:1237 plugins/Oculars/src/Oculars.cpp:2387
 #: plugins/Observability/src/Observability.cpp:205
@@ -6180,7 +6183,7 @@ msgstr "ਕੋਈ ਨਹੀਂ"
 
 #: src/ui_configurationDialog.h:1239
 msgid "Display less information"
-msgstr ""
+msgstr "ਘੱਟ ਜਾਣਕਾਰੀ ਵੇਖਾਓ"
 
 #: src/ui_configurationDialog.h:1241
 msgid "Short"
@@ -6188,7 +6191,7 @@ msgstr "ਛੋਟਾ"
 
 #: src/ui_configurationDialog.h:1243
 msgid "Display user settings information"
-msgstr ""
+msgstr "ਵਰਤੋਂਕਾਰ ਸੈਟਿੰਗਾਂ ਜਾਣਕਾਰੀ ਵੇਖਾਓ"
 
 #: src/ui_configurationDialog.h:1245
 msgid "Customized"
@@ -6196,7 +6199,7 @@ msgstr ""
 
 #: src/ui_configurationDialog.h:1246
 msgid "Displayed fields"
-msgstr ""
+msgstr "ਦਿਖਾਏ ਗਏ ਖੇਤਰ"
 
 #: src/ui_configurationDialog.h:1248 src/ui_configurationDialog.h:1286
 msgid "Equatorial coordinates, equinox of date"
@@ -6220,7 +6223,7 @@ msgstr "ਹੋਰ ਜਾਣਕਾਰੀ"
 
 #: src/ui_configurationDialog.h:1257
 msgid "The type of the object (star, planet, etc.)"
-msgstr ""
+msgstr "ਆਬਜੈਕਟ ਦੀ ਕਿਸਮ (ਤਾਰਾ, ਗ੍ਰਹਿ ਆਦਿ)"
 
 #: src/ui_configurationDialog.h:1260
 msgid "Absolute magnitude"
@@ -6236,7 +6239,7 @@ msgstr ""
 
 #: src/ui_configurationDialog.h:1266
 msgid "Horizontal coordinates"
-msgstr ""
+msgstr "ਦਿਸਹੱਦੇ ਧੁਰੇ"
 
 #: src/ui_configurationDialog.h:1268
 #: plugins/PointerCoordinates/src/gui/PointerCoordinatesWindow.cpp:201
@@ -6778,7 +6781,7 @@ msgstr ""
 
 #: src/ui_astroCalcDialog.h:480
 msgid "Show dates of positions"
-msgstr ""
+msgstr "ਸਥਿਤੀਆਂ ਦੀ ਤਾਰੀਖਾਂ ਵੇਖਾਓ"
 
 #: src/ui_astroCalcDialog.h:482
 msgid "Show markers of positions of the current celestial body on the sky"
@@ -6807,12 +6810,12 @@ msgstr ""
 #: src/ui_astroCalcDialog.h:491 src/ui_astroCalcDialog.h:498
 #: plugins/MeteorShowers/src/ui_MSSearchDialog.h:194
 msgid "To:"
-msgstr ""
+msgstr "ਤੱਕ:"
 
 #: src/ui_astroCalcDialog.h:492 src/ui_astroCalcDialog.h:495
 #: plugins/MeteorShowers/src/ui_MSSearchDialog.h:192
 msgid "From:"
-msgstr ""
+msgstr "ਤੋਂ:"
 
 #: src/ui_astroCalcDialog.h:493
 msgid "Calculate phenomena"
@@ -6824,11 +6827,11 @@ msgstr ""
 
 #: src/ui_astroCalcDialog.h:496
 msgid "Between objects:"
-msgstr ""
+msgstr "ਆਬਜੈਕਟਾਂ ਵਿਚਾਲੇ:"
 
 #: src/ui_astroCalcDialog.h:497
 msgid "and"
-msgstr ""
+msgstr "ਅਤੇ"
 
 #: src/ui_astroCalcDialog.h:499
 msgid "Maximum allowed separation:"
@@ -6836,39 +6839,39 @@ msgstr ""
 
 #: src/ui_astroCalcDialog.h:501
 msgid "Value in decimal degrees"
-msgstr ""
+msgstr "ਦਸ਼ਮਲਵ ਡਿਗਰੀਆਂ ਵਿੱਚ ਮੁੱਲ"
 
 #: src/ui_bookmarksDialog.h:176
 msgid "Add date and time"
-msgstr ""
+msgstr "ਤਾਰੀਖ ਅਤੇ ਵੇਲਾ ਜੋੜੋ"
 
 #: src/ui_bookmarksDialog.h:177
 msgid "Add location"
-msgstr ""
+msgstr "ਟਿਕਾਣਾ ਜੋੜੋ"
 
 #: src/ui_bookmarksDialog.h:179
 msgid "Add selected object to bookmarks"
-msgstr ""
+msgstr "ਚੁਣੇ ਵਿਸ਼ੇ ਨੂੰ ਬੁੱਕਮਾਰਕ ਵਿੱਚ ਜੋੜੋ"
 
 #: src/ui_bookmarksDialog.h:181
 msgid "&Add bookmark"
-msgstr ""
+msgstr "ਬੁੱਕਮਾਰਕ ਜੋੜੋ(&A)"
 
 #: src/ui_bookmarksDialog.h:182
 msgid "&Remove bookmark"
-msgstr ""
+msgstr "ਬੁੱਕਮਾਰਕ ਹਟਾਓ(&R)"
 
 #: src/ui_bookmarksDialog.h:183
 msgid "Clear bookmarks"
-msgstr ""
+msgstr "ਬੁੱਕਮਾਰਕ ਸਾਫ਼ ਕਰੋ"
 
 #: src/ui_bookmarksDialog.h:184
 msgid "&Go to..."
-msgstr ""
+msgstr "...ਉੱਤੇ ਜਾਓ(&G)"
 
 #: src/ui_dsoColorsDialog.h:476
 msgid "Colors settings"
-msgstr ""
+msgstr "ਰੰਗ ਸੈਟਿੰਗਾਂ"
 
 #: src/ui_dsoColorsDialog.h:478
 msgid "Colors of labels and markers of deep-sky objects"
@@ -8300,7 +8303,7 @@ msgstr ""
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:437
 msgid "Adding new satellites"
-msgstr ""
+msgstr "ਨਵੇਂ ਸੈਟੇਲਾਈਟ ਜੋੜੇ ਜਾ ਰਹੇ ਹਨ"
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:438
 msgid ""
@@ -8312,7 +8315,7 @@ msgstr ""
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:440
 msgid "Technical notes"
-msgstr ""
+msgstr "ਤਕਨੀਕੀ ਨੋਟਿਸ"
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:441
 msgid ""
@@ -8330,7 +8333,7 @@ msgstr ""
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:444
 #, qt-format
 msgid "See %1this document%2 for details."
-msgstr ""
+msgstr "ਵੇਰਵਿਆਂ ਲਈ %1ਇਸ ਦਸਤਾਵੇਜ਼%2 ਵੇਖੋ"
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:476
 #: plugins/Supernovae/src/gui/SupernovaeDialog.cpp:169
@@ -8339,7 +8342,7 @@ msgstr ""
 #: plugins/Pulsars/src/gui/PulsarsDialog.cpp:182
 #: plugins/Exoplanets/src/gui/ExoplanetsDialog.cpp:299
 msgid "Internet updates disabled"
-msgstr ""
+msgstr "ਇੰਟਰਨੈੱਟ ਅੱਪਡੇਟ ਅਸਮਰੱਥ ਹੈ"
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:478
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:494
@@ -8354,7 +8357,7 @@ msgstr ""
 #: plugins/Exoplanets/src/gui/ExoplanetsDialog.cpp:301
 #: plugins/Exoplanets/src/gui/ExoplanetsDialog.cpp:369
 msgid "Updating now..."
-msgstr ""
+msgstr "...ਹੁਣ ਅੱਪਡੇਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:483
 #: plugins/Supernovae/src/gui/SupernovaeDialog.cpp:173
@@ -8363,7 +8366,7 @@ msgstr ""
 #: plugins/Pulsars/src/gui/PulsarsDialog.cpp:186
 #: plugins/Exoplanets/src/gui/ExoplanetsDialog.cpp:303
 msgid "Next update: < 1 minute"
-msgstr ""
+msgstr "ਅਗਲਾ ਅੱਪਡੇਟ: <1 ਮਿੰਟ"
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:485
 #: plugins/Supernovae/src/gui/SupernovaeDialog.cpp:175
@@ -8373,7 +8376,7 @@ msgstr ""
 #: plugins/Exoplanets/src/gui/ExoplanetsDialog.cpp:305
 #, qt-format
 msgid "Next update: %1 minutes"
-msgstr ""
+msgstr "ਅਗਲਾ ਅੱਪਡੇਟ:%1 ਮਿੰਟ"
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:487
 #: plugins/Supernovae/src/gui/SupernovaeDialog.cpp:177
@@ -8383,7 +8386,7 @@ msgstr ""
 #: plugins/Exoplanets/src/gui/ExoplanetsDialog.cpp:307
 #, qt-format
 msgid "Next update: %1 hours"
-msgstr ""
+msgstr "ਅਗਲਾ ਅੱਪਡੇਟ:%1 ਘੰਟੇ"
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:497
 #: plugins/Supernovae/src/gui/SupernovaeDialog.cpp:208
@@ -8392,12 +8395,12 @@ msgstr ""
 #: plugins/Pulsars/src/gui/PulsarsDialog.cpp:245
 #: plugins/Exoplanets/src/gui/ExoplanetsDialog.cpp:372
 msgid "Update error"
-msgstr ""
+msgstr "ਅੱਪਡੇਟ ਗ਼ਲਤੀ"
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:510
 #, qt-format
 msgid "Updated %1/%2 satellite(s); %3 added; %4 removed"
-msgstr ""
+msgstr "%1/%2 ਸੈਟੇਲਾਈਟ ਅੱਪਡੇਟ ਕੀਤੇ; %3 ਜੋੜੇ ;%3 ਹਟਾਏ"
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:512
 #, qt-format
@@ -8422,7 +8425,7 @@ msgstr ""
 #: plugins/Exoplanets/src/ui_exoplanetsDialog.h:470
 #: plugins/MeteorShowers/src/ui_MSConfigDialog.h:460
 msgid "Update now"
-msgstr "ਹੁਣੇ ਅੱਪਡੇਟ"
+msgstr "ਹੁਣੇ ਅੱਪਡੇਟ ਕਰੋ"
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:628
 #: plugins/Supernovae/src/gui/SupernovaeDialog.cpp:196
@@ -8431,7 +8434,7 @@ msgstr "ਹੁਣੇ ਅੱਪਡੇਟ"
 #: plugins/Pulsars/src/gui/PulsarsDialog.cpp:209
 #: plugins/Exoplanets/src/gui/ExoplanetsDialog.cpp:360
 msgid "Update from files"
-msgstr ""
+msgstr "ਫ਼ਾਈਲਾਂ ਤੋਂ ਅੱਪਡੇਟ ਕਰੋ"
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:670
 msgid "[orbit calculation error]"
@@ -8451,12 +8454,12 @@ msgstr ""
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:674
 msgid "[all]"
-msgstr ""
+msgstr "[ਸਭ]"
 
 #. TRANSLATORS: Displayed in the satellite group selection box.
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:718
 msgid "New group..."
-msgstr ""
+msgstr "ਨਵਾਂ ਗਰੁੱਪ..."
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:924
 msgid "Select TLE Update File"
@@ -8464,19 +8467,19 @@ msgstr ""
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:942
 msgid "Time"
-msgstr ""
+msgstr "ਵੇਲਾ"
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:943
 msgid "Brightness"
-msgstr ""
+msgstr "ਚਮਕ"
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:946
 msgid "Satellite"
-msgstr ""
+msgstr "ਸੈਟੇਲਾਈਟ"
 
 #: plugins/Satellites/src/gui/SatellitesImportDialog.cpp:154
 msgid "Downloading data..."
-msgstr ""
+msgstr "...ਡਾਟਾ ਡਾਊਨਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
 
 #: plugins/Satellites/src/gui/SatellitesImportDialog.cpp:155
 msgid ""
@@ -8493,21 +8496,21 @@ msgstr ""
 #: plugins/Satellites/src/gui/SatellitesImportDialog.cpp:246
 #: plugins/Satellites/src/gui/SatellitesImportDialog.cpp:247
 msgid "Processing data..."
-msgstr ""
+msgstr "...ਡਾਟਾ ਉੱਤੇ ਕਾਰਵਾਈ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ"
 
 #: plugins/Satellites/src/gui/SatellitesImportDialog.cpp:241
 msgid "No data could be downloaded. Try again later."
-msgstr ""
+msgstr "ਕੋਈ ਡਾਟਾ ਡਾਊਨਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ। ਬਾਅਦ ਵਿੱਚ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
 
 #: plugins/Satellites/src/gui/SatellitesImportDialog.cpp:374
 #, qt-format
 msgid "Catalog Number: %1"
-msgstr ""
+msgstr "ਕੈਟਾਲਾਗ ਗਿਣਤੀ: %1"
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:710
 #: plugins/Satellites/src/ui_satellitesDialog.h:711
 msgid "Satellites Configuration"
-msgstr ""
+msgstr "ਸੈਟੇਲਾਈਟ ਸੰਰਚਨਾ"
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:713
 msgid "Updates"
@@ -8515,7 +8518,7 @@ msgstr "ਅੱਪਡੇਟ"
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:714
 msgid "Update satellite data from Internet sources"
-msgstr ""
+msgstr "ਇੰਟਰਨੈੱਟ ਸਰੋਤਾਂ ਤੋਂ ਸੈਟੇਲਾਈਟ ਡਾਟਾ ਅੱਪਡੇਟ ਕਰੋ"
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:715
 #: plugins/Supernovae/src/ui_supernovaeDialog.h:234
@@ -8540,15 +8543,15 @@ msgstr ""
 #: plugins/Exoplanets/src/ui_exoplanetsDialog.h:468
 #: plugins/MeteorShowers/src/ui_MSConfigDialog.h:454
 msgid "Update frequency (hours):"
-msgstr ""
+msgstr "ਅੱਪਡੇਟ ਆਵਰਤੀ (ਘੰਟੇ):"
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:721
 msgid "Label font size (pixels):"
-msgstr ""
+msgstr "ਲੇਬਲ ਫ਼ੋਂਟ ਆਕਾਰ (ਪਿਕਸਲ):"
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:722
 msgid "Orbit lines"
-msgstr ""
+msgstr "ਗ੍ਰਹਿ ਪਥ ਰੇਖਾਵਾਂ"
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:724
 #: plugins/Satellites/src/ui_satellitesDialog.h:728
@@ -8579,7 +8582,7 @@ msgstr ""
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:744
 msgid "Realistic mode for the artificial satellites"
-msgstr ""
+msgstr "ਬਨਾਵਟੀ ਸੈਟੇਲਾਈਟਾਂ ਲਈ ਅਸਲੀ ਮੋਡ"
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:746
 #: plugins/Supernovae/src/ui_supernovaeDialog.h:239
@@ -8590,7 +8593,7 @@ msgstr ""
 #: plugins/Exoplanets/src/ui_exoplanetsDialog.h:488
 #: plugins/Observability/src/ui_ObservabilityDialog.h:358
 msgid "Save settings as default"
-msgstr ""
+msgstr "ਸੈਟਿੰਗਾਂ ਨੂੰ ਮੂਲ ਵਜੋਂ ਸੰਭਾਲੋ"
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:747
 #: plugins/Supernovae/src/ui_supernovaeDialog.h:240
@@ -8600,19 +8603,19 @@ msgstr ""
 #: plugins/Exoplanets/src/ui_exoplanetsDialog.h:489
 #: plugins/Observability/src/ui_ObservabilityDialog.h:359
 msgid "Settings"
-msgstr "ਸੈਟਿੰਗ"
+msgstr "ਸੈਟਿੰਗਾਂ"
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:749
 msgid "Double-click a satellite to start tracking it."
-msgstr ""
+msgstr "ਸੈਟੇਲਾਈਟ ਨੂੰ ਟਰੈਕ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਇਸ ਉੱਤੇ ਡਬਲ-ਕਲਿੱਕ ਕਰੋ।"
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:752
 msgid "Add more satellites"
-msgstr ""
+msgstr "ਹੋਰ ਸੈਟੇਲਾਈਟ ਜੋੜੋ"
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:755
 msgid "Remove the selected satellites"
-msgstr ""
+msgstr "ਚੁਣੇ ਸੈਟੇਲਾਈਟਾਂ ਨੂੰ ਹਟਾਓ"
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:759
 msgid "Save changes"
@@ -8620,15 +8623,15 @@ msgstr "ਬਦਲਾਅ ਸੰਭਾਲੋ"
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:763
 msgid "Catalog number:"
-msgstr ""
+msgstr "ਕੈਟਾਲਾਗ ਨੰਬਰ:"
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:765
 msgid "Display the selected satellite(s)"
-msgstr ""
+msgstr "ਚੁਣੇ ਸੈਟੇਲਾਈਟ ਵੇਖਾਓ"
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:767
 msgid "Displayed"
-msgstr "ਵੇਖਿਆ"
+msgstr "ਵੇਖਾਏ"
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:769
 msgid "Display orbit line(s) for the selected satellite(s)"
@@ -8636,7 +8639,7 @@ msgstr ""
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:771
 msgid "Orbit"
-msgstr ""
+msgstr "ਗ੍ਰਹਿ ਪਥ"
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:773
 msgid "Do not update (or remove on update) the selected satellite(s)"
@@ -8644,7 +8647,7 @@ msgstr ""
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:775
 msgid "Do not update"
-msgstr ""
+msgstr "ਅੱਪਡੇਟ ਨਾ ਕਰੋ"
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:776
 #: plugins/Scenery3d/src/ui_storedViewDialog.h:219
@@ -8673,11 +8676,11 @@ msgstr ""
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:785
 msgid "Add new source"
-msgstr ""
+msgstr "ਨਵਾਂ ਸਰੋਤ ਜੋੜੋ"
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:789
 msgid "Remove selected source"
-msgstr ""
+msgstr "ਚੁਣੇ ਸਰੋਤ ਨੂੰ ਹਟਾਓ"
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:792
 msgid "Sources"
@@ -8689,20 +8692,20 @@ msgstr ""
 
 #: plugins/Satellites/src/ui_satellitesImportDialog.h:211
 msgid "More Satellites"
-msgstr ""
+msgstr "ਹੋਰ ਸੈਟੇਲਾਈਟ"
 
 #: plugins/Satellites/src/ui_satellitesImportDialog.h:213
 msgid "Get data from update sources"
-msgstr ""
+msgstr "ਅੱਪਡੇਟ ਸਰੋਤਾਂ ਤੋ ਡਾਟਾ ਲਵੋ"
 
 #: plugins/Satellites/src/ui_satellitesImportDialog.h:214
 #: plugins/SolarSystemEditor/src/ui_mpcImportWindow.h:524
 msgid "Abort download"
-msgstr ""
+msgstr "ਡਾਊਨਲੋਡ ਨੂੰ ਅਧੂਰਾ ਛੱਡੋ"
 
 #: plugins/Satellites/src/ui_satellitesImportDialog.h:215
 msgid "New satellites"
-msgstr ""
+msgstr "ਨਵੇਂ ਸੈਟੇਲਾਈਟ"
 
 #: plugins/Satellites/src/ui_satellitesImportDialog.h:216
 #: plugins/SolarSystemEditor/src/ui_mpcImportWindow.h:533
@@ -8723,7 +8726,7 @@ msgstr "ਅਣਡਿੱਠਾ"
 #: plugins/TelescopeControl/src/TelescopeControl.cpp:159
 #: plugins/TelescopeControl/src/TelescopeControl.cpp:186
 msgid "Telescope Control"
-msgstr ""
+msgstr "ਦੂਰਬੀਨ ਕੰਟਰੋਲ"
 
 #: plugins/TelescopeControl/src/TelescopeControl.cpp:81
 msgid ""
@@ -8749,15 +8752,15 @@ msgstr ""
 
 #: plugins/TelescopeControl/src/gui/TelescopeConfigurationDialog.cpp:205
 msgid "Add New Telescope"
-msgstr ""
+msgstr "ਨਵੀਂ ਦੂਰਬੀਨ ਜੋੜੋ"
 
 #: plugins/TelescopeControl/src/gui/TelescopeConfigurationDialog.cpp:215
 msgid "Configure Telescope"
-msgstr ""
+msgstr "ਦੂਰਬੀਨ ਸੰਰਚਨਾ"
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:63
 msgid "N/A"
-msgstr "ਨਾ ਉਪਲੱਬਧ"
+msgstr "ਉਪਲੱਬਧ ਨਹੀਂ"
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:64
 msgid "Starting"
@@ -8765,15 +8768,15 @@ msgstr "ਸ਼ੁਰੂ ਹੋ ਰਿਹਾ ਹੈ"
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:65
 msgid "Connecting"
-msgstr "ਕੁਨੈਕਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
+msgstr "ਕਨੈਕਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:66
 msgid "Connected"
-msgstr "ਕੁਨੈਕਟ ਹੈ"
+msgstr "ਕਨੈਕਟ ਹੈ"
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:67
 msgid "Disconnected"
-msgstr "ਡਿਸ-ਕੁਨੈਕਟ ਹੈ"
+msgstr "ਡਿਸ-ਕਨੈਕਟ ਹੈ"
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:68
 msgid "Stopped"
@@ -8781,7 +8784,7 @@ msgstr "ਰੁਕਿਆ"
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:251
 msgid "Telescope Control plug-in"
-msgstr ""
+msgstr "ਦੂਰਬੀਨ ਕੰਟਰੋਲ ਪਲੱਗ-ਇਨ"
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:255
 msgid "Plug-in and GUI programming"
@@ -11879,17 +11882,17 @@ msgstr "ਦਸੰ"
 #. TRANSLATORS: Short for "hours".
 #: plugins/Observability/src/Observability.cpp:188
 msgid "h"
-msgstr "h"
+msgstr "ਘੰ"
 
 #. TRANSLATORS: Short for "minutes".
 #: plugins/Observability/src/Observability.cpp:190
 msgid "m"
-msgstr "m"
+msgstr "ਮਿੰ"
 
 #. TRANSLATORS: Short for "seconds".
 #: plugins/Observability/src/Observability.cpp:192
 msgid "s"
-msgstr "s"
+msgstr "ਸ"
 
 #: plugins/Observability/src/Observability.cpp:193
 #, qt-format
@@ -11899,7 +11902,7 @@ msgstr ""
 #: plugins/Observability/src/Observability.cpp:194
 #, qt-format
 msgid "Rose at %1 (%2 ago)"
-msgstr ""
+msgstr "%1 ਵਜੇ ਚੜ੍ਹਦਾ (%2 ਪਹਿਲਾਂ)"
 
 #: plugins/Observability/src/Observability.cpp:195
 #, qt-format
@@ -11917,7 +11920,7 @@ msgstr ""
 
 #: plugins/Observability/src/Observability.cpp:198
 msgid "No rise."
-msgstr ""
+msgstr "ਨਹੀਂ ਚੜ੍ਹਦਾ।"
 
 #: plugins/Observability/src/Observability.cpp:199
 #, qt-format
@@ -11991,11 +11994,11 @@ msgstr ""
 
 #: plugins/Observability/src/Observability.cpp:217
 msgid "TODAY:"
-msgstr ""
+msgstr "ਅੱਜ:"
 
 #: plugins/Observability/src/Observability.cpp:218
 msgid "THIS YEAR:"
-msgstr ""
+msgstr "ਇਸ ਸਾਲ:"
 
 #. TRANSLATORS: The space at the end is significant - another sentence may follow.
 #: plugins/Observability/src/Observability.cpp:220
@@ -12040,7 +12043,7 @@ msgstr ""
 
 #: plugins/Observability/src/gui/ObservabilityDialog.cpp:141
 msgid "Sun altitude at twilight:"
-msgstr ""
+msgstr "ਸੰਝ ਵੇਲੇ ਸੂਰਜ ਦੀ ਉਚਾਣ:"
 
 #: plugins/Observability/src/gui/ObservabilityDialog.cpp:141
 msgid ""
@@ -12139,7 +12142,7 @@ msgstr ""
 
 #: plugins/Observability/src/gui/ObservabilityDialog.cpp:149
 msgid "Full Moon:"
-msgstr ""
+msgstr "ਪੂਰਾ ਚੰਦ:"
 
 #: plugins/Observability/src/gui/ObservabilityDialog.cpp:149
 msgid ""
@@ -12167,7 +12170,7 @@ msgstr ""
 
 #: plugins/Observability/src/ui_ObservabilityDialog.h:345
 msgid "Font color and size"
-msgstr ""
+msgstr "ਫ਼ੋਂਟ ਰੰਗ ਅਤੇ ਆਕਾਰ"
 
 #: plugins/Observability/src/ui_ObservabilityDialog.h:346
 msgid "Red"
@@ -12187,11 +12190,11 @@ msgstr "ਫੋਂਟ ਸਾਈਜ਼"
 
 #: plugins/Observability/src/ui_ObservabilityDialog.h:350
 msgid "Observing conditions"
-msgstr ""
+msgstr "ਨਿਰੀਖਣ ਦੇ ਹਾਲਤ"
 
 #: plugins/Observability/src/ui_ObservabilityDialog.h:351
 msgid "Showing options"
-msgstr ""
+msgstr "ਵੇਖਾਉਣ ਚੋਣਾਂ"
 
 #: plugins/Observability/src/ui_ObservabilityDialog.h:352
 msgid "Today's ephemeris (rise, set, and transit times)"
