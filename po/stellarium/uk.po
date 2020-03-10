@@ -10,16 +10,19 @@ msgstr ""
 "Project-Id-Version: stellarium-uk\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-19 16:37+0700\n"
-"PO-Revision-Date: 2016-11-19 18:27+0000\n"
-"Last-Translator: Yuri Chornoivan <yurchor@gmail.com>\n"
-"Language-Team: Ukrainian <translation@linux.org.ua>\n"
+"PO-Revision-Date: 2020-03-11 15:33+0000\n"
+"Last-Translator: Olexandr Nesterenko <olexn@ukr.net>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/"
+"stellarium-mobile/app/uk/>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.0-dev\n"
 "X-Launchpad-Export-Date: 2016-11-20 05:41+0000\n"
-"X-Generator: Launchpad (build 18269)\n"
 "X-Poedit-Country: UKRAINE\n"
-"Language: uk\n"
 "X-Poedit-Language: Ukrainian\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
@@ -1673,7 +1676,7 @@ msgstr "Використовується типово."
 
 #: src/core/StelCore.cpp:2030
 msgid "PATCHED VERSION WITHOUT ADDITIONAL LUNAR ACCELERATION."
-msgstr "ЛАТАНА ВЕРСІЯ БЕЗ ДОДАТКОВОГО ПРИСКОРЕННЯ МІСЯЦЯ"
+msgstr "ЛАТАНА ВЕРСІЯ БЕЗ ДОДАТКОВОГО ПРИСКОРЕННЯ МІСЯЦЯ."
 
 #: src/core/StelCore.cpp:2033
 #, qt-format
@@ -2534,7 +2537,7 @@ msgid ""
 "active. Their work has made a big difference to the project:"
 msgstr ""
 "Дехто зробив значний внесок, але тепер не бере участі у розробці програми. "
-"Внесок цих людей значно вплинув на поточний стан проекту."
+"Внесок цих людей значно вплинув на поточний стан проєкту:"
 
 #: src/gui/HelpDialog.cpp:325
 #, qt-format
@@ -3960,7 +3963,7 @@ msgid ""
 "(location=Rangpur, Bangladesh)."
 msgstr ""
 "Скрипт демонстрації повного сонячного затемнення, яке сталося у 2009 році "
-"(місце: Рангпур, Бангладеш)"
+"(місце: Рангпур, Бангладеш)."
 
 #: src/translations.h:328
 msgid "Script which runs automatically at startup"
@@ -4301,7 +4304,7 @@ msgstr "Виберіть колір"
 #: src/translations.h:390
 #, qt-format
 msgid "Cursor at %1, %2 Press ESC to cancel"
-msgstr "Вказівник у позиції %1, %2. Натисніть Esc, щоб скасувати."
+msgstr "Вказівник у позиції %1, %2. Натисніть Esc, щоб скасувати"
 
 #: src/translations_countries.h:31
 msgid "Andorra"
@@ -6050,7 +6053,7 @@ msgstr "Екліптичні полюси (на дату)"
 
 #: src/ui_viewDialog.h:2149
 msgid "Show Prime (East-West) Vertical."
-msgstr "Показуати головну вертикаль (Схід-Захід)"
+msgstr "Показувати головну вертикаль (Схід-Захід)"
 
 #: src/ui_viewDialog.h:2153
 msgid "Color of galactic poles"
@@ -6106,7 +6109,7 @@ msgstr "Колір кіл прецесії"
 
 #: src/ui_viewDialog.h:2179
 msgid "Altitudes and azimuth (counted from North towards East)."
-msgstr "Висоти і азимут (відлік від напрямку півночі на схід)"
+msgstr "Висоти та азимут (відлік від напрямку півночі на схід)"
 
 #: src/ui_viewDialog.h:2183
 msgid "Ecliptical coordinates for current date. Displayed on Earth only."
@@ -6296,7 +6299,7 @@ msgstr "Показувати мітки"
 
 #: src/ui_viewDialog.h:2279
 msgid "Select if you want names abbreviated, original or translated"
-msgstr "Виберіть спосіб показу назв: скорочені, рідною мовою чи перекладені."
+msgstr "Виберіть спосіб показу назв: скорочені, рідною мовою чи перекладені"
 
 #: src/ui_viewDialog.h:2283
 msgid "Color of names of constellations"
@@ -6856,7 +6859,7 @@ msgstr "Повторити"
 
 #: src/ui_configurationDialog.h:1410
 msgid "Stop the download. You can always restart it later"
-msgstr "Зупинити звантаження. Ви можете поновити його  пізніше."
+msgstr "Зупинити звантаження. Ви можете поновити його  пізніше"
 
 #: src/ui_configurationDialog.h:1415
 msgid "Close window when script runs"
@@ -6963,7 +6966,7 @@ msgstr "Тиск (у мбар):"
 
 #: src/ui_atmosphereDialog.h:179
 msgid "Temperature (C):"
-msgstr "Температура (у ℃)"
+msgstr "Температура (у ℃):"
 
 #: src/ui_atmosphereDialog.h:184 src/ui_greatRedSpotDialog.h:178
 msgid ""
@@ -9373,7 +9376,7 @@ msgstr ""
 "«<b>наведення</b>» («спрямовування») і отримувати дані щодо поточної "
 "позиції. Надсилання будь-яких інших команд неможливе, отже користувачі мають "
 "зважати на можливість конфліктів із лафетом та подібних ситуацій. Щоб "
-"перервати наведення, можна віддати команду на наведення на безпечу позицію."
+"перервати наведення, можна віддати команду на наведення на безпечну позицію."
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:298
 msgid ""
@@ -11225,7 +11228,7 @@ msgstr "Розташування рядка координат вказівни�
 
 #: plugins/NavStars/src/ui_navStarsWindow.h:208
 msgid "Current set:"
-msgstr "Поточний набір"
+msgstr "Поточний набір:"
 
 #: plugins/NavStars/src/ui_navStarsWindow.h:209
 msgid "Note:"
