@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: stellarium-uk\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-19 16:37+0700\n"
-"PO-Revision-Date: 2020-03-11 15:33+0000\n"
-"Last-Translator: Olexandr Nesterenko <olexn@ukr.net>\n"
+"PO-Revision-Date: 2020-03-19 14:36+0000\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/"
 "stellarium-mobile/app/uk/>\n"
 "Language: uk\n"
@@ -6053,7 +6053,7 @@ msgstr "Екліптичні полюси (на дату)"
 
 #: src/ui_viewDialog.h:2149
 msgid "Show Prime (East-West) Vertical."
-msgstr "Показувати головну вертикаль (Схід-Захід)"
+msgstr "Показувати головну вертикаль (Схід-Захід)."
 
 #: src/ui_viewDialog.h:2153
 msgid "Color of galactic poles"
@@ -6109,7 +6109,7 @@ msgstr "Колір кіл прецесії"
 
 #: src/ui_viewDialog.h:2179
 msgid "Altitudes and azimuth (counted from North towards East)."
-msgstr "Висоти та азимут (відлік від напрямку півночі на схід)"
+msgstr "Висоти та азимут (відлік від напрямку півночі на схід)."
 
 #: src/ui_viewDialog.h:2183
 msgid "Ecliptical coordinates for current date. Displayed on Earth only."
@@ -6859,7 +6859,7 @@ msgstr "Повторити"
 
 #: src/ui_configurationDialog.h:1410
 msgid "Stop the download. You can always restart it later"
-msgstr "Зупинити звантаження. Ви можете поновити його  пізніше"
+msgstr "Зупинити звантаження. Ви можете поновити його пізніше"
 
 #: src/ui_configurationDialog.h:1415
 msgid "Close window when script runs"
