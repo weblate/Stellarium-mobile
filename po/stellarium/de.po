@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: de\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-19 16:37+0700\n"
-"PO-Revision-Date: 2019-08-28 12:25+0000\n"
-"Last-Translator: Swann Martinet <swann.ranskassa@laposte.net>\n"
+"PO-Revision-Date: 2020-03-29 15:41+0000\n"
+"Last-Translator: Oliver <websites@posteo.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/stellarium-mobile/"
 "app/de/>\n"
 "Language: de\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9-dev\n"
+"X-Generator: Weblate 4.0-dev\n"
 "X-Launchpad-Export-Date: 2016-11-20 05:27+0000\n"
 
 #: src/core/modules/CustomObject.cpp:67 src/core/modules/CustomObject.cpp:69
@@ -1661,7 +1661,7 @@ msgstr "Als Vorgabe verwendet."
 
 #: src/core/StelCore.cpp:2030
 msgid "PATCHED VERSION WITHOUT ADDITIONAL LUNAR ACCELERATION."
-msgstr "(EXPERIMENTELL, OHNE LUNARE AKZELERATION)"
+msgstr "GEPATCHTE VERSION OHNE ZUSÄTZLICHE MONDBESCHLEUNIGUNG."
 
 #: src/core/StelCore.cpp:2033
 #, qt-format
@@ -3931,7 +3931,7 @@ msgstr "Ein Rundblick durch alle installierten Landschaften."
 #. TRANSLATORS: Description of the sky culture tour script.
 #: src/translations.h:323
 msgid "Look at each installed sky culture."
-msgstr "Zeige alle installierten Sternführungen"
+msgstr "Zeige alle installierten Sternführungen."
 
 #: src/translations.h:324
 msgid "Script to demonstrate a partial lunar eclipse."
@@ -3955,7 +3955,7 @@ msgstr ""
 
 #: src/translations.h:328
 msgid "Script which runs automatically at startup"
-msgstr "Skript, das zum Programmstart ausgeführt wird."
+msgstr "Skript, das zum Programmstart ausgeführt wird"
 
 #: src/translations.h:329
 msgid ""
@@ -4296,7 +4296,7 @@ msgstr "Farbe auswählen"
 #: src/translations.h:390
 #, qt-format
 msgid "Cursor at %1, %2 Press ESC to cancel"
-msgstr "Cursor bei %1, %2. Abbruch mit ESC."
+msgstr "Cursor bei %1, %2. Abbruch mit ESC"
 
 #: src/translations_countries.h:31
 msgid "Andorra"
@@ -5382,7 +5382,7 @@ msgid ""
 "+1d 12m 8s"
 msgstr ""
 "Sie können Gradangaben in dezimaler oder in Bogendarstellung (+1° 12' 8\") "
-"angeben."
+"angeben"
 
 #: src/ui_locationDialogGui.h:456
 msgid "Enter the altitude in meter"
@@ -5685,7 +5685,7 @@ msgstr "Druck, Temperatur, Extinktionskoeffizient"
 
 #: src/ui_viewDialog.h:1945
 msgid "Refraction/Extinction settings..."
-msgstr "Refraktions-/Extinktionseinstellungen"
+msgstr "Refraktions-/Extinktionseinstellungen..."
 
 #: src/ui_viewDialog.h:1946
 #: plugins/SolarSystemEditor/src/ui_solarSystemManagerWindow.h:293
@@ -6286,7 +6286,7 @@ msgstr "Beschriftungen anzeigen"
 msgid "Select if you want names abbreviated, original or translated"
 msgstr ""
 "Auswahl, ob abgekürzte Namen, Bezeichnungen in Originalsprache oder "
-"Übersetzungen angezeigt werden."
+"Übersetzungen angezeigt werden"
 
 #: src/ui_viewDialog.h:2283
 msgid "Color of names of constellations"
@@ -6403,8 +6403,8 @@ msgid ""
 "Save the settings you've changed this session to be the same the next time "
 "you start Stellarium"
 msgstr ""
-"Die Einstellungen, die während dieser Sitzung geändert wurden, speichern, um "
-"sie auch beim nächsten Programmstart zu verwenden."
+"Speichern Sie die Einstellungen, die Sie in dieser Sitzung geändert haben, "
+"damit sie beim nächsten Start von Stellarium gleich bleiben"
 
 #: src/ui_configurationDialog.h:1217
 #: plugins/NavStars/src/ui_navStarsWindow.h:211
@@ -6416,7 +6416,7 @@ msgstr "Einstellungen speichern"
 
 #: src/ui_configurationDialog.h:1219
 msgid "Restore the default settings that came with Stellarium"
-msgstr "Die Standardeinstellungen von Stellarium wieder herstellen."
+msgstr "Die Standardeinstellungen von Stellarium wieder herstellen"
 
 #: src/ui_configurationDialog.h:1221
 #: plugins/NavStars/src/ui_navStarsWindow.h:212
@@ -6688,7 +6688,7 @@ msgid ""
 "direction"
 msgstr ""
 "Mit dieser Option stellt die Taste \"automatisch herauszoomen\" auch die "
-"anfängliche Blickrichtung ein."
+"anfängliche Blickrichtung ein"
 
 #: src/ui_configurationDialog.h:1339
 #: plugins/TextUserInterface/src/TextUserInterface.cpp:457
@@ -6851,7 +6851,7 @@ msgstr "Wiederholen"
 
 #: src/ui_configurationDialog.h:1410
 msgid "Stop the download. You can always restart it later"
-msgstr "Den Download-Vorgang anhalten. Sie können diesen später wiederholen."
+msgstr "Den Download-Vorgang anhalten. Sie können diesen später wiederholen"
 
 #: src/ui_configurationDialog.h:1415
 msgid "Close window when script runs"
@@ -7670,7 +7670,7 @@ msgstr ""
 
 #: plugins/Oculars/src/Oculars.cpp:968
 msgid "Please select an object before switching to ocular view."
-msgstr "Bitte vor Umschalten zur Okularansicht Objekt wählen"
+msgstr "Bitte vor Umschalten zur Okularansicht Objekt wählen."
 
 #: plugins/Oculars/src/Oculars.cpp:1076
 msgid "&Previous ocular"
@@ -8146,7 +8146,7 @@ msgstr "Schaltet díe Okularansicht ein/aus."
 
 #: plugins/Oculars/src/gui/OcularDialog.cpp:564
 msgid "Opens the pop-up navigation menu."
-msgstr "Öffnet das Popup-Navigationsmenü"
+msgstr "Öffnet das Popup-Navigationsmenü."
 
 #: plugins/Oculars/src/ui_ocularDialog.h:1123
 msgid "Interface"
@@ -9636,7 +9636,7 @@ msgstr "Teleskop kontrolliert von:"
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:341
 msgid "<b>Stellarium, directly through a serial port</b> is the DIRECT case"
 msgstr ""
-"<p>Stellarium, direkt über einen seriellen Anschluß</b> ist der DIREKTE Fall"
+"<b>Stellarium, direkt über einen seriellen Anschluß</b> ist der DIREKTE Fall"
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:342
 msgid "<b>External software or a remote computer</b> is the INDIRECT case"
@@ -10159,7 +10159,7 @@ msgstr ""
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:477
 #, qt-format
 msgid "Press the \"%1\" button to set up a new telescope connection."
-msgstr "Drücke die Taste \"%1\" für eine neue Teleskopverbindung"
+msgstr "Drücke die Taste \"%1\" für eine neue Teleskopverbindung."
 
 #. TRANSLATORS: Telescope connection type
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:491
@@ -10376,7 +10376,7 @@ msgstr "Rechner:"
 #: plugins/TelescopeControl/src/ui_telescopeConfigurationDialog.h:493
 msgid ""
 "Host name or IPv4 address of the machine that hosts the telescope server"
-msgstr "Rechnername oder IPv4-Adresse des Teleskop-Servers."
+msgstr "Rechnername oder IPv4-Adresse des Teleskop-Servers"
 
 #: plugins/TelescopeControl/src/ui_telescopeConfigurationDialog.h:495
 msgid "TCP port:"
@@ -11056,7 +11056,7 @@ msgstr "in Russland"
 #: plugins/Pulsars/src/gui/PulsarsDialog.cpp:192
 #, qt-format
 msgid "Next update: %1 days"
-msgstr "Nächste Aktualisierung erfolgt in %1 Tagen."
+msgstr "Nächste Aktualisierung erfolgt in %1 Tagen"
 
 #: plugins/Supernovae/src/gui/SupernovaeDialog.cpp:215
 msgid "Historical supernovae is updated"
@@ -11112,7 +11112,7 @@ msgstr ""
 
 #: plugins/NavStars/src/NavStars.cpp:110
 msgid "Mark the navigational stars"
-msgstr "Zeige typische Sterne zur Astronavigation."
+msgstr "Zeige typische Sterne zur Astronavigation"
 
 #. TRANSLATORS: The emphasis tags mark a title.
 #: plugins/NavStars/src/NavStars.cpp:294
@@ -11208,7 +11208,7 @@ msgstr "Helle Novae"
 
 #: plugins/Novae/src/Novae.cpp:74 plugins/Novae/src/gui/NovaeDialog.cpp:123
 msgid "A plugin that shows some bright novae in the Milky Way galaxy."
-msgstr "Ein Plugin zur Darstellung einiger heller Novae in der Milchstraße"
+msgstr "Ein Plugin zur Darstellung einiger heller Novae in der Milchstraße."
 
 #: plugins/Novae/src/Novae.cpp:142
 msgid "Bright Novae configuration window"
@@ -11310,8 +11310,8 @@ msgid ""
 "and Active Galactic Nuclei\" (13th Ed.)"
 msgstr ""
 "Das Quasar-Plugin bietet eine Darstellung einiger Quasare heller als 16. "
-"Größe. Der Katalog der Quasare wurde \"Quasars and Active Galactic Nuclei\" "
-"(13th Ed.) entnommen."
+"Größe. Der Katalog der Quasare wurde \"Quasars and Active Galactic Nuclei\" ("
+"13th Ed.) entnommen"
 
 #: plugins/Quasars/src/gui/QuasarsDialog.cpp:126
 msgid "Veron+ 2010"
@@ -11728,11 +11728,11 @@ msgid ""
 msgstr ""
 "Diese Erweiterung zeichnet die Positionen einiger Sterne ein, die "
 "Exoplaneten haben. Die Daten der Exoplaneten wurden aus »Extrasolar Planets "
-"Encyclopaedia« (exoplanet.eu) entnommen."
+"Encyclopaedia« (exoplanet.eu) entnommen"
 
 #: plugins/Exoplanets/src/Exoplanets.cpp:169
 msgid "Show exoplanets"
-msgstr "Zeige Exoplaneten."
+msgstr "Zeige Exoplaneten"
 
 #: plugins/Exoplanets/src/Exoplanets.cpp:170
 msgid "Exoplanets configuration window"
@@ -11879,7 +11879,7 @@ msgid ""
 msgstr ""
 "Diese Erweiterung zeichnet die Positionen einiger Sterne ein, die "
 "Exoplaneten haben. Die Daten der Exoplaneten wurden aus »%1The Extrasolar "
-"Planets Encyclopaedia%2« entnommen."
+"Planets Encyclopaedia%2« entnommen"
 
 #: plugins/Exoplanets/src/gui/ExoplanetsDialog.cpp:150
 #, qt-format
@@ -11901,7 +11901,7 @@ msgid ""
 msgstr ""
 "Der aktuelle Katalog umfaßt Information zu %1 Planetensystemen, die "
 "insgesamt %2 Exoplaneten (darunter %3 potentiell bewohnbare Exoplaneten) "
-"aufweisen"
+"aufweisen."
 
 #. TRANSLATORS: The numbers contain the opening and closing tag of an HTML link
 #: plugins/Exoplanets/src/gui/ExoplanetsDialog.cpp:163
@@ -12791,7 +12791,7 @@ msgstr "Aufgang um %1 (in %2)"
 
 #: plugins/Observability/src/Observability.cpp:197
 msgid "Circumpolar."
-msgstr "Zirkumpolar"
+msgstr "Zirkumpolar."
 
 #: plugins/Observability/src/Observability.cpp:198
 msgid "No rise."
@@ -12852,7 +12852,7 @@ msgstr "Kosmischer Auf-/Untergang: %1/%2."
 
 #: plugins/Observability/src/Observability.cpp:213
 msgid "No Cosmical rise/set."
-msgstr "Kein kosmischer Auf-/Untergang"
+msgstr "Kein kosmischer Auf-/Untergang."
 
 #: plugins/Observability/src/Observability.cpp:214
 msgid "Observable during the whole year."
@@ -12952,7 +12952,7 @@ msgid ""
 "telescope mount)."
 msgstr ""
 "Minimale Beobachtungshöhe (Aufgrund von Bergen, Gebäuden oder "
-"eingeschränkter Positionierungsmöglichkeit)"
+"eingeschränkter Positionierungsmöglichkeit)."
 
 #: plugins/Observability/src/gui/ObservabilityDialog.cpp:145
 msgid "Today ephemeris:"
@@ -13193,7 +13193,7 @@ msgstr "Zeitgleichung"
 
 #: plugins/EquationOfTime/src/EquationOfTime.cpp:56
 msgid "This plugin shows the solution of the equation of time."
-msgstr "Dieses Plugin zeigt den Wert der Zeitgleichung"
+msgstr "Dieses Plugin zeigt den Wert der Zeitgleichung."
 
 #: plugins/EquationOfTime/src/EquationOfTime.cpp:94
 msgid "Show solution for Equation of Time"
@@ -14108,7 +14108,7 @@ msgstr "Suche"
 #: plugins/MeteorShowers/src/ui_MSSearchDialog.h:193
 #: plugins/MeteorShowers/src/ui_MSSearchDialog.h:195
 msgid "dd/MM/yyyy"
-msgstr "dd/MM/yyyy"
+msgstr "tt/MM/jjjj"
 
 #: plugins/MeteorShowers/src/ui_MSSearchDialog.h:197
 msgid "Results"
@@ -14124,7 +14124,7 @@ msgstr "Mauskoordinaten"
 
 #: plugins/PointerCoordinates/src/PointerCoordinates.cpp:59
 msgid "This plugin shows the coordinates of the mouse pointer."
-msgstr "Dieses Plugin zeigt die Koordinaten des Mauszeigers"
+msgstr "Dieses Plugin zeigt die Koordinaten des Mauszeigers."
 
 #: plugins/PointerCoordinates/src/PointerCoordinates.cpp:98
 msgid "Show coordinates of the mouse pointer"
@@ -14176,7 +14176,7 @@ msgstr "Mauszeigerkoordinaten-Plugin"
 
 #: plugins/PointerCoordinates/src/gui/PointerCoordinatesWindow.cpp:122
 msgid "Show coordinates of the mouse cursor on the screen."
-msgstr "Zeige Koordinaten des Mauszeigers"
+msgstr "Zeige Koordinaten des Mauszeigers."
 
 #: plugins/PointerCoordinates/src/gui/PointerCoordinatesWindow.cpp:172
 msgid "The top center of the screen"
@@ -14295,13 +14295,12 @@ msgstr ""
 
 #: plugins/Scenery3d/src/Scenery3d.cpp:2177
 msgid "Falling back to '6 Textures' because of ANGLE bug"
-msgstr "Vewende '6 Texturen'-Modus wegen Fehler in ANGLE."
+msgstr "Verwende '6 Texturen'-Modus wegen Fehler in ANGLE"
 
 #: plugins/Scenery3d/src/Scenery3d.cpp:2698
 msgid ""
 "Shadow mapping can not be used on your hardware, check logs for details"
-msgstr ""
-"Shadow mapping auf dieser Hardware nicht verfügbar. Details im Logfile."
+msgstr "Shadow mapping auf dieser Hardware nicht verfügbar, Details im Logfile"
 
 #: plugins/Scenery3d/src/Scenery3dMgr.cpp:173
 msgid "Scenery3d plugin loaded!"
@@ -14368,7 +14367,7 @@ msgstr ""
 #: plugins/Scenery3d/src/Scenery3dMgr.cpp:448
 #, qt-format
 msgid "Could not find scene ID for %1"
-msgstr "Konnte scene ID für %1 nicht finden."
+msgstr "Konnte scene ID für %1 nicht finden"
 
 #: plugins/Scenery3d/src/Scenery3dMgr.cpp:481
 msgid "Please load a scene first!"
@@ -14377,7 +14376,7 @@ msgstr "Bitte eine Szenerie laden!"
 #: plugins/Scenery3d/src/Scenery3dMgr.cpp:518
 #, qt-format
 msgid "Per-Pixel shading %1."
-msgstr "Per-Pixel shading %1."
+msgstr "Per-Pixel-Shading %1."
 
 #: plugins/Scenery3d/src/Scenery3dMgr.cpp:518
 #: plugins/Scenery3d/src/Scenery3dMgr.cpp:537
@@ -14409,7 +14408,7 @@ msgstr "Oberflächenbuckel %1."
 
 #: plugins/Scenery3d/src/Scenery3dMgr.cpp:621
 msgid "Selected cubemap mode not supported, falling back to '6 Textures'"
-msgstr "Angewählter Cubemap-Modus nicht verfügbar, verwende '6 Texturen'."
+msgstr "Angewählter Cubemap-Modus nicht verfügbar, verwende '6 Texturen'"
 
 #: plugins/Scenery3d/src/Scenery3dMgr.cpp:717
 #, qt-format
@@ -14625,7 +14624,7 @@ msgstr ""
 
 #: plugins/Scenery3d/src/gui/Scenery3dDialog.cpp:285
 msgid "The interval (in timeline seconds) in which no redraw is performed"
-msgstr "Intervall (in Simulationszeit) zwischen Neuberechnung der Cubemap."
+msgstr "Intervall (in Simulationszeit) zwischen Neuberechnung der Cubemap"
 
 #: plugins/Scenery3d/src/gui/Scenery3dDialog_p.hpp:68
 msgid "6 Textures"
