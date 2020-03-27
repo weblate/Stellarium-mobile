@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: nb\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-19 16:37+0700\n"
-"PO-Revision-Date: 2019-11-11 22:04+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"PO-Revision-Date: 2020-03-28 01:51+0000\n"
+"Last-Translator: Oliver <websites@posteo.de>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
 "stellarium-mobile/app/nb_NO/>\n"
 "Language: nb\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.10-dev\n"
+"X-Generator: Weblate 4.0-dev\n"
 "X-Launchpad-Export-Date: 2016-11-20 05:35+0000\n"
 
 #: src/core/modules/CustomObject.cpp:67 src/core/modules/CustomObject.cpp:69
@@ -6541,7 +6541,7 @@ msgid ""
 "direction"
 msgstr ""
 "Når aktivert, vil tasten \"automatisk utzooming\" også stille inn den "
-"opprinnelige visningsretningen."
+"opprinnelige visningsretningen"
 
 #: src/ui_configurationDialog.h:1339
 #: plugins/TextUserInterface/src/TextUserInterface.cpp:457
