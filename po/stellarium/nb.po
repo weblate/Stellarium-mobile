@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: nb\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-19 16:37+0700\n"
-"PO-Revision-Date: 2020-03-28 01:51+0000\n"
+"PO-Revision-Date: 2020-03-29 15:41+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
 "stellarium-mobile/app/nb_NO/>\n"
@@ -6540,13 +6540,13 @@ msgid ""
 "When enabled, the \"auto zoom out\" key will also set the initial viewing "
 "direction"
 msgstr ""
-"Når aktivert, vil tasten \"automatisk utzooming\" også stille inn den "
+"Når aktivert, vil tasten \"automatisk forminskning\" også stille inn den "
 "opprinnelige visningsretningen"
 
 #: src/ui_configurationDialog.h:1339
 #: plugins/TextUserInterface/src/TextUserInterface.cpp:457
 msgid "Auto zoom out returns to initial direction of view"
-msgstr "Automatisk utzooming returnerer til opprinnelig visningsretning"
+msgstr "Automatisk forminskning returnerer til opprinnelig visningsretning"
 
 #: src/ui_configurationDialog.h:1341
 msgid "Mask out everything outside a central circle in the main view"
@@ -10225,7 +10225,7 @@ msgstr "Still inn plassering for landskapssett"
 
 #: plugins/TextUserInterface/src/TextUserInterface.cpp:462
 msgid "Zoom duration:"
-msgstr "Zoom-varighet:"
+msgstr "Forstørrelsesvarighet:"
 
 #: plugins/TextUserInterface/src/TextUserInterface.cpp:469
 msgid "Milky Way intensity:"
