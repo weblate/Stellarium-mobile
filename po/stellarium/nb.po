@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-19 16:37+0700\n"
 "PO-Revision-Date: 2020-03-28 01:51+0000\n"
-"Last-Translator: Oliver <websites@posteo.de>\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
 "stellarium-mobile/app/nb_NO/>\n"
 "Language: nb\n"
@@ -1871,11 +1871,11 @@ msgstr "Sentrer på valgt objekt"
 
 #: src/core/StelMovementMgr.cpp:156
 msgid "Zoom in on selected object"
-msgstr "Zoom inn på valgte objekt"
+msgstr "Forstørr valgte objekt"
 
 #: src/core/StelMovementMgr.cpp:157
 msgid "Zoom out"
-msgstr "Zoom ut"
+msgstr "Forminsk"
 
 #: src/core/StelMovementMgr.cpp:158
 msgid "Track object"
@@ -2236,7 +2236,7 @@ msgstr "Piltaster & dra med venstre museknapp"
 
 #: src/gui/HelpDialog.cpp:150
 msgid "Zoom in/out"
-msgstr "Zoom inn/ut"
+msgstr "Forstørr/forminsk"
 
 #: src/gui/HelpDialog.cpp:152
 msgid "Page Up/Down"
@@ -6437,7 +6437,7 @@ msgstr "Styring"
 
 #: src/ui_configurationDialog.h:1292
 msgid "Allow mouse to pan (drag) and zoom (mousewheel)"
-msgstr "Tillat mus å panorere (dra) og zoome (musehjul)"
+msgstr "Tillat mus å panorere (dra) og forstørre (musehjul)"
 
 #: src/ui_configurationDialog.h:1294
 msgid "Enable mouse navigation"
@@ -6445,7 +6445,7 @@ msgstr "Aktiver musenavigering"
 
 #: src/ui_configurationDialog.h:1297
 msgid "Allow keyboard to pan and zoom"
-msgstr "Tillat tastatur å panorere og zoome"
+msgstr "Tillat tastatur å panorere og forstørre"
 
 #: src/ui_configurationDialog.h:1299
 msgid "Enable keyboard navigation"
