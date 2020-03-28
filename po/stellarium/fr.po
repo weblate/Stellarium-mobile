@@ -18,8 +18,8 @@ msgstr ""
 "Project-Id-Version: fr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-19 16:37+0700\n"
-"PO-Revision-Date: 2019-09-03 01:25+0000\n"
-"Last-Translator: Swann Martinet <swann.ranskassa@laposte.net>\n"
+"PO-Revision-Date: 2020-03-29 15:41+0000\n"
+"Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/stellarium-mobile/"
 "app/fr/>\n"
 "Language: fr\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.9-dev\n"
+"X-Generator: Weblate 4.0-dev\n"
 "X-Launchpad-Export-Date: 2016-11-20 05:26+0000\n"
 
 #: src/core/modules/CustomObject.cpp:67 src/core/modules/CustomObject.cpp:69
@@ -2240,7 +2240,7 @@ msgstr "Meeus (1998) (avec Chapront, Chapront-Touzé & Francou (1997))"
 
 #: src/gui/ConfigurationDialog.cpp:1409
 msgid "JPL Horizons"
-msgstr "JPL Horizons"
+msgstr "Horizons JPL"
 
 #: src/gui/ConfigurationDialog.cpp:1410
 msgid "Meeus & Simons (2000)"
@@ -3013,7 +3013,7 @@ msgstr "Équation personnalisée pour %1T"
 #: src/gui/CustomDeltaTEquationDialog.cpp:137
 #, qt-format
 msgid "A typical equation for calculation of %1T looks like:"
-msgstr "Une équation typique pour le calcul de %1T ressemble à"
+msgstr "Une équation typique pour le calcul de %1T ressemble à :"
 
 #: src/gui/CustomDeltaTEquationDialog.cpp:139
 msgid "where"
@@ -4129,9 +4129,9 @@ msgid ""
 "has been collected by Jerry Lodriguss and published in Sky & Telescope "
 "09/2014. Data taken from his website, http://www.astropix.com/doubles/"
 msgstr ""
-"Ce script vous promène parmi 20 étoiles doubles sympa. La liste a été "
+"Ce script vous promène parmi 20 étoiles doubles sympas. La liste a été "
 "compilée par Jerry Lodrigus et publiée dans Sky & Telescope 09/2014. Les "
-"données sont tirées de son site web http://www.astropix.com/doubles/."
+"données sont tirées de son site web http://www.astropix.com/doubles/"
 
 #: src/translations.h:349
 msgid "This script helps you make an excursion around largest known stars."
@@ -5343,8 +5343,8 @@ msgstr "Situation"
 msgid ""
 "Standard list of locations contains only English names (without diacritics!)"
 msgstr ""
-"La liste des lieux ne comprend que des noms anglais (sans marques "
-"diacritiques)."
+"La liste des lieux ne comprend que des noms anglais (sans symboles "
+"diacritiques)"
 
 #: src/ui_locationDialogGui.h:441
 msgid "Reset location list to show all known locations"
@@ -5548,7 +5548,7 @@ msgstr "Lettres grecques pour les désignations de Bayer"
 #: src/ui_searchDialogGui.h:704
 #: plugins/TelescopeControl/src/ui_telescopeConfigurationDialog.h:480
 msgid "Coordinate system:"
-msgstr "Système de coordonnées:"
+msgstr "Système de coordonnées :"
 
 #: src/ui_searchDialogGui.h:706
 msgid ""
@@ -5643,7 +5643,7 @@ msgstr "Fixer la magnitude maximale de visibilité des étoiles"
 
 #: src/ui_viewDialog.h:1918 src/ui_viewDialog.h:1966 src/ui_viewDialog.h:2041
 msgid "Limit magnitude:"
-msgstr "Limiter les magnitudes"
+msgstr "Magnitude limite :"
 
 #: src/ui_viewDialog.h:1920
 msgid "Dim faint stars when a very bright object is visible"
@@ -5674,7 +5674,7 @@ msgstr "Taux horaire zénithal"
 #: src/ui_viewDialog.h:1932
 msgctxt "Zenithal Hourly Rate"
 msgid "ZHR:"
-msgstr "ZHR"
+msgstr "ZHR :"
 
 #: src/ui_viewDialog.h:1934
 msgid "Show atmosphere"
@@ -5765,7 +5765,7 @@ msgstr ""
 
 #: src/ui_viewDialog.h:1967
 msgid "Scale Moon:"
-msgstr "Augmenter la taille de la lune"
+msgstr "Échelle de la lune :"
 
 #: src/ui_viewDialog.h:1969
 msgid "Scale factor"
@@ -5882,7 +5882,7 @@ msgid ""
 "Limit magnitude (for unaided/binocular observers) of deep-sky objects."
 msgstr ""
 "Fixer la magnitude maximale de visibilité des objets du ciel profond (pour "
-"les observateurs à l'œil nu ou au jumelles)"
+"les observateurs à l'œil nu ou au jumelles)."
 
 #: src/ui_viewDialog.h:2043
 msgid ""
@@ -5890,7 +5890,7 @@ msgid ""
 "screen labels"
 msgstr ""
 "Utiliser pour les étiquettes des objets du ciel profond les désignations des "
-"catalogues au lieu des noms usuels."
+"catalogues au lieu des noms usuels"
 
 #: src/ui_viewDialog.h:2045
 msgid "Use designations for screen labels"
@@ -5910,7 +5910,7 @@ msgstr "Sphère céleste"
 
 #: src/ui_viewDialog.h:2051
 msgid "Show ecliptic line of J2000.0 (VSOP87A fundamental plane)."
-msgstr "Afficher l'écliptique (J2000.0, plan fondamental VSOP87A)"
+msgstr "Afficher l'écliptique (J2000.0, plan fondamental VSOP87A)."
 
 #: src/ui_viewDialog.h:2053
 msgid "Ecliptic (J2000)"
@@ -5918,7 +5918,7 @@ msgstr "Écliptique (J2000.0)"
 
 #: src/ui_viewDialog.h:2055
 msgid "Show celestial equator of current planet and date."
-msgstr "Afficher l'équateur céleste de la date et de la planète actuelles"
+msgstr "Afficher l'équateur céleste de la date et de la planète actuelles."
 
 #: src/ui_viewDialog.h:2057
 msgid "Equator (of date)"
@@ -5926,7 +5926,7 @@ msgstr "Équateur (de la date)"
 
 #: src/ui_viewDialog.h:2059
 msgid "Show celestial equator of J2000.0."
-msgstr "Afficher l'équateur céleste (J2000.0)"
+msgstr "Afficher l'équateur céleste (J2000.0)."
 
 #: src/ui_viewDialog.h:2061
 msgid "Equator (J2000)"
@@ -5938,7 +5938,7 @@ msgstr "Couleur de l'équateur (J2000.0)"
 
 #: src/ui_viewDialog.h:2066
 msgid "Show ecliptic line of current date."
-msgstr "Afficher l'écliptique (de la date)"
+msgstr "Afficher l'écliptique (de la date actuelle)."
 
 #: src/ui_viewDialog.h:2068
 msgid "Ecliptic (of date)"
@@ -5950,7 +5950,7 @@ msgstr "Couleur de l'équateur (de la date)"
 
 #: src/ui_viewDialog.h:2073
 msgid "Show Galactic equator line."
-msgstr "Afficher l'équateur galactique"
+msgstr "Afficher la ligne de l'équateur galactique."
 
 #: src/ui_viewDialog.h:2077
 msgid "Color of supergalactic equator"
@@ -5970,7 +5970,7 @@ msgstr "Couleur de l'équateur galactique"
 
 #: src/ui_viewDialog.h:2089
 msgid "Show horizon line."
-msgstr "Afficher la ligne d'horizon"
+msgstr "Afficher la ligne d'horizon."
 
 #: src/ui_viewDialog.h:2093
 msgid "Color of horizon"
@@ -5978,7 +5978,7 @@ msgstr "Couleur de l'horizon"
 
 #: src/ui_viewDialog.h:2097
 msgid "Show meridian line."
-msgstr "Afficher le méridien"
+msgstr "Afficher le méridien."
 
 #: src/ui_viewDialog.h:2101
 msgid "Color of meridian"
@@ -6077,7 +6077,7 @@ msgstr "Couleur du zénith et du nadir"
 
 #: src/ui_viewDialog.h:2161
 msgid "Show celestial poles of J2000.0."
-msgstr "Afficher les pôles célestes J2000.0"
+msgstr "Afficher les pôles célestes (J2000.0)."
 
 #: src/ui_viewDialog.h:2163
 msgid "Celestial poles (J2000)"
@@ -6117,7 +6117,7 @@ msgstr "Couleur des cercles de précession"
 
 #: src/ui_viewDialog.h:2179
 msgid "Altitudes and azimuth (counted from North towards East)."
-msgstr "Altitude et azimut (depuis le Nord vers l'Est)"
+msgstr "Altitude et azimut (depuis le Nord vers l'Est)."
 
 #: src/ui_viewDialog.h:2183
 msgid "Ecliptical coordinates for current date. Displayed on Earth only."
@@ -6137,7 +6137,7 @@ msgstr "Couleur des points équinoxiaux (J2000.0)"
 
 #: src/ui_viewDialog.h:2193
 msgid "Ecliptical coordinates for J2000.0."
-msgstr "Coordonnées écliptiques (J2000.0)"
+msgstr "Coordonnées écliptiques (J2000.0)."
 
 #: src/ui_viewDialog.h:2195
 msgid "Ecliptic grid (J2000)"
@@ -6153,7 +6153,7 @@ msgstr "Couleur de la grille galactique"
 
 #: src/ui_viewDialog.h:2204
 msgid "Equatorial coordinates of J2000.0."
-msgstr "Coordonnées équatoriales (J2000.0)"
+msgstr "Coordonnées équatoriales (J2000.0)."
 
 #: src/ui_viewDialog.h:2206
 msgid "Equatorial grid (J2000)"
@@ -6165,7 +6165,7 @@ msgstr "Couleur de la grille écliptique (J2000.0)"
 
 #: src/ui_viewDialog.h:2211
 msgid "Galactic Coordinates, System II (IAU 1958)."
-msgstr "Coordonnées galactiques, système II ((IAU 1958)"
+msgstr "Coordonnées galactiques, système II ((IAU 1958)."
 
 #: src/ui_viewDialog.h:2214
 msgid "Equinoxes (J2000)"
@@ -6185,7 +6185,7 @@ msgstr "Couleur de la grille azimutale"
 
 #: src/ui_viewDialog.h:2225
 msgid "Equatorial coordinates of current date and planet."
-msgstr "Coordonnées équatoriales de la date et de la planète actuelles"
+msgstr "Coordonnées équatoriales de la date et de la planète actuelles."
 
 #: src/ui_viewDialog.h:2227
 msgid "Equatorial grid (of date)"
@@ -6201,7 +6201,7 @@ msgstr "Couleur des points équinoxiaux (de la date)"
 
 #: src/ui_viewDialog.h:2233
 msgid "Labels for the Cardinal directions."
-msgstr "Étiquettes des points cardinaux"
+msgstr "Étiquettes des points cardinaux."
 
 #: src/ui_viewDialog.h:2237
 msgid "Color of cardinal points"
@@ -6239,7 +6239,7 @@ msgstr ""
 
 #: src/ui_viewDialog.h:2249
 msgid "Minimal brightness:"
-msgstr "Luminosité minimale"
+msgstr "Luminosité minimale :"
 
 #: src/ui_viewDialog.h:2251
 msgid ""
@@ -6688,7 +6688,7 @@ msgstr "Afficher les formats de la date et de l'heure"
 #: src/ui_configurationDialog.h:1328
 #: plugins/MeteorShowers/src/ui_MSConfigDialog.h:457
 msgid "Date:"
-msgstr "Date:"
+msgstr "Date :"
 
 #: src/ui_configurationDialog.h:1329
 msgid "and time:"
@@ -6992,11 +6992,11 @@ msgstr ""
 "L'extinction est la perte de luminosité de l'étoile causée par l'atmosphère "
 "de la Terre. Elle est donnée en mag/masse d'air, où la masse d'air est le "
 "nombre d'atmosphères que la lumière doit traverser (zénith : 1 ; horizon : "
-"environ 40)."
+"environ 40)"
 
 #: src/ui_atmosphereDialog.h:186
 msgid "Extinction Coefficient:"
-msgstr "Coefficient d'extinction"
+msgstr "Coefficient d'extinction :"
 
 #: src/ui_atmosphereDialog.h:188
 msgid ""
@@ -7028,7 +7028,7 @@ msgstr "Longitude de la GTR (degrés) :"
 
 #: src/ui_greatRedSpotDialog.h:180
 msgid "Date and Time (UTC):"
-msgstr "Date et heure (UTC)"
+msgstr "Date et heure (UTC) :"
 
 #: src/ui_greatRedSpotDialog.h:184
 msgid "Get the recent GRS measurement"
@@ -7403,12 +7403,12 @@ msgstr "Mesure d'angle"
 #. TRANSLATORS: instructions for using the AngleMeasure plugin.
 #: plugins/AngleMeasure/src/AngleMeasure.cpp:532
 msgid "The Angle Measure is enabled:"
-msgstr "La mesure d'angle est activée"
+msgstr "La mesure d'angle est activée :"
 
 #. TRANSLATORS: instructions for using the AngleMeasure plugin.
 #: plugins/AngleMeasure/src/AngleMeasure.cpp:534
 msgid "Drag with the left button to measure, left-click to clear."
-msgstr "Glissez avec le bouton gauche pour mesurer, clic gauche pour effacer"
+msgstr "Glissez avec le bouton gauche pour mesurer, clic gauche pour effacer."
 
 #. TRANSLATORS: instructions for using the AngleMeasure plugin.
 #: plugins/AngleMeasure/src/AngleMeasure.cpp:536
@@ -7857,7 +7857,7 @@ msgstr "Champ visuel : %1"
 #: plugins/Oculars/src/gui/OcularsGuiPanel.cpp:797
 #, qt-format
 msgid "Dimensions: %1"
-msgstr "Dimensions: %1"
+msgstr "Dimensions : %1"
 
 #: plugins/Oculars/src/Oculars.cpp:2001
 #: plugins/Oculars/src/gui/OcularsGuiPanel.cpp:661
@@ -8004,7 +8004,7 @@ msgstr "Distance focale de l'oculaire"
 #: plugins/Oculars/src/gui/OcularsGuiPanel.cpp:708
 #, qt-format
 msgid "Rotation: %1"
-msgstr "Rotation: %1"
+msgstr "Rotation : %1"
 
 #: plugins/Oculars/src/gui/OcularsGuiPanel.cpp:820
 msgid "Magnification provided by these binoculars"
@@ -8046,7 +8046,7 @@ msgstr "Grossissement :"
 #: plugins/Oculars/src/gui/OcularDialog.cpp:501
 #: plugins/Oculars/src/ui_ocularDialog.h:1187
 msgid "Diameter:"
-msgstr "Diamètre:"
+msgstr "Diamètre :"
 
 #: plugins/Oculars/src/gui/OcularDialog.cpp:505
 #: plugins/Oculars/src/ui_ocularDialog.h:1152
@@ -8151,7 +8151,7 @@ msgstr ""
 #: plugins/Oculars/src/gui/OcularDialog.cpp:533
 msgid "If you find any issues, please let me know.  Enjoy!"
 msgstr ""
-"Veuillez m'informer si vous rencontrez des problèmes. Amusez-vous bien!"
+"Veuillez m'informer si vous rencontrez des problèmes. Amusez-vous bien !"
 
 #: plugins/Oculars/src/gui/OcularDialog.cpp:536
 msgid "Hot Keys"
@@ -8173,7 +8173,7 @@ msgstr "Affiche ou masque le cache de l'oculaire."
 
 #: plugins/Oculars/src/gui/OcularDialog.cpp:564
 msgid "Opens the pop-up navigation menu."
-msgstr "Ouvrir le menu de navigation"
+msgstr "Ouvre le menu de navigation flottant."
 
 #: plugins/Oculars/src/ui_ocularDialog.h:1123
 msgid "Interface"
@@ -8187,8 +8187,8 @@ msgstr "Tableau de bord sur l'écran"
 msgid ""
 "Mark it if you want the FOV value the same like at the startup of Stellarium."
 msgstr ""
-"Cocher pour que le champ de vision revienne à la valeur du démarrage de "
-"Stellarium"
+"Cocher pour que le champ de vision revienne à la valeur par défaut de "
+"Stellarium."
 
 #: plugins/Oculars/src/ui_ocularDialog.h:1128
 msgid "Restore FOV to initial values"
@@ -8267,7 +8267,7 @@ msgstr "Ajouter"
 #: plugins/TelescopeControl/src/ui_telescopeConfigurationDialog.h:474
 #: plugins/TelescopeControl/src/ui_storedPointsDialog.h:246
 msgid "Name:"
-msgstr "Nom:"
+msgstr "Nom :"
 
 #: plugins/Oculars/src/ui_ocularDialog.h:1155
 msgid "Binoculars"
@@ -8284,7 +8284,7 @@ msgstr "Lentilles"
 
 #: plugins/Oculars/src/ui_ocularDialog.h:1162
 msgid "Multiplier:"
-msgstr "Grossissement"
+msgstr "Coeff. multiplicateur :"
 
 #: plugins/Oculars/src/ui_ocularDialog.h:1163
 msgid ""
@@ -8398,7 +8398,7 @@ msgid ""
 "The old satellites.json file is no longer compatible - using default file"
 msgstr ""
 "L'ancien fichier satellites.json n'est plus compatible ; le fichier par "
-"défaut sera utilisé."
+"défaut sera utilisé"
 
 #. TRANSLATORS: Satellite group: Bright/naked-eye-visible satellites
 #: plugins/Satellites/src/Satellites.cpp:1731
@@ -8641,7 +8641,7 @@ msgid ""
 "Satellites and their orbits are only shown when the observer is on Earth."
 msgstr ""
 "Les satellites et leurs orbites sont seulement visibles lorsque "
-"l'observateur est sur Terre"
+"l'observateur est sur Terre."
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:418
 msgid ""
@@ -8956,7 +8956,7 @@ msgstr "Mettre à jour les données des satellites à partir d'Internet"
 #: plugins/Pulsars/src/ui_pulsarsDialog.h:268
 #: plugins/Exoplanets/src/ui_exoplanetsDialog.h:467
 msgid "Last update:"
-msgstr "Dernière mise à jour:"
+msgstr "Dernière mise à jour :"
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:716
 msgid "On update, add all new satellites from the selected source(s)"
@@ -9087,11 +9087,11 @@ msgstr "Ne pas mettre à jour"
 #: plugins/Satellites/src/ui_satellitesDialog.h:776
 #: plugins/Scenery3d/src/ui_storedViewDialog.h:219
 msgid "Description:"
-msgstr "Description:"
+msgstr "Description :"
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:777
 msgid "Groups:"
-msgstr "Groupes:"
+msgstr "Groupes :"
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:778
 msgid "TLE set:"
@@ -9388,7 +9388,7 @@ msgstr ""
 "visée. Il ne permet pas d'envoyer d'autres commandes. Les utilisateurs "
 "doivent donc anticiper les éventuelles collision de monture et autres "
 "situations similaires (pour stopper un déplacement, on peut en commencer un "
-"autre vers une position sûre)."
+"autre vers une position sûre.)"
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:298
 msgid ""
@@ -9497,8 +9497,9 @@ msgid ""
 "application."
 msgstr ""
 "Un appareil est connecté à un ordinateur distant, et le logiciel qui le "
-"pilote peut « parler » à Stellarium sur le réseau ; ce logiciel peut soit "
-"être un des serveurs de télescope de Stellarium, soit une application tierce."
+"pilote peut « parler » à Stellarium <i>à travers le réseau</i> ; ce logiciel "
+"peut soit être un des serveurs de télescope de Stellarium, soit une "
+"application tierce."
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:314
 #, qt-format
@@ -9557,8 +9558,9 @@ msgid ""
 "Stellarium's Configuration window (opened by pressing <b>F2</b> or the "
 "respective button in the left toolbar)."
 msgstr ""
-"en pressant le bouton « Configurer » du plugin, dans l'onglet « Plugin » de "
-"la fenêtre de configuration générale de Stellarium."
+"En pressant le bouton « Configurer » du plugin, dans l'onglet « Plugin » de "
+"la fenêtre de configuration générale de Stellarium (ouvert en appuyant sur "
+"<b>F2</b> ou le bouton respectif dans la barre d'outils de gauche)."
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:324
 #, qt-format
@@ -9567,8 +9569,9 @@ msgid ""
 "(opened by pressing <b>Ctrl+0</b> or the respective button on the bottom "
 "toolbar)."
 msgstr ""
-"en pressant le bouton « Configurer les télescopes... » dans la %1fenêtre "
-"« Pointer vers »%2."
+"En pressant le bouton « Configurer les télescopes... » dans la %1fenêtre « "
+"Pointer vers »%2 (ouverte en appuyant sur <b>Ctrl + 0</b> ou le bouton "
+"respectif dans la barre d'outils du bas)."
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:325
 msgid ""
@@ -9712,8 +9715,9 @@ msgid ""
 "Otherwise, to start the telescope, you need to open the main window, select "
 "that telescope and press the 'Start/Connect' button."
 msgstr ""
-"Dans le cas contraire, il sera nécessaire de lancer la connexion "
-"manuellement-"
+"Dans le cas contraire, pour lancer le télescope, vous devez ouvrir la "
+"fenêtre principale, sélectionner celui-ci et appuyer sur le bouton « Lancer/"
+"Connecter »."
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:355
 #, qt-format
@@ -9974,7 +9978,7 @@ msgid ""
 "<b>To point a device to an object:</b> Select an object (e.g. a star) and "
 "press the number of the device while holding down the <b>Ctrl</b> key."
 msgstr ""
-"<bPour pointer un appareil en direction d'un objet </b>: sélectionnez un "
+"<b>Pour pointer un appareil en direction d'un objet</b> : sélectionnez un "
 "objet (par exemple une étoile) et cliquez sur le numéro de l'appareil en "
 "maintenant la touche <b>Ctrl</b> enfoncée."
 
@@ -10038,7 +10042,7 @@ msgstr "La liste des appareils contient :"
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:413
 msgid "Any device using the NexStar interface."
-msgstr "Tout appareil utilisant l'interface NexStar"
+msgstr "Tout appareil utilisant l'interface NexStar."
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:414
 msgid ""
@@ -10334,7 +10338,7 @@ msgid ""
 "directly by Stellarium."
 msgstr ""
 "Un télescope connecté à cet ordinateur par un port série et contrôlé "
-"directement par Stellarium"
+"directement par Stellarium."
 
 #: plugins/TelescopeControl/src/ui_telescopeConfigurationDialog.h:467
 msgid "Stellarium, directly through a serial port"
@@ -10358,7 +10362,7 @@ msgstr "Aucun, une simple simulation (un réticule mouvant)"
 
 #: plugins/TelescopeControl/src/ui_telescopeConfigurationDialog.h:475
 msgid "Connection delay:"
-msgstr "Délai de connexion:"
+msgstr "Délai de connexion :"
 
 #: plugins/TelescopeControl/src/ui_telescopeConfigurationDialog.h:477
 msgid ""
@@ -10392,7 +10396,7 @@ msgstr "Démarrer/se connecter au démarrage"
 
 #: plugins/TelescopeControl/src/ui_telescopeConfigurationDialog.h:488
 msgid "Serial port:"
-msgstr "Port série:"
+msgstr "Port série :"
 
 #: plugins/TelescopeControl/src/ui_telescopeConfigurationDialog.h:489
 msgid "Device model:"
@@ -10410,7 +10414,7 @@ msgstr ""
 
 #: plugins/TelescopeControl/src/ui_telescopeConfigurationDialog.h:495
 msgid "TCP port:"
-msgstr "Port TCP:"
+msgstr "Port TCP :"
 
 #: plugins/TelescopeControl/src/ui_telescopeConfigurationDialog.h:496
 msgid "User interface settings"
@@ -10520,7 +10524,7 @@ msgid ""
 "planetarium systems"
 msgstr ""
 "Implémentation du plugin de l'environnement en mode texte (TUI) des versions "
-"0.9.x, utilisé dans les systèmes de planétariums."
+"0.9.x, utilisé dans les systèmes de planétariums"
 
 #: plugins/TextUserInterface/src/TextUserInterface.cpp:161
 msgid "Solar System body"
@@ -10820,11 +10824,11 @@ msgstr "Télécharger une liste d'objets"
 
 #: plugins/SolarSystemEditor/src/ui_mpcImportWindow.h:518
 msgid "Select a source from the list:"
-msgstr "Sélectionnez une source depuis la liste:"
+msgstr "Sélectionnez une source depuis la liste :"
 
 #: plugins/SolarSystemEditor/src/ui_mpcImportWindow.h:519
 msgid "Or enter a URL:"
-msgstr "Ou saisissez une URL:"
+msgstr "Ou saisissez une URL :"
 
 #: plugins/SolarSystemEditor/src/ui_mpcImportWindow.h:520
 msgid "Add this URL to the bookmarks list"
@@ -10901,7 +10905,7 @@ msgid ""
 "You can also reset all changes and return to the default configuration:"
 msgstr ""
 "Vous pouvez également supprimer toutes les modifications et revenir à la "
-"configuration par défaut:"
+"configuration par défaut :"
 
 #: plugins/SolarSystemEditor/src/ui_solarSystemManagerWindow.h:298
 msgid "Reset to defaults"
@@ -10947,7 +10951,7 @@ msgstr "Supernovæ historiques"
 
 #: plugins/Supernovae/src/Supernovae.cpp:74
 msgid "This plugin allows you to see some bright historical supernovae."
-msgstr "Ce plugin permet de voir certaines supernovæ historiques"
+msgstr "Ce plugin permet de voir certaines supernovæ historiques."
 
 #: plugins/Supernovae/src/Supernovae.cpp:148
 msgid "Historical Supernovae configuration window"
@@ -11348,7 +11352,7 @@ msgid ""
 msgstr ""
 "Le plugin Quasars permet d'afficher quelques quasars plus brillants que la "
 "magnitude 16. Le catalogue de quasars a été compilé à partir de « Quasar and "
-"Active Galactic Nuclei » (13<sup>e</sup> éd.)."
+"Active Galactic Nuclei » (13<sup>e</sup> éd.)"
 
 #: plugins/Quasars/src/gui/QuasarsDialog.cpp:126
 msgid "Veron+ 2010"
@@ -11678,7 +11682,7 @@ msgstr ""
 msgid "It is also possible to send commands via command line, e.g.."
 msgstr ""
 "Il est aussi possible d'envoyer des commandes en ligne de commande, par "
-"exemple"
+"exemple."
 
 #: plugins/RemoteControl/src/gui/RemoteControlDialog.cpp:121
 msgid "This allows triggering automatic show setups for museums etc."
@@ -11708,7 +11712,7 @@ msgstr "Écoute sur %1, IP : "
 
 #: plugins/RemoteControl/src/gui/RemoteControlDialog.cpp:180
 msgid "Not active."
-msgstr "Inactif"
+msgstr "Inactif."
 
 #: plugins/RemoteControl/src/ui_remoteControlDialog.h:246
 msgid "Remote Control Configuration"
@@ -11773,7 +11777,7 @@ msgid ""
 msgstr ""
 "Ce plugin affiche la position des étoiles ayant des exoplanètes. Les données "
 "des exoplanètes proviennent de « Extrasolar Planets Encyclopaedia » sur "
-"exoplanet.eu."
+"exoplanet.eu"
 
 #: plugins/Exoplanets/src/Exoplanets.cpp:169
 msgid "Show exoplanets"
@@ -11924,7 +11928,7 @@ msgid ""
 msgstr ""
 "Ce plugin affiche la position des étoiles qui ont des exoplanètes. Les "
 "données des exoplanètes proviennent de « %1The Extrasolar Planets "
-"Encyclopaedia%2 »."
+"Encyclopaedia%2 »"
 
 #: plugins/Exoplanets/src/gui/ExoplanetsDialog.cpp:150
 #, qt-format
@@ -12065,7 +12069,7 @@ msgstr ""
 msgid "Fafnir was a Norse mythological dwarf who turned into a dragon."
 msgstr ""
 "Fafnir était un nain de la mythologie scandinave qui s'est transformé en "
-"dragon"
+"dragon."
 
 #: plugins/Exoplanets/src/gui/ExoplanetsDialog.cpp:192
 msgid ""
@@ -12213,7 +12217,8 @@ msgid ""
 "Universe; together they had nine daughters."
 msgstr ""
 "Ægir est la personnification de l'océan dans la mythologie scandinave. Il "
-"est l'époux de Rán. Ægir et Rán ont neuf filles qui personnifient les vagues."
+"est l'époux de Rán. <em>Ægir</em> et <em>Rán</em> ont neuf filles qui "
+"personnifient les vagues."
 
 #: plugins/Exoplanets/src/gui/ExoplanetsDialog.cpp:208
 msgid ""
@@ -12243,7 +12248,8 @@ msgid ""
 "Roman deity <em>Ogmios</em>."
 msgstr ""
 "Ogma est un dieu de l'éloquence de la mythologie celtique. C'est un champion "
-"à la grande force physique. En Gaule, il était connu sous le nom de Ogmios."
+"à la grande force physique. En Gaule, il était connu sous le nom de "
+"<em>Ogmios</em>."
 
 #: plugins/Exoplanets/src/gui/ExoplanetsDialog.cpp:213
 msgid "Smertrios was a Gallic deity of war."
@@ -12496,7 +12502,7 @@ msgstr "Indice de similarité avec la Terre"
 
 #: plugins/Exoplanets/src/gui/ExoplanetsDialog.cpp:245
 msgid "Final Results of NameExoWorlds Public Vote Released"
-msgstr "Résultats définitifs de la votation publique de NameExoWorlds."
+msgstr "Résultats définitifs de la votation publique de NameExoWorlds"
 
 #: plugins/Exoplanets/src/gui/ExoplanetsDialog.cpp:246
 msgid "NameExoWorlds website"
@@ -12734,9 +12740,9 @@ msgstr ""
 "l'année pour lesquels l'observation de l'objet est optimale. Un objet est "
 "dit observable s'il se trouve au-dessus de l'horizon durant une partie de la "
 "nuit. Le plugin donne également le jour de la plus grande séparation avec le "
-"Soleil et les jours du lever/coucher achronique et cosmique. Des "
-"explications plus détaillées sont fournies dans l'onglet « À propos » de la "
-"fenêtre de configuration de ce plugin."
+"Soleil et les jours du lever/coucher achronique et cosmique (Explications "
+"plus détaillées sont fournies dans l'onglet « À propos » de la fenêtre de "
+"configuration de ce plugin.)"
 
 #: plugins/Observability/src/Observability.cpp:174
 msgctxt "short month name"
@@ -12835,7 +12841,7 @@ msgstr "Se lève à %1 (dans %2)"
 
 #: plugins/Observability/src/Observability.cpp:197
 msgid "Circumpolar."
-msgstr "Circumpolaire"
+msgstr "Circumpolaire."
 
 #: plugins/Observability/src/Observability.cpp:198
 msgid "No rise."
@@ -13249,7 +13255,7 @@ msgstr "Équation du temps"
 
 #: plugins/EquationOfTime/src/EquationOfTime.cpp:56
 msgid "This plugin shows the solution of the equation of time."
-msgstr "Ce plugin affiche l'équation du temps"
+msgstr "Ce plugin affiche l'équation du temps."
 
 #: plugins/EquationOfTime/src/EquationOfTime.cpp:94
 msgid "Show solution for Equation of Time"
@@ -13892,8 +13898,8 @@ msgid ""
 msgstr ""
 "Des informations sur la position et l'activité d'un radiant sont indiquées "
 "lorsque l'on clique sur son marqueur. La plupart des données fournies par ce "
-"plugin sont tirées du catalogue officiel de l'<a href=\\\"http://imo.net\\"
-"\">International Meteor Organization</a>."
+"plugin sont tirées du catalogue officiel de l'<a href=\"http://imo.net\">"
+"International Meteor Organization</a>."
 
 #: plugins/MeteorShowers/src/gui/MSConfigDialog.cpp:230
 msgid ""
@@ -14190,7 +14196,7 @@ msgstr "Coordonnées du pointeur"
 
 #: plugins/PointerCoordinates/src/PointerCoordinates.cpp:59
 msgid "This plugin shows the coordinates of the mouse pointer."
-msgstr "Ce plugin permet d'afficher les coordonnées du pointeur"
+msgstr "Ce plugin permet d'afficher les coordonnées du pointeur."
 
 #: plugins/PointerCoordinates/src/PointerCoordinates.cpp:98
 msgid "Show coordinates of the mouse pointer"
@@ -14242,7 +14248,7 @@ msgstr "Plugin Coordonnées du pointeur"
 
 #: plugins/PointerCoordinates/src/gui/PointerCoordinatesWindow.cpp:122
 msgid "Show coordinates of the mouse cursor on the screen."
-msgstr "Afficher les coordonnées du pointeur"
+msgstr "Afficher les coordonnées du pointeur sur l'écran."
 
 #: plugins/PointerCoordinates/src/gui/PointerCoordinatesWindow.cpp:172
 msgid "The top center of the screen"
@@ -14306,7 +14312,7 @@ msgstr "Coordonnées :"
 
 #: plugins/PointerCoordinates/src/ui_pointerCoordinatesWindow.h:290
 msgid "Place of the string:"
-msgstr "Position de l'affichage"
+msgstr "Position de l'affichage :"
 
 #: plugins/PointerCoordinates/src/ui_pointerCoordinatesWindow.h:292
 msgid "Coordinate X"
@@ -14352,12 +14358,12 @@ msgid ""
 "projection!"
 msgstr ""
 "Votre matériel ne permet pas le <i>cubemapping</i>. Veuillez utiliser la "
-"projection « Perspective »."
+"projection « Perspective » !"
 
 #: plugins/Scenery3d/src/Scenery3d.cpp:2167
 msgid "Geometry shader is not supported. Falling back to '6 Textures' mode."
 msgstr ""
-"Le nuanceur géométrique n'est pas supporté. Retour au mode « 6 Textures »"
+"Le nuanceur géométrique n'est pas supporté. Retour au mode « 6 Textures »."
 
 #: plugins/Scenery3d/src/Scenery3d.cpp:2177
 msgid "Falling back to '6 Textures' because of ANGLE bug"
@@ -14368,11 +14374,11 @@ msgid ""
 "Shadow mapping can not be used on your hardware, check logs for details"
 msgstr ""
 "Le placage d'ombre ne peut pas être utilisé sur votre matériel. Veuillez "
-"consulter les journaux d'événements pour plus de détails."
+"consulter les journaux d'événements pour plus de détails"
 
 #: plugins/Scenery3d/src/Scenery3dMgr.cpp:173
 msgid "Scenery3d plugin loaded!"
-msgstr "Plugin Scenery3d chargé"
+msgstr "Plugin Scenery3d chargé !"
 
 #: plugins/Scenery3d/src/Scenery3dMgr.cpp:230
 msgid "Scenery3d: 3D landscapes"
@@ -14422,7 +14428,7 @@ msgstr "Chargement de la scène \"%1\""
 #: plugins/Scenery3d/src/Scenery3dMgr.cpp:361
 msgid "Could not load scene, please check log for error messages!"
 msgstr ""
-"Impossible de charger la scène. Consultez les messages d'erreur dans le log."
+"Impossible de charger la scène. Consultez les messages d'erreur dans le log !"
 
 #: plugins/Scenery3d/src/Scenery3dMgr.cpp:365
 msgid "Scene successfully loaded."
@@ -14432,7 +14438,7 @@ msgstr "Scène chargée correctement."
 msgid "Could not load scene info, please check log for error messages!"
 msgstr ""
 "Impossible de charger les infos de la scène. Consultez les messages d'erreur "
-"dans le log."
+"dans le log !"
 
 #: plugins/Scenery3d/src/Scenery3dMgr.cpp:448
 #, qt-format
@@ -14441,12 +14447,12 @@ msgstr "Impossible de trouver l'ID de scène pour %1"
 
 #: plugins/Scenery3d/src/Scenery3dMgr.cpp:481
 msgid "Please load a scene first!"
-msgstr "Veuillez d'abord charger une scène."
+msgstr "Veuillez d'abord charger une scène !"
 
 #: plugins/Scenery3d/src/Scenery3dMgr.cpp:518
 #, qt-format
 msgid "Per-Pixel shading %1."
-msgstr "Ombrage par pixel %1"
+msgstr "Ombrage par pixel %1."
 
 #: plugins/Scenery3d/src/Scenery3dMgr.cpp:518
 #: plugins/Scenery3d/src/Scenery3dMgr.cpp:537
@@ -14474,7 +14480,7 @@ msgstr "Ombres désactivées ou impossibles."
 #: plugins/Scenery3d/src/Scenery3dMgr.cpp:573
 #, qt-format
 msgid "Surface bumps %1."
-msgstr "Reliefs %1"
+msgstr "Reliefs %1."
 
 #: plugins/Scenery3d/src/Scenery3dMgr.cpp:621
 msgid "Selected cubemap mode not supported, falling back to '6 Textures'"
@@ -14550,7 +14556,7 @@ msgstr ""
 
 #: plugins/Scenery3d/src/gui/Scenery3dDialog.cpp:247
 msgid "Required for bump mapping and shadows!"
-msgstr "Requis pour les ombres et le placage de relief"
+msgstr "Requis pour les ombres et le placage de relief !"
 
 #: plugins/Scenery3d/src/gui/Scenery3dDialog.cpp:249
 msgid "Uses only a single shadow cascade instead of up to four."
@@ -14588,7 +14594,9 @@ msgstr ""
 msgid ""
 "Requires <b>LOW</b> or <b>HIGH</b> shadow filtering (without "
 "<b>Hardware</b>)."
-msgstr "Requiert une qualité de filtrage réduite ou élevée (sans matériel)."
+msgstr ""
+"Requiert une qualité de filtrage <b>réduite</b> ou <b>élevée</b> (sans "
+"<b>matériel</b>)."
 
 #: plugins/Scenery3d/src/gui/Scenery3dDialog.cpp:257
 msgid "Causes a performance hit."
@@ -14646,14 +14654,14 @@ msgstr ""
 "Si ce réglage est désactivé, la zone d'ombre est calculée en utilisant en "
 "projection en perspective, ce qui peut avoir pour résultat des ombres "
 "manquantes, lorsqu'un champ de vision élevé est utilisé. Mais c'est vraiment "
-"plus rapide."
+"plus rapide !"
 
 #: plugins/Scenery3d/src/gui/Scenery3dDialog.cpp:266
 msgid ""
 "This does not work when using the <b>Geometry shader</b> cubemapping mode!"
 msgstr ""
-"Ceci ne fonctionne pas lors de l'utilisation du mode de <i>cubemapping</i> "
-"« nuanceur géométrique »."
+"Ceci ne fonctionne pas lors de l'utilisation du mode de <i>cubemapping</i> « "
+"<b>nuanceur géométrique</b> » !"
 
 #: plugins/Scenery3d/src/gui/Scenery3dDialog.cpp:268
 msgid ""
@@ -14696,8 +14704,8 @@ msgstr ""
 msgid ""
 "This does NOT work with the &quot;Geometry-Shader&quot; cubemapping mode!"
 msgstr ""
-"Ceci ne fonctionne pas lors de l'utilisation du mode de <i>cubemapping</i> "
-"« nuanceur géométrique »."
+"Ceci NE fonctionne PAS lors de l'utilisation du mode de <i>cubemapping</i> « "
+"nuanceur géométrique » !"
 
 #: plugins/Scenery3d/src/gui/Scenery3dDialog.cpp:276
 msgid ""
@@ -14742,7 +14750,7 @@ msgstr "Charger/enregistrer les points de vue"
 
 #: plugins/Scenery3d/src/ui_scenery3dDialog.h:475
 msgid "Torch strength:"
-msgstr "Puissance de la lampe-torche"
+msgstr "Puissance de la lampe-torche :"
 
 #: plugins/Scenery3d/src/ui_scenery3dDialog.h:476
 msgid "Torch range:"
@@ -14936,11 +14944,11 @@ msgstr "Afficher la ligne de l'azimut personnalisé 2"
 
 #: plugins/ArchaeoLines/src/ArchaeoLines.cpp:259
 msgid "Show Line for Custom Declination 1"
-msgstr ""
+msgstr "Afficher la ligne pour la déclinaison personnalisée 1"
 
 #: plugins/ArchaeoLines/src/ArchaeoLines.cpp:260
 msgid "Show Line for Custom Declination 2"
-msgstr ""
+msgstr "Afficher la ligne pour la déclinaison personnalisée 2"
 
 #: plugins/ArchaeoLines/src/ArchaeoLines.cpp:1253
 msgid "Equinox"
@@ -15075,6 +15083,9 @@ msgid ""
 "In addition, up to two vertical lines with arbitrary azimuth and declination "
 "lines with custom label can be shown."
 msgstr ""
+"De plus, il est possible d'afficher jusqu'à deux lignes verticales avec un "
+"azimut arbitraire et des lignes de déclinaison avec une étiquette "
+"personnalisée."
 
 #: plugins/ArchaeoLines/src/gui/ArchaeoLinesDialog.cpp:364
 msgid "Select color for equinox line"
@@ -15138,11 +15149,11 @@ msgstr "Choisir une couleur pour l'azimut personnalisé 2"
 
 #: plugins/ArchaeoLines/src/gui/ArchaeoLinesDialog.cpp:529
 msgid "Select color for Custom Declination 1 line"
-msgstr ""
+msgstr "Sélectionnez la couleur pour la ligne de déclinaison personnalisée 1"
 
 #: plugins/ArchaeoLines/src/gui/ArchaeoLinesDialog.cpp:540
 msgid "Select color for Custom Declination 2 line"
-msgstr ""
+msgstr "Sélectionnez la couleur pour la ligne de déclinaison personnalisée 2"
 
 #: plugins/ArchaeoLines/src/ui_archaeoLinesDialog.h:527
 msgid "ArchaeoLines Configuration"
@@ -15154,11 +15165,11 @@ msgstr "Configuration du plugin ArchéoLignes"
 
 #: plugins/ArchaeoLines/src/ui_archaeoLinesDialog.h:530
 msgid "To change colors you may have to leave fullscreen mode!"
-msgstr "Pour changer les couleurs, veuillez quitter le mode plein écran."
+msgstr "Pour changer les couleurs, veuillez quitter le mode plein écran !"
 
 #: plugins/ArchaeoLines/src/ui_archaeoLinesDialog.h:533
 msgid "Custom Declination 1"
-msgstr ""
+msgstr "Déclination personnalisée 1"
 
 #: plugins/ArchaeoLines/src/ui_archaeoLinesDialog.h:534
 msgid "Current Sun"
@@ -15252,7 +15263,7 @@ msgstr "Lignes des stagnations lunaires majeures"
 
 #: plugins/ArchaeoLines/src/ui_archaeoLinesDialog.h:574
 msgid "Custom Declination 2"
-msgstr ""
+msgstr "Déclination personnalisée 2"
 
 #~ msgid "Date & Time"
 #~ msgstr "Date & Heure"
