@@ -8,14 +8,17 @@ msgstr ""
 "Project-Id-Version: stellarium\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-19 16:37+0700\n"
-"PO-Revision-Date: 2016-11-01 11:04+0000\n"
-"Last-Translator: Andi Chandler <Unknown>\n"
-"Language-Team: English (United Kingdom) <en_GB@li.org>\n"
+"PO-Revision-Date: 2020-04-24 20:11+0000\n"
+"Last-Translator: Jeannette L <j.lavoie@net-c.ca>\n"
+"Language-Team: English (United Kingdom) <https://hosted.weblate.org/projects/"
+"stellarium-mobile/app/en_GB/>\n"
+"Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.0.2-dev\n"
 "X-Launchpad-Export-Date: 2016-11-20 05:43+0000\n"
-"X-Generator: Launchpad (build 18269)\n"
 
 #: src/core/modules/CustomObject.cpp:67 src/core/modules/CustomObject.cpp:69
 #: src/core/modules/Constellation.cpp:296 src/core/modules/Nebula.cpp:191
@@ -404,7 +407,7 @@ msgstr " (Photometric system: B)"
 #: src/core/modules/StarWrapper.cpp:213 plugins/Quasars/src/Quasar.cpp:122
 #, qt-format
 msgid "Color Index (B-V): <b>%1</b>"
-msgstr "Color Index (B-V): <b>%1</b>"
+msgstr "Colour Index (B-V): <b>%1</b>"
 
 #: src/core/modules/Nebula.cpp:227
 #, qt-format
@@ -4220,7 +4223,7 @@ msgstr "&Basic colours"
 
 #: src/translations.h:380
 msgid "&Pick Screen Color"
-msgstr ""
+msgstr "&Pick Screen Colour"
 
 #: src/translations.h:381
 msgid "&Custom colors"
@@ -5846,7 +5849,7 @@ msgstr "Hints"
 
 #: src/ui_viewDialog.h:2048
 msgid "Configure colors of markers"
-msgstr ""
+msgstr "Configure colours of markers"
 
 #: src/ui_viewDialog.h:2049
 msgid "Celestial Sphere"
@@ -5878,7 +5881,7 @@ msgstr "Equator (J2000)"
 
 #: src/ui_viewDialog.h:2063
 msgid "Color of equator (J2000.0)"
-msgstr ""
+msgstr "Colour of equator (J2000.0)"
 
 #: src/ui_viewDialog.h:2066
 msgid "Show ecliptic line of current date."
