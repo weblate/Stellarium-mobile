@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: stellarium\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-19 16:37+0700\n"
-"PO-Revision-Date: 2019-07-15 06:02+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"PO-Revision-Date: 2020-04-24 20:11+0000\n"
+"Last-Translator: Artem <KovalevArtem.ru@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/"
 "stellarium-mobile/app/ru/>\n"
 "Language: ru\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
 "4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.8-dev\n"
+"X-Generator: Weblate 4.0.2-dev\n"
 "X-Launchpad-Export-Date: 2016-11-20 05:37+0000\n"
 
 #: src/core/modules/CustomObject.cpp:67 src/core/modules/CustomObject.cpp:69
@@ -9553,7 +9553,7 @@ msgstr ""
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:328
 msgid "The <b>Type</b> field indicates what kind of connection is this:"
-msgstr "Поле </b>Тип</b> указывает на тип подключения:"
+msgstr "Поле <b>Тип</b> указывает на тип подключения:"
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:329
 #, qt-format
@@ -9594,7 +9594,7 @@ msgid ""
 msgstr ""
 "Чтобы настроить новое подключение телескопа, нажмите кнопку <b>Добавить</b>. "
 "Чтобы изменить конфигурацию существующего подключения, выберите его в списке "
-"и нажмите кнопку <b>Настройка</ b>. В обоих случаях откроется окно "
+"и нажмите кнопку <b>Настройка</b>. В обоих случаях откроется окно "
 "конфигурации подключения телескопа."
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:339
@@ -9866,8 +9866,8 @@ msgid ""
 "Pressing the <b>Slew</b> button slews the selected device to the selected "
 "set of coordinates."
 msgstr ""
-"При нажатии кнопки 'Навести' происходит наведение выбранного устройства на "
-"выбранный набор координат."
+"При нажатии кнопки <b>Навести</b> происходит наведение выбранного устройства "
+"на выбранный набор координат."
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:391
 #, qt-format
@@ -9884,7 +9884,7 @@ msgid ""
 "Pressing the <b>Configure telescopes...</b> button opens the %1main window%2 "
 "of the plug-in."
 msgstr ""
-"Нажатие на кнопку 'Настроить телескопы...' открывает %1основное окно%2 "
+"Нажатие на кнопку <b>Настроить телескопы...</b> открывает %1основное окно%2 "
 "плагина."
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:393
@@ -12199,8 +12199,7 @@ msgid ""
 "author of <em>El Ingenioso Hidalgo Don Quixote de la Mancha</em>."
 msgstr ""
 "Мигель де Сервантес Сааведра (1547-1616) - известный испанский писатель и "
-"автор романа <em>El Ingenioso Hidalgo Don Quixote de la Mancha</em> "
-"(<em>Хитроумный идальго Дон Кихот Ламанчский</em>)."
+"автор романа <em>Хитроумный идальго Дон Кихот Ламанчский</em>."
 
 #: plugins/Exoplanets/src/gui/ExoplanetsDialog.cpp:217
 msgid ""
@@ -12303,7 +12302,7 @@ msgid ""
 "the school of al Majriti in Cordova (Andalusia, now modern Spain)."
 msgstr ""
 "Сам названа в честь астронома и математика 11 века Абу Аль-Касим 'Ашбах ибн "
-"Мухаммад ибн Аль-Сам Аль-Махри (или <em>Ибн Аль-Сам</ем>) из школы Аль "
+"Мухаммад ибн Аль-Сам Аль-Махри (или <em>Ибн Аль-Сам</em>) из школы Аль "
 "Маджрити в Кордове (Андалусия, сейчас современная Испания)."
 
 #: plugins/Exoplanets/src/gui/ExoplanetsDialog.cpp:229
