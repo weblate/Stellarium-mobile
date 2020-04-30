@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: po_stellarium_stellarium-is\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-19 16:37+0700\n"
-"PO-Revision-Date: 2019-10-01 19:56+0000\n"
+"PO-Revision-Date: 2020-05-01 15:11+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <https://hosted.weblate.org/projects/"
 "stellarium-mobile/app/is/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n % 10 != 1 || n % 100 == 11;\n"
-"X-Generator: Weblate 3.9-dev\n"
+"X-Generator: Weblate 4.0.2\n"
 "X-Launchpad-Export-Date: 2016-11-20 05:29+0000\n"
 
 #: src/core/modules/CustomObject.cpp:67 src/core/modules/CustomObject.cpp:69
@@ -129,7 +129,7 @@ msgstr "Vetrarbaugur"
 
 #: src/core/modules/GridLinesMgr.cpp:678
 msgid "Supergalactic Equator"
-msgstr ""
+msgstr "Útþyrpingarmiðbaugur"
 
 #. TRANSLATORS: Full term is "opposition/conjunction longitude"
 #: src/core/modules/GridLinesMgr.cpp:683 src/ui_viewDialog.h:2106
@@ -271,7 +271,7 @@ msgstr "Útþyrpingarhnitanet"
 
 #: src/core/modules/GridLinesMgr.cpp:1229 src/ui_viewDialog.h:2095
 msgid "Supergalactic equator"
-msgstr ""
+msgstr "Útþyrpingarmiðbaugur"
 
 #: src/core/modules/GridLinesMgr.cpp:1230
 #: plugins/TextUserInterface/src/TextUserInterface.cpp:405
@@ -1880,7 +1880,7 @@ msgstr "Vetrarbaugslengd/breidd: %1/%2"
 #: src/core/StelObject.cpp:263 src/core/StelObject.cpp:265
 #, qt-format
 msgid "Supergalactic longitude/latitude: %1/%2"
-msgstr ""
+msgstr "Lengd/Breidd útþyrpingarhnita: %1/%2"
 
 #: src/core/StelObject.cpp:274
 #, qt-format
@@ -5979,7 +5979,7 @@ msgstr "Litur vetrarbrautarpóla"
 
 #: src/ui_viewDialog.h:2155
 msgid "Zenith and Nadir"
-msgstr ""
+msgstr "Hvirfilpunktur og ilpunktur"
 
 #: src/ui_viewDialog.h:2158
 msgid "Color of Zenith and Nadir"
@@ -7151,7 +7151,7 @@ msgstr "Litur merkja fyrir blasa"
 
 #: src/ui_dsoColorsDialog.h:515
 msgid "Possible quasars"
-msgstr ""
+msgstr "Mögulegir kvasar"
 
 #: src/ui_dsoColorsDialog.h:517
 msgid "Color of markers of clusters associated with nebulosity"
@@ -7236,7 +7236,7 @@ msgstr "Litur merkja fyrir hringþokur"
 
 #: src/ui_dsoColorsDialog.h:585
 msgid "Possible planetary nebulae"
-msgstr ""
+msgstr "Hugsanlegar hringþokur"
 
 #: src/ui_dsoColorsDialog.h:587
 msgid "Possible pl. nebulae"
@@ -7248,7 +7248,7 @@ msgstr "Litur merkja fyrir hugsanlegar hringþokur"
 
 #: src/ui_dsoColorsDialog.h:591
 msgid "Protoplanetary nebulae"
-msgstr ""
+msgstr "Frum-hringþokur"
 
 #: src/ui_dsoColorsDialog.h:593
 msgid "Color of markers of protoplanetary nebulae"
@@ -7264,7 +7264,7 @@ msgstr "Litur merkja fyrir vetnisþokur"
 
 #: src/ui_dsoColorsDialog.h:603
 msgid "Molecular clouds"
-msgstr ""
+msgstr "Sameindaský"
 
 #: src/ui_dsoColorsDialog.h:605
 msgid "Color of markers of molecular clouds"
@@ -7272,11 +7272,11 @@ msgstr "Litur merkja fyrir sameindaský"
 
 #: src/ui_dsoColorsDialog.h:610
 msgid "YSOs"
-msgstr ""
+msgstr "Ungstirni"
 
 #: src/ui_dsoColorsDialog.h:612
 msgid "Color of markers of Young Stellar Objects"
-msgstr ""
+msgstr "Litur merkja fyrir ungstirni"
 
 #: src/ui_dsoColorsDialog.h:616
 msgid "Color of markers of supernova remnants"
@@ -10717,7 +10717,7 @@ msgstr "[næstu uppfærsluupplýsingar]"
 
 #: plugins/NavStars/src/NavStars.cpp:52 plugins/NavStars/src/NavStars.cpp:109
 msgid "Navigational Stars"
-msgstr ""
+msgstr "Leiðsögustjörnur"
 
 #: plugins/NavStars/src/NavStars.cpp:55
 #: plugins/NavStars/src/gui/NavStarsWindow.cpp:94
@@ -10797,7 +10797,7 @@ msgstr "Rússneska"
 #: plugins/NavStars/src/ui_navStarsWindow.h:202
 #: plugins/NavStars/src/ui_navStarsWindow.h:213
 msgid "Navigational stars"
-msgstr ""
+msgstr "Leiðsögustjörnur"
 
 #: plugins/NavStars/src/ui_navStarsWindow.h:204
 msgid "Set of navigational stars"
