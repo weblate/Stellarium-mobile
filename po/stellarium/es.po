@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: es\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-19 16:37+0700\n"
-"PO-Revision-Date: 2019-10-03 05:56+0000\n"
-"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
+"PO-Revision-Date: 2020-05-10 22:41+0000\n"
+"Last-Translator: Pablo Marinero <info@pablomarinero.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/"
 "stellarium-mobile/app/es/>\n"
 "Language: es\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9-dev\n"
+"X-Generator: Weblate 4.1-dev\n"
 "X-Launchpad-Export-Date: 2016-11-20 05:39+0000\n"
 
 #: src/core/modules/CustomObject.cpp:67 src/core/modules/CustomObject.cpp:69
@@ -470,7 +470,7 @@ msgstr ""
 #: src/core/modules/Nebula.cpp:306
 #, qt-format
 msgid "Distance: %1 %2 (%3 %4)"
-msgstr ""
+msgstr "Distancia: %1 %2 (%3 %4)"
 
 #: src/core/modules/Nebula.cpp:320
 #, qt-format
@@ -902,7 +902,7 @@ msgstr "Diámetro aparente: %1, con anillos; %2"
 #: src/core/modules/Planet.cpp:312 src/core/modules/Planet.cpp:316
 #, qt-format
 msgid "Apparent diameter: %1, scaled up to: %2"
-msgstr ""
+msgstr "Diámetro aparente: %1, ampliado a: %2"
 
 #: src/core/modules/Planet.cpp:323 src/core/modules/Planet.cpp:325
 #: src/core/modules/MinorPlanet.cpp:286 src/core/modules/MinorPlanet.cpp:288
@@ -1156,8 +1156,9 @@ msgid "Zodiacal Light"
 msgstr "Luz Zodiacal"
 
 #: src/core/modules/ToastMgr.cpp:67
+#, fuzzy
 msgid "Digitized Sky Survey (experimental)"
-msgstr ""
+msgstr "Estudio del cielo digitalizado (experimental)"
 
 #: src/core/StelApp.cpp:523
 msgid "Night mode"
@@ -2328,44 +2329,53 @@ msgid "Page Up/Down"
 msgstr "Re Pág/Av Pág"
 
 #: src/gui/HelpDialog.cpp:154
+#, fuzzy
 msgid "Ctrl+Up/Down"
-msgstr ""
+msgstr "Ctrl+Arriba/Abajo"
 
 #: src/gui/HelpDialog.cpp:157
 msgid "Time dragging"
 msgstr "Desplazamiento del tiempo"
 
 #: src/gui/HelpDialog.cpp:158
+#, fuzzy
 msgid "Ctrl & left mouse drag"
-msgstr ""
+msgstr "Crtl y arrastre del botón izquierdo del ratón"
 
 #: src/gui/HelpDialog.cpp:159
+#, fuzzy
 msgid "Time scrolling: minutes"
-msgstr ""
+msgstr "Desplazamiento del tiempo: minutos"
 
 #: src/gui/HelpDialog.cpp:160
+#, fuzzy
 msgid "Ctrl & mouse wheel"
-msgstr ""
+msgstr "Ctrl y rueda del ratón"
 
 #: src/gui/HelpDialog.cpp:161
+#, fuzzy
 msgid "Time scrolling: hours"
-msgstr ""
+msgstr "Desplazamiento del tiempo: horas"
 
 #: src/gui/HelpDialog.cpp:162
+#, fuzzy
 msgid "Ctrl+Shift & mouse wheel"
-msgstr ""
+msgstr "Ctrl+Mayúsculas y rueda del ratón"
 
 #: src/gui/HelpDialog.cpp:163
+#, fuzzy
 msgid "Time scrolling: days"
-msgstr ""
+msgstr "Desplazamiento temporal: días"
 
 #: src/gui/HelpDialog.cpp:164
+#, fuzzy
 msgid "Ctrl+Alt & mouse wheel"
-msgstr ""
+msgstr "Ctrl+Alt y rueda del ratón"
 
 #: src/gui/HelpDialog.cpp:165
+#, fuzzy
 msgid "Time scrolling: years"
-msgstr ""
+msgstr "Desplazamiento temporal: años"
 
 #: src/gui/HelpDialog.cpp:166
 msgid "Ctrl+Alt+Shift & mouse wheel"
