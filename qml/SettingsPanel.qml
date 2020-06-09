@@ -39,27 +39,27 @@ StelDialog {
 	ListModel {
 		id: settingsModel
 		ListElement {
-			title: QT_TR_NOOP("Date and Time")
+            title: qsTr("Date and Time")
 			page: "TimeDialog.qml"
 		}
 		ListElement {
-			title: QT_TR_NOOP("Landscape")
+            title: qsTr("Landscape")
 			page: "LandscapesDialog.qml"
 		}
 		ListElement {
-			title: QT_TR_NOOP("Location")
+            title: qsTr("Location")
 			page: "LocationDialog.qml"
 		}
 		ListElement {
-			title: QT_TR_NOOP("Starlore")
+            title: qsTr("Starlore")
 			page: "StarloreDialog.qml"
 		}
 		ListElement {
-			title: QT_TR_NOOP("Advanced")
+            title: qsTr("Advanced")
 			page: "AdvancedDialog.qml"
 		}
 		ListElement {
-			title: QT_TR_NOOP("About")
+            title: qsTr("About")
 			page: "AboutDialog.qml"
 		}
 	}

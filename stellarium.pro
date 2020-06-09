@@ -473,32 +473,72 @@ SOURCES += \
     src/core/external/GeographicLib/src/UTMUPS.cpp
 
 OTHER_FILES += \
-	data/qml/AboutDialog.qml \
-	data/qml/ImageButton.qml \
-	data/qml/InfoPanel.qml \
-	data/qml/LandscapesDialog.qml \
-	data/qml/LocationCityPicker.qml \
-	data/qml/LocationDialog.qml \
-	data/qml/LocationMap.qml \
-	data/qml/main.qml \
-	data/qml/QuickBar.qml \
-	data/qml/SearchInput.qml \
-	data/qml/Splash.qml \
-	data/qml/StarloreDialog.qml \
-	data/qml/SettingsPanel.qml \
-	data/qml/StelButton.qml \
-	data/qml/StelCheckBox.qml \
-	data/qml/StelDialog.qml \
-	data/qml/StelListItem.qml \
-	data/qml/StelMessage.qml \
-	data/qml/StelSpinBox.qml \
-	data/qml/StelTimeSpinBox.qml \
-	data/qml/TimeBar.qml \
-	data/qml/TimeDialog.qml \
-	data/qml/TouchPinchArea.qml \
-	data/qml/AdvancedDialog.qml \
-	data/qml/AnglePicker.qml \
-	data/qml/ValuePicker.qml \
+        qml/AboutDialog.qml \
+        qml/ImageButton.qml \
+        qml/InfoPanel.qml \
+        qml/LandscapesDialog.qml \
+        qml/LocationCityPicker.qml \
+        qml/LocationDialog.qml \
+        qml/LocationMap.qml \
+        qml/main.qml \
+        qml/QuickBar.qml \
+        qml/SearchInput.qml \
+        qml/Splash.qml \
+        qml/StarloreDialog.qml \
+        qml/SettingsPanel.qml \
+        qml/StelButton.qml \
+        qml/StelCheckBox.qml \
+        qml/StelDialog.qml \
+        qml/StelListItem.qml \
+        qml/StelMessage.qml \
+        qml/StelSpinBox.qml \
+        qml/StelTimeSpinBox.qml \
+        qml/TimeBar.qml \
+        qml/TimeDialog.qml \
+        qml/TouchPinchArea.qml \
+        qml/AdvancedDialog.qml \
+        qml/AnglePicker.qml \
+        qml/ValuePicker.qml \
+
+
+
+## generate pot file 'make pot'
+potfile_core.target = translate_core
+potfile_core.commands = xgettext -o $${TARGET}.pot \
+    --package-name $${TARGET} \
+    --qt \
+    --c++ \
+    --add-comments=TRANSLATORS \
+    --keyword=_ \
+    --keyword=N_ \
+    --keyword=q_ \
+    --keyword=QT_TR_ \
+    --keyword=qsTr \
+    --keyword=qc_:1,2c \
+    --keyword=translate:2 \
+    --keyword=translate:2,3c \
+    --add-comments=TRANSLATORS: \
+    --directory=$$PWD \
+    --output-dir=$$PWD/po/stellarium \
+    --files-from=$$PWD/po/stellarium/POTFILES.in \
+    $$OTHER_FILES
+QMAKE_EXTRA_TARGETS += potfile_core
+
+## generate pot file 'make pot'
+potfile_skyculture.target = translate_skyculture
+potfile_skyculture.commands = xgettext -o $${TARGET}-skycultures.pot \
+    --package-name $${TARGET} \
+    --qt \
+    --c++ \
+    --add-comments=TRANSLATORS \
+    --keyword=_ \
+    --add-comments=TRANSLATORS: \
+    --directory=$$PWD/mobileData \
+    --output-dir=$$PWD/po/stellarium-skycultures \
+    --language=Python \
+    --from-code=utf-8 \
+    --files-from=$$PWD/po/stellarium-skycultures/POTFILES.in
+QMAKE_EXTRA_TARGETS += potfile_skyculture
 
 contains(ANDROID_TARGET_ARCH,armeabi-v7a) {
     ANDROID_EXTRA_LIBS = \
