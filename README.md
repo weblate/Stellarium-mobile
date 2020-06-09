@@ -10,3 +10,9 @@ Copyright: Original Stellarium dev team
 
 #build for Ubuntu Touch
 `clickable -c ubuntu_touch/clickable.json`
+
+
+#update translation
+translations `.pot` files are build with command `make potfile_core` and `make potfile_skyculture` ( see pro file )
+`po` files are merged in `qm` files with script `translation_generator.sh`
+
