@@ -25,6 +25,7 @@
 
 #include <QMap>
 #include <QString>
+#include <QDebug>
 
 //! @def q_(str)
 //! Return the gettext translated english text @a str using the current global translator.
@@ -71,8 +72,9 @@ public:
 	//! @return Locale name e.g "fr_FR"
 	const QString& getTrueLocaleName() const
 	{
+        qDebug() << StelTranslator::systemLangName << " --- " << langName;
 		if (langName=="system" || langName=="system_default")
-			return StelTranslator::systemLangName;
+            return StelTranslator::systemLangName;
 		else
 			return langName;
 	}

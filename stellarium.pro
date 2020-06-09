@@ -518,6 +518,7 @@ potfile_core.commands = xgettext -o $${TARGET}.pot \
     --keyword=translate:2 \
     --keyword=translate:2,3c \
     --add-comments=TRANSLATORS: \
+    --from-code=utf-8 \
     --directory=$$PWD \
     --output-dir=$$PWD/po/stellarium \
     --files-from=$$PWD/po/stellarium/POTFILES.in \

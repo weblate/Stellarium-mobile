@@ -385,7 +385,12 @@ QString StelQuickStelItem::getCurrentSkyCultureHtmlDescription() const
 {
 	QString descPath;
 #ifdef ENABLE_NLS
-	descPath = StelFileMgr::findFile("skycultures/" + StelApp::getInstance().getSkyCultureMgr().getCurrentSkyCultureID() + "/description."+StelApp::getInstance().getLocaleMgr().getAppLanguage()+".utf8");
+    QString lang = StelApp::getInstance().getLocaleMgr().getAppLanguage();
+    if (!QString("pt_BR zh_CN zh_HK zh_TW").contains(lang))
+    {
+        lang = lang.split("_").at(0);
+    }
+    descPath = StelFileMgr::findFile("skycultures/" + StelApp::getInstance().getSkyCultureMgr().getCurrentSkyCultureID() + "/description."+lang+".utf8");
 #endif
 	if (descPath.isEmpty())
 		descPath = StelFileMgr::findFile("skycultures/" + StelApp::getInstance().getSkyCultureMgr().getCurrentSkyCultureID() + "/description.en.utf8");

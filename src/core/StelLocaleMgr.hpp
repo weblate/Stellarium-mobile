@@ -43,7 +43,7 @@ public:
 	//! Get the application language currently used for GUI etc.
 	//! This function has no permanent effect on the global locale.
 	//! @return the abbreviated name of the language (e.g "fr").
-	QString getAppLanguage() const { return StelTranslator::globalTranslator->getTrueLocaleName(); }
+    QString getAppLanguage() const { return  StelTranslator::nativeNameToIso639_1Code(StelTranslator::globalTranslator->getTrueLocaleName()); }
 	
 	//! Set the application language. 
 	//! This applies to GUI etc. This function has no permanent effect on the global locale.

@@ -25,3 +25,6 @@ src/core/SimbadSearcher.cpp
 src/core/StelLocaleMgr.cpp
 src/main.cpp
 src/StelMainView.cpp
+
+# Translations of strings not contained in the source code
+src/translations.h
