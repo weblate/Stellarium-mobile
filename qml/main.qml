@@ -130,7 +130,7 @@ Item {
 					state = 1;
 				} else if (state === 1) {
 					if (stellarium.isDay()) {
-						rootMessage.show(qsTr("It is daytime, fast forward time until..."))
+						rootMessage.show(qsTr("It is daytime, fast forward time until…"))
 						state = 2
 					} else {
 						stop();
@@ -257,7 +257,7 @@ Item {
 		text: {
 			switch (stellarium.gpsState) {
 			case "Searching":
-				return qsTr("GPS...")
+				return qsTr("GPS…")
 			case "Found":
 				return qsTr("GPS")
 			default:
