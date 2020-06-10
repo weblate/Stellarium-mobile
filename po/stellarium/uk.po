@@ -324,7 +324,7 @@ msgstr "зірка"
 #: src/core/modules/StarWrapper.cpp:64 src/core/modules/StarWrapper.cpp:190
 #, fuzzy, qt-format
 msgid "Color Index (B-V): <b>%2</b>"
-msgstr "Показник кольору (B — V): <b>%1</b>"
+msgstr "Показник кольору (B — V): <b>%2</b>"
 
 #: src/core/modules/StarWrapper.cpp:143
 msgid "eruptive variable star"
@@ -2897,7 +2897,7 @@ msgstr "Про програму"
 
 #: qml/InfoPanel.qml:125
 msgid "Unnamed"
-msgstr ""
+msgstr "Без назви"
 
 #: qml/LandscapesDialog.qml:5 qml/SettingsPanel.qml:46
 msgid "Landscape"
@@ -2906,12 +2906,12 @@ msgstr "Ландшафт"
 #: qml/LocationCityPicker.qml:25
 #, fuzzy
 msgid "Pick City"
-msgstr "Місто Ватикан"
+msgstr "Виберіть місто"
 
 #: qml/LocationCityPicker.qml:25
 #, fuzzy
 msgid "Pick Country"
-msgstr "Країна:"
+msgstr "Виберіть країну"
 
 #: qml/LocationDialog.qml:25 qml/SettingsPanel.qml:50
 msgid "Location"
@@ -2919,12 +2919,12 @@ msgstr "Розташування"
 
 #: qml/LocationDialog.qml:37
 msgid "Use GPS"
-msgstr ""
+msgstr "Скористатись GPS"
 
 #: qml/LocationDialog.qml:37
 #, fuzzy
 msgid " (searching)"
-msgstr "Ґаршінґ"
+msgstr " (шукаємо)"
 
 #: qml/LocationDialog.qml:72
 msgid "Name/City:"
@@ -2932,7 +2932,7 @@ msgstr "Назва/місто:"
 
 #: qml/main.qml:133
 msgid "It is daytime, fast forward time until..."
-msgstr ""
+msgstr "Зараз день, прокручуємо час до…"
 
 #: qml/main.qml:213 qml/SettingsPanel.qml:24
 msgid "Settings"
@@ -2940,20 +2940,20 @@ msgstr "Параметри"
 
 #: qml/main.qml:225
 msgid "Open Quick Bar"
-msgstr ""
+msgstr "Відкрити швидку панель"
 
 #: qml/main.qml:260
 msgid "GPS..."
-msgstr ""
+msgstr "GPS…"
 
 #: qml/main.qml:262
 #, fuzzy
 msgid "GPS"
-msgstr "ПнГП"
+msgstr "GPS"
 
 #: qml/main.qml:333
 msgid "Drag sky to move in time"
-msgstr ""
+msgstr "Перетягніть небо, щоб пересунутися у часі"
 
 #: qml/SearchInput.qml:37 qml/SearchInput.qml:72 qml/SearchInput.qml:89
 #: qml/SearchInput.qml:98 qml/SearchInput.qml:102
@@ -2966,17 +2966,17 @@ msgstr "Зіркова статистика"
 
 #: qml/SettingsPanel.qml:58 qml/AdvancedDialog.qml:24
 msgid "Advanced"
-msgstr ""
+msgstr "Додатково"
 
 #: qml/StelDialog.qml:24
 #, fuzzy
 msgid "Stellarium"
-msgstr "Stellarium %1"
+msgstr "Stellarium"
 
 #: qml/TimeBar.qml:34
 #, fuzzy
 msgid "Real time"
-msgstr "і час:"
+msgstr "Реальний час"
 
 #: qml/TimeBar.qml:36
 msgid "Stopped"
@@ -2985,7 +2985,7 @@ msgstr "Зупинено"
 #: qml/TimeDialog.qml:31
 #, fuzzy
 msgid "Advance to night at startup"
-msgstr "Запускати/З’єднуватися під час запуску"
+msgstr "Переходити до ночі при запуску"
 
 #: qml/AdvancedDialog.qml:45
 msgid "Show planet markers"
@@ -3002,16 +3002,16 @@ msgstr "Показувати лінію меридіана"
 #: qml/AdvancedDialog.qml:70 qml/AdvancedDialog.qml:75
 #, fuzzy
 msgid "Light pollution"
-msgstr "Забруднення світлом:"
+msgstr "Забруднення світлом"
 
 #: qml/AdvancedDialog.qml:87 qml/AdvancedDialog.qml:92
 #, fuzzy
 msgid "Milky Way brightness"
-msgstr "Яскравість Чумацького Шляху:"
+msgstr "Яскравість Чумацького Шляху"
 
 #: qml/AdvancedDialog.qml:104 qml/AdvancedDialog.qml:109
 msgid "Thickness of lines"
-msgstr ""
+msgstr "Товщина ліній"
 
 #: qml/AdvancedDialog.qml:120
 msgid "Restore default settings"

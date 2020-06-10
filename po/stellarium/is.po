@@ -386,12 +386,12 @@ msgstr "Hliðrun: %1\""
 #: src/core/modules/StarWrapper.cpp:229
 #, fuzzy, qt-format
 msgid "Epoch for minimum light: %1 JD"
-msgstr "Næsta lágmarksljósmagn: %1 UTC"
+msgstr "Næsta lágmarksljósmagn: %1 JD"
 
 #: src/core/modules/StarWrapper.cpp:231
 #, fuzzy, qt-format
 msgid "Epoch for maximum light: %1 JD"
-msgstr "Næsta hámarksljósmagn: %1 UTC"
+msgstr "Næsta hámarksljósmagn: %1 JD"
 
 #: src/core/modules/StarWrapper.cpp:235
 #, qt-format
@@ -1089,7 +1089,7 @@ msgstr "Fannst"
 
 #: src/main.cpp:319
 msgid "This system does not support OpenGL."
-msgstr "Stýrikerfið styður ekki OpenGL"
+msgstr "Stýrikerfið styður ekki OpenGL."
 
 #: src/StelMainView.cpp:298
 msgid "Save screenshot"
@@ -1418,7 +1418,7 @@ msgstr "Hygiea"
 #. TRANSLATORS: Asteroid (41) Daphne
 #: src/translations.h:123
 msgid "Daphne"
-msgstr ""
+msgstr "Dafne"
 
 #. TRANSLATORS: Asteroid (1221) Amor
 #: src/translations.h:125
@@ -1458,7 +1458,7 @@ msgstr "Makemake"
 #. TRANSLATORS: Proper name of comet C/1680 V1
 #: src/translations.h:140
 msgid "Great Comet of 1680 (C/1680 V1)"
-msgstr ""
+msgstr "Stóra halastjarnan 1680 (C/1680 V1)"
 
 #. TRANSLATORS: Name of supernova SN 1572A and script name
 #: src/translations.h:143
@@ -1709,7 +1709,7 @@ msgstr "Viðburðir Jarðar frá Merkúr"
 #: src/translations.h:253
 #, fuzzy
 msgid "Earth Events from Venus"
-msgstr "Viðburðir Jarðar frá Mars"
+msgstr "Viðburðir Jarðar frá Venus"
 
 #. TRANSLATORS: Name and description of script
 #: src/translations.h:255
@@ -1720,13 +1720,13 @@ msgstr "Viðburðir Jarðar frá Mars"
 #: src/translations.h:257
 #, fuzzy
 msgid "Earth Greatest Elongations and Brilliancies from Mars"
-msgstr "Mestu álengdir og umferðir Jarðar og Mars séð frá Callisto"
+msgstr "Mestu álengdir og birtuhámörk Jarðar séð frá Mars"
 
 #. TRANSLATORS: Name of script
 #: src/translations.h:259
 #, fuzzy
 msgid "Earth and Mars Greatest Elongations from Jupiter"
-msgstr "Mestu álengdir og umferðir Jarðar og Mars séð frá Callisto"
+msgstr "Mestu álengdir og umferðir Jarðar og Mars séð frá Júpíter"
 
 #. TRANSLATORS: Description of the landscape tour script.
 #: src/translations.h:265
@@ -1825,7 +1825,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "Screensaver of various happenings in the Solar System. 187 events in all!"
-msgstr "Skjáhvíla með ýmsum atburðum í sólkerfinu, alls 171 atburðir!"
+msgstr "Skjáhvíla með ýmsum atburðum í sólkerfinu, alls 187 atburðir!"
 
 #: src/translations.h:281
 msgid "A tour of the western constellations."
@@ -1863,14 +1863,12 @@ msgstr ""
 #: src/translations.h:287
 #, fuzzy
 msgid "Earth Greatest Elongations and Brilliancies from Mars 2000-3000"
-msgstr ""
-"Mestu álengdir og gagnstöður Jarðar og annarra pláneta séð frá Mars 2000-3000"
+msgstr "Mestu álengdir og gagnstöður Jarðar séð frá Mars 2000-3000"
 
 #: src/translations.h:288
 #, fuzzy
 msgid "Earth Greatest Elongations from Jupiter 2000-3000"
-msgstr ""
-"Mestu álengdir og gagnstöður Jarðar og annarra pláneta séð frá Mars 2000-3000"
+msgstr "Mestu álengdir og gagnstöður Jarðar séð frá Júpíter 2000-3000"
 
 #: src/translations.h:292
 msgid "Andorra"
@@ -2842,7 +2840,7 @@ msgstr "Um"
 
 #: qml/InfoPanel.qml:125
 msgid "Unnamed"
-msgstr ""
+msgstr "Ónefnt"
 
 #: qml/LandscapesDialog.qml:5 qml/SettingsPanel.qml:46
 msgid "Landscape"
@@ -2851,12 +2849,12 @@ msgstr "Landslag"
 #: qml/LocationCityPicker.qml:25
 #, fuzzy
 msgid "Pick City"
-msgstr "Vatíkanið"
+msgstr "Veldu borg"
 
 #: qml/LocationCityPicker.qml:25
 #, fuzzy
 msgid "Pick Country"
-msgstr "Land:"
+msgstr "Veldu land"
 
 #: qml/LocationDialog.qml:25 qml/SettingsPanel.qml:50
 msgid "Location"
@@ -2864,12 +2862,12 @@ msgstr "Staðsetning"
 
 #: qml/LocationDialog.qml:37
 msgid "Use GPS"
-msgstr ""
+msgstr "Nota GPS"
 
 #: qml/LocationDialog.qml:37
 #, fuzzy
 msgid " (searching)"
-msgstr "Garching nálægt Munchen"
+msgstr " (leita)"
 
 #: qml/LocationDialog.qml:72
 msgid "Name/City:"
@@ -2877,7 +2875,7 @@ msgstr "Nafn/Borg:"
 
 #: qml/main.qml:133
 msgid "It is daytime, fast forward time until..."
-msgstr ""
+msgstr "Núna er dagur, spóla hratt áfram til..."
 
 #: qml/main.qml:213 qml/SettingsPanel.qml:24
 msgid "Settings"
@@ -2885,11 +2883,11 @@ msgstr "Stillingar"
 
 #: qml/main.qml:225
 msgid "Open Quick Bar"
-msgstr ""
+msgstr "Opna flýtistiku"
 
 #: qml/main.qml:260
 msgid "GPS..."
-msgstr ""
+msgstr "GPS..."
 
 #: qml/main.qml:262
 #, fuzzy
@@ -2911,17 +2909,17 @@ msgstr "Stjörnumerki"
 
 #: qml/SettingsPanel.qml:58 qml/AdvancedDialog.qml:24
 msgid "Advanced"
-msgstr ""
+msgstr "Ítarlegt"
 
 #: qml/StelDialog.qml:24
 #, fuzzy
 msgid "Stellarium"
-msgstr "Stellarium %1"
+msgstr "Stellarium"
 
 #: qml/TimeBar.qml:34
 #, fuzzy
 msgid "Real time"
-msgstr "og tími:"
+msgstr "Rauntími"
 
 #: qml/TimeBar.qml:36
 msgid "Stopped"
@@ -2930,7 +2928,7 @@ msgstr "Stöðvað"
 #: qml/TimeDialog.qml:31
 #, fuzzy
 msgid "Advance to night at startup"
-msgstr "Ræsa/tengja við ræsingu"
+msgstr "Færa fram til nætur við ræsingu"
 
 #: qml/AdvancedDialog.qml:45
 msgid "Show planet markers"
@@ -2947,16 +2945,16 @@ msgstr "Sýna hádegisbaugslínu"
 #: qml/AdvancedDialog.qml:70 qml/AdvancedDialog.qml:75
 #, fuzzy
 msgid "Light pollution"
-msgstr "Ljósmengun:"
+msgstr "Ljósmengun"
 
 #: qml/AdvancedDialog.qml:87 qml/AdvancedDialog.qml:92
 #, fuzzy
 msgid "Milky Way brightness"
-msgstr "Birtustig Vetrarbrautar:"
+msgstr "Birtustig Vetrarbrautar"
 
 #: qml/AdvancedDialog.qml:104 qml/AdvancedDialog.qml:109
 msgid "Thickness of lines"
-msgstr ""
+msgstr "Breidd lína"
 
 #: qml/AdvancedDialog.qml:120
 msgid "Restore default settings"

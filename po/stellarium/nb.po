@@ -319,7 +319,7 @@ msgstr "Stjerne"
 #: src/core/modules/StarWrapper.cpp:64 src/core/modules/StarWrapper.cpp:190
 #, fuzzy, qt-format
 msgid "Color Index (B-V): <b>%2</b>"
-msgstr "Fargeindeks (B-V): <b>%1</b>"
+msgstr "Fargeindeks (B-V): <b>%2</b>"
 
 #: src/core/modules/StarWrapper.cpp:143
 msgid "eruptive variable star"
@@ -2805,7 +2805,7 @@ msgstr "Info"
 
 #: qml/InfoPanel.qml:125
 msgid "Unnamed"
-msgstr ""
+msgstr "Uten navn"
 
 #: qml/LandscapesDialog.qml:5 qml/SettingsPanel.qml:46
 msgid "Landscape"
@@ -2814,12 +2814,12 @@ msgstr "Landskap"
 #: qml/LocationCityPicker.qml:25
 #, fuzzy
 msgid "Pick City"
-msgstr "Vatikanstaten"
+msgstr "Velg by"
 
 #: qml/LocationCityPicker.qml:25
 #, fuzzy
 msgid "Pick Country"
-msgstr "Land:"
+msgstr "Velg land"
 
 #: qml/LocationDialog.qml:25 qml/SettingsPanel.qml:50
 msgid "Location"
@@ -2827,12 +2827,12 @@ msgstr "Sted"
 
 #: qml/LocationDialog.qml:37
 msgid "Use GPS"
-msgstr ""
+msgstr "Bruk GPS"
 
 #: qml/LocationDialog.qml:37
 #, fuzzy
 msgid " (searching)"
-msgstr "Garching"
+msgstr " (søking)"
 
 #: qml/LocationDialog.qml:72
 msgid "Name/City:"
@@ -2840,7 +2840,7 @@ msgstr "Navn/By:"
 
 #: qml/main.qml:133
 msgid "It is daytime, fast forward time until..."
-msgstr ""
+msgstr "På dagen, spol frem til…"
 
 #: qml/main.qml:213 qml/SettingsPanel.qml:24
 msgid "Settings"
@@ -2848,19 +2848,19 @@ msgstr "Innstillinger"
 
 #: qml/main.qml:225
 msgid "Open Quick Bar"
-msgstr ""
+msgstr "Åpne hurtigfelt"
 
 #: qml/main.qml:260
 msgid "GPS..."
-msgstr ""
+msgstr "GPS…"
 
 #: qml/main.qml:262
 msgid "GPS"
-msgstr ""
+msgstr "GPS"
 
 #: qml/main.qml:333
 msgid "Drag sky to move in time"
-msgstr ""
+msgstr "Dra himmelen for å endre tidspunkt"
 
 #: qml/SearchInput.qml:37 qml/SearchInput.qml:72 qml/SearchInput.qml:89
 #: qml/SearchInput.qml:98 qml/SearchInput.qml:102
@@ -2873,7 +2873,7 @@ msgstr "Stjernemyter"
 
 #: qml/SettingsPanel.qml:58 qml/AdvancedDialog.qml:24
 msgid "Advanced"
-msgstr ""
+msgstr "Avansert"
 
 #: qml/StelDialog.qml:24
 #, fuzzy
@@ -2892,7 +2892,7 @@ msgstr "Stoppet"
 #: qml/TimeDialog.qml:31
 #, fuzzy
 msgid "Advance to night at startup"
-msgstr "Start/tilkoble ved oppstart"
+msgstr "Gå til natt ved oppstart"
 
 #: qml/AdvancedDialog.qml:45
 msgid "Show planet markers"
@@ -2909,16 +2909,16 @@ msgstr "Vis meridianlinje"
 #: qml/AdvancedDialog.qml:70 qml/AdvancedDialog.qml:75
 #, fuzzy
 msgid "Light pollution"
-msgstr "Lysforurensning:"
+msgstr "Lysforurensning"
 
 #: qml/AdvancedDialog.qml:87 qml/AdvancedDialog.qml:92
 #, fuzzy
 msgid "Milky Way brightness"
-msgstr "Lysstyrke på Melkeveien:"
+msgstr "Lysstyrke på Melkeveien"
 
 #: qml/AdvancedDialog.qml:104 qml/AdvancedDialog.qml:109
 msgid "Thickness of lines"
-msgstr ""
+msgstr "Linjetykkelse"
 
 #: qml/AdvancedDialog.qml:120
 msgid "Restore default settings"
