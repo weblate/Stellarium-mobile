@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: stellarium\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-09 22:58+0200\n"
+"POT-Creation-Date: 2020-06-10 08:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2768,7 +2768,7 @@ msgid "Name/City:"
 msgstr ""
 
 #: qml/main.qml:133
-msgid "It is daytime, fast forward time until..."
+msgid "It is daytime, fast forward time until…"
 msgstr ""
 
 #: qml/main.qml:213 qml/SettingsPanel.qml:24
@@ -2780,7 +2780,7 @@ msgid "Open Quick Bar"
 msgstr ""
 
 #: qml/main.qml:260
-msgid "GPS..."
+msgid "GPS…"
 msgstr ""
 
 #: qml/main.qml:262
