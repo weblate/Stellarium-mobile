@@ -10,10 +10,10 @@ msgstr ""
 "Project-Id-Version: stellarium-uk\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-09 22:58+0200\n"
-"PO-Revision-Date: 2020-06-09 06:41+0000\n"
+"PO-Revision-Date: 2020-06-10 06:55+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/stellarium-"
-"mobile/app/uk/>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/"
+"stellarium-mobile/app/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -322,7 +322,7 @@ msgid "star"
 msgstr "зірка"
 
 #: src/core/modules/StarWrapper.cpp:64 src/core/modules/StarWrapper.cpp:190
-#, fuzzy, qt-format
+#, qt-format
 msgid "Color Index (B-V): <b>%2</b>"
 msgstr "Показник кольору (B — V): <b>%2</b>"
 
@@ -2904,12 +2904,10 @@ msgid "Landscape"
 msgstr "Ландшафт"
 
 #: qml/LocationCityPicker.qml:25
-#, fuzzy
 msgid "Pick City"
 msgstr "Виберіть місто"
 
 #: qml/LocationCityPicker.qml:25
-#, fuzzy
 msgid "Pick Country"
 msgstr "Виберіть країну"
 
@@ -2922,7 +2920,6 @@ msgid "Use GPS"
 msgstr "Скористатись GPS"
 
 #: qml/LocationDialog.qml:37
-#, fuzzy
 msgid " (searching)"
 msgstr " (шукаємо)"
 
@@ -2947,7 +2944,6 @@ msgid "GPS..."
 msgstr "GPS…"
 
 #: qml/main.qml:262
-#, fuzzy
 msgid "GPS"
 msgstr "GPS"
 
@@ -2969,12 +2965,10 @@ msgid "Advanced"
 msgstr "Додатково"
 
 #: qml/StelDialog.qml:24
-#, fuzzy
 msgid "Stellarium"
 msgstr "Stellarium"
 
 #: qml/TimeBar.qml:34
-#, fuzzy
 msgid "Real time"
 msgstr "Реальний час"
 
@@ -2983,7 +2977,6 @@ msgid "Stopped"
 msgstr "Зупинено"
 
 #: qml/TimeDialog.qml:31
-#, fuzzy
 msgid "Advance to night at startup"
 msgstr "Переходити до ночі при запуску"
 
@@ -3000,12 +2993,10 @@ msgid "Show meridian line"
 msgstr "Показувати лінію меридіана"
 
 #: qml/AdvancedDialog.qml:70 qml/AdvancedDialog.qml:75
-#, fuzzy
 msgid "Light pollution"
 msgstr "Забруднення світлом"
 
 #: qml/AdvancedDialog.qml:87 qml/AdvancedDialog.qml:92
-#, fuzzy
 msgid "Milky Way brightness"
 msgstr "Яскравість Чумацького Шляху"
 

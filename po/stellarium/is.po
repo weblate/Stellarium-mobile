@@ -12,16 +12,16 @@ msgstr ""
 "Project-Id-Version: po_stellarium_stellarium-is\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-09 22:58+0200\n"
-"PO-Revision-Date: 2020-05-01 15:11+0000\n"
+"PO-Revision-Date: 2020-06-10 06:55+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
-"Language-Team: Icelandic <https://hosted.weblate.org/projects/stellarium-"
-"mobile/app/is/>\n"
+"Language-Team: Icelandic <https://hosted.weblate.org/projects/"
+"stellarium-mobile/app/is/>\n"
 "Language: is\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n % 10 != 1 || n % 100 == 11;\n"
-"X-Generator: Weblate 4.0.2\n"
+"X-Generator: Weblate 4.1-dev\n"
 "X-Launchpad-Export-Date: 2016-11-20 05:29+0000\n"
 
 #: src/core/modules/ConstellationMgr.cpp:110 src/core/modules/StarMgr.cpp:328
@@ -197,9 +197,8 @@ msgid "Planetary nebula"
 msgstr "Hringþoka"
 
 #: src/core/modules/Nebula.cpp:357
-#, fuzzy
 msgid "Dark Nebula"
-msgstr "Gleypiþokur"
+msgstr "Gleypiþoka"
 
 #: src/core/modules/Nebula.cpp:360
 msgid "Cluster associated with nebulosity"
@@ -321,9 +320,9 @@ msgid "star"
 msgstr "stjarna"
 
 #: src/core/modules/StarWrapper.cpp:64 src/core/modules/StarWrapper.cpp:190
-#, fuzzy, qt-format
+#, qt-format
 msgid "Color Index (B-V): <b>%2</b>"
-msgstr "Skráningarlitur (B-V): <b>%1</b>"
+msgstr "Skráningarlitur (B-V): <b>%2</b>"
 
 #: src/core/modules/StarWrapper.cpp:143
 msgid "eruptive variable star"
@@ -384,12 +383,12 @@ msgid "Parallax: %1\""
 msgstr "Hliðrun: %1\""
 
 #: src/core/modules/StarWrapper.cpp:229
-#, fuzzy, qt-format
+#, qt-format
 msgid "Epoch for minimum light: %1 JD"
 msgstr "Næsta lágmarksljósmagn: %1 JD"
 
 #: src/core/modules/StarWrapper.cpp:231
-#, fuzzy, qt-format
+#, qt-format
 msgid "Epoch for maximum light: %1 JD"
 msgstr "Næsta hámarksljósmagn: %1 JD"
 
@@ -1707,7 +1706,6 @@ msgstr "Viðburðir Jarðar frá Merkúr"
 
 #. TRANSLATORS: Name and description of script
 #: src/translations.h:253
-#, fuzzy
 msgid "Earth Events from Venus"
 msgstr "Viðburðir Jarðar frá Venus"
 
@@ -1718,13 +1716,11 @@ msgstr "Viðburðir Jarðar frá Mars"
 
 #. TRANSLATORS: Name of script
 #: src/translations.h:257
-#, fuzzy
 msgid "Earth Greatest Elongations and Brilliancies from Mars"
 msgstr "Mestu álengdir og birtuhámörk Jarðar séð frá Mars"
 
 #. TRANSLATORS: Name of script
 #: src/translations.h:259
-#, fuzzy
 msgid "Earth and Mars Greatest Elongations from Jupiter"
 msgstr "Mestu álengdir og umferðir Jarðar og Mars séð frá Júpíter"
 
@@ -1822,7 +1818,6 @@ msgid ""
 msgstr ""
 
 #: src/translations.h:280
-#, fuzzy
 msgid ""
 "Screensaver of various happenings in the Solar System. 187 events in all!"
 msgstr "Skjáhvíla með ýmsum atburðum í sólkerfinu, alls 187 atburðir!"
@@ -1861,12 +1856,10 @@ msgstr ""
 "Sprengistjörnuviðbótin þar að vera virk."
 
 #: src/translations.h:287
-#, fuzzy
 msgid "Earth Greatest Elongations and Brilliancies from Mars 2000-3000"
 msgstr "Mestu álengdir og gagnstöður Jarðar séð frá Mars 2000-3000"
 
 #: src/translations.h:288
-#, fuzzy
 msgid "Earth Greatest Elongations from Jupiter 2000-3000"
 msgstr "Mestu álengdir og gagnstöður Jarðar séð frá Júpíter 2000-3000"
 
@@ -2847,12 +2840,10 @@ msgid "Landscape"
 msgstr "Landslag"
 
 #: qml/LocationCityPicker.qml:25
-#, fuzzy
 msgid "Pick City"
 msgstr "Veldu borg"
 
 #: qml/LocationCityPicker.qml:25
-#, fuzzy
 msgid "Pick Country"
 msgstr "Veldu land"
 
@@ -2865,7 +2856,6 @@ msgid "Use GPS"
 msgstr "Nota GPS"
 
 #: qml/LocationDialog.qml:37
-#, fuzzy
 msgid " (searching)"
 msgstr " (leita)"
 
@@ -2890,13 +2880,12 @@ msgid "GPS..."
 msgstr "GPS..."
 
 #: qml/main.qml:262
-#, fuzzy
 msgid "GPS"
-msgstr "NGP"
+msgstr "GPS"
 
 #: qml/main.qml:333
 msgid "Drag sky to move in time"
-msgstr ""
+msgstr "Dragðu himininn til að flakka í tíma"
 
 #: qml/SearchInput.qml:37 qml/SearchInput.qml:72 qml/SearchInput.qml:89
 #: qml/SearchInput.qml:98 qml/SearchInput.qml:102
@@ -2912,12 +2901,10 @@ msgid "Advanced"
 msgstr "Ítarlegt"
 
 #: qml/StelDialog.qml:24
-#, fuzzy
 msgid "Stellarium"
 msgstr "Stellarium"
 
 #: qml/TimeBar.qml:34
-#, fuzzy
 msgid "Real time"
 msgstr "Rauntími"
 
@@ -2926,7 +2913,6 @@ msgid "Stopped"
 msgstr "Stöðvað"
 
 #: qml/TimeDialog.qml:31
-#, fuzzy
 msgid "Advance to night at startup"
 msgstr "Færa fram til nætur við ræsingu"
 
@@ -2943,12 +2929,10 @@ msgid "Show meridian line"
 msgstr "Sýna hádegisbaugslínu"
 
 #: qml/AdvancedDialog.qml:70 qml/AdvancedDialog.qml:75
-#, fuzzy
 msgid "Light pollution"
 msgstr "Ljósmengun"
 
 #: qml/AdvancedDialog.qml:87 qml/AdvancedDialog.qml:92
-#, fuzzy
 msgid "Milky Way brightness"
 msgstr "Birtustig Vetrarbrautar"
 
