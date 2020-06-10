@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: nb\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-09 22:58+0200\n"
-"PO-Revision-Date: 2020-03-29 15:41+0000\n"
+"PO-Revision-Date: 2020-06-10 06:55+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
 "stellarium-mobile/app/nb_NO/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.0-dev\n"
+"X-Generator: Weblate 4.1-dev\n"
 "X-Launchpad-Export-Date: 2016-11-20 05:35+0000\n"
 
 #: src/core/modules/ConstellationMgr.cpp:110 src/core/modules/StarMgr.cpp:328
@@ -317,7 +317,7 @@ msgid "star"
 msgstr "Stjerne"
 
 #: src/core/modules/StarWrapper.cpp:64 src/core/modules/StarWrapper.cpp:190
-#, fuzzy, qt-format
+#, qt-format
 msgid "Color Index (B-V): <b>%2</b>"
 msgstr "Fargeindeks (B-V): <b>%2</b>"
 
@@ -2812,12 +2812,10 @@ msgid "Landscape"
 msgstr "Landskap"
 
 #: qml/LocationCityPicker.qml:25
-#, fuzzy
 msgid "Pick City"
 msgstr "Velg by"
 
 #: qml/LocationCityPicker.qml:25
-#, fuzzy
 msgid "Pick Country"
 msgstr "Velg land"
 
@@ -2890,7 +2888,6 @@ msgid "Stopped"
 msgstr "Stoppet"
 
 #: qml/TimeDialog.qml:31
-#, fuzzy
 msgid "Advance to night at startup"
 msgstr "Gå til natt ved oppstart"
 
@@ -2907,12 +2904,10 @@ msgid "Show meridian line"
 msgstr "Vis meridianlinje"
 
 #: qml/AdvancedDialog.qml:70 qml/AdvancedDialog.qml:75
-#, fuzzy
 msgid "Light pollution"
 msgstr "Lysforurensning"
 
 #: qml/AdvancedDialog.qml:87 qml/AdvancedDialog.qml:92
-#, fuzzy
 msgid "Milky Way brightness"
 msgstr "Lysstyrke på Melkeveien"
 
