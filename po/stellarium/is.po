@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: po_stellarium_stellarium-is\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-09 22:58+0200\n"
-"PO-Revision-Date: 2020-06-10 06:55+0000\n"
+"PO-Revision-Date: 2020-06-22 13:41+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <https://hosted.weblate.org/projects/"
 "stellarium-mobile/app/is/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n % 10 != 1 || n % 100 == 11;\n"
-"X-Generator: Weblate 4.1-dev\n"
+"X-Generator: Weblate 4.2-dev\n"
 "X-Launchpad-Export-Date: 2016-11-20 05:29+0000\n"
 
 #: src/core/modules/ConstellationMgr.cpp:110 src/core/modules/StarMgr.cpp:328
@@ -224,7 +224,7 @@ msgid "Absolute Magnitude: %1"
 msgstr "Reyndarbirtustig: %1"
 
 #: src/core/modules/Planet.cpp:149
-#, fuzzy, qt-format
+#, qt-format
 msgid "Ecliptic Topocentric (of date): %1/%2"
 msgstr "Sólbaugshnit séð frá jarðmiðju (m.v. dagsetningu): %1/%2"
 
@@ -918,7 +918,9 @@ msgstr "Fjarvídd"
 msgid ""
 "Perspective projection keeps the horizon a straight line. The mathematical "
 "name for this projection method is <i>gnomonic projection</i>."
-msgstr "Í fjarvíddarvörpun er sjóndeildarhringurinn beinn."
+msgstr ""
+"Í fjarvíddarvörpun er sjóndeildarhringurinn beinn. Stærðfræðilegt heiti "
+"þessarar vörpunar er <i>gnomonic-vörpun</i>."
 
 #: src/core/StelProjectorClasses.cpp:63
 msgid "Equal Area"
