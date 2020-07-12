@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: stellarium\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-09 22:58+0200\n"
-"PO-Revision-Date: 2020-05-14 11:41+0000\n"
-"Last-Translator: Mivik <mivik@qq.com>\n"
+"PO-Revision-Date: 2020-07-13 15:41+0000\n"
+"Last-Translator: Rui Kon <1301585083@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "stellarium-mobile/app/zh_Hans/>\n"
 "Language: zh\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.1-dev\n"
+"X-Generator: Weblate 4.2-dev\n"
 "X-Launchpad-Export-Date: 2016-11-20 05:24+0000\n"
 
 #: src/core/modules/ConstellationMgr.cpp:110 src/core/modules/StarMgr.cpp:328
@@ -69,7 +69,6 @@ msgid "Horizon"
 msgstr "地平"
 
 #: src/core/modules/GridLinesMgr.cpp:541
-#, fuzzy
 msgid "Galactic Plane"
 msgstr "银道"
 
@@ -110,7 +109,6 @@ msgid "Galactic grid"
 msgstr ""
 
 #: src/core/modules/GridLinesMgr.cpp:684
-#, fuzzy
 msgid "Galactic plane"
 msgstr "银道"
 
@@ -120,7 +118,7 @@ msgstr ""
 
 #: src/core/modules/LandscapeMgr.cpp:315
 msgid "Fog"
-msgstr ""
+msgstr "雾"
 
 #: src/core/modules/LandscapeMgr.cpp:316
 msgid "Cardinal points"
@@ -132,7 +130,7 @@ msgstr ""
 
 #: src/core/modules/LandscapeMgr.cpp:523
 msgid "Author: "
-msgstr ""
+msgstr "作者： "
 
 #: src/core/modules/LandscapeMgr.cpp:526
 msgid "Location: "
@@ -144,9 +142,8 @@ msgid ", %1 m"
 msgstr ""
 
 #: src/core/modules/LandscapeMgr.cpp:535
-#, fuzzy
 msgid "Planet: "
-msgstr "行星："
+msgstr "行星： "
 
 #: src/core/modules/Nebula.cpp:102 src/core/modules/Planet.cpp:124
 #: src/core/modules/MinorPlanet.cpp:213 src/core/modules/Comet.cpp:123
@@ -176,46 +173,40 @@ msgid "Size: %1"
 msgstr ""
 
 #: src/core/modules/Nebula.cpp:342
-#, fuzzy
 msgid "Galaxy"
 msgstr "星系"
 
 #: src/core/modules/Nebula.cpp:345
-#, fuzzy
 msgid "Open cluster"
 msgstr "疏散星团"
 
 #: src/core/modules/Nebula.cpp:348
-#, fuzzy
 msgid "Globular cluster"
 msgstr "球状星团"
 
 #: src/core/modules/Nebula.cpp:351
-#, fuzzy
 msgid "Nebula"
 msgstr "星云"
 
 #: src/core/modules/Nebula.cpp:354
-#, fuzzy
 msgid "Planetary nebula"
 msgstr "行星状星云"
 
 #: src/core/modules/Nebula.cpp:357
-#, fuzzy
 msgid "Dark Nebula"
-msgstr "星云"
+msgstr "暗星云"
 
 #: src/core/modules/Nebula.cpp:360
 msgid "Cluster associated with nebulosity"
-msgstr ""
+msgstr "与星云状物有关的星团"
 
 #: src/core/modules/Nebula.cpp:363
 msgid "Unknown"
-msgstr ""
+msgstr "未知"
 
 #: src/core/modules/Nebula.cpp:366
 msgid "Undocumented type"
-msgstr ""
+msgstr "未记录类型"
 
 #: src/core/modules/NebulaMgr.cpp:123
 msgid "Deep-sky objects"
@@ -231,12 +222,12 @@ msgstr ""
 #: src/core/modules/Planet.cpp:149
 #, qt-format
 msgid "Ecliptic Topocentric (of date): %1/%2"
-msgstr ""
+msgstr "黄道坐标 (日期): %1/%2"
 
 #: src/core/modules/Planet.cpp:150
 #, qt-format
 msgid "Obliquity (of date, for Earth): %1"
-msgstr ""
+msgstr "倾角 (日期，地球): %1"
 
 #: src/core/modules/Planet.cpp:160 src/core/modules/MinorPlanet.cpp:249
 #: src/core/modules/Comet.cpp:153
@@ -248,7 +239,7 @@ msgstr ""
 #: src/core/modules/Comet.cpp:160
 #, no-c-format, qt-format
 msgid "Distance: %1AU"
-msgstr ""
+msgstr "距离: %1AU"
 
 #: src/core/modules/Planet.cpp:178
 #, qt-format
