@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: es\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-09 22:58+0200\n"
-"PO-Revision-Date: 2020-06-30 12:41+0000\n"
+"PO-Revision-Date: 2020-08-02 19:42+0000\n"
 "Last-Translator: Szylu <chipolade@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/stellarium-mobile/"
 "app/pl/>\n"
@@ -2895,7 +2895,7 @@ msgstr "O programie"
 
 #: qml/InfoPanel.qml:125
 msgid "Unnamed"
-msgstr ""
+msgstr "Nienazwany"
 
 #: qml/LandscapesDialog.qml:5 qml/SettingsPanel.qml:46
 msgid "Landscape"
@@ -2927,7 +2927,7 @@ msgstr "Nazwa/Miasto:"
 
 #: qml/main.qml:133
 msgid "It is daytime, fast forward time until..."
-msgstr ""
+msgstr "Jest dzień, przewiń do przodu, aż do..."
 
 #: qml/main.qml:213 qml/SettingsPanel.qml:24
 msgid "Settings"
