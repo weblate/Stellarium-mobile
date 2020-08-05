@@ -24,7 +24,6 @@ Item {
 	id: root
 	property string mode: "DEFAULT" // DEFAULT | TIME | QUICKBAR | DIALOGS | SETTINGS
 	property bool isKindle : stellarium.model.indexOf("Amazon") !== -1
-    property string forwardNightModeTr: qsTr("It is daytime, fast forward time until…")
 
 	function jdToDate(jd) {
 		var unix_time = (jd - 2440587.5) * 86400
@@ -131,7 +130,7 @@ Item {
 					state = 1;
 				} else if (state === 1) {
 					if (stellarium.isDay()) {
-                        rootMessage.show(root.forwardNightModeTr)
+						rootMessage.show(qsTr("It is daytime, fast forward time until…"))
 						state = 2
 					} else {
 						stop();

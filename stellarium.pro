@@ -16,7 +16,7 @@ android {
 }
 CONFIG += qt thread
 CONFIG += c++11
-#CONFIG += release
+CONFIG += debug
 
 LIBS += -lz
 
