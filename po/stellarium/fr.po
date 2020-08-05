@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: fr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-09 22:58+0200\n"
-"PO-Revision-Date: 2020-08-05 11:18+0000\n"
+"PO-Revision-Date: 2020-08-05 15:03+0200\n"
 "Last-Translator: Lionel Duboeuf <lduboeuf@ouvaton.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/stellarium-mobile/"
 "app/fr/>\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.2-dev\n"
+"X-Generator: Poedit 2.4\n"
 "X-Launchpad-Export-Date: 2016-11-20 05:26+0000\n"
 
 #: src/core/modules/ConstellationMgr.cpp:110 src/core/modules/StarMgr.cpp:328
@@ -2912,9 +2912,8 @@ msgid "Pick City"
 msgstr "Choisissez une ville"
 
 #: qml/LocationCityPicker.qml:25
-#, fuzzy
 msgid "Pick Country"
-msgstr "Pays :"
+msgstr "Pays"
 
 #: qml/LocationDialog.qml:25 qml/SettingsPanel.qml:50
 msgid "Location"
@@ -2974,9 +2973,8 @@ msgid "Stellarium"
 msgstr "Stellarium"
 
 #: qml/TimeBar.qml:34
-#, fuzzy
 msgid "Real time"
-msgstr "et l'heure :"
+msgstr "Temps Réel"
 
 #: qml/TimeBar.qml:36
 msgid "Stopped"
@@ -2999,14 +2997,12 @@ msgid "Show meridian line"
 msgstr "Afficher le méridien"
 
 #: qml/AdvancedDialog.qml:70 qml/AdvancedDialog.qml:75
-#, fuzzy
 msgid "Light pollution"
-msgstr "Pollution lumineuse :"
+msgstr "Pollution lumineuse"
 
 #: qml/AdvancedDialog.qml:87 qml/AdvancedDialog.qml:92
-#, fuzzy
 msgid "Milky Way brightness"
-msgstr "Luminosité de la Voie lactée :"
+msgstr "Luminosité de la Voie lactée"
 
 #: qml/AdvancedDialog.qml:104 qml/AdvancedDialog.qml:109
 msgid "Thickness of lines"
