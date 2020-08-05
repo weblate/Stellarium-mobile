@@ -10,15 +10,18 @@ msgstr ""
 "Project-Id-Version: es\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-09 22:58+0200\n"
-"PO-Revision-Date: 2016-09-29 00:57+0000\n"
-"Last-Translator: pp/bs <Unknown>\n"
-"Language-Team: \n"
-"Language: \n"
+"PO-Revision-Date: 2020-08-02 19:42+0000\n"
+"Last-Translator: Szylu <chipolade@gmail.com>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/stellarium-mobile/"
+"app/pl/>\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.2-dev\n"
 "X-Launchpad-Export-Date: 2016-11-20 05:36+0000\n"
-"X-Generator: Launchpad (build 18269)\n"
 "X-Poedit-Country: SPAIN\n"
 "X-Poedit-Language: Spanish\n"
 
@@ -222,14 +225,14 @@ msgid "Absolute Magnitude: %1"
 msgstr "Absolutna  wielkość gwiazdowa: %1"
 
 #: src/core/modules/Planet.cpp:149
-#, fuzzy, qt-format
+#, qt-format
 msgid "Ecliptic Topocentric (of date): %1/%2"
-msgstr "Geocentryczne współrzędne ekliptyczne (na dzień): %1/%2"
+msgstr "Ekliptyka topocentryczna (na dzień): %1/%2"
 
 #: src/core/modules/Planet.cpp:150
 #, qt-format
 msgid "Obliquity (of date, for Earth): %1"
-msgstr "Kąt nachylenia osi (data, dla Ziemi): %1"
+msgstr "Inklinacja (data, dla Ziemi): %1"
 
 #: src/core/modules/Planet.cpp:160 src/core/modules/MinorPlanet.cpp:249
 #: src/core/modules/Comet.cpp:153
@@ -318,9 +321,9 @@ msgid "star"
 msgstr "gwiazda"
 
 #: src/core/modules/StarWrapper.cpp:64 src/core/modules/StarWrapper.cpp:190
-#, fuzzy, qt-format
+#, qt-format
 msgid "Color Index (B-V): <b>%2</b>"
-msgstr "Wskaźnik barwy (B-V): <b>%1</b>"
+msgstr "Wskaźnik barwy (B-V): <b>%2</b>"
 
 #: src/core/modules/StarWrapper.cpp:143
 msgid "eruptive variable star"
@@ -369,7 +372,7 @@ msgstr ""
 "%5)"
 
 #: src/core/modules/StarWrapper.cpp:215
-#, qt-format
+#, fuzzy, qt-format
 msgid "Distance: %1 Light Years"
 msgstr "Odległość: %1 lat świetlnych"
 
@@ -384,14 +387,14 @@ msgid "Parallax: %1\""
 msgstr "Paralaksa: %1\""
 
 #: src/core/modules/StarWrapper.cpp:229
-#, qt-format
+#, fuzzy, qt-format
 msgid "Epoch for minimum light: %1 JD"
-msgstr "Epoka dla minimalnego światła: %1 JD"
+msgstr "Epoka minimalnego światła: %1 JD"
 
 #: src/core/modules/StarWrapper.cpp:231
-#, qt-format
+#, fuzzy, qt-format
 msgid "Epoch for maximum light: %1 JD"
-msgstr "Epoka dla maksymalnego światła: %1 JD"
+msgstr "Epoka maksymalnego światła: %1 JD"
 
 #: src/core/modules/StarWrapper.cpp:235
 #, qt-format
@@ -1031,10 +1034,10 @@ msgid ""
 "preserves direction and shapes but distorts size, in an increasing degree "
 "away from the equator."
 msgstr ""
-"Odwzorowanie Merkatora jest jednym z najczęściej wykorzystywanych odwzorowań "
-"do przedstawiania mapy świata. Zachowuje ono kierunki i kształty, lecz "
-"rozmiary ulegają zniekształceniu (w coraz większym stopniu w miarę oddalania "
-"się od równika)."
+"Odwzorowanie Merkatora (odwzorowanie walcowe równokątne) jest jednym z "
+"najczęściej wykorzystywanych odwzorowań do przedstawiania mapy świata. "
+"Zachowuje ono kierunki i kształty, lecz rozmiary ulegają zniekształceniu (w "
+"coraz większym stopniu w miarę oddalania się od równika)."
 
 #: src/core/StelProjectorClasses.cpp:322
 msgid "Orthographic"
@@ -1174,7 +1177,7 @@ msgstr "Deimos"
 
 #: src/translations.h:40
 msgid "Phobos"
-msgstr "Phobos"
+msgstr "Fobos"
 
 #: src/translations.h:41
 msgid "Ceres"
@@ -1210,7 +1213,7 @@ msgstr "Ganimedes"
 
 #: src/translations.h:49
 msgid "Callisto"
-msgstr "Callisto"
+msgstr "Kallisto"
 
 #: src/translations.h:50
 msgid "Amalthea"
@@ -1276,7 +1279,7 @@ msgstr "Enceladus"
 
 #: src/translations.h:65
 msgid "Tethys"
-msgstr "Tethys"
+msgstr "Tethys (Tetyda)"
 
 #: src/translations.h:66
 msgid "Dione"
@@ -1284,7 +1287,7 @@ msgstr "Dione"
 
 #: src/translations.h:67
 msgid "Rhea"
-msgstr "Rhea"
+msgstr "Rea"
 
 #: src/translations.h:68
 msgid "Titan"
@@ -1300,7 +1303,7 @@ msgstr "Japetus"
 
 #: src/translations.h:71
 msgid "Phoebe"
-msgstr "Phoebe"
+msgstr "Febe"
 
 #: src/translations.h:72
 msgid "Neptune"
@@ -1324,7 +1327,7 @@ msgstr "Umbriel"
 
 #: src/translations.h:77
 msgid "Titania"
-msgstr "Titania"
+msgstr "Tytania"
 
 #: src/translations.h:78
 msgid "Oberon"
@@ -1382,7 +1385,7 @@ msgstr "Larissa"
 
 #: src/translations.h:93
 msgid "Proteus"
-msgstr "Proteus"
+msgstr "Proteusz"
 
 #: src/translations.h:94
 msgid "Halimede"
@@ -1431,7 +1434,7 @@ msgstr "Haumea"
 #. TRANSLATORS: Asteroid (5) Astraea
 #: src/translations.h:111
 msgid "Astraea"
-msgstr "Astreja"
+msgstr "Astraea"
 
 #. TRANSLATORS: Asteroid (6) Hebe
 #: src/translations.h:113
@@ -1441,7 +1444,7 @@ msgstr "Hebe"
 #. TRANSLATORS: Asteroid (7) Iris
 #: src/translations.h:115
 msgid "Iris"
-msgstr "Irys"
+msgstr "Iris"
 
 #. TRANSLATORS: Asteroid (8) Flora
 #: src/translations.h:117
@@ -1456,7 +1459,7 @@ msgstr "Hygiea"
 #. TRANSLATORS: Asteroid (41) Daphne
 #: src/translations.h:123
 msgid "Daphne"
-msgstr ""
+msgstr "Daphne"
 
 #. TRANSLATORS: Asteroid (1221) Amor
 #: src/translations.h:125
@@ -1486,12 +1489,12 @@ msgstr "Hektor"
 #. TRANSLATORS: Asteroid (20000) Varuna
 #: src/translations.h:135
 msgid "Varuna"
-msgstr ""
+msgstr "Waruna"
 
 #. TRANSLATORS: Asteroid (136472) Makemake
 #: src/translations.h:137
 msgid "Makemake"
-msgstr ""
+msgstr "Makemake"
 
 #. TRANSLATORS: Proper name of comet C/1680 V1
 #: src/translations.h:140
@@ -1570,7 +1573,7 @@ msgstr "egipska"
 
 #: src/translations.h:174
 msgid "Inuit"
-msgstr "eskimoska"
+msgstr "eskimoska (inuicka)"
 
 #: src/translations.h:175
 msgid "Indian Vedic"
@@ -1582,7 +1585,7 @@ msgstr "koreańska"
 
 #: src/translations.h:177
 msgid "Lakota"
-msgstr "Lakota"
+msgstr "lakota"
 
 #: src/translations.h:178
 msgid "Maori"
@@ -1758,15 +1761,16 @@ msgstr "Zjawiska z Ziemią widzianą z Marsa"
 
 #. TRANSLATORS: Name of script
 #: src/translations.h:257
-#, fuzzy
 msgid "Earth Greatest Elongations and Brilliancies from Mars"
-msgstr "Największe elongacje i tranzyty Ziemi i Marsa widziane z Callisto"
+msgstr ""
+"Największe elongacje i obserwowane wielkości gwiazdowe Ziemi widziane z Marsa"
 
 #. TRANSLATORS: Name of script
 #: src/translations.h:259
-#, fuzzy
 msgid "Earth and Mars Greatest Elongations from Jupiter"
-msgstr "Największe elongacje i tranzyty Ziemi i Marsa widziane z Callisto"
+msgstr ""
+"Największe elongacje i obserwowane wielkości gwiazdowe Ziemi oraz Marsa "
+"widziane z Jowisza"
 
 #. TRANSLATORS: Description of the landscape tour script.
 #: src/translations.h:265
@@ -1873,7 +1877,7 @@ msgstr ""
 msgid ""
 "Screensaver of various happenings in the Solar System. 187 events in all!"
 msgstr ""
-"Wygaszacz ekrany przedstawiający różne wydarzenia w Układzie Słonecznym. "
+"Wygaszacz ekranu przedstawiający różne wydarzenia w Układzie Słonecznym. "
 "Łącznie 187 zjawisk!"
 
 #: src/translations.h:281
@@ -1967,7 +1971,7 @@ msgstr "Argentyna"
 
 #: src/translations.h:303
 msgid "American Samoa"
-msgstr "Amerykańskie Samoa"
+msgstr "Samoa Amerykańskie"
 
 #: src/translations.h:304
 msgid "Austria"
@@ -2027,7 +2031,7 @@ msgstr "Bermudy"
 
 #: src/translations.h:318
 msgid "Brunei Darussalam"
-msgstr "Brunei Darussalam"
+msgstr "Brunei"
 
 #: src/translations.h:319
 msgid "Bolivia"
@@ -2079,7 +2083,7 @@ msgstr "Republika Środkowoafrykańska"
 
 #: src/translations.h:331
 msgid "Republic of the Congo"
-msgstr "Republika Kongo"
+msgstr "Kongo"
 
 #: src/translations.h:332
 msgid "Switzerland"
@@ -2383,11 +2387,11 @@ msgstr "Saint Kitts i Nevis"
 
 #: src/translations.h:407
 msgid "Democratic People's Republic of Korea"
-msgstr "Koreańska Republika Ludowo-Demokratyczna"
+msgstr "Korea Północna"
 
 #: src/translations.h:408
 msgid "Republic of Korea"
-msgstr "Republika Korei"
+msgstr "Korea Południowa"
 
 #: src/translations.h:409
 msgid "Kuwait"
@@ -2475,7 +2479,7 @@ msgstr "Mali"
 
 #: src/translations.h:430
 msgid "Myanmar"
-msgstr "Mjanma"
+msgstr "Mjanma (Birma)"
 
 #: src/translations.h:431
 msgid "Mongolia"
@@ -2611,7 +2615,7 @@ msgstr "Polska"
 
 #: src/translations.h:464
 msgid "Saint Pierre and Miquelon"
-msgstr "Saint-Pierre i Miquelon"
+msgstr "Wspólnota Terytorialna Saint Pierre i Miquelon"
 
 #: src/translations.h:465
 msgid "Pitcairn"
@@ -2623,7 +2627,7 @@ msgstr "Portoryko"
 
 #: src/translations.h:467
 msgid "Palestinian Territories"
-msgstr "Terytoria Palestyńskie"
+msgstr "Terytoria palestyńskie"
 
 #: src/translations.h:468
 msgid "Portugal"
@@ -2655,7 +2659,7 @@ msgstr "Serbia"
 
 #: src/translations.h:475
 msgid "Russian Federation"
-msgstr "Federacja Rosyjska"
+msgstr "Rosja"
 
 #: src/translations.h:476
 msgid "Rwanda"
@@ -2831,7 +2835,7 @@ msgstr "Watykan"
 
 #: src/translations.h:519
 msgid "Saint Vincent and the Grenadines"
-msgstr "Saint Vincent i Grenandyny"
+msgstr "Saint Vincent i Grenadyny"
 
 #: src/translations.h:520
 msgid "Venezuela"
@@ -2843,7 +2847,7 @@ msgstr "Brytyjskie Wyspy Dziewicze"
 
 #: src/translations.h:522
 msgid "United States Virgin Islands"
-msgstr "Wyspy Dziewicze Stanów Zjednoczonych"
+msgstr "Wyspy Dziewicze"
 
 #: src/translations.h:523
 msgid "Viet Nam"
@@ -2891,7 +2895,7 @@ msgstr "O programie"
 
 #: qml/InfoPanel.qml:125
 msgid "Unnamed"
-msgstr ""
+msgstr "Nienazwany"
 
 #: qml/LandscapesDialog.qml:5 qml/SettingsPanel.qml:46
 msgid "Landscape"
@@ -2899,12 +2903,11 @@ msgstr "Krajobraz"
 
 #: qml/LocationCityPicker.qml:25
 msgid "Pick City"
-msgstr ""
+msgstr "Wybierz miasto"
 
 #: qml/LocationCityPicker.qml:25
-#, fuzzy
 msgid "Pick Country"
-msgstr "Kraj:"
+msgstr "Wybierz kraj"
 
 #: qml/LocationDialog.qml:25 qml/SettingsPanel.qml:50
 msgid "Location"
@@ -2912,12 +2915,11 @@ msgstr "Lokalizacja"
 
 #: qml/LocationDialog.qml:37
 msgid "Use GPS"
-msgstr ""
+msgstr "Użyj GPS"
 
 #: qml/LocationDialog.qml:37
-#, fuzzy
 msgid " (searching)"
-msgstr "Pokaż okno wyszukiwania"
+msgstr " (szukanie)"
 
 #: qml/LocationDialog.qml:72
 msgid "Name/City:"
@@ -2925,7 +2927,7 @@ msgstr "Nazwa/Miasto:"
 
 #: qml/main.qml:133
 msgid "It is daytime, fast forward time until..."
-msgstr ""
+msgstr "Jest dzień, przewiń do przodu, aż do..."
 
 #: qml/main.qml:213 qml/SettingsPanel.qml:24
 msgid "Settings"
@@ -2933,19 +2935,19 @@ msgstr "Ustawienia"
 
 #: qml/main.qml:225
 msgid "Open Quick Bar"
-msgstr ""
+msgstr "Otwórz szybki pasek"
 
 #: qml/main.qml:260
 msgid "GPS..."
-msgstr ""
+msgstr "GPS..."
 
 #: qml/main.qml:262
 msgid "GPS"
-msgstr ""
+msgstr "GPS"
 
 #: qml/main.qml:333
 msgid "Drag sky to move in time"
-msgstr ""
+msgstr "Przeciągnij niebo, aby poruszać się w czasie"
 
 #: qml/SearchInput.qml:37 qml/SearchInput.qml:72 qml/SearchInput.qml:89
 #: qml/SearchInput.qml:98 qml/SearchInput.qml:102
@@ -2958,16 +2960,15 @@ msgstr "Historie gwiazdozbiorów"
 
 #: qml/SettingsPanel.qml:58 qml/AdvancedDialog.qml:24
 msgid "Advanced"
-msgstr ""
+msgstr "Zaawansowane"
 
 #: qml/StelDialog.qml:24
-#, fuzzy
 msgid "Stellarium"
-msgstr "Stellarium %1"
+msgstr "Stellarium"
 
 #: qml/TimeBar.qml:34
 msgid "Real time"
-msgstr ""
+msgstr "Czas rzeczywisty"
 
 #: qml/TimeBar.qml:36
 msgid "Stopped"
@@ -2988,21 +2989,19 @@ msgstr "Pokaż linię ekliptyki"
 
 #: qml/AdvancedDialog.qml:59
 msgid "Show meridian line"
-msgstr "Pokaż południk niebieski"
+msgstr "Pokaż linię południka"
 
 #: qml/AdvancedDialog.qml:70 qml/AdvancedDialog.qml:75
-#, fuzzy
 msgid "Light pollution"
-msgstr "Zaświetlenie nieba:"
+msgstr "Zaświetlenie nieba"
 
 #: qml/AdvancedDialog.qml:87 qml/AdvancedDialog.qml:92
-#, fuzzy
 msgid "Milky Way brightness"
-msgstr "Jasność Drogi Mlecznej:"
+msgstr "Jasność Drogi Mlecznej"
 
 #: qml/AdvancedDialog.qml:104 qml/AdvancedDialog.qml:109
 msgid "Thickness of lines"
-msgstr ""
+msgstr "Grubość linii"
 
 #: qml/AdvancedDialog.qml:120
 msgid "Restore default settings"

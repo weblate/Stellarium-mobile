@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: stellarium\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-09 22:58+0200\n"
-"PO-Revision-Date: 2020-05-23 02:41+0000\n"
+"PO-Revision-Date: 2020-06-28 04:41+0000\n"
 "Last-Translator: Hakim Oubouali <hakim.oubouali.skr@gmail.com>\n"
 "Language-Team: Berber <https://hosted.weblate.org/projects/stellarium-mobile/"
 "app/ber/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.1-dev\n"
+"X-Generator: Weblate 4.2-dev\n"
 "X-Launchpad-Export-Date: 2016-11-20 05:23+0000\n"
 
 #: src/core/modules/ConstellationMgr.cpp:110 src/core/modules/StarMgr.cpp:328
@@ -46,7 +46,7 @@ msgstr ""
 
 #: src/core/modules/StarMgr.cpp:329
 msgid "Stars"
-msgstr ""
+msgstr "ⵉⵜⵔⴰⵏ"
 
 #: src/core/modules/StarMgr.cpp:330
 msgid "Stars labels"
@@ -118,7 +118,7 @@ msgstr ""
 
 #: src/core/modules/LandscapeMgr.cpp:315
 msgid "Fog"
-msgstr ""
+msgstr "ⴰⵔⵏⵜⵉ"
 
 #: src/core/modules/LandscapeMgr.cpp:316
 msgid "Cardinal points"
