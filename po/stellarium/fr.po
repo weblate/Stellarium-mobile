@@ -18,8 +18,8 @@ msgstr ""
 "Project-Id-Version: fr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-09 22:58+0200\n"
-"PO-Revision-Date: 2020-07-24 07:41+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"PO-Revision-Date: 2020-08-05 11:18+0000\n"
+"Last-Translator: Lionel Duboeuf <lduboeuf@ouvaton.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/stellarium-mobile/"
 "app/fr/>\n"
 "Language: fr\n"
@@ -2901,16 +2901,15 @@ msgstr "À propos"
 
 #: qml/InfoPanel.qml:125
 msgid "Unnamed"
-msgstr ""
+msgstr "Indefini"
 
 #: qml/LandscapesDialog.qml:5 qml/SettingsPanel.qml:46
 msgid "Landscape"
 msgstr "Paysage"
 
 #: qml/LocationCityPicker.qml:25
-#, fuzzy
 msgid "Pick City"
-msgstr "Cité du Vatican"
+msgstr "Choisissez une ville"
 
 #: qml/LocationCityPicker.qml:25
 #, fuzzy
@@ -2923,12 +2922,11 @@ msgstr "Situation"
 
 #: qml/LocationDialog.qml:37
 msgid "Use GPS"
-msgstr ""
+msgstr "Utiliser le GPS"
 
 #: qml/LocationDialog.qml:37
-#, fuzzy
 msgid " (searching)"
-msgstr "Garching"
+msgstr " (recherche en cours)"
 
 #: qml/LocationDialog.qml:72
 msgid "Name/City:"
@@ -2936,7 +2934,7 @@ msgstr "Lieu :"
 
 #: qml/main.qml:133
 msgid "It is daytime, fast forward time until..."
-msgstr ""
+msgstr "C'est le jour, on avance le temps jusqu'à..."
 
 #: qml/main.qml:213 qml/SettingsPanel.qml:24
 msgid "Settings"
@@ -2944,20 +2942,19 @@ msgstr "Paramètres"
 
 #: qml/main.qml:225
 msgid "Open Quick Bar"
-msgstr ""
+msgstr "Ouvrir le Menu rapide"
 
 #: qml/main.qml:260
 msgid "GPS..."
-msgstr ""
+msgstr "GPS..."
 
 #: qml/main.qml:262
-#, fuzzy
 msgid "GPS"
-msgstr "PNG"
+msgstr "GPS"
 
 #: qml/main.qml:333
 msgid "Drag sky to move in time"
-msgstr ""
+msgstr "Glissez le ciel pour avancer dans le temps"
 
 #: qml/SearchInput.qml:37 qml/SearchInput.qml:72 qml/SearchInput.qml:89
 #: qml/SearchInput.qml:98 qml/SearchInput.qml:102
@@ -2970,12 +2967,11 @@ msgstr "Culture céleste"
 
 #: qml/SettingsPanel.qml:58 qml/AdvancedDialog.qml:24
 msgid "Advanced"
-msgstr ""
+msgstr "Paramètres avancés"
 
 #: qml/StelDialog.qml:24
-#, fuzzy
 msgid "Stellarium"
-msgstr "Stellarium %1"
+msgstr "Stellarium"
 
 #: qml/TimeBar.qml:34
 #, fuzzy
@@ -2987,9 +2983,8 @@ msgid "Stopped"
 msgstr "Arrêté"
 
 #: qml/TimeDialog.qml:31
-#, fuzzy
 msgid "Advance to night at startup"
-msgstr "Démarrer/se connecter au démarrage"
+msgstr "Avancer à la nuit au démarrage"
 
 #: qml/AdvancedDialog.qml:45
 msgid "Show planet markers"
@@ -3015,7 +3010,7 @@ msgstr "Luminosité de la Voie lactée :"
 
 #: qml/AdvancedDialog.qml:104 qml/AdvancedDialog.qml:109
 msgid "Thickness of lines"
-msgstr ""
+msgstr "Largeur des lignes"
 
 #: qml/AdvancedDialog.qml:120
 msgid "Restore default settings"
