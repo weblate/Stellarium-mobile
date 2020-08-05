@@ -24,6 +24,7 @@ Item {
 	id: root
 	property string mode: "DEFAULT" // DEFAULT | TIME | QUICKBAR | DIALOGS | SETTINGS
 	property bool isKindle : stellarium.model.indexOf("Amazon") !== -1
+    property string forwardNightModeTr: qsTr("It is daytime, fast forward time until…")
 
 	function jdToDate(jd) {
 		var unix_time = (jd - 2440587.5) * 86400
@@ -130,7 +131,7 @@ Item {
 					state = 1;
 				} else if (state === 1) {
 					if (stellarium.isDay()) {
-						rootMessage.show(qsTr("It is daytime, fast forward time until…"))
+                        rootMessage.show(root.forwardNightModeTr)
 						state = 2
 					} else {
 						stop();
@@ -426,4 +427,23 @@ Item {
 			c = Qt.lighter(c, 1.5);
 		return c;
 	}
+
+    // NightMode shader effect.
+    StelAction {
+        id: nightMode
+        action: "actionNight_Mode"
+    }
+    layer.enabled: nightMode.checked
+    layer.effect: ShaderEffect {
+        visible: nightMode.checked
+        anchors.fill: parent
+        fragmentShader: "
+            uniform lowp sampler2D source; // this item
+            varying highp vec2 qt_TexCoord0;
+            void main() {
+                lowp vec3 color = texture2D(source, qt_TexCoord0).rgb;
+                lowp float luminance = max(max(color.r, color.g), color.b);
+                gl_FragColor = vec4(luminance, 0.0, 0.0, 1.0);
+            }"
+    }
 }

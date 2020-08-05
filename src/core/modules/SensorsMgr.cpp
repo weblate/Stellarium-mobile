@@ -35,6 +35,8 @@
 #include <QDebug>
 #include <QAccelerometer>
 #include <QMagnetometer>
+#include <QScreen>
+#include <QGuiApplication>
 
 SensorsMgr::SensorsMgr() :
     enabled(false),
@@ -67,7 +69,7 @@ void SensorsMgr::setEnabled(bool value)
 		return;
 	enabled = value;
 	accelerometerSensor->setActive(enabled);
-	magnetometerSensor->setActive(enabled);
+    magnetometerSensor->setActive(enabled);
 	firstMeasure = true;
 	if (!enabled)
 	{
@@ -131,7 +133,7 @@ static void rot2d(float* x, float* y, float a)
 
 // Note: QScreen.orientation() does nto work on android when we go from 0deg to 180deg.
 // That is why we have to do a JNI call to get the real orientation.
-#ifdef Q_OS_ANDROID
+#ifdef defined(Q_OS_ANDROID)
 void SensorsMgr::applyOrientation(float* x, float* y, float* z)
 {
 	Q_UNUSED(z);
@@ -154,6 +156,41 @@ void SensorsMgr::applyOrientation(float* x, float* y, float* z)
 		break;
 	}
 }
+#elif defined(Q_OS_UBUNTU_TOUCH)
+    void SensorsMgr::applyOrientation(float* x, float* y, float* z)
+    {
+        Q_UNUSED(z);
+        const float xx = *x, yy = *y;
+        Qt::ScreenOrientation orientation = QGuiApplication::primaryScreen()->orientation();
+        qDebug() << "x:" << QString::number(*x) << "y:" << QString::number(*y) << "orientation:" << orientation;
+
+        switch (orientation)
+        {
+        case Qt::PortraitOrientation:  // ROTATION_0
+            if (yy < 0) {
+                *x = -xx;
+                *y = -yy;
+            }
+            break;
+        case Qt::LandscapeOrientation:  // ROTATION_90
+            if (xx < 0) {
+                *x = yy;
+                *y = -xx;
+            } else{
+                *x = -yy;
+                *y = xx;
+            }
+            break;
+        case Qt::InvertedPortraitOrientation:  // seems not working
+            *x = -xx;
+            *y = -yy;
+            break;
+        case Qt::InvertedLandscapeOrientation:  // seems not working
+            *x = yy;
+            *y = -xx;
+            break;
+        }
+    }
 #else
 void SensorsMgr::applyOrientation(float* x, float *y, float* z) 
 {
@@ -169,6 +206,7 @@ void SensorsMgr::update(double deltaTime)
 	QAccelerometerReading* reading = accelerometerSensor->reading();
 	if (!reading)
 		return;
+
 
 	float fov = StelApp::getInstance().getCore()->getProjection(StelCore::FrameJ2000)->getFov();
 	float averagingCoef = (firstMeasure)? 1 : mix(0.01, 0.1, qMin(fov / 130.0, 1.0));
@@ -205,22 +243,22 @@ void SensorsMgr::update(double deltaTime)
 	Mat4f mat = Mat4f::identity();
 	mat = Mat4f::rotation(Vec3f(1, 0, 0), pitch) * mat;
 
-	QMagnetometerReading* magnetoReading = magnetometerSensor->reading();
+    QMagnetometerReading* magnetoReading = magnetometerSensor->reading();
 	if (!magnetoReading)
-		return;
-	magnetX = mix(magnetX, magnetoReading->x(), averagingCoef);
-	magnetY = mix(magnetY, magnetoReading->y(), averagingCoef);
-	magnetZ = mix(magnetZ, magnetoReading->z(), averagingCoef);
+            return;
+    magnetX = mix(magnetX, magnetoReading->x(), averagingCoef);
+    magnetY = mix(magnetY, magnetoReading->y(), averagingCoef);
+    magnetZ = mix(magnetZ, magnetoReading->z(), averagingCoef);
 	x = magnetX;
 	y = magnetY;
 	z = magnetZ;
-	applyOrientation(&x, &y, &z);
+    applyOrientation(&x, &y, &z);
 
-	rot2d(&x, &y, -roll);
-	rot2d(&y, &z, pitch);
+    rot2d(&x, &y, -roll);
+    rot2d(&y, &z, pitch);
     float az = std::atan2(-x, z) - magd * 0.0174533; // Magnetic declination correction (Cheng Xinlun, Apr 18, 2017)
-	StelUtils::spheToRect(az, pitch, viewDirection);
-	mmgr->setViewDirectionJ2000(StelApp::getInstance().getCore()->altAzToJ2000(viewDirection));
+    StelUtils::spheToRect(az, pitch, viewDirection);
+    mmgr->setViewDirectionJ2000(StelApp::getInstance().getCore()->altAzToJ2000(viewDirection));
 }
 
 #endif // Q_OS_IOS
