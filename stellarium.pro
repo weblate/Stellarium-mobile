@@ -15,6 +15,7 @@ android {
 	QT += androidextras
 }
 CONFIG += qt thread
+CONFIG += c++11
 #CONFIG += release
 
 LIBS += -lz
