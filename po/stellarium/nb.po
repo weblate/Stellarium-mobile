@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: nb\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-06 09:55+0200\n"
-"PO-Revision-Date: 2020-06-12 14:41+0000\n"
-"Last-Translator: Oliver <websites@posteo.de>\n"
+"PO-Revision-Date: 2020-08-06 11:50+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
 "stellarium-mobile/app/nb_NO/>\n"
 "Language: nb\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.1-dev\n"
+"X-Generator: Weblate 4.2-dev\n"
 "X-Launchpad-Export-Date: 2016-11-20 05:35+0000\n"
 
 #: src/core/modules/ConstellationMgr.cpp:110 src/core/modules/StarMgr.cpp:328
@@ -2836,9 +2836,8 @@ msgid "Name/City:"
 msgstr "Navn/By:"
 
 #: qml/main.qml:75
-#, fuzzy
 msgid "It is daytime, fast forward time until…"
-msgstr "På dagen, spol frem til…"
+msgstr "Det er dag, spol frem til…"
 
 #: qml/main.qml:214 qml/SettingsPanel.qml:24
 msgid "Settings"
@@ -2850,7 +2849,7 @@ msgstr "Åpne hurtigfelt"
 
 #: qml/main.qml:261
 msgid "GPS…"
-msgstr ""
+msgstr "GPS…"
 
 #: qml/main.qml:263
 msgid "GPS"
