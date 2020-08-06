@@ -130,7 +130,7 @@ void StelQuickView::init(QSettings* conf)
 #if defined(Q_OS_ANDROID)
 	// Shouldn't we do showFullScreen on android as well?
 	show();
-#elif defined(Q_OS_IOS)
+#elif defined(Q_OS_IOS) || defined(Q_OS_UBUNTU_TOUCH)
 	showFullScreen();
 #else
 	int width = conf->value("video/screen_w", 480).toInt();
