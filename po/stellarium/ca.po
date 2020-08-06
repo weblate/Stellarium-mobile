@@ -11,10 +11,10 @@ msgstr ""
 "Project-Id-Version: ca\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-06 09:55+0200\n"
-"PO-Revision-Date: 2020-07-24 07:41+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
-"Language-Team: Catalan <https://hosted.weblate.org/projects/stellarium-"
-"mobile/app/ca/>\n"
+"PO-Revision-Date: 2020-08-06 11:50+0000\n"
+"Last-Translator: Joan CiberSheep <cibersheep@gmail.com>\n"
+"Language-Team: Catalan <https://hosted.weblate.org/projects/"
+"stellarium-mobile/app/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -503,7 +503,7 @@ msgstr "Afegeix 1 any sideral"
 
 #: src/core/StelCore.cpp:182
 msgid "Add 1 sidereal century"
-msgstr "Afegir un segle  sideral"
+msgstr "Afegeix un segle sideral"
 
 #: src/core/StelCore.cpp:183
 msgid "Add 1 synodic month"
@@ -551,7 +551,7 @@ msgstr "Resta 1 any sideral"
 
 #: src/core/StelCore.cpp:194
 msgid "Subtract 1 sidereal century"
-msgstr "Restar 1 segle  sideral"
+msgstr "Resta 1 segle sideral"
 
 #: src/core/StelCore.cpp:195
 msgid "Subtract 1 synodic month"
@@ -956,7 +956,7 @@ msgid ""
 "name for this projection method is <i>gnomonic projection</i>."
 msgstr ""
 "La projecció de perspectiva manté l'horitzó com una línia recta. El nom "
-"matemàtic per aquest mètode de projecció es <i>projecció gnomònica</i>"
+"matemàtic per aquest mètode és <i>projecció gnomònica</i>."
 
 #: src/core/StelProjectorClasses.cpp:63
 msgid "Equal Area"
@@ -1132,7 +1132,7 @@ msgstr "Trobat"
 
 #: src/main.cpp:320
 msgid "This system does not support OpenGL."
-msgstr "Aquest sistema no suporta OpenGL"
+msgstr "Aquest sistema no suporta l'OpenGL."
 
 #: src/StelMainView.cpp:298
 msgid "Save screenshot"
@@ -1187,7 +1187,7 @@ msgstr "Ceres"
 
 #: src/translations.h:42
 msgid "Pallas"
-msgstr "Pallas"
+msgstr "Pal·les"
 
 #: src/translations.h:43
 msgid "Juno"
@@ -1359,7 +1359,7 @@ msgstr "Eris"
 
 #: src/translations.h:86
 msgid "Triton"
-msgstr "Triton"
+msgstr "Tritó"
 
 #: src/translations.h:87
 msgid "Nereid"
@@ -1371,7 +1371,7 @@ msgstr "Nàiade"
 
 #: src/translations.h:89
 msgid "Thalassa"
-msgstr "Thalassa"
+msgstr "Talassa"
 
 #: src/translations.h:90
 msgid "Despina"
@@ -1426,7 +1426,7 @@ msgstr "Quaoar"
 #. TRANSLATORS: TNO/Asteroid (90482) Orcus
 #: src/translations.h:106
 msgid "Orcus"
-msgstr "Orcus"
+msgstr "Orc"
 
 #. TRANSLATORS: TNO/Asteroid (136108) Haumea
 #: src/translations.h:108
@@ -1456,7 +1456,7 @@ msgstr "Flora"
 #. TRANSLATORS: Asteroid (10) Hygiea
 #: src/translations.h:121
 msgid "Hygiea"
-msgstr "Hygiea"
+msgstr "Higiea"
 
 #. TRANSLATORS: Asteroid (41) Daphne
 #: src/translations.h:123
@@ -1476,7 +1476,7 @@ msgstr "Apophis"
 #. TRANSLATORS: Asteroid (2060) Chiron
 #: src/translations.h:129
 msgid "Chiron"
-msgstr "Chiron"
+msgstr "Quiró"
 
 #. TRANSLATORS: Asteroid (433) Eros
 #: src/translations.h:131
@@ -1486,7 +1486,7 @@ msgstr "Eros"
 #. TRANSLATORS: Asteroid (624) Hektor
 #: src/translations.h:133
 msgid "Hektor"
-msgstr "Hektor"
+msgstr "Hèctor"
 
 #. TRANSLATORS: Asteroid (20000) Varuna
 #: src/translations.h:135
@@ -2885,21 +2885,19 @@ msgstr "Quant a"
 
 #: qml/InfoPanel.qml:125
 msgid "Unnamed"
-msgstr ""
+msgstr "Sense nom"
 
 #: qml/LandscapesDialog.qml:5 qml/SettingsPanel.qml:46
 msgid "Landscape"
 msgstr "Paisatge"
 
 #: qml/LocationCityPicker.qml:25
-#, fuzzy
 msgid "Pick City"
-msgstr "Ciutat del Vaticà"
+msgstr "Trieu una ciutat"
 
 #: qml/LocationCityPicker.qml:25
-#, fuzzy
 msgid "Pick Country"
-msgstr "País:"
+msgstr "Trieu un país"
 
 #: qml/LocationDialog.qml:25 qml/SettingsPanel.qml:50
 msgid "Location"
@@ -2907,12 +2905,11 @@ msgstr "Ubicació"
 
 #: qml/LocationDialog.qml:37
 msgid "Use GPS"
-msgstr ""
+msgstr "Usa el GPS"
 
 #: qml/LocationDialog.qml:37
-#, fuzzy
 msgid " (searching)"
-msgstr "Garching"
+msgstr " (cercant)"
 
 #: qml/LocationDialog.qml:72
 msgid "Name/City:"
@@ -2920,7 +2917,7 @@ msgstr "Nom/Ciutat:"
 
 #: qml/main.qml:75
 msgid "It is daytime, fast forward time until…"
-msgstr ""
+msgstr "És de dia, avança en el temps fins…"
 
 #: qml/main.qml:214 qml/SettingsPanel.qml:24
 msgid "Settings"
@@ -2928,20 +2925,19 @@ msgstr "Configuració"
 
 #: qml/main.qml:226
 msgid "Open Quick Bar"
-msgstr ""
+msgstr "Obre la barra ràpida"
 
 #: qml/main.qml:261
 msgid "GPS…"
-msgstr ""
+msgstr "GPS…"
 
 #: qml/main.qml:263
-#, fuzzy
 msgid "GPS"
-msgstr "PNG"
+msgstr "GPS"
 
 #: qml/main.qml:334
 msgid "Drag sky to move in time"
-msgstr ""
+msgstr "Arrossegueu el cel per moure-vos pel temps"
 
 #: qml/SearchInput.qml:37 qml/SearchInput.qml:72 qml/SearchInput.qml:89
 #: qml/SearchInput.qml:98 qml/SearchInput.qml:102
@@ -2954,26 +2950,23 @@ msgstr "Mitologia"
 
 #: qml/SettingsPanel.qml:58 qml/AdvancedDialog.qml:24
 msgid "Advanced"
-msgstr ""
+msgstr "Avançat"
 
 #: qml/StelDialog.qml:24
-#, fuzzy
 msgid "Stellarium"
-msgstr "Stellarium %1"
+msgstr "Stellarium"
 
 #: qml/TimeBar.qml:34
-#, fuzzy
 msgid "Real time"
-msgstr "i temps:"
+msgstr "En temps real"
 
 #: qml/TimeBar.qml:36
 msgid "Stopped"
 msgstr "Aturat"
 
 #: qml/TimeDialog.qml:31
-#, fuzzy
 msgid "Advance to night at startup"
-msgstr "Inicia/connecta a l'inici"
+msgstr "Avança a la nit a l'inici"
 
 #: qml/AdvancedDialog.qml:45
 msgid "Show planet markers"
@@ -2988,18 +2981,16 @@ msgid "Show meridian line"
 msgstr "Mostra la línia del meridià"
 
 #: qml/AdvancedDialog.qml:70 qml/AdvancedDialog.qml:75
-#, fuzzy
 msgid "Light pollution"
-msgstr "Pol·lució lumínica:"
+msgstr "Contaminació lumínica"
 
 #: qml/AdvancedDialog.qml:87 qml/AdvancedDialog.qml:92
-#, fuzzy
 msgid "Milky Way brightness"
 msgstr "Brillantor de la Via Làctia"
 
 #: qml/AdvancedDialog.qml:104 qml/AdvancedDialog.qml:109
 msgid "Thickness of lines"
-msgstr ""
+msgstr "Gruix de les línies"
 
 #: qml/AdvancedDialog.qml:120
 msgid "Restore default settings"
