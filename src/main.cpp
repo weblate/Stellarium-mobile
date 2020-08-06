@@ -205,7 +205,8 @@ int main(int argc, char **argv)
 		if (configFileFullPath.isEmpty())
 			qFatal("Could not create configuration file %s.", qPrintable(configName));
 	}
-        qDebug() << "Config file: " << configFileFullPath;
+
+    qDebug() << "Config file: " << configFileFullPath;
 	QSettings* confSettings = NULL;
 	if (StelFileMgr::exists(configFileFullPath))
 	{

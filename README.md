@@ -1,25 +1,33 @@
 # Stellarium-mobile
 
-Stellarium on Mobile.
+[![OpenStore](https://open-store.io/badges/en_US.png)](https://open-store.io/app/me.lduboeuf.stellarium)
 
-This is an adaptation of https://github.com/chengxinlun/Stellarium-android ,
+[Stellarium](https://stellarium.org) on Mobile.
+
+This is an adaptation of Cheng Xinlun's Stellarium app for Android/Ios : https://github.com/chengxinlun/Stellarium-android ,
 Re-used compressed assets from initial work: https://noctua-software.com/stellarium-mobile 1.29 version
 
-Copyright: Original Stellarium dev team
+## Build for Ubuntu Touch
+
+`clickable -c ubuntu_touch/clickable.json`
 
 
 ## Translate
-https://hosted.weblate.org/projects/stellarium-mobile/app/
+https://hosted.weblate.org/projects/stellarium-mobile/app/ for stellarium core translations
+Sky cultures translation is not available there, see `po/stellarium-skycultures` and `mobileData/skycultures`
 
 
-## Update translation
-- translations `.pot` files are build with command `make translate_core` and `make translate_skyculture` ( see pro file )
+### Update translation
 
-- `po` files are merged in `qm` files with script `translation_generator.sh`
+- Translations `.pot` files are updated with command `make translate_core` and `make translate_skyculture` ( project need to be build first with qmake)
+- To sync po files with .pot files, use the script in `po/stellarium/translation_update.sh` 
+- To merge `po` files in `qm` files use the script `translation_generator.sh`
 
 
 
-## Build for Ubuntu Touch
-`clickable -c ubuntu_touch/clickable.json`
+## Copyrights:
+    Original Stellarium dev team
+    Noctua-Software
+    Cheng Xinlun
 
 

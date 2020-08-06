@@ -258,7 +258,7 @@ StelMainView::StelMainView(QWidget* parent)
 	// it will silently reset LC_NUMERIC to the value of LC_ALL during OpenGL
 	// initialization. This has been observed on Ubuntu 11.10 under certain
 	// circumstances, so here we set it again just to be on the safe side.
-	setlocale(LC_NUMERIC, "C");
+    setlocale(LC_NUMERIC, "C");
 	// End workaround
 }
 

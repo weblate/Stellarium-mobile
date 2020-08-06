@@ -49,8 +49,10 @@ StelTranslator* StelTranslator::globalTranslator = NULL;
 StelTranslator::StelTranslator(const QString& adomain, const QString& alangName) :
 		domain(adomain), langName(alangName)
 {
-	translator = new QTranslator();
-	bool res = translator->load(StelFileMgr::getLocaleDir()+adomain+"/"+getTrueLocaleName()+".qm");
+    translator = new QTranslator();
+    QString trFile = StelFileMgr::getLocaleDir()+adomain+"/"+getTrueLocaleName()+".qm";
+    qDebug() << "Translation file:" << trFile;
+    bool res = translator->load(getTrueLocaleName(), StelFileMgr::getLocaleDir()+adomain);
 	if (!res)
 		qWarning() << "Couldn't load translations for language " << alangName;
 	if (translator->isEmpty())
@@ -108,6 +110,8 @@ void StelTranslator::initSystemLanguage()
 	if (pos != -1) systemLangName.resize(pos);
 	pos = systemLangName.indexOf('.', 0);
 	if (pos != -1) systemLangName.resize(pos);
+
+    qDebug() << "system language:" << systemLangName;
 }
 
 

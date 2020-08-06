@@ -162,8 +162,6 @@ void SensorsMgr::applyOrientation(float* x, float* y, float* z)
         Q_UNUSED(z);
         const float xx = *x, yy = *y;
         Qt::ScreenOrientation orientation = QGuiApplication::primaryScreen()->orientation();
-        qDebug() << "x:" << QString::number(*x) << "y:" << QString::number(*y) << "orientation:" << orientation;
-
         switch (orientation)
         {
         case Qt::PortraitOrientation:  // ROTATION_0

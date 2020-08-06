@@ -33,7 +33,7 @@ void StelLogger::init(const QString& logFilePath)
 {
 	logFile = new QFile(logFilePath);
 
-#if !(defined(Q_OS_ANDROID) || defined(Q_OS_IOS))
+#if !(defined(Q_OS_ANDROID) || defined(Q_OS_IOS) || defined(Q_OS_UBUNTU_TOUCH))
 	if (logFile->open(QIODevice::WriteOnly | QIODevice::Truncate | QIODevice::Text | QIODevice::Unbuffered))
 		qInstallMessageHandler(StelLogger::debugLogHandler);
 #endif
