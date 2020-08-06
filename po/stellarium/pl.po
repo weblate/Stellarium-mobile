@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: es\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-06 13:58+0200\n"
-"PO-Revision-Date: 2020-08-06 12:05+0000\n"
-"Last-Translator: Szylu <chipolade@gmail.com>\n"
+"PO-Revision-Date: 2020-08-06 12:27+0000\n"
+"Last-Translator: Lionel Duboeuf <lduboeuf@ouvaton.org>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/stellarium-mobile/"
 "app/pl/>\n"
 "Language: pl\n"
@@ -387,12 +387,12 @@ msgid "Parallax: %1\""
 msgstr "Paralaksa: %1\""
 
 #: src/core/modules/StarWrapper.cpp:229
-#, fuzzy, qt-format
+#, qt-format
 msgid "Epoch for minimum light: %1 JD"
 msgstr "Epoka minimalnego światła: %1 JD"
 
 #: src/core/modules/StarWrapper.cpp:231
-#, fuzzy, qt-format
+#, qt-format
 msgid "Epoch for maximum light: %1 JD"
 msgstr "Epoka maksymalnego światła: %1 JD"
 
@@ -1578,14 +1578,12 @@ msgstr ""
 "musi być włączona."
 
 #: src/translations.h:287
-#, fuzzy
 msgid "Earth Greatest Elongations and Brilliancies from Mars 2000-3000"
 msgstr ""
 "Największe elongacje i opozycje Ziemi i innych planet widziane z Marsa "
 "2000-3000"
 
 #: src/translations.h:288
-#, fuzzy
 msgid "Earth Greatest Elongations from Jupiter 2000-3000"
 msgstr ""
 "Największe elongacje i opozycje Ziemi i innych planet widziane z Marsa "
@@ -2641,7 +2639,6 @@ msgid "Stopped"
 msgstr "Zatrzymane"
 
 #: qml/TimeDialog.qml:31
-#, fuzzy
 msgid "Advance to night at startup"
 msgstr "Uruchom/połącz podczas uruchamiania programu"
 
