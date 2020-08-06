@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: stellarium\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-06 09:55+0200\n"
+"POT-Creation-Date: 2020-08-06 13:58+0200\n"
 "PO-Revision-Date: 2020-07-24 07:41+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Bengali <https://hosted.weblate.org/projects/stellarium-"
@@ -422,7 +422,7 @@ msgstr "রাত্রিকালীন প্রদর্শণ সুবি�
 msgid "SpaceShip"
 msgstr "মহাকাশ যান"
 
-#: src/core/StelCore.cpp:161 qml/SettingsPanel.qml:42 qml/TimeDialog.qml:23
+#: src/core/StelCore.cpp:161 qml/SettingsPanel.qml:43 qml/TimeDialog.qml:23
 msgid "Date and Time"
 msgstr "তারিখ ও সময়"
 
@@ -593,342 +593,6 @@ msgstr "আড়াআড়ি ভাবে দৃশ্যপট ঘোরান"
 #: src/core/StelCore.cpp:206
 msgid "Flip scene vertically"
 msgstr "লম্বালম্বিভাবে দৃশ্যপট ঘোরান"
-
-#: src/core/StelCore.cpp:1455
-msgid "Correction is disabled. Use only if you know what you are doing!"
-msgstr "সংশোধন প্রনালি নিস্ক্রিয় করা আছে । সম্যক ধারণা থাকলে তবেই সক্রিয় করুন ।"
-
-#: src/core/StelCore.cpp:1458
-#, qt-format
-msgid ""
-"This historical formula was obtained by C. Schoch in 1931 and was used by G. "
-"Henriksson in his article <em>Einstein's Theory of Relativity Confirmed by "
-"Ancient Solar Eclipses</em> (%1). See for more info %2here%3."
-msgstr ""
-"এই বিখ্যাত সূত্রটি C. Schoch ১৯৩১ সালে আবিস্কার করেন এবং G. Henriksson তাঁর "
-"<em>Einstein's Theory of Relativity Confirmed by Ancient Solar Eclipses</em> "
-"(%1) নামক প্রবন্ধে এটি ব্যবহার করেছেন । বিস্তারিত তথ্য জানতে %2এখানে%3 দেখুন ।"
-
-#: src/core/StelCore.cpp:1461
-#, qt-format
-msgid ""
-"This empirical equation was published by G. M. Clemence in the article "
-"<em>On the system of astronomical constants</em> (%1)."
-msgstr ""
-"এই বিখ্যাত সূত্রটি G. M. Clemence তাঁর  <em>On the system of astronomical "
-"constants</em> (%1) নামক প্রবন্ধে প্রকাশ করেন ।"
-
-#: src/core/StelCore.cpp:1464
-#, qt-format
-msgid ""
-"This formula is based on a study of post-1650 observations of the Sun, the "
-"Moon and the planets by Spencer Jones (%1) and used by Jean Meeus in his "
-"<em>Astronomical Formulae for Calculators</em>. It was also adopted in the "
-"PC program SunTracker Pro."
-msgstr ""
-"Spencer Jones (%1) কর্তৃক সূর্য, অন্যান্য গ্রহ ও চাঁদ এর ১৬৫০ পরবর্তী পর্যবেক্ষণের উপর "
-"ভিত্তি করে এই সূত্রটি তৈরী এবং Jean Meeus তাঁর <em>Astronomical Formulae for "
-"Calculators</em> নামক প্রবন্ধে এটি ব্যবহার করেছেন ।"
-
-#: src/core/StelCore.cpp:1468
-msgid ""
-"This is a slightly modified version of the IAU (1952) formula which was "
-"adopted in the <em>Astronomical Ephemeris</em> and in the <em>Canon of Solar "
-"Eclipses</em> by Mucke & Meeus (1983)."
-msgstr ""
-"এটি IAU (১৯৫২) প্রবর্তিত সূত্রের সামান্য সংশোধিত রূপ যা Mucke & Meeus (১৯৮৩) "
-"প্রবর্তিত <em>জ্যোতির্বৈজ্ঞানিক পঞ্জিকা</em> ও <em>Canon of Solar Eclipses</em> "
-"নামক প্রবন্ধে গৃহীত হয়েছে ।"
-
-#: src/core/StelCore.cpp:1472
-msgid ""
-"The tables of Tuckerman (1962, 1964) list the positions of the Sun, the Moon "
-"and the planets at 5- and 10-day intervals from 601 BCE to 1649 CE. The same "
-"relation was also implicitly adopted in the syzygy tables of Goldstine "
-"(1973)."
-msgstr ""
-"Tuckerman (১৯৬২, ১৯৬৪) এর তৈরী এই ছকে ৬০১ খ্রীষ্টপূর্বাব্দ থেকে ১৬৪৯ খ্রীষ্টাব্দ "
-"পর্যন্ত প্রতি ৫-১০ দিন অন্তর সূর্য, গ্রহ ও চাঁদের অবস্থানের একটি তালিকা দেওয়া আছে । "
-"এই একই সম্পর্ক Goldstine (১৯৭৩) প্রবর্তিত syzygy ছকেও গৃহিত হয়েছে ।"
-
-#: src/core/StelCore.cpp:1476
-#, qt-format
-msgid ""
-"This equation was published by P. M. Muller and F. R. Stephenson in the "
-"article <em>The accelerations of the earth and moon from early astronomical "
-"observations</em> (%1)."
-msgstr ""
-"<em>The accelerations of the earth and moon from early astronomical "
-"observations</em> (%1) নামক প্রবন্ধে P. M. Muller এবং F. R. Stephenson এই "
-"সমীকরনটি প্রকাশ করেন ।"
-
-#: src/core/StelCore.cpp:1479
-#, qt-format
-msgid ""
-"This equation was published by F. R. Stephenson in the article <em>Pre-"
-"Telescopic Astronomical Observations</em> (%1)."
-msgstr ""
-"<em>Pre-Telescopic Astronomical Observations</em> (%1) নামক প্রবন্ধে P. M. "
-"Muller এবং F. R. Stephenson এই সমীকরনটি প্রকাশ করেন ।"
-
-#: src/core/StelCore.cpp:1482
-#, qt-format
-msgid ""
-"This 12th-order polynomial equation (outdated and superseded by Schmadel & "
-"Zech (1988)) was published by L. D. Schmadel and G. Zech in the article "
-"<em>Polynomial approximations for the correction delta T E.T.-U.T. in the "
-"period 1800-1975</em> (%1) as fit through data published by Brouwer (1952)."
-msgstr ""
-"Brouwer (১৯৫২) কর্তৃক প্রকাশিত তালিকা ভিত্তিক এই ১২ ঘাতের সমীকরনটি (যা Schmadel "
-"এবং Zech (১৯৮৮) কর্তৃক সেকেলে এবং বাতিল বলে প্রমানিত) <em>Polynomial "
-"approximations for the correction delta T E.T.-U.T. in the period 1800-1975</"
-"em> (%1) নামক প্রবন্ধে L. D. Schmadel এবং G. Zech প্রকাশ করেন ।"
-
-#: src/core/StelCore.cpp:1485
-msgid ""
-"This algorithm was adopted in P. Bretagnon & L. Simon's <em>Planetary "
-"Programs and Tables from -4000 to +2800</em> (1986) and in the PC "
-"planetarium program RedShift."
-msgstr ""
-"এই কার্যপ্রনালীটি P. Bretagnon এবং L. Simon প্রবর্তিত <em>Planetary Programs and "
-"Tables from -4000 to +2800</em> (১৯৮৬) ও RedShift নামক কম্পিউটার প্রোগ্রামে "
-"গৃহিত হয়েছে ।"
-
-#: src/core/StelCore.cpp:1488
-#, qt-format
-msgid ""
-"This formula was published by F. R. Stephenson and L. V. Morrison in the "
-"article <em>Long-term changes in the rotation of the earth - 700 B.C. to A."
-"D. 1980</em> (%1)."
-msgstr ""
-"F. R. Stephenson এবং L. V. Morrison তাঁদের <em>Long-term changes in the "
-"rotation of the earth - 700 B.C. to A.D. 1980</em> (%1) নামক প্রবন্ধে এই সূত্রটি "
-"প্রকাশ করেন ।"
-
-#: src/core/StelCore.cpp:1491
-msgid "This algorithm is used in the PC planetarium program Guide 7."
-msgstr "Guide নামক কম্পিউটার প্রোগ্রামের ৭ম সংস্করণে এই কার্যপ্রনালীটি ব্যবহৃত হয়েছে ।"
-
-#: src/core/StelCore.cpp:1494
-msgid ""
-"This algorithm was given by F. Espenak in his <em>Fifty Year Canon of Solar "
-"Eclipses: 1986-2035</em> (1987) and in his <em>Fifty Year Canon of Lunar "
-"Eclipses: 1986-2035</em> (1989)."
-msgstr ""
-"<em>Fifty Year Canon of Solar Eclipses: 1986-2035</em> (১৯৮৭) এবং <em>Fifty "
-"Year Canon of Lunar Eclipses: 1986-2035</em> (১৯৮৯) নামক প্রবন্ধে F. Espenak "
-"এই কার্যপ্রনালীটি প্রকাশ করেন ।"
-
-#: src/core/StelCore.cpp:1497
-#, qt-format
-msgid ""
-"This formula was obtained by K.M. Borkowski (%1) from an analysis of 31 "
-"solar eclipse records dating between 2137 BCE and 1715 CE."
-msgstr ""
-"২১৩৭ খ্রীষ্টপূর্বাব্দ থেকে ১৭১৫ খ্রীষ্টাব্দ পর্যন্ত ঘটা সূর্যগ্রহণগুলির মধ্যের ৩১টির সংগৃহিত "
-"তথ্য থেকে K.M. Borkowski (%1) এই সূত্রটি তৈরী করেছেন ।"
-
-#: src/core/StelCore.cpp:1500
-#, qt-format
-msgid ""
-"This 12th-order polynomial equation was published by L. D. Schmadel and G. "
-"Zech in the article <em>Empirical Transformations from U.T. to E.T. for the "
-"Period 1800-1988</em> (%1) as data fit through values given by Stephenson & "
-"Morrison (1984)."
-msgstr ""
-"Stephenson এবং Morrison (১৯৮৪) কর্তৃক প্রকাশিত তালিকা ভিত্তিক এই ১২ ঘাতের "
-"সমীকরনটি <em>Empirical Transformations from U.T. to E.T. for the Period "
-"1800-1988</em> (%1) নামক প্রবন্ধে L. D. Schmadel এবং G. Zech প্রকাশ করেন ।"
-
-#: src/core/StelCore.cpp:1503
-msgid ""
-"This formula was adopted by M. Chapront-Touze & J. Chapront in the shortened "
-"version of the ELP 2000-85 lunar theory in their <em>Lunar Tables and "
-"Programs from 4000 B.C. to A.D. 8000</em> (1991)."
-msgstr ""
-"M. Chapront-Touze এবং J. Chapront রচিত <em>Lunar Tables and Programs from "
-"4000 B.C. to A.D. 8000</em> (১৯৯১) প্রবন্ধে চাঁদ সংক্রান্ত ELP 2000-85 মতবাদের "
-"সংক্ষিপ্ত রূপটিতে এই সূত্রটি গৃহিত হয়েছে ।"
-
-#: src/core/StelCore.cpp:1506
-#, qt-format
-msgid ""
-"This equation was published by F. R. Stephenson and L. V. Morrison in the "
-"article <em>Long-Term Fluctuations in the Earth's Rotation: 700 BC to AD "
-"1990</em> (%1)."
-msgstr ""
-"F. R. Stephenson এবং L. V. Morrison তাঁদের <em>Long-Term Fluctuations in the "
-"Earth's Rotation: 700 BC to AD 1990</em> (%1) নামক প্রবন্ধে এই সূত্রটি প্রকাশ "
-"করেন ।"
-
-#: src/core/StelCore.cpp:1509
-#, qt-format
-msgid ""
-"F. R. Stephenson published this formula in his book <em>Historical Eclipses "
-"and Earth's Rotation</em> (%1)."
-msgstr ""
-"F. R. Stephenson তাঁর রচিত<em>Historical Eclipses and Earth's Rotation</em> "
-"(%1) বইয়ে এই সূত্রটি প্রকাশ করেন ।"
-
-#: src/core/StelCore.cpp:1512
-msgid ""
-"From J. Meeus, <em>Astronomical Algorithms</em> (2nd ed., 1998), and widely "
-"used. Table for 1620..2000, and includes a variant of Chapront, Chapront-"
-"Touze & Francou (1997) for dates outside 1620..2000."
-msgstr ""
-"এটি J. Meeus রচিত ও বহুল ব্যবহৃত <em>Astronomical Algorithms</em> (২য় সংস্করণ, "
-"১৯৮৮) থেকে  নেওয়া হয়েছে । তাছাড়া ১৬২০ থেকে ২০০০ সাল পর্যন্ত একটি তালিকা ও তার "
-"বাইরের দিনগুলির জন্য Chapront, Chapront-Touze এবং Francou (১৯৯৭) প্রবর্তিত "
-"অপেক্ষক যোগ করা হয়েছে ।"
-
-#: src/core/StelCore.cpp:1515
-#, qt-format
-msgid ""
-"The JPL Solar System Dynamics Group of the NASA Jet Propulsion Laboratory "
-"use this formula in their interactive website %1JPL Horizons%2."
-msgstr ""
-"The JPL Solar System Dynamics Group of the NASA Jet Propulsion Laboratory "
-"তার ওয়েবসাইট %1JPL Horizons%2 এ এই সূত্র ব্যবহার করে ।"
-
-#: src/core/StelCore.cpp:1518
-#, qt-format
-msgid ""
-"This polynome was published by J. Meeus and L. Simons in article "
-"<em>Polynomial approximations to Delta T, 1620-2000 AD</em> (%1)."
-msgstr ""
-"J. Meeus এবং L. Simons তাঁদের প্রবন্ধ <em>Polynomial approximations to Delta T, "
-"1620-2000 AD</em> (%1) তে এই বহুপদী সমীকরনটি প্রকাশ করেন ।"
-
-#: src/core/StelCore.cpp:1521
-msgid ""
-"The fourth edition of O. Montenbruck & T. Pfleger's <em>Astronomy on the "
-"Personal Computer</em> (2000) provides simple 3rd-order polynomial data fits "
-"for the recent past."
-msgstr ""
-"নিকট অতীতের তথ্য ভিত্তিক ৩য় ঘাতের এই সমীকরনটি O. Montenbruck এবং T. Pfleger "
-"রচিত <em>Astronomy on the Personal Computer</em> (২০০০) এর ৪র্থ সংস্করণে পাওয়া "
-"যায় ।"
-
-#: src/core/StelCore.cpp:1524
-msgid ""
-"E. M. Reingold & N. Dershowitz present this polynomial data fit in "
-"<em>Calendrical Calculations</em> (3rd ed. 2007) and in their "
-"<em>Calendrical Tabulations</em> (2002). It is based on Jean Meeus' "
-"<em>Astronomical Algorithms</em> (1991)."
-msgstr ""
-"তথ্য ভিত্তিক এই বহুপদী সমীকরনটি E. M. Reingold এবং N. Dershowitz তাঁদের রচিত "
-"<em>Calendrical Calculations</em> (৩য় সংস্করণ, ২০০৭) ও <em>Calendrical "
-"Tabulations</em> (২০০২) এ প্রকাশ করেন । যদিও এটির ভিত্তি Jean Meeus এর "
-"<em>Astronomical Algorithms</em> (১৯৯১) ।"
-
-#: src/core/StelCore.cpp:1527
-#, qt-format
-msgid ""
-"This important solution was published by L. V. Morrison and F. R. Stephenson "
-"in article <em>Historical values of the Earth's clock error %1T and the "
-"calculation of eclipses</em> (%2) with addendum in (%3)."
-msgstr ""
-"L. V. Morrison এবং F. R. Stephenson তাঁদের প্রবন্ধ <em>Historical values of the "
-"Earth's clock error %1T and the calculation of eclipses</em> (%2) এর একটি "
-"সংযোজনে (%3) এই গুরুত্বপূর্ণ সমাধানটি প্রকাশ করেন ।"
-
-#: src/core/StelCore.cpp:1530
-#, qt-format
-msgid ""
-"From the Length of Day (LOD; as determined by Stephenson & Morrison (%2)), "
-"Victor Reijs derived a %1T formula by using a Simplex optimisation with a "
-"cosine and square function. This is based on a possible periodicy described "
-"by Stephenson (%2). See for more info %3here%4."
-msgstr ""
-"দিনের দৈর্ঘ্যের (Stephenson এবং Morrison (%2) কর্তৃক নির্ণীত) পরিমাপ থেকে Victor "
-"Reijs %1T পরিমাপের এই সূত্রটি নির্ণয় করেন যা cosine এবং বর্গ অপেক্ষকে সরলীকৃত একটি "
-"সমীকরন । আসলে এটি Stephenson (%2) বিবৃত একটি সম্ভাব্য পর্যায়বৃত্তির উপর ভিত্তি করে "
-"নির্ণয় করা হয়েছে । আরও তথ্যের জন্য %3এখানে%4 দেখুন ।"
-
-#: src/core/StelCore.cpp:1533
-#, qt-format
-msgid ""
-"This solution by F. Espenak and J. Meeus, based on Morrison & Stephenson "
-"(2004) and a polynomial fit through tabulated values for 1600-2000, is used "
-"for the %1NASA Eclipse Web Site%2 and in their <em>Five Millennium Canon of "
-"Solar Eclipses: -1900 to +3000</em> (2006). This formula is also used in the "
-"solar, lunar and planetary ephemeris program SOLEX."
-msgstr ""
-"Morrison এবং Stephenson (২০০৪) সমীকরণ ও ১৬০০ থেকে ২০০০ সালের তথ্যের একটি "
-"তালিকা থেকে প্রাপ্ত বহুপদী সমীকরনের এই সমাধানটি , F. Espenak এবং J. Meeus "
-"আবিষ্কৃত, %1NASA Eclipse Web Site%2 এবং <em>Five Millennium Canon of Solar "
-"Eclipses: -1900 to +3000</em> (২০০৬) এ ব্যবহৃত হয়েছে । এছাড়াও সূর্য চাঁদ গ্রহ "
-"উপগ্রহ ইত্যাদির পঞ্জিকা নির্ণয়ের জন্য ব্যবহৃত SOLEX নামক একটি প্রোগ্রামে এটি ব্যবহার "
-"করা হয়েছে ।"
-
-#: src/core/StelCore.cpp:1533
-msgid "Used by default."
-msgstr "প্রারম্ভিক সূচনা হিসেবে ব্যবহার করা হয়ে থাকে ।"
-
-#: src/core/StelCore.cpp:1536
-#, qt-format
-msgid ""
-"This solution by B. Banjevic, based on Stephenson & Morrison (1984), was "
-"published in article <em>Ancient eclipses and dating the fall of Babylon</"
-"em> (%1)."
-msgstr ""
-"Stephenson এবং Morrison (১৯৮৪) এর উপর ভিত্তি করে B. Banjevic এর এই সমাধানটি "
-"<em>Ancient eclipses and dating the fall of Babylon</em> (%1) প্রবন্ধে প্রকাশিত "
-"হয় ।"
-
-#: src/core/StelCore.cpp:1539
-#, qt-format
-msgid ""
-"This solution by S. Islam, M. Sadiq and M. S. Qureshi, based on Meeus & "
-"Simons (2000), was published in article <em>Error Minimization of Polynomial "
-"Approximation of DeltaT</em> (%1) and revisited by Sana Islam in 2013."
-msgstr ""
-"Meeus এবং Simons (২০০০) এর উপর ভিত্তি করে S. Islam, M. Sadiq ও M. S. Qureshi "
-"এর এই সমাধানটি <em>Error Minimization of Polynomial Approximation of DeltaT</"
-"em> (%1) প্রবন্ধে প্রকাশিত হয় যা ২০১৩ সালে Sana Islam পুনরুত্থাপন করেন ।"
-
-#: src/core/StelCore.cpp:1542
-#, qt-format
-msgid ""
-"This is a quadratic formula for calculation of %1T with coefficients defined "
-"by the user."
-msgstr "এটি %1T নির্ণয় করার জন্য ব্যবহারকারী প্রদত্ত সহগ যুক্ত দ্বিঘাত সমীকরন ।"
-
-#: src/core/StelCore.cpp:1545 src/core/SimbadSearcher.cpp:133
-msgid "Error"
-msgstr "ত্রুটি"
-
-#: src/core/StelCore.cpp:1594
-msgid "with meaningless values outside this range"
-msgstr "এই সীমার বাইরের মানগুলি অর্থহীন যা কোন কাজের নয়"
-
-#: src/core/StelCore.cpp:1620
-msgid ""
-"with a mean error of less than one second, max. error 1.9s, and meaningless "
-"values outside this range"
-msgstr ""
-"গড়ে সর্বনিম্ন ১ সেকেন্ড ও সর্বোচ্চ ১.৯ সেকেন্ড ত্রুটি থাকতে পারে এবং এই সীমার বাইরের "
-"মানগুলি অর্থহীন যা কোন কাজের নয়"
-
-#: src/core/StelCore.cpp:1642 src/core/StelCore.cpp:1647
-#: src/core/StelCore.cpp:1674 src/core/StelCore.cpp:1679
-msgid "with zero values outside this range"
-msgstr "এই সীমার বাইরের মান সবসময় শূন্য হয়"
-
-#: src/core/StelCore.cpp:1652
-msgid "with a typical 1-second accuracy and zero values outside this range"
-msgstr ""
-"সচরাচর হিসাবে ১ সেকেন্ডেরও কম ত্রুটি থাকে এবং এই সীমার বাইরের মান সবসময় শূন্য হয়"
-
-#: src/core/StelCore.cpp:1689
-#, qt-format
-msgid "Valid range of usage: between years %1 and %2, %3."
-msgstr "ব্যবহারিক সীমা : %1 থেকে %2 বছরের মধ্যে , %3 ।"
-
-#: src/core/StelCore.cpp:1691
-#, qt-format
-msgid "Valid range of usage: between years %1 and %2."
-msgstr "ব্যবহারিক সীমা : %1 থেকে %2 বছরের মধ্যে ।"
 
 #: src/core/StelProjector.cpp:129
 msgid "Maximum FOV: "
@@ -1105,6 +769,10 @@ msgstr "অবস্থান বিশ্লেষণে ত্রুটি"
 #: src/core/SimbadSearcher.cpp:131
 msgid "Querying"
 msgstr "অনুসন্ধান করা হচ্ছে"
+
+#: src/core/SimbadSearcher.cpp:133
+msgid "Error"
+msgstr "ত্রুটি"
 
 #: src/core/SimbadSearcher.cpp:135
 msgid "Not found"
@@ -2855,7 +2523,7 @@ msgstr "জাম্বিয়া"
 msgid "Zimbabwe"
 msgstr "জিম্বাবোয়ে"
 
-#: qml/AboutDialog.qml:24 qml/SettingsPanel.qml:62
+#: qml/AboutDialog.qml:24 qml/SettingsPanel.qml:63
 msgid "About"
 msgstr "বিবরণ"
 
@@ -2863,7 +2531,7 @@ msgstr "বিবরণ"
 msgid "Unnamed"
 msgstr ""
 
-#: qml/LandscapesDialog.qml:5 qml/SettingsPanel.qml:46
+#: qml/LandscapesDialog.qml:5 qml/SettingsPanel.qml:47
 msgid "Landscape"
 msgstr "ভূমিরূপ"
 
@@ -2877,7 +2545,7 @@ msgstr "ভ্যাটিকান সিটি"
 msgid "Pick Country"
 msgstr "দেশ :"
 
-#: qml/LocationDialog.qml:25 qml/SettingsPanel.qml:50
+#: qml/LocationDialog.qml:25 qml/SettingsPanel.qml:51
 msgid "Location"
 msgstr "অবস্থান"
 
@@ -2924,11 +2592,11 @@ msgstr ""
 msgid "Search"
 msgstr "অনুসন্ধান"
 
-#: qml/StarloreDialog.qml:24 qml/SettingsPanel.qml:54
+#: qml/StarloreDialog.qml:24 qml/SettingsPanel.qml:55
 msgid "Starlore"
 msgstr "মহাকাশ সম্পর্কীয় নানা সংস্কৃতি"
 
-#: qml/SettingsPanel.qml:58 qml/AdvancedDialog.qml:24
+#: qml/SettingsPanel.qml:59 qml/AdvancedDialog.qml:24
 msgid "Advanced"
 msgstr ""
 
@@ -2988,6 +2656,287 @@ msgstr "অক্ষাংশ"
 #: qml/AnglePicker.qml:24
 msgid "Longitude"
 msgstr "দ্রাঘিমাংশ"
+
+#~ msgid "Correction is disabled. Use only if you know what you are doing!"
+#~ msgstr "সংশোধন প্রনালি নিস্ক্রিয় করা আছে । সম্যক ধারণা থাকলে তবেই সক্রিয় করুন ।"
+
+#~ msgid ""
+#~ "This historical formula was obtained by C. Schoch in 1931 and was used by "
+#~ "G. Henriksson in his article <em>Einstein's Theory of Relativity "
+#~ "Confirmed by Ancient Solar Eclipses</em> (%1). See for more info %2here%3."
+#~ msgstr ""
+#~ "এই বিখ্যাত সূত্রটি C. Schoch ১৯৩১ সালে আবিস্কার করেন এবং G. Henriksson তাঁর "
+#~ "<em>Einstein's Theory of Relativity Confirmed by Ancient Solar Eclipses</"
+#~ "em> (%1) নামক প্রবন্ধে এটি ব্যবহার করেছেন । বিস্তারিত তথ্য জানতে %2এখানে%3 "
+#~ "দেখুন ।"
+
+#~ msgid ""
+#~ "This empirical equation was published by G. M. Clemence in the article "
+#~ "<em>On the system of astronomical constants</em> (%1)."
+#~ msgstr ""
+#~ "এই বিখ্যাত সূত্রটি G. M. Clemence তাঁর  <em>On the system of astronomical "
+#~ "constants</em> (%1) নামক প্রবন্ধে প্রকাশ করেন ।"
+
+#~ msgid ""
+#~ "This formula is based on a study of post-1650 observations of the Sun, "
+#~ "the Moon and the planets by Spencer Jones (%1) and used by Jean Meeus in "
+#~ "his <em>Astronomical Formulae for Calculators</em>. It was also adopted "
+#~ "in the PC program SunTracker Pro."
+#~ msgstr ""
+#~ "Spencer Jones (%1) কর্তৃক সূর্য, অন্যান্য গ্রহ ও চাঁদ এর ১৬৫০ পরবর্তী পর্যবেক্ষণের "
+#~ "উপর ভিত্তি করে এই সূত্রটি তৈরী এবং Jean Meeus তাঁর <em>Astronomical Formulae "
+#~ "for Calculators</em> নামক প্রবন্ধে এটি ব্যবহার করেছেন ।"
+
+#~ msgid ""
+#~ "This is a slightly modified version of the IAU (1952) formula which was "
+#~ "adopted in the <em>Astronomical Ephemeris</em> and in the <em>Canon of "
+#~ "Solar Eclipses</em> by Mucke & Meeus (1983)."
+#~ msgstr ""
+#~ "এটি IAU (১৯৫২) প্রবর্তিত সূত্রের সামান্য সংশোধিত রূপ যা Mucke & Meeus (১৯৮৩) "
+#~ "প্রবর্তিত <em>জ্যোতির্বৈজ্ঞানিক পঞ্জিকা</em> ও <em>Canon of Solar Eclipses</em> "
+#~ "নামক প্রবন্ধে গৃহীত হয়েছে ।"
+
+#~ msgid ""
+#~ "The tables of Tuckerman (1962, 1964) list the positions of the Sun, the "
+#~ "Moon and the planets at 5- and 10-day intervals from 601 BCE to 1649 CE. "
+#~ "The same relation was also implicitly adopted in the syzygy tables of "
+#~ "Goldstine (1973)."
+#~ msgstr ""
+#~ "Tuckerman (১৯৬২, ১৯৬৪) এর তৈরী এই ছকে ৬০১ খ্রীষ্টপূর্বাব্দ থেকে ১৬৪৯ খ্রীষ্টাব্দ "
+#~ "পর্যন্ত প্রতি ৫-১০ দিন অন্তর সূর্য, গ্রহ ও চাঁদের অবস্থানের একটি তালিকা দেওয়া আছে "
+#~ "। এই একই সম্পর্ক Goldstine (১৯৭৩) প্রবর্তিত syzygy ছকেও গৃহিত হয়েছে ।"
+
+#~ msgid ""
+#~ "This equation was published by P. M. Muller and F. R. Stephenson in the "
+#~ "article <em>The accelerations of the earth and moon from early "
+#~ "astronomical observations</em> (%1)."
+#~ msgstr ""
+#~ "<em>The accelerations of the earth and moon from early astronomical "
+#~ "observations</em> (%1) নামক প্রবন্ধে P. M. Muller এবং F. R. Stephenson এই "
+#~ "সমীকরনটি প্রকাশ করেন ।"
+
+#~ msgid ""
+#~ "This equation was published by F. R. Stephenson in the article <em>Pre-"
+#~ "Telescopic Astronomical Observations</em> (%1)."
+#~ msgstr ""
+#~ "<em>Pre-Telescopic Astronomical Observations</em> (%1) নামক প্রবন্ধে P. M. "
+#~ "Muller এবং F. R. Stephenson এই সমীকরনটি প্রকাশ করেন ।"
+
+#~ msgid ""
+#~ "This 12th-order polynomial equation (outdated and superseded by Schmadel "
+#~ "& Zech (1988)) was published by L. D. Schmadel and G. Zech in the article "
+#~ "<em>Polynomial approximations for the correction delta T E.T.-U.T. in the "
+#~ "period 1800-1975</em> (%1) as fit through data published by Brouwer "
+#~ "(1952)."
+#~ msgstr ""
+#~ "Brouwer (১৯৫২) কর্তৃক প্রকাশিত তালিকা ভিত্তিক এই ১২ ঘাতের সমীকরনটি (যা "
+#~ "Schmadel এবং Zech (১৯৮৮) কর্তৃক সেকেলে এবং বাতিল বলে প্রমানিত) "
+#~ "<em>Polynomial approximations for the correction delta T E.T.-U.T. in the "
+#~ "period 1800-1975</em> (%1) নামক প্রবন্ধে L. D. Schmadel এবং G. Zech প্রকাশ "
+#~ "করেন ।"
+
+#~ msgid ""
+#~ "This algorithm was adopted in P. Bretagnon & L. Simon's <em>Planetary "
+#~ "Programs and Tables from -4000 to +2800</em> (1986) and in the PC "
+#~ "planetarium program RedShift."
+#~ msgstr ""
+#~ "এই কার্যপ্রনালীটি P. Bretagnon এবং L. Simon প্রবর্তিত <em>Planetary Programs "
+#~ "and Tables from -4000 to +2800</em> (১৯৮৬) ও RedShift নামক কম্পিউটার "
+#~ "প্রোগ্রামে গৃহিত হয়েছে ।"
+
+#~ msgid ""
+#~ "This formula was published by F. R. Stephenson and L. V. Morrison in the "
+#~ "article <em>Long-term changes in the rotation of the earth - 700 B.C. to "
+#~ "A.D. 1980</em> (%1)."
+#~ msgstr ""
+#~ "F. R. Stephenson এবং L. V. Morrison তাঁদের <em>Long-term changes in the "
+#~ "rotation of the earth - 700 B.C. to A.D. 1980</em> (%1) নামক প্রবন্ধে এই "
+#~ "সূত্রটি প্রকাশ করেন ।"
+
+#~ msgid "This algorithm is used in the PC planetarium program Guide 7."
+#~ msgstr ""
+#~ "Guide নামক কম্পিউটার প্রোগ্রামের ৭ম সংস্করণে এই কার্যপ্রনালীটি ব্যবহৃত হয়েছে ।"
+
+#~ msgid ""
+#~ "This algorithm was given by F. Espenak in his <em>Fifty Year Canon of "
+#~ "Solar Eclipses: 1986-2035</em> (1987) and in his <em>Fifty Year Canon of "
+#~ "Lunar Eclipses: 1986-2035</em> (1989)."
+#~ msgstr ""
+#~ "<em>Fifty Year Canon of Solar Eclipses: 1986-2035</em> (১৯৮৭) এবং "
+#~ "<em>Fifty Year Canon of Lunar Eclipses: 1986-2035</em> (১৯৮৯) নামক প্রবন্ধে "
+#~ "F. Espenak এই কার্যপ্রনালীটি প্রকাশ করেন ।"
+
+#~ msgid ""
+#~ "This formula was obtained by K.M. Borkowski (%1) from an analysis of 31 "
+#~ "solar eclipse records dating between 2137 BCE and 1715 CE."
+#~ msgstr ""
+#~ "২১৩৭ খ্রীষ্টপূর্বাব্দ থেকে ১৭১৫ খ্রীষ্টাব্দ পর্যন্ত ঘটা সূর্যগ্রহণগুলির মধ্যের ৩১টির "
+#~ "সংগৃহিত তথ্য থেকে K.M. Borkowski (%1) এই সূত্রটি তৈরী করেছেন ।"
+
+#~ msgid ""
+#~ "This 12th-order polynomial equation was published by L. D. Schmadel and "
+#~ "G. Zech in the article <em>Empirical Transformations from U.T. to E.T. "
+#~ "for the Period 1800-1988</em> (%1) as data fit through values given by "
+#~ "Stephenson & Morrison (1984)."
+#~ msgstr ""
+#~ "Stephenson এবং Morrison (১৯৮৪) কর্তৃক প্রকাশিত তালিকা ভিত্তিক এই ১২ ঘাতের "
+#~ "সমীকরনটি <em>Empirical Transformations from U.T. to E.T. for the Period "
+#~ "1800-1988</em> (%1) নামক প্রবন্ধে L. D. Schmadel এবং G. Zech প্রকাশ করেন ।"
+
+#~ msgid ""
+#~ "This formula was adopted by M. Chapront-Touze & J. Chapront in the "
+#~ "shortened version of the ELP 2000-85 lunar theory in their <em>Lunar "
+#~ "Tables and Programs from 4000 B.C. to A.D. 8000</em> (1991)."
+#~ msgstr ""
+#~ "M. Chapront-Touze এবং J. Chapront রচিত <em>Lunar Tables and Programs from "
+#~ "4000 B.C. to A.D. 8000</em> (১৯৯১) প্রবন্ধে চাঁদ সংক্রান্ত ELP 2000-85 মতবাদের "
+#~ "সংক্ষিপ্ত রূপটিতে এই সূত্রটি গৃহিত হয়েছে ।"
+
+#~ msgid ""
+#~ "This equation was published by F. R. Stephenson and L. V. Morrison in the "
+#~ "article <em>Long-Term Fluctuations in the Earth's Rotation: 700 BC to AD "
+#~ "1990</em> (%1)."
+#~ msgstr ""
+#~ "F. R. Stephenson এবং L. V. Morrison তাঁদের <em>Long-Term Fluctuations in "
+#~ "the Earth's Rotation: 700 BC to AD 1990</em> (%1) নামক প্রবন্ধে এই সূত্রটি "
+#~ "প্রকাশ করেন ।"
+
+#~ msgid ""
+#~ "F. R. Stephenson published this formula in his book <em>Historical "
+#~ "Eclipses and Earth's Rotation</em> (%1)."
+#~ msgstr ""
+#~ "F. R. Stephenson তাঁর রচিত<em>Historical Eclipses and Earth's Rotation</"
+#~ "em> (%1) বইয়ে এই সূত্রটি প্রকাশ করেন ।"
+
+#~ msgid ""
+#~ "From J. Meeus, <em>Astronomical Algorithms</em> (2nd ed., 1998), and "
+#~ "widely used. Table for 1620..2000, and includes a variant of Chapront, "
+#~ "Chapront-Touze & Francou (1997) for dates outside 1620..2000."
+#~ msgstr ""
+#~ "এটি J. Meeus রচিত ও বহুল ব্যবহৃত <em>Astronomical Algorithms</em> (২য় "
+#~ "সংস্করণ, ১৯৮৮) থেকে  নেওয়া হয়েছে । তাছাড়া ১৬২০ থেকে ২০০০ সাল পর্যন্ত একটি "
+#~ "তালিকা ও তার বাইরের দিনগুলির জন্য Chapront, Chapront-Touze এবং Francou "
+#~ "(১৯৯৭) প্রবর্তিত অপেক্ষক যোগ করা হয়েছে ।"
+
+#~ msgid ""
+#~ "The JPL Solar System Dynamics Group of the NASA Jet Propulsion Laboratory "
+#~ "use this formula in their interactive website %1JPL Horizons%2."
+#~ msgstr ""
+#~ "The JPL Solar System Dynamics Group of the NASA Jet Propulsion Laboratory "
+#~ "তার ওয়েবসাইট %1JPL Horizons%2 এ এই সূত্র ব্যবহার করে ।"
+
+#~ msgid ""
+#~ "This polynome was published by J. Meeus and L. Simons in article "
+#~ "<em>Polynomial approximations to Delta T, 1620-2000 AD</em> (%1)."
+#~ msgstr ""
+#~ "J. Meeus এবং L. Simons তাঁদের প্রবন্ধ <em>Polynomial approximations to Delta "
+#~ "T, 1620-2000 AD</em> (%1) তে এই বহুপদী সমীকরনটি প্রকাশ করেন ।"
+
+#~ msgid ""
+#~ "The fourth edition of O. Montenbruck & T. Pfleger's <em>Astronomy on the "
+#~ "Personal Computer</em> (2000) provides simple 3rd-order polynomial data "
+#~ "fits for the recent past."
+#~ msgstr ""
+#~ "নিকট অতীতের তথ্য ভিত্তিক ৩য় ঘাতের এই সমীকরনটি O. Montenbruck এবং T. Pfleger "
+#~ "রচিত <em>Astronomy on the Personal Computer</em> (২০০০) এর ৪র্থ সংস্করণে "
+#~ "পাওয়া যায় ।"
+
+#~ msgid ""
+#~ "E. M. Reingold & N. Dershowitz present this polynomial data fit in "
+#~ "<em>Calendrical Calculations</em> (3rd ed. 2007) and in their "
+#~ "<em>Calendrical Tabulations</em> (2002). It is based on Jean Meeus' "
+#~ "<em>Astronomical Algorithms</em> (1991)."
+#~ msgstr ""
+#~ "তথ্য ভিত্তিক এই বহুপদী সমীকরনটি E. M. Reingold এবং N. Dershowitz তাঁদের রচিত "
+#~ "<em>Calendrical Calculations</em> (৩য় সংস্করণ, ২০০৭) ও <em>Calendrical "
+#~ "Tabulations</em> (২০০২) এ প্রকাশ করেন । যদিও এটির ভিত্তি Jean Meeus এর "
+#~ "<em>Astronomical Algorithms</em> (১৯৯১) ।"
+
+#~ msgid ""
+#~ "This important solution was published by L. V. Morrison and F. R. "
+#~ "Stephenson in article <em>Historical values of the Earth's clock error "
+#~ "%1T and the calculation of eclipses</em> (%2) with addendum in (%3)."
+#~ msgstr ""
+#~ "L. V. Morrison এবং F. R. Stephenson তাঁদের প্রবন্ধ <em>Historical values of "
+#~ "the Earth's clock error %1T and the calculation of eclipses</em> (%2) এর "
+#~ "একটি সংযোজনে (%3) এই গুরুত্বপূর্ণ সমাধানটি প্রকাশ করেন ।"
+
+#~ msgid ""
+#~ "From the Length of Day (LOD; as determined by Stephenson & Morrison "
+#~ "(%2)), Victor Reijs derived a %1T formula by using a Simplex optimisation "
+#~ "with a cosine and square function. This is based on a possible periodicy "
+#~ "described by Stephenson (%2). See for more info %3here%4."
+#~ msgstr ""
+#~ "দিনের দৈর্ঘ্যের (Stephenson এবং Morrison (%2) কর্তৃক নির্ণীত) পরিমাপ থেকে "
+#~ "Victor Reijs %1T পরিমাপের এই সূত্রটি নির্ণয় করেন যা cosine এবং বর্গ অপেক্ষকে "
+#~ "সরলীকৃত একটি সমীকরন । আসলে এটি Stephenson (%2) বিবৃত একটি সম্ভাব্য পর্যায়বৃত্তির "
+#~ "উপর ভিত্তি করে নির্ণয় করা হয়েছে । আরও তথ্যের জন্য %3এখানে%4 দেখুন ।"
+
+#~ msgid ""
+#~ "This solution by F. Espenak and J. Meeus, based on Morrison & Stephenson "
+#~ "(2004) and a polynomial fit through tabulated values for 1600-2000, is "
+#~ "used for the %1NASA Eclipse Web Site%2 and in their <em>Five Millennium "
+#~ "Canon of Solar Eclipses: -1900 to +3000</em> (2006). This formula is also "
+#~ "used in the solar, lunar and planetary ephemeris program SOLEX."
+#~ msgstr ""
+#~ "Morrison এবং Stephenson (২০০৪) সমীকরণ ও ১৬০০ থেকে ২০০০ সালের তথ্যের একটি "
+#~ "তালিকা থেকে প্রাপ্ত বহুপদী সমীকরনের এই সমাধানটি , F. Espenak এবং J. Meeus "
+#~ "আবিষ্কৃত, %1NASA Eclipse Web Site%2 এবং <em>Five Millennium Canon of Solar "
+#~ "Eclipses: -1900 to +3000</em> (২০০৬) এ ব্যবহৃত হয়েছে । এছাড়াও সূর্য চাঁদ গ্রহ "
+#~ "উপগ্রহ ইত্যাদির পঞ্জিকা নির্ণয়ের জন্য ব্যবহৃত SOLEX নামক একটি প্রোগ্রামে এটি "
+#~ "ব্যবহার করা হয়েছে ।"
+
+#~ msgid "Used by default."
+#~ msgstr "প্রারম্ভিক সূচনা হিসেবে ব্যবহার করা হয়ে থাকে ।"
+
+#~ msgid ""
+#~ "This solution by B. Banjevic, based on Stephenson & Morrison (1984), was "
+#~ "published in article <em>Ancient eclipses and dating the fall of Babylon</"
+#~ "em> (%1)."
+#~ msgstr ""
+#~ "Stephenson এবং Morrison (১৯৮৪) এর উপর ভিত্তি করে B. Banjevic এর এই "
+#~ "সমাধানটি <em>Ancient eclipses and dating the fall of Babylon</em> (%1) "
+#~ "প্রবন্ধে প্রকাশিত হয় ।"
+
+#~ msgid ""
+#~ "This solution by S. Islam, M. Sadiq and M. S. Qureshi, based on Meeus & "
+#~ "Simons (2000), was published in article <em>Error Minimization of "
+#~ "Polynomial Approximation of DeltaT</em> (%1) and revisited by Sana Islam "
+#~ "in 2013."
+#~ msgstr ""
+#~ "Meeus এবং Simons (২০০০) এর উপর ভিত্তি করে S. Islam, M. Sadiq ও M. S. "
+#~ "Qureshi এর এই সমাধানটি <em>Error Minimization of Polynomial Approximation "
+#~ "of DeltaT</em> (%1) প্রবন্ধে প্রকাশিত হয় যা ২০১৩ সালে Sana Islam পুনরুত্থাপন "
+#~ "করেন ।"
+
+#~ msgid ""
+#~ "This is a quadratic formula for calculation of %1T with coefficients "
+#~ "defined by the user."
+#~ msgstr "এটি %1T নির্ণয় করার জন্য ব্যবহারকারী প্রদত্ত সহগ যুক্ত দ্বিঘাত সমীকরন ।"
+
+#~ msgid "with meaningless values outside this range"
+#~ msgstr "এই সীমার বাইরের মানগুলি অর্থহীন যা কোন কাজের নয়"
+
+#~ msgid ""
+#~ "with a mean error of less than one second, max. error 1.9s, and "
+#~ "meaningless values outside this range"
+#~ msgstr ""
+#~ "গড়ে সর্বনিম্ন ১ সেকেন্ড ও সর্বোচ্চ ১.৯ সেকেন্ড ত্রুটি থাকতে পারে এবং এই সীমার "
+#~ "বাইরের মানগুলি অর্থহীন যা কোন কাজের নয়"
+
+#~ msgid "with zero values outside this range"
+#~ msgstr "এই সীমার বাইরের মান সবসময় শূন্য হয়"
+
+#~ msgid "with a typical 1-second accuracy and zero values outside this range"
+#~ msgstr ""
+#~ "সচরাচর হিসাবে ১ সেকেন্ডেরও কম ত্রুটি থাকে এবং এই সীমার বাইরের মান সবসময় শূন্য "
+#~ "হয়"
+
+#~ msgid "Valid range of usage: between years %1 and %2, %3."
+#~ msgstr "ব্যবহারিক সীমা : %1 থেকে %2 বছরের মধ্যে , %3 ।"
+
+#~ msgid "Valid range of usage: between years %1 and %2."
+#~ msgstr "ব্যবহারিক সীমা : %1 থেকে %2 বছরের মধ্যে ।"
 
 #~ msgid "custom marker"
 #~ msgstr "পছন্দসই বিন্দু"

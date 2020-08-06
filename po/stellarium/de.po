@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: de\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-06 09:55+0200\n"
+"POT-Creation-Date: 2020-08-06 13:58+0200\n"
 "PO-Revision-Date: 2020-06-12 14:41+0000\n"
 "Last-Translator: Oliver <websites@posteo.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/stellarium-mobile/"
@@ -426,7 +426,7 @@ msgstr "Nachtmodus"
 msgid "SpaceShip"
 msgstr "Raumschiff"
 
-#: src/core/StelCore.cpp:161 qml/SettingsPanel.qml:42 qml/TimeDialog.qml:23
+#: src/core/StelCore.cpp:161 qml/SettingsPanel.qml:43 qml/TimeDialog.qml:23
 msgid "Date and Time"
 msgstr "Datum und Uhrzeit"
 
@@ -597,351 +597,6 @@ msgstr "Horizontal spiegeln"
 #: src/core/StelCore.cpp:206
 msgid "Flip scene vertically"
 msgstr "Vertikal spiegeln"
-
-#: src/core/StelCore.cpp:1455
-msgid "Correction is disabled. Use only if you know what you are doing!"
-msgstr ""
-"Korrektur ist ausgeschaltet. Nur verwenden, wenn Sie wissen, was Sie tun!"
-
-#: src/core/StelCore.cpp:1458
-#, qt-format
-msgid ""
-"This historical formula was obtained by C. Schoch in 1931 and was used by G. "
-"Henriksson in his article <em>Einstein's Theory of Relativity Confirmed by "
-"Ancient Solar Eclipses</em> (%1). See for more info %2here%3."
-msgstr ""
-"Diese historische Formel von C. Schoch (1931) wurde von G. Henriksson für "
-"seinen Artikel <em>Einstein's Theory of Relativity Confirmed by Ancient "
-"Solar Eclipses</em> (%1) verwendet. Mehr dazu %2hier%3."
-
-#: src/core/StelCore.cpp:1461
-#, qt-format
-msgid ""
-"This empirical equation was published by G. M. Clemence in the article "
-"<em>On the system of astronomical constants</em> (%1)."
-msgstr ""
-"Diese empirische Gleichung wurde von G. M. Clemence im Artikel <em>On the "
-"system of astronomical constants</em> veröffentlicht (%1)."
-
-#: src/core/StelCore.cpp:1464
-#, qt-format
-msgid ""
-"This formula is based on a study of post-1650 observations of the Sun, the "
-"Moon and the planets by Spencer Jones (%1) and used by Jean Meeus in his "
-"<em>Astronomical Formulae for Calculators</em>. It was also adopted in the "
-"PC program SunTracker Pro."
-msgstr ""
-"Diese Formel stützt sich auf eine Studie von post-1650 Beobachtungen von "
-"Sonne, Mond und Planeten durch Spencer Jones (%1) und wurde von Jean Meeus "
-"in seinen <em>Astronomical Formulae for Calculators</em> verwendet. Sie "
-"wurde auch im PC-Programm SunTracker Pro eingesetzt."
-
-#: src/core/StelCore.cpp:1468
-msgid ""
-"This is a slightly modified version of the IAU (1952) formula which was "
-"adopted in the <em>Astronomical Ephemeris</em> and in the <em>Canon of Solar "
-"Eclipses</em> by Mucke & Meeus (1983)."
-msgstr ""
-"Das ist eine leicht veränderte Version der IAU (1952) - Formel, verwendet in "
-"der <em>Astronomical Ephemeris</em> und im <em>Canon of Solar Eclipses</em> "
-"von Mucke & Meeus (1983)."
-
-#: src/core/StelCore.cpp:1472
-msgid ""
-"The tables of Tuckerman (1962, 1964) list the positions of the Sun, the Moon "
-"and the planets at 5- and 10-day intervals from 601 BCE to 1649 CE. The same "
-"relation was also implicitly adopted in the syzygy tables of Goldstine "
-"(1973)."
-msgstr ""
-"Die Tafeln von Tuckerman (1962, 1964) enthalten Positionen von Sonne, Mond "
-"und Planeten in 5- und 10-Tagesintervallen von 601 v. Chr. bis 1649 n. Chr. "
-"Auf denselben Grundlagen beruhen die Syzygientafeln von Goldstine (1973)."
-
-#: src/core/StelCore.cpp:1476
-#, qt-format
-msgid ""
-"This equation was published by P. M. Muller and F. R. Stephenson in the "
-"article <em>The accelerations of the earth and moon from early astronomical "
-"observations</em> (%1)."
-msgstr ""
-"Diese Gleichung wurde von P. M. Muller und F. R. Stephenson im Artikel "
-"<em>The accelerations of the earth and moon from early astronomical "
-"observations</em> publiziert (%1)."
-
-#: src/core/StelCore.cpp:1479
-#, qt-format
-msgid ""
-"This equation was published by F. R. Stephenson in the article <em>Pre-"
-"Telescopic Astronomical Observations</em> (%1)."
-msgstr ""
-"Diese Gleichung wurde von F. R. Stephenson im Artikel <em>Pre-Telescopic "
-"Astronomical Observations</em> publiziert (%1)."
-
-#: src/core/StelCore.cpp:1482
-#, qt-format
-msgid ""
-"This 12th-order polynomial equation (outdated and superseded by Schmadel & "
-"Zech (1988)) was published by L. D. Schmadel and G. Zech in the article "
-"<em>Polynomial approximations for the correction delta T E.T.-U.T. in the "
-"period 1800-1975</em> (%1) as fit through data published by Brouwer (1952)."
-msgstr ""
-"Dieses Polynom 12ten Grades (veraltet und ersetzt durch Schmadel & Zech "
-"(1988)) wurde von L. D. Schmadel und G. Zech im Artikel <em>Polynomial "
-"approximations for the correction delta T E.T.-U.T. in the period 1800-1975</"
-"em> (%1) als Anpassungskurve durch Daten von Brouwer (1952) publiziert."
-
-#: src/core/StelCore.cpp:1485
-msgid ""
-"This algorithm was adopted in P. Bretagnon & L. Simon's <em>Planetary "
-"Programs and Tables from -4000 to +2800</em> (1986) and in the PC "
-"planetarium program RedShift."
-msgstr ""
-"Dieser Algorithmus wurde in den <em>Planetary Programs and Tables from -4000 "
-"to +2800</em> (P. Bretagnon & L. Simon 1986) und im PC Planetariumsprogramm "
-"RedShift übernommen."
-
-#: src/core/StelCore.cpp:1488
-#, qt-format
-msgid ""
-"This formula was published by F. R. Stephenson and L. V. Morrison in the "
-"article <em>Long-term changes in the rotation of the earth - 700 B.C. to A."
-"D. 1980</em> (%1)."
-msgstr ""
-"Diese Formel wurde von F. R. Stephenson und L. V. Morrison im Artikel "
-"<em>Long-term changes in the rotation of the earth - 700 B.C. to A.D. 1980</"
-"em> veröffentlicht (%1)."
-
-#: src/core/StelCore.cpp:1491
-msgid "This algorithm is used in the PC planetarium program Guide 7."
-msgstr "Dieser Algorithmus wird im PC-Planetariumsprogramm Guide 7 verwendet."
-
-#: src/core/StelCore.cpp:1494
-msgid ""
-"This algorithm was given by F. Espenak in his <em>Fifty Year Canon of Solar "
-"Eclipses: 1986-2035</em> (1987) and in his <em>Fifty Year Canon of Lunar "
-"Eclipses: 1986-2035</em> (1989)."
-msgstr ""
-"Der Algorithmus wurde von F. Espenak in seinem <em>Fifty Year Canon of Solar "
-"Eclipses: 1986-2035</em> (1987) und in seinem <em>Fifty Year Canon of Lunar "
-"Eclipses: 1986-2035</em> (1989) beschrieben."
-
-#: src/core/StelCore.cpp:1497
-#, qt-format
-msgid ""
-"This formula was obtained by K.M. Borkowski (%1) from an analysis of 31 "
-"solar eclipse records dating between 2137 BCE and 1715 CE."
-msgstr ""
-"Die Formel  wurde von K.M. Borkowski (%1) aus einer Analyse von 31 "
-"Sonnenfinsternisberichten aus der Zeit 2137 v. Chr. und 1715 n.Chr. erstellt."
-
-#: src/core/StelCore.cpp:1500
-#, qt-format
-msgid ""
-"This 12th-order polynomial equation was published by L. D. Schmadel and G. "
-"Zech in the article <em>Empirical Transformations from U.T. to E.T. for the "
-"Period 1800-1988</em> (%1) as data fit through values given by Stephenson & "
-"Morrison (1984)."
-msgstr ""
-"Dieses Polynom 12ten Grades wurde von L. D. Schmadel und G. Zech in ihrem "
-"Artikel <em>Empirical Transformations from U.T. to E.T. for the Period "
-"1800-1988</em> (%1) als Anpassungskurve durch Werte von Stephenson & "
-"Morrison (1984) veröffentlicht."
-
-#: src/core/StelCore.cpp:1503
-msgid ""
-"This formula was adopted by M. Chapront-Touze & J. Chapront in the shortened "
-"version of the ELP 2000-85 lunar theory in their <em>Lunar Tables and "
-"Programs from 4000 B.C. to A.D. 8000</em> (1991)."
-msgstr ""
-"Diese Formel wurde von M. Chapront-Touze & J. Chapront in der gekürzten "
-"Version der Mondbahntheorie ELP 2000-85 in ihren <em>Lunar Tables and "
-"Programs from 4000 B.C. to A.D. 8000</em> (1991) verwendet."
-
-#: src/core/StelCore.cpp:1506
-#, qt-format
-msgid ""
-"This equation was published by F. R. Stephenson and L. V. Morrison in the "
-"article <em>Long-Term Fluctuations in the Earth's Rotation: 700 BC to AD "
-"1990</em> (%1)."
-msgstr ""
-"Diese Gleichung wurde von F. R. Stephenson und L. V. Morrison in ihrem "
-"Artikel <em>Long-Term Fluctuations in the Earth's Rotation: 700 BC to AD "
-"1990</em> veröffentlicht (%1)."
-
-#: src/core/StelCore.cpp:1509
-#, qt-format
-msgid ""
-"F. R. Stephenson published this formula in his book <em>Historical Eclipses "
-"and Earth's Rotation</em> (%1)."
-msgstr ""
-"F. R. Stephenson veröffentlichte diese Formel in seinem Buch <em>Historical "
-"Eclipses and Earth's Rotation</em> (%1)."
-
-#: src/core/StelCore.cpp:1512
-msgid ""
-"From J. Meeus, <em>Astronomical Algorithms</em> (2nd ed., 1998), and widely "
-"used. Table for 1620..2000, and includes a variant of Chapront, Chapront-"
-"Touze & Francou (1997) for dates outside 1620..2000."
-msgstr ""
-"Aus J. Meeus, <em>Astronomical Algorithms</em> (2nd ed., 1998), und weit "
-"verbreitet. Interpoliert Werte aus einer Tabelle für 1620..2000 und "
-"verwendet eine Variante von Chapront, Chapront-Touze & Francou (1997) für "
-"Daten außerhalb 1620..2000."
-
-#: src/core/StelCore.cpp:1515
-#, qt-format
-msgid ""
-"The JPL Solar System Dynamics Group of the NASA Jet Propulsion Laboratory "
-"use this formula in their interactive website %1JPL Horizons%2."
-msgstr ""
-"Die JPL Solar System Dynamics Group des NASA Jet Propulsion Laboratory "
-"verwenden diese Formel für historische Angaben auf ihrer interaktiven "
-"Website %1JPL Horizons%2."
-
-#: src/core/StelCore.cpp:1518
-#, qt-format
-msgid ""
-"This polynome was published by J. Meeus and L. Simons in article "
-"<em>Polynomial approximations to Delta T, 1620-2000 AD</em> (%1)."
-msgstr ""
-"Diese optimierte Polynomanpassung wurde von J. Meeus und L. Simons in ihrem "
-"Artikel <em>Polynomial approximations to Delta T, 1620-2000 AD</em> (%1) "
-"veröffentlicht."
-
-#: src/core/StelCore.cpp:1521
-msgid ""
-"The fourth edition of O. Montenbruck & T. Pfleger's <em>Astronomy on the "
-"Personal Computer</em> (2000) provides simple 3rd-order polynomial data fits "
-"for the recent past."
-msgstr ""
-"Die vierte Auflage von O. Montenbruck & T. Pfleger's <em>Astronomy on the "
-"Personal Computer</em> (2000) enthält einfache Polynome dritten Grades für "
-"die nahe Vergangenheit."
-
-#: src/core/StelCore.cpp:1524
-msgid ""
-"E. M. Reingold & N. Dershowitz present this polynomial data fit in "
-"<em>Calendrical Calculations</em> (3rd ed. 2007) and in their "
-"<em>Calendrical Tabulations</em> (2002). It is based on Jean Meeus' "
-"<em>Astronomical Algorithms</em> (1991)."
-msgstr ""
-"E. M. Reingold & N. Dershowitz präsentieren eine weitere Polynom-Anpassung "
-"in den <em>Calendrical Calculations</em> (3rd ed. 2007) und in ihren "
-"<em>Calendrical Tabulations</em> (2002). Sie basiert auf Werten aus Jean "
-"Meeus' <em>Astronomical Algorithms</em> (1991)."
-
-#: src/core/StelCore.cpp:1527
-#, qt-format
-msgid ""
-"This important solution was published by L. V. Morrison and F. R. Stephenson "
-"in article <em>Historical values of the Earth's clock error %1T and the "
-"calculation of eclipses</em> (%2) with addendum in (%3)."
-msgstr ""
-"Diese wichtige Lösung wurde von L. V. Morrison und F. R. Stephenson in ihrem "
-"Artikel <em>Historical values of the Earth's clock error %1T and the "
-"calculation of eclipses</em> veröffentlicht (%2), mit einem Zusatz in (%3)."
-
-#: src/core/StelCore.cpp:1530
-#, qt-format
-msgid ""
-"From the Length of Day (LOD; as determined by Stephenson & Morrison (%2)), "
-"Victor Reijs derived a %1T formula by using a Simplex optimisation with a "
-"cosine and square function. This is based on a possible periodicy described "
-"by Stephenson (%2). See for more info %3here%4."
-msgstr ""
-"Aus der Entwicklung der Taglänge (Length of Day LOD; wie ermittelt von "
-"Stephenson & Morrison (%2)) entwickelte Victor Reijs eine %1T formula "
-"mittels einer Simplex-Optimierung mit einer Cosinus- und einer "
-"Parabelfunktion. Sie basiert auf einer möglichen Periodizität wie von "
-"Stephenson beschrieben (%2). Näheres dazu %3hier%4."
-
-#: src/core/StelCore.cpp:1533
-#, qt-format
-msgid ""
-"This solution by F. Espenak and J. Meeus, based on Morrison & Stephenson "
-"(2004) and a polynomial fit through tabulated values for 1600-2000, is used "
-"for the %1NASA Eclipse Web Site%2 and in their <em>Five Millennium Canon of "
-"Solar Eclipses: -1900 to +3000</em> (2006). This formula is also used in the "
-"solar, lunar and planetary ephemeris program SOLEX."
-msgstr ""
-"Diese Lösung von F. Espenak and J. Meeus, basierend auf Morrison & "
-"Stephenson (2004) und einer polynomialen Anpassung durch eine Wertetabelle "
-"für 1600-2000, wird für die %1NASA Eclipse Web Site%2 und für ihren <em>Five "
-"Millennium Canon of Solar Eclipses: -1999 to +3000</em> (2006) verwendet, "
-"ebenso auch im Sonnen- Mond- und Planeten-Ephemeridenprogramm SOLEX."
-
-#: src/core/StelCore.cpp:1533
-msgid "Used by default."
-msgstr "Als Vorgabe verwendet."
-
-#: src/core/StelCore.cpp:1536
-#, qt-format
-msgid ""
-"This solution by B. Banjevic, based on Stephenson & Morrison (1984), was "
-"published in article <em>Ancient eclipses and dating the fall of Babylon</"
-"em> (%1)."
-msgstr ""
-"Diese Lösung von B. Banjevic, basierend auf Stephenson & Morrison (1984), "
-"wurde im Artikel <em>Ancient eclipses and dating the fall of Babylon</em> "
-"publiziert (%1)."
-
-#: src/core/StelCore.cpp:1539
-#, qt-format
-msgid ""
-"This solution by S. Islam, M. Sadiq and M. S. Qureshi, based on Meeus & "
-"Simons (2000), was published in article <em>Error Minimization of Polynomial "
-"Approximation of DeltaT</em> (%1) and revisited by Sana Islam in 2013."
-msgstr ""
-"Diese Lösung von S. Islam, M. Sadiq und M. S. Qureshi, basierend auf Meeus & "
-"Simons (2000), wurde in der Arbeit <em>Error Minimization of Polynomial "
-"Approximation of DeltaT</em> (%1) veröffentlicht und 2013 begutachtet von "
-"Sana Islam."
-
-#: src/core/StelCore.cpp:1542
-#, qt-format
-msgid ""
-"This is a quadratic formula for calculation of %1T with coefficients defined "
-"by the user."
-msgstr ""
-"Platz für Ihre frei programmierbare quadratische Formel für %1T mit "
-"benutzerdefinerten Koeffizienten."
-
-#: src/core/StelCore.cpp:1545 src/core/SimbadSearcher.cpp:133
-msgid "Error"
-msgstr "Fehler"
-
-#: src/core/StelCore.cpp:1594
-msgid "with meaningless values outside this range"
-msgstr "mit sinnlosen Werten außerhalb dieses Bereichs"
-
-#: src/core/StelCore.cpp:1620
-msgid ""
-"with a mean error of less than one second, max. error 1.9s, and meaningless "
-"values outside this range"
-msgstr ""
-"mit einem mittleren Fehler unter einer Sekunde, max. Fehler 1.9s, und "
-"sinnlosen Werten außerhalb des Bereichs"
-
-#: src/core/StelCore.cpp:1642 src/core/StelCore.cpp:1647
-#: src/core/StelCore.cpp:1674 src/core/StelCore.cpp:1679
-msgid "with zero values outside this range"
-msgstr "mit Nullwerten außerhalb dieses Bereichs"
-
-#: src/core/StelCore.cpp:1652
-msgid "with a typical 1-second accuracy and zero values outside this range"
-msgstr ""
-"mit typischer Genauigkeit von 1 Sekunde und Nullwerten außerhalb dieses "
-"Bereichs"
-
-#: src/core/StelCore.cpp:1689
-#, qt-format
-msgid "Valid range of usage: between years %1 and %2, %3."
-msgstr "Gültigkeitsbereich: Jahre %1 bis %2, %3."
-
-#: src/core/StelCore.cpp:1691
-#, qt-format
-msgid "Valid range of usage: between years %1 and %2."
-msgstr "Gültigkeitsbereich: Jahre %1 bis %2."
 
 #: src/core/StelProjector.cpp:129
 msgid "Maximum FOV: "
@@ -1121,6 +776,10 @@ msgstr "Fehler beim Auslesen der Position"
 #: src/core/SimbadSearcher.cpp:131
 msgid "Querying"
 msgstr "Abfrage läuft"
+
+#: src/core/SimbadSearcher.cpp:133
+msgid "Error"
+msgstr "Fehler"
 
 #: src/core/SimbadSearcher.cpp:135
 msgid "Not found"
@@ -2887,7 +2546,7 @@ msgstr "Sambia"
 msgid "Zimbabwe"
 msgstr "Simbabwe"
 
-#: qml/AboutDialog.qml:24 qml/SettingsPanel.qml:62
+#: qml/AboutDialog.qml:24 qml/SettingsPanel.qml:63
 msgid "About"
 msgstr "Über"
 
@@ -2895,7 +2554,7 @@ msgstr "Über"
 msgid "Unnamed"
 msgstr "Namenlos"
 
-#: qml/LandscapesDialog.qml:5 qml/SettingsPanel.qml:46
+#: qml/LandscapesDialog.qml:5 qml/SettingsPanel.qml:47
 msgid "Landscape"
 msgstr "Landschaft"
 
@@ -2907,7 +2566,7 @@ msgstr "Stadt auswählen"
 msgid "Pick Country"
 msgstr "Land auswählen"
 
-#: qml/LocationDialog.qml:25 qml/SettingsPanel.qml:50
+#: qml/LocationDialog.qml:25 qml/SettingsPanel.qml:51
 msgid "Location"
 msgstr "Standort"
 
@@ -2953,11 +2612,11 @@ msgstr "Himmel ziehen, um sich in der Zeit zu bewegen"
 msgid "Search"
 msgstr "Suche"
 
-#: qml/StarloreDialog.qml:24 qml/SettingsPanel.qml:54
+#: qml/StarloreDialog.qml:24 qml/SettingsPanel.qml:55
 msgid "Starlore"
 msgstr "Sternsage"
 
-#: qml/SettingsPanel.qml:58 qml/AdvancedDialog.qml:24
+#: qml/SettingsPanel.qml:59 qml/AdvancedDialog.qml:24
 msgid "Advanced"
 msgstr "Fortgeschritten"
 
@@ -3012,6 +2671,297 @@ msgstr "Breitengrad"
 #: qml/AnglePicker.qml:24
 msgid "Longitude"
 msgstr "Längengrad"
+
+#~ msgid "Correction is disabled. Use only if you know what you are doing!"
+#~ msgstr ""
+#~ "Korrektur ist ausgeschaltet. Nur verwenden, wenn Sie wissen, was Sie tun!"
+
+#~ msgid ""
+#~ "This historical formula was obtained by C. Schoch in 1931 and was used by "
+#~ "G. Henriksson in his article <em>Einstein's Theory of Relativity "
+#~ "Confirmed by Ancient Solar Eclipses</em> (%1). See for more info %2here%3."
+#~ msgstr ""
+#~ "Diese historische Formel von C. Schoch (1931) wurde von G. Henriksson für "
+#~ "seinen Artikel <em>Einstein's Theory of Relativity Confirmed by Ancient "
+#~ "Solar Eclipses</em> (%1) verwendet. Mehr dazu %2hier%3."
+
+#~ msgid ""
+#~ "This empirical equation was published by G. M. Clemence in the article "
+#~ "<em>On the system of astronomical constants</em> (%1)."
+#~ msgstr ""
+#~ "Diese empirische Gleichung wurde von G. M. Clemence im Artikel <em>On the "
+#~ "system of astronomical constants</em> veröffentlicht (%1)."
+
+#~ msgid ""
+#~ "This formula is based on a study of post-1650 observations of the Sun, "
+#~ "the Moon and the planets by Spencer Jones (%1) and used by Jean Meeus in "
+#~ "his <em>Astronomical Formulae for Calculators</em>. It was also adopted "
+#~ "in the PC program SunTracker Pro."
+#~ msgstr ""
+#~ "Diese Formel stützt sich auf eine Studie von post-1650 Beobachtungen von "
+#~ "Sonne, Mond und Planeten durch Spencer Jones (%1) und wurde von Jean "
+#~ "Meeus in seinen <em>Astronomical Formulae for Calculators</em> verwendet. "
+#~ "Sie wurde auch im PC-Programm SunTracker Pro eingesetzt."
+
+#~ msgid ""
+#~ "This is a slightly modified version of the IAU (1952) formula which was "
+#~ "adopted in the <em>Astronomical Ephemeris</em> and in the <em>Canon of "
+#~ "Solar Eclipses</em> by Mucke & Meeus (1983)."
+#~ msgstr ""
+#~ "Das ist eine leicht veränderte Version der IAU (1952) - Formel, verwendet "
+#~ "in der <em>Astronomical Ephemeris</em> und im <em>Canon of Solar "
+#~ "Eclipses</em> von Mucke & Meeus (1983)."
+
+#~ msgid ""
+#~ "The tables of Tuckerman (1962, 1964) list the positions of the Sun, the "
+#~ "Moon and the planets at 5- and 10-day intervals from 601 BCE to 1649 CE. "
+#~ "The same relation was also implicitly adopted in the syzygy tables of "
+#~ "Goldstine (1973)."
+#~ msgstr ""
+#~ "Die Tafeln von Tuckerman (1962, 1964) enthalten Positionen von Sonne, "
+#~ "Mond und Planeten in 5- und 10-Tagesintervallen von 601 v. Chr. bis 1649 "
+#~ "n. Chr. Auf denselben Grundlagen beruhen die Syzygientafeln von Goldstine "
+#~ "(1973)."
+
+#~ msgid ""
+#~ "This equation was published by P. M. Muller and F. R. Stephenson in the "
+#~ "article <em>The accelerations of the earth and moon from early "
+#~ "astronomical observations</em> (%1)."
+#~ msgstr ""
+#~ "Diese Gleichung wurde von P. M. Muller und F. R. Stephenson im Artikel "
+#~ "<em>The accelerations of the earth and moon from early astronomical "
+#~ "observations</em> publiziert (%1)."
+
+#~ msgid ""
+#~ "This equation was published by F. R. Stephenson in the article <em>Pre-"
+#~ "Telescopic Astronomical Observations</em> (%1)."
+#~ msgstr ""
+#~ "Diese Gleichung wurde von F. R. Stephenson im Artikel <em>Pre-Telescopic "
+#~ "Astronomical Observations</em> publiziert (%1)."
+
+#~ msgid ""
+#~ "This 12th-order polynomial equation (outdated and superseded by Schmadel "
+#~ "& Zech (1988)) was published by L. D. Schmadel and G. Zech in the article "
+#~ "<em>Polynomial approximations for the correction delta T E.T.-U.T. in the "
+#~ "period 1800-1975</em> (%1) as fit through data published by Brouwer "
+#~ "(1952)."
+#~ msgstr ""
+#~ "Dieses Polynom 12ten Grades (veraltet und ersetzt durch Schmadel & Zech "
+#~ "(1988)) wurde von L. D. Schmadel und G. Zech im Artikel <em>Polynomial "
+#~ "approximations for the correction delta T E.T.-U.T. in the period "
+#~ "1800-1975</em> (%1) als Anpassungskurve durch Daten von Brouwer (1952) "
+#~ "publiziert."
+
+#~ msgid ""
+#~ "This algorithm was adopted in P. Bretagnon & L. Simon's <em>Planetary "
+#~ "Programs and Tables from -4000 to +2800</em> (1986) and in the PC "
+#~ "planetarium program RedShift."
+#~ msgstr ""
+#~ "Dieser Algorithmus wurde in den <em>Planetary Programs and Tables from "
+#~ "-4000 to +2800</em> (P. Bretagnon & L. Simon 1986) und im PC "
+#~ "Planetariumsprogramm RedShift übernommen."
+
+#~ msgid ""
+#~ "This formula was published by F. R. Stephenson and L. V. Morrison in the "
+#~ "article <em>Long-term changes in the rotation of the earth - 700 B.C. to "
+#~ "A.D. 1980</em> (%1)."
+#~ msgstr ""
+#~ "Diese Formel wurde von F. R. Stephenson und L. V. Morrison im Artikel "
+#~ "<em>Long-term changes in the rotation of the earth - 700 B.C. to A.D. "
+#~ "1980</em> veröffentlicht (%1)."
+
+#~ msgid "This algorithm is used in the PC planetarium program Guide 7."
+#~ msgstr ""
+#~ "Dieser Algorithmus wird im PC-Planetariumsprogramm Guide 7 verwendet."
+
+#~ msgid ""
+#~ "This algorithm was given by F. Espenak in his <em>Fifty Year Canon of "
+#~ "Solar Eclipses: 1986-2035</em> (1987) and in his <em>Fifty Year Canon of "
+#~ "Lunar Eclipses: 1986-2035</em> (1989)."
+#~ msgstr ""
+#~ "Der Algorithmus wurde von F. Espenak in seinem <em>Fifty Year Canon of "
+#~ "Solar Eclipses: 1986-2035</em> (1987) und in seinem <em>Fifty Year Canon "
+#~ "of Lunar Eclipses: 1986-2035</em> (1989) beschrieben."
+
+#~ msgid ""
+#~ "This formula was obtained by K.M. Borkowski (%1) from an analysis of 31 "
+#~ "solar eclipse records dating between 2137 BCE and 1715 CE."
+#~ msgstr ""
+#~ "Die Formel  wurde von K.M. Borkowski (%1) aus einer Analyse von 31 "
+#~ "Sonnenfinsternisberichten aus der Zeit 2137 v. Chr. und 1715 n.Chr. "
+#~ "erstellt."
+
+#~ msgid ""
+#~ "This 12th-order polynomial equation was published by L. D. Schmadel and "
+#~ "G. Zech in the article <em>Empirical Transformations from U.T. to E.T. "
+#~ "for the Period 1800-1988</em> (%1) as data fit through values given by "
+#~ "Stephenson & Morrison (1984)."
+#~ msgstr ""
+#~ "Dieses Polynom 12ten Grades wurde von L. D. Schmadel und G. Zech in ihrem "
+#~ "Artikel <em>Empirical Transformations from U.T. to E.T. for the Period "
+#~ "1800-1988</em> (%1) als Anpassungskurve durch Werte von Stephenson & "
+#~ "Morrison (1984) veröffentlicht."
+
+#~ msgid ""
+#~ "This formula was adopted by M. Chapront-Touze & J. Chapront in the "
+#~ "shortened version of the ELP 2000-85 lunar theory in their <em>Lunar "
+#~ "Tables and Programs from 4000 B.C. to A.D. 8000</em> (1991)."
+#~ msgstr ""
+#~ "Diese Formel wurde von M. Chapront-Touze & J. Chapront in der gekürzten "
+#~ "Version der Mondbahntheorie ELP 2000-85 in ihren <em>Lunar Tables and "
+#~ "Programs from 4000 B.C. to A.D. 8000</em> (1991) verwendet."
+
+#~ msgid ""
+#~ "This equation was published by F. R. Stephenson and L. V. Morrison in the "
+#~ "article <em>Long-Term Fluctuations in the Earth's Rotation: 700 BC to AD "
+#~ "1990</em> (%1)."
+#~ msgstr ""
+#~ "Diese Gleichung wurde von F. R. Stephenson und L. V. Morrison in ihrem "
+#~ "Artikel <em>Long-Term Fluctuations in the Earth's Rotation: 700 BC to AD "
+#~ "1990</em> veröffentlicht (%1)."
+
+#~ msgid ""
+#~ "F. R. Stephenson published this formula in his book <em>Historical "
+#~ "Eclipses and Earth's Rotation</em> (%1)."
+#~ msgstr ""
+#~ "F. R. Stephenson veröffentlichte diese Formel in seinem Buch "
+#~ "<em>Historical Eclipses and Earth's Rotation</em> (%1)."
+
+#~ msgid ""
+#~ "From J. Meeus, <em>Astronomical Algorithms</em> (2nd ed., 1998), and "
+#~ "widely used. Table for 1620..2000, and includes a variant of Chapront, "
+#~ "Chapront-Touze & Francou (1997) for dates outside 1620..2000."
+#~ msgstr ""
+#~ "Aus J. Meeus, <em>Astronomical Algorithms</em> (2nd ed., 1998), und weit "
+#~ "verbreitet. Interpoliert Werte aus einer Tabelle für 1620..2000 und "
+#~ "verwendet eine Variante von Chapront, Chapront-Touze & Francou (1997) für "
+#~ "Daten außerhalb 1620..2000."
+
+#~ msgid ""
+#~ "The JPL Solar System Dynamics Group of the NASA Jet Propulsion Laboratory "
+#~ "use this formula in their interactive website %1JPL Horizons%2."
+#~ msgstr ""
+#~ "Die JPL Solar System Dynamics Group des NASA Jet Propulsion Laboratory "
+#~ "verwenden diese Formel für historische Angaben auf ihrer interaktiven "
+#~ "Website %1JPL Horizons%2."
+
+#~ msgid ""
+#~ "This polynome was published by J. Meeus and L. Simons in article "
+#~ "<em>Polynomial approximations to Delta T, 1620-2000 AD</em> (%1)."
+#~ msgstr ""
+#~ "Diese optimierte Polynomanpassung wurde von J. Meeus und L. Simons in "
+#~ "ihrem Artikel <em>Polynomial approximations to Delta T, 1620-2000 AD</em> "
+#~ "(%1) veröffentlicht."
+
+#~ msgid ""
+#~ "The fourth edition of O. Montenbruck & T. Pfleger's <em>Astronomy on the "
+#~ "Personal Computer</em> (2000) provides simple 3rd-order polynomial data "
+#~ "fits for the recent past."
+#~ msgstr ""
+#~ "Die vierte Auflage von O. Montenbruck & T. Pfleger's <em>Astronomy on the "
+#~ "Personal Computer</em> (2000) enthält einfache Polynome dritten Grades "
+#~ "für die nahe Vergangenheit."
+
+#~ msgid ""
+#~ "E. M. Reingold & N. Dershowitz present this polynomial data fit in "
+#~ "<em>Calendrical Calculations</em> (3rd ed. 2007) and in their "
+#~ "<em>Calendrical Tabulations</em> (2002). It is based on Jean Meeus' "
+#~ "<em>Astronomical Algorithms</em> (1991)."
+#~ msgstr ""
+#~ "E. M. Reingold & N. Dershowitz präsentieren eine weitere Polynom-"
+#~ "Anpassung in den <em>Calendrical Calculations</em> (3rd ed. 2007) und in "
+#~ "ihren <em>Calendrical Tabulations</em> (2002). Sie basiert auf Werten aus "
+#~ "Jean Meeus' <em>Astronomical Algorithms</em> (1991)."
+
+#~ msgid ""
+#~ "This important solution was published by L. V. Morrison and F. R. "
+#~ "Stephenson in article <em>Historical values of the Earth's clock error "
+#~ "%1T and the calculation of eclipses</em> (%2) with addendum in (%3)."
+#~ msgstr ""
+#~ "Diese wichtige Lösung wurde von L. V. Morrison und F. R. Stephenson in "
+#~ "ihrem Artikel <em>Historical values of the Earth's clock error %1T and "
+#~ "the calculation of eclipses</em> veröffentlicht (%2), mit einem Zusatz in "
+#~ "(%3)."
+
+#~ msgid ""
+#~ "From the Length of Day (LOD; as determined by Stephenson & Morrison "
+#~ "(%2)), Victor Reijs derived a %1T formula by using a Simplex optimisation "
+#~ "with a cosine and square function. This is based on a possible periodicy "
+#~ "described by Stephenson (%2). See for more info %3here%4."
+#~ msgstr ""
+#~ "Aus der Entwicklung der Taglänge (Length of Day LOD; wie ermittelt von "
+#~ "Stephenson & Morrison (%2)) entwickelte Victor Reijs eine %1T formula "
+#~ "mittels einer Simplex-Optimierung mit einer Cosinus- und einer "
+#~ "Parabelfunktion. Sie basiert auf einer möglichen Periodizität wie von "
+#~ "Stephenson beschrieben (%2). Näheres dazu %3hier%4."
+
+#~ msgid ""
+#~ "This solution by F. Espenak and J. Meeus, based on Morrison & Stephenson "
+#~ "(2004) and a polynomial fit through tabulated values for 1600-2000, is "
+#~ "used for the %1NASA Eclipse Web Site%2 and in their <em>Five Millennium "
+#~ "Canon of Solar Eclipses: -1900 to +3000</em> (2006). This formula is also "
+#~ "used in the solar, lunar and planetary ephemeris program SOLEX."
+#~ msgstr ""
+#~ "Diese Lösung von F. Espenak and J. Meeus, basierend auf Morrison & "
+#~ "Stephenson (2004) und einer polynomialen Anpassung durch eine "
+#~ "Wertetabelle für 1600-2000, wird für die %1NASA Eclipse Web Site%2 und "
+#~ "für ihren <em>Five Millennium Canon of Solar Eclipses: -1999 to +3000</"
+#~ "em> (2006) verwendet, ebenso auch im Sonnen- Mond- und Planeten-"
+#~ "Ephemeridenprogramm SOLEX."
+
+#~ msgid "Used by default."
+#~ msgstr "Als Vorgabe verwendet."
+
+#~ msgid ""
+#~ "This solution by B. Banjevic, based on Stephenson & Morrison (1984), was "
+#~ "published in article <em>Ancient eclipses and dating the fall of Babylon</"
+#~ "em> (%1)."
+#~ msgstr ""
+#~ "Diese Lösung von B. Banjevic, basierend auf Stephenson & Morrison (1984), "
+#~ "wurde im Artikel <em>Ancient eclipses and dating the fall of Babylon</em> "
+#~ "publiziert (%1)."
+
+#~ msgid ""
+#~ "This solution by S. Islam, M. Sadiq and M. S. Qureshi, based on Meeus & "
+#~ "Simons (2000), was published in article <em>Error Minimization of "
+#~ "Polynomial Approximation of DeltaT</em> (%1) and revisited by Sana Islam "
+#~ "in 2013."
+#~ msgstr ""
+#~ "Diese Lösung von S. Islam, M. Sadiq und M. S. Qureshi, basierend auf "
+#~ "Meeus & Simons (2000), wurde in der Arbeit <em>Error Minimization of "
+#~ "Polynomial Approximation of DeltaT</em> (%1) veröffentlicht und 2013 "
+#~ "begutachtet von Sana Islam."
+
+#~ msgid ""
+#~ "This is a quadratic formula for calculation of %1T with coefficients "
+#~ "defined by the user."
+#~ msgstr ""
+#~ "Platz für Ihre frei programmierbare quadratische Formel für %1T mit "
+#~ "benutzerdefinerten Koeffizienten."
+
+#~ msgid "with meaningless values outside this range"
+#~ msgstr "mit sinnlosen Werten außerhalb dieses Bereichs"
+
+#~ msgid ""
+#~ "with a mean error of less than one second, max. error 1.9s, and "
+#~ "meaningless values outside this range"
+#~ msgstr ""
+#~ "mit einem mittleren Fehler unter einer Sekunde, max. Fehler 1.9s, und "
+#~ "sinnlosen Werten außerhalb des Bereichs"
+
+#~ msgid "with zero values outside this range"
+#~ msgstr "mit Nullwerten außerhalb dieses Bereichs"
+
+#~ msgid "with a typical 1-second accuracy and zero values outside this range"
+#~ msgstr ""
+#~ "mit typischer Genauigkeit von 1 Sekunde und Nullwerten außerhalb dieses "
+#~ "Bereichs"
+
+#~ msgid "Valid range of usage: between years %1 and %2, %3."
+#~ msgstr "Gültigkeitsbereich: Jahre %1 bis %2, %3."
+
+#~ msgid "Valid range of usage: between years %1 and %2."
+#~ msgstr "Gültigkeitsbereich: Jahre %1 bis %2."
 
 #~ msgid "GPS..."
 #~ msgstr "GPS..."

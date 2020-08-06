@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: stellarium\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-06 09:55+0200\n"
+"POT-Creation-Date: 2020-08-06 13:58+0200\n"
 "PO-Revision-Date: 2020-07-24 07:41+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/stellarium-"
@@ -424,7 +424,7 @@ msgstr "دید در شب"
 msgid "SpaceShip"
 msgstr "فضاپیما"
 
-#: src/core/StelCore.cpp:161 qml/SettingsPanel.qml:42 qml/TimeDialog.qml:23
+#: src/core/StelCore.cpp:161 qml/SettingsPanel.qml:43 qml/TimeDialog.qml:23
 msgid "Date and Time"
 msgstr "تاریخ و زمان"
 
@@ -602,283 +602,6 @@ msgstr "برگردان جانبی منظره"
 msgid "Flip scene vertically"
 msgstr "وارونگی منظره"
 
-#: src/core/StelCore.cpp:1455
-msgid "Correction is disabled. Use only if you know what you are doing!"
-msgstr "تصحیح غیرفعال است. تنها در صورت آگاهی استفاده کنید!"
-
-#: src/core/StelCore.cpp:1458
-#, qt-format
-msgid ""
-"This historical formula was obtained by C. Schoch in 1931 and was used by G. "
-"Henriksson in his article <em>Einstein's Theory of Relativity Confirmed by "
-"Ancient Solar Eclipses</em> (%1). See for more info %2here%3."
-msgstr ""
-"این فرمول تاریخی توسّط سی. شُخ در سال ۱۹۳۱ م. به دست آمد و جی. هنریکسون آن را "
-"در مقاله خود <em>نظریه‌ی نسبیت انیشتن با خورشیدگرفتگی‌های کهن اثبات شد</em> به "
-"کار برد. (%1). اطلاعات بیشتر در %2اینجا%3."
-
-#: src/core/StelCore.cpp:1461
-#, qt-format
-msgid ""
-"This empirical equation was published by G. M. Clemence in the article "
-"<em>On the system of astronomical constants</em> (%1)."
-msgstr ""
-"این معادله تجربی را جی. ام. کلِمِنس در مقاله‌ی <em>در مورد دستگاه ثابت‌های "
-"نجومی</em> منتشر کرد (%1)."
-
-#: src/core/StelCore.cpp:1464
-#, qt-format
-msgid ""
-"This formula is based on a study of post-1650 observations of the Sun, the "
-"Moon and the planets by Spencer Jones (%1) and used by Jean Meeus in his "
-"<em>Astronomical Formulae for Calculators</em>. It was also adopted in the "
-"PC program SunTracker Pro."
-msgstr ""
-"این فرمول را اسپنسر جونز بر بررسی رصدهای پس از ۱۶۵۰ م. خورشید و ماه و دیگر "
-"سیاره‌ها  پایه‌گذاری کرد (%1) و ژان مويس در <em>فرمول هاي نجومی برای "
-"ماشین‌حساب‌ها</em>. همچنین در برنامه رایانه‌ای SunTracker Pro اتخاذ شد."
-
-#: src/core/StelCore.cpp:1468
-msgid ""
-"This is a slightly modified version of the IAU (1952) formula which was "
-"adopted in the <em>Astronomical Ephemeris</em> and in the <em>Canon of Solar "
-"Eclipses</em> by Mucke & Meeus (1983)."
-msgstr ""
-"این نسخهٔ کمی اصلاح‌شده فرمول اتحادیه بین‌المللی اخترشناسی (۱۹۵۲م.) است که در "
-"<em>تقویم فلکی</em> و <em>جدول خورشیدگرفتگی‌ها</em>آن را موکه و مویس (۱۹۸۳ "
-"م.) اتخاذ کردند."
-
-#: src/core/StelCore.cpp:1472
-msgid ""
-"The tables of Tuckerman (1962, 1964) list the positions of the Sun, the Moon "
-"and the planets at 5- and 10-day intervals from 601 BCE to 1649 CE. The same "
-"relation was also implicitly adopted in the syzygy tables of Goldstine "
-"(1973)."
-msgstr ""
-"جدول توکرمن (۱۹۶۲ م.، ۱۹۶۴ م.) که وضعیت ماه و خورشید و دیگر سیاره‌ها را در "
-"فاصله‌های ۵- و ۱۰-روزه از ۶۰۱ ق.م. تا ۱۶۴۹ م. فهرست می‌کند. \r\n"
-"به همان نسبت نیز به طور ضمنی در جدول‌های سیزیجی گلدستین (۱۹۷۳ م.) اتخاذ شد."
-
-#: src/core/StelCore.cpp:1476
-#, qt-format
-msgid ""
-"This equation was published by P. M. Muller and F. R. Stephenson in the "
-"article <em>The accelerations of the earth and moon from early astronomical "
-"observations</em> (%1)."
-msgstr ""
-"این مقاله را پی. ام. مولر و اف. آر. استِفِنسون در مقاله <em>شتاب زمین و ماه از "
-"رصدهای اولیه</em> منتشر کرد (%1)."
-
-#: src/core/StelCore.cpp:1479
-#, qt-format
-msgid ""
-"This equation was published by F. R. Stephenson in the article <em>Pre-"
-"Telescopic Astronomical Observations</em> (%1)."
-msgstr ""
-"این معادله را اف. آر. استِفِنسون د مقاله <em>رصدهای پیشا-تلسکوپی</em> منتشر "
-"کرد (%1)."
-
-#: src/core/StelCore.cpp:1482
-#, qt-format
-msgid ""
-"This 12th-order polynomial equation (outdated and superseded by Schmadel & "
-"Zech (1988)) was published by L. D. Schmadel and G. Zech in the article "
-"<em>Polynomial approximations for the correction delta T E.T.-U.T. in the "
-"period 1800-1975</em> (%1) as fit through data published by Brouwer (1952)."
-msgstr ""
-
-#: src/core/StelCore.cpp:1485
-msgid ""
-"This algorithm was adopted in P. Bretagnon & L. Simon's <em>Planetary "
-"Programs and Tables from -4000 to +2800</em> (1986) and in the PC "
-"planetarium program RedShift."
-msgstr ""
-"این الگوریتم توسّط پی.برتاگنون و ال.سیمون در <em>برنامه‌ها و جدول‌های سیاره‌ای "
-"از 4000- تا 2800+<em/> و در برنامه‌ی آسمان‌نمای RedShift برای کامپیوتر استفاده "
-"شد."
-
-#: src/core/StelCore.cpp:1488
-#, qt-format
-msgid ""
-"This formula was published by F. R. Stephenson and L. V. Morrison in the "
-"article <em>Long-term changes in the rotation of the earth - 700 B.C. to A."
-"D. 1980</em> (%1)."
-msgstr ""
-
-#: src/core/StelCore.cpp:1491
-msgid "This algorithm is used in the PC planetarium program Guide 7."
-msgstr "این الگوریتم در برنامه‌ی آسمان‌نمای Guide 7 برای کامپیوتر استفاده می‌شود."
-
-#: src/core/StelCore.cpp:1494
-msgid ""
-"This algorithm was given by F. Espenak in his <em>Fifty Year Canon of Solar "
-"Eclipses: 1986-2035</em> (1987) and in his <em>Fifty Year Canon of Lunar "
-"Eclipses: 1986-2035</em> (1989)."
-msgstr ""
-
-#: src/core/StelCore.cpp:1497
-#, qt-format
-msgid ""
-"This formula was obtained by K.M. Borkowski (%1) from an analysis of 31 "
-"solar eclipse records dating between 2137 BCE and 1715 CE."
-msgstr ""
-
-#: src/core/StelCore.cpp:1500
-#, qt-format
-msgid ""
-"This 12th-order polynomial equation was published by L. D. Schmadel and G. "
-"Zech in the article <em>Empirical Transformations from U.T. to E.T. for the "
-"Period 1800-1988</em> (%1) as data fit through values given by Stephenson & "
-"Morrison (1984)."
-msgstr ""
-
-#: src/core/StelCore.cpp:1503
-msgid ""
-"This formula was adopted by M. Chapront-Touze & J. Chapront in the shortened "
-"version of the ELP 2000-85 lunar theory in their <em>Lunar Tables and "
-"Programs from 4000 B.C. to A.D. 8000</em> (1991)."
-msgstr ""
-
-#: src/core/StelCore.cpp:1506
-#, qt-format
-msgid ""
-"This equation was published by F. R. Stephenson and L. V. Morrison in the "
-"article <em>Long-Term Fluctuations in the Earth's Rotation: 700 BC to AD "
-"1990</em> (%1)."
-msgstr ""
-
-#: src/core/StelCore.cpp:1509
-#, qt-format
-msgid ""
-"F. R. Stephenson published this formula in his book <em>Historical Eclipses "
-"and Earth's Rotation</em> (%1)."
-msgstr ""
-
-#: src/core/StelCore.cpp:1512
-msgid ""
-"From J. Meeus, <em>Astronomical Algorithms</em> (2nd ed., 1998), and widely "
-"used. Table for 1620..2000, and includes a variant of Chapront, Chapront-"
-"Touze & Francou (1997) for dates outside 1620..2000."
-msgstr ""
-
-#: src/core/StelCore.cpp:1515
-#, qt-format
-msgid ""
-"The JPL Solar System Dynamics Group of the NASA Jet Propulsion Laboratory "
-"use this formula in their interactive website %1JPL Horizons%2."
-msgstr ""
-
-#: src/core/StelCore.cpp:1518
-#, qt-format
-msgid ""
-"This polynome was published by J. Meeus and L. Simons in article "
-"<em>Polynomial approximations to Delta T, 1620-2000 AD</em> (%1)."
-msgstr ""
-
-#: src/core/StelCore.cpp:1521
-msgid ""
-"The fourth edition of O. Montenbruck & T. Pfleger's <em>Astronomy on the "
-"Personal Computer</em> (2000) provides simple 3rd-order polynomial data fits "
-"for the recent past."
-msgstr ""
-
-#: src/core/StelCore.cpp:1524
-msgid ""
-"E. M. Reingold & N. Dershowitz present this polynomial data fit in "
-"<em>Calendrical Calculations</em> (3rd ed. 2007) and in their "
-"<em>Calendrical Tabulations</em> (2002). It is based on Jean Meeus' "
-"<em>Astronomical Algorithms</em> (1991)."
-msgstr ""
-
-#: src/core/StelCore.cpp:1527
-#, qt-format
-msgid ""
-"This important solution was published by L. V. Morrison and F. R. Stephenson "
-"in article <em>Historical values of the Earth's clock error %1T and the "
-"calculation of eclipses</em> (%2) with addendum in (%3)."
-msgstr ""
-
-#: src/core/StelCore.cpp:1530
-#, qt-format
-msgid ""
-"From the Length of Day (LOD; as determined by Stephenson & Morrison (%2)), "
-"Victor Reijs derived a %1T formula by using a Simplex optimisation with a "
-"cosine and square function. This is based on a possible periodicy described "
-"by Stephenson (%2). See for more info %3here%4."
-msgstr ""
-
-#: src/core/StelCore.cpp:1533
-#, qt-format
-msgid ""
-"This solution by F. Espenak and J. Meeus, based on Morrison & Stephenson "
-"(2004) and a polynomial fit through tabulated values for 1600-2000, is used "
-"for the %1NASA Eclipse Web Site%2 and in their <em>Five Millennium Canon of "
-"Solar Eclipses: -1900 to +3000</em> (2006). This formula is also used in the "
-"solar, lunar and planetary ephemeris program SOLEX."
-msgstr ""
-
-#: src/core/StelCore.cpp:1533
-msgid "Used by default."
-msgstr "استفاده‌شده از پیش‌فرض"
-
-#: src/core/StelCore.cpp:1536
-#, qt-format
-msgid ""
-"This solution by B. Banjevic, based on Stephenson & Morrison (1984), was "
-"published in article <em>Ancient eclipses and dating the fall of Babylon</"
-"em> (%1)."
-msgstr ""
-
-#: src/core/StelCore.cpp:1539
-#, qt-format
-msgid ""
-"This solution by S. Islam, M. Sadiq and M. S. Qureshi, based on Meeus & "
-"Simons (2000), was published in article <em>Error Minimization of Polynomial "
-"Approximation of DeltaT</em> (%1) and revisited by Sana Islam in 2013."
-msgstr ""
-
-#: src/core/StelCore.cpp:1542
-#, qt-format
-msgid ""
-"This is a quadratic formula for calculation of %1T with coefficients defined "
-"by the user."
-msgstr ""
-
-#: src/core/StelCore.cpp:1545 src/core/SimbadSearcher.cpp:133
-msgid "Error"
-msgstr "خطا"
-
-#: src/core/StelCore.cpp:1594
-msgid "with meaningless values outside this range"
-msgstr "با مقادیر بی‌معنی بیرون این بازه"
-
-#: src/core/StelCore.cpp:1620
-msgid ""
-"with a mean error of less than one second, max. error 1.9s, and meaningless "
-"values outside this range"
-msgstr ""
-"با خطای میانگین کمتر از یک ثانیه، بیشینه‌ی خطا 1.9 ثانیه، و مقادیر بی‌معنی "
-"بیرون این بازه"
-
-#: src/core/StelCore.cpp:1642 src/core/StelCore.cpp:1647
-#: src/core/StelCore.cpp:1674 src/core/StelCore.cpp:1679
-msgid "with zero values outside this range"
-msgstr "با مقادیر صفر بیرون این بازه"
-
-#: src/core/StelCore.cpp:1652
-msgid "with a typical 1-second accuracy and zero values outside this range"
-msgstr "با مقادیر دارای خطای معمول 1 ثانیه و مقادیر صفر بیرون این بازه"
-
-#: src/core/StelCore.cpp:1689
-#, qt-format
-msgid "Valid range of usage: between years %1 and %2, %3."
-msgstr "بازه‌ی معتبر استفاده: میان سال‌های %1 و %2، %3."
-
-#: src/core/StelCore.cpp:1691
-#, qt-format
-msgid "Valid range of usage: between years %1 and %2."
-msgstr "بازه‌ی معتبر استفاده: میان سال‌های %1 و %2."
-
 #: src/core/StelProjector.cpp:129
 msgid "Maximum FOV: "
 msgstr "بیشینه‌ی میدان دید "
@@ -1054,6 +777,10 @@ msgstr ""
 #: src/core/SimbadSearcher.cpp:131
 msgid "Querying"
 msgstr "در حال جستجو"
+
+#: src/core/SimbadSearcher.cpp:133
+msgid "Error"
+msgstr "خطا"
 
 #: src/core/SimbadSearcher.cpp:135
 msgid "Not found"
@@ -2801,7 +2528,7 @@ msgstr "زامبیا"
 msgid "Zimbabwe"
 msgstr "زیمبابوه"
 
-#: qml/AboutDialog.qml:24 qml/SettingsPanel.qml:62
+#: qml/AboutDialog.qml:24 qml/SettingsPanel.qml:63
 msgid "About"
 msgstr "درباره"
 
@@ -2809,7 +2536,7 @@ msgstr "درباره"
 msgid "Unnamed"
 msgstr ""
 
-#: qml/LandscapesDialog.qml:5 qml/SettingsPanel.qml:46
+#: qml/LandscapesDialog.qml:5 qml/SettingsPanel.qml:47
 msgid "Landscape"
 msgstr "چشم‌انداز"
 
@@ -2822,7 +2549,7 @@ msgstr ""
 msgid "Pick Country"
 msgstr "کشور:"
 
-#: qml/LocationDialog.qml:25 qml/SettingsPanel.qml:50
+#: qml/LocationDialog.qml:25 qml/SettingsPanel.qml:51
 msgid "Location"
 msgstr "محل"
 
@@ -2868,11 +2595,11 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
-#: qml/StarloreDialog.qml:24 qml/SettingsPanel.qml:54
+#: qml/StarloreDialog.qml:24 qml/SettingsPanel.qml:55
 msgid "Starlore"
 msgstr "افسانه‌ها و ستارگان"
 
-#: qml/SettingsPanel.qml:58 qml/AdvancedDialog.qml:24
+#: qml/SettingsPanel.qml:59 qml/AdvancedDialog.qml:24
 msgid "Advanced"
 msgstr ""
 
@@ -2932,6 +2659,107 @@ msgstr "عرض جغرافیایی"
 #: qml/AnglePicker.qml:24
 msgid "Longitude"
 msgstr "طول جغرافیایی"
+
+#~ msgid "Correction is disabled. Use only if you know what you are doing!"
+#~ msgstr "تصحیح غیرفعال است. تنها در صورت آگاهی استفاده کنید!"
+
+#~ msgid ""
+#~ "This historical formula was obtained by C. Schoch in 1931 and was used by "
+#~ "G. Henriksson in his article <em>Einstein's Theory of Relativity "
+#~ "Confirmed by Ancient Solar Eclipses</em> (%1). See for more info %2here%3."
+#~ msgstr ""
+#~ "این فرمول تاریخی توسّط سی. شُخ در سال ۱۹۳۱ م. به دست آمد و جی. هنریکسون آن "
+#~ "را در مقاله خود <em>نظریه‌ی نسبیت انیشتن با خورشیدگرفتگی‌های کهن اثبات شد</"
+#~ "em> به کار برد. (%1). اطلاعات بیشتر در %2اینجا%3."
+
+#~ msgid ""
+#~ "This empirical equation was published by G. M. Clemence in the article "
+#~ "<em>On the system of astronomical constants</em> (%1)."
+#~ msgstr ""
+#~ "این معادله تجربی را جی. ام. کلِمِنس در مقاله‌ی <em>در مورد دستگاه ثابت‌های "
+#~ "نجومی</em> منتشر کرد (%1)."
+
+#~ msgid ""
+#~ "This formula is based on a study of post-1650 observations of the Sun, "
+#~ "the Moon and the planets by Spencer Jones (%1) and used by Jean Meeus in "
+#~ "his <em>Astronomical Formulae for Calculators</em>. It was also adopted "
+#~ "in the PC program SunTracker Pro."
+#~ msgstr ""
+#~ "این فرمول را اسپنسر جونز بر بررسی رصدهای پس از ۱۶۵۰ م. خورشید و ماه و "
+#~ "دیگر سیاره‌ها  پایه‌گذاری کرد (%1) و ژان مويس در <em>فرمول هاي نجومی برای "
+#~ "ماشین‌حساب‌ها</em>. همچنین در برنامه رایانه‌ای SunTracker Pro اتخاذ شد."
+
+#~ msgid ""
+#~ "This is a slightly modified version of the IAU (1952) formula which was "
+#~ "adopted in the <em>Astronomical Ephemeris</em> and in the <em>Canon of "
+#~ "Solar Eclipses</em> by Mucke & Meeus (1983)."
+#~ msgstr ""
+#~ "این نسخهٔ کمی اصلاح‌شده فرمول اتحادیه بین‌المللی اخترشناسی (۱۹۵۲م.) است که "
+#~ "در <em>تقویم فلکی</em> و <em>جدول خورشیدگرفتگی‌ها</em>آن را موکه و مویس "
+#~ "(۱۹۸۳ م.) اتخاذ کردند."
+
+#~ msgid ""
+#~ "The tables of Tuckerman (1962, 1964) list the positions of the Sun, the "
+#~ "Moon and the planets at 5- and 10-day intervals from 601 BCE to 1649 CE. "
+#~ "The same relation was also implicitly adopted in the syzygy tables of "
+#~ "Goldstine (1973)."
+#~ msgstr ""
+#~ "جدول توکرمن (۱۹۶۲ م.، ۱۹۶۴ م.) که وضعیت ماه و خورشید و دیگر سیاره‌ها را در "
+#~ "فاصله‌های ۵- و ۱۰-روزه از ۶۰۱ ق.م. تا ۱۶۴۹ م. فهرست می‌کند. \r\n"
+#~ "به همان نسبت نیز به طور ضمنی در جدول‌های سیزیجی گلدستین (۱۹۷۳ م.) اتخاذ شد."
+
+#~ msgid ""
+#~ "This equation was published by P. M. Muller and F. R. Stephenson in the "
+#~ "article <em>The accelerations of the earth and moon from early "
+#~ "astronomical observations</em> (%1)."
+#~ msgstr ""
+#~ "این مقاله را پی. ام. مولر و اف. آر. استِفِنسون در مقاله <em>شتاب زمین و ماه "
+#~ "از رصدهای اولیه</em> منتشر کرد (%1)."
+
+#~ msgid ""
+#~ "This equation was published by F. R. Stephenson in the article <em>Pre-"
+#~ "Telescopic Astronomical Observations</em> (%1)."
+#~ msgstr ""
+#~ "این معادله را اف. آر. استِفِنسون د مقاله <em>رصدهای پیشا-تلسکوپی</em> منتشر "
+#~ "کرد (%1)."
+
+#~ msgid ""
+#~ "This algorithm was adopted in P. Bretagnon & L. Simon's <em>Planetary "
+#~ "Programs and Tables from -4000 to +2800</em> (1986) and in the PC "
+#~ "planetarium program RedShift."
+#~ msgstr ""
+#~ "این الگوریتم توسّط پی.برتاگنون و ال.سیمون در <em>برنامه‌ها و جدول‌های "
+#~ "سیاره‌ای از 4000- تا 2800+<em/> و در برنامه‌ی آسمان‌نمای RedShift برای "
+#~ "کامپیوتر استفاده شد."
+
+#~ msgid "This algorithm is used in the PC planetarium program Guide 7."
+#~ msgstr ""
+#~ "این الگوریتم در برنامه‌ی آسمان‌نمای Guide 7 برای کامپیوتر استفاده می‌شود."
+
+#~ msgid "Used by default."
+#~ msgstr "استفاده‌شده از پیش‌فرض"
+
+#~ msgid "with meaningless values outside this range"
+#~ msgstr "با مقادیر بی‌معنی بیرون این بازه"
+
+#~ msgid ""
+#~ "with a mean error of less than one second, max. error 1.9s, and "
+#~ "meaningless values outside this range"
+#~ msgstr ""
+#~ "با خطای میانگین کمتر از یک ثانیه، بیشینه‌ی خطا 1.9 ثانیه، و مقادیر بی‌معنی "
+#~ "بیرون این بازه"
+
+#~ msgid "with zero values outside this range"
+#~ msgstr "با مقادیر صفر بیرون این بازه"
+
+#~ msgid "with a typical 1-second accuracy and zero values outside this range"
+#~ msgstr "با مقادیر دارای خطای معمول 1 ثانیه و مقادیر صفر بیرون این بازه"
+
+#~ msgid "Valid range of usage: between years %1 and %2, %3."
+#~ msgstr "بازه‌ی معتبر استفاده: میان سال‌های %1 و %2، %3."
+
+#~ msgid "Valid range of usage: between years %1 and %2."
+#~ msgstr "بازه‌ی معتبر استفاده: میان سال‌های %1 و %2."
 
 #~ msgid "Select single constellation"
 #~ msgstr "انتخاب تک صورت‌فلکی"

@@ -1448,7 +1448,7 @@ QString StelCore::getCurrentDeltaTAlgorithmDescription(void) const
 {
 	// GZ remarked where more info would be desirable. Generally, a full citation and the math. term would be nice to have displayed if it's just one formula, and the range of valid dates.
 	QString description;
-	double jd = 0;
+	/*double jd = 0;
 	QString marker;
 	switch (getCurrentDeltaTAlgorithm())	{
 	case WithoutCorrection:
@@ -1543,14 +1543,14 @@ QString StelCore::getCurrentDeltaTAlgorithmDescription(void) const
 		break;
 	default:
 		description = q_("Error");
-	}
+	}*/
 	return description;
 }
 
 QString StelCore::getCurrentDeltaTAlgorithmValidRange(double jDay, QString *marker) const
 {
 	QString validRange = "";
-	QString validRangeAppendix = "";
+	/*QString validRangeAppendix = "";
 	*marker = "";
 	int year, month, day;
 	int start = 0;
@@ -1694,6 +1694,6 @@ QString StelCore::getCurrentDeltaTAlgorithmValidRange(double jDay, QString *mark
 	}
 	else
 		*marker = "?";
-
+    */
 	return QString(" %1").arg(validRange);
 }

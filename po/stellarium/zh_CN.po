@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: stellarium\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-06 09:55+0200\n"
+"POT-Creation-Date: 2020-08-06 13:58+0200\n"
 "PO-Revision-Date: 2015-12-02 13:01+0000\n"
 "Last-Translator: JimmyChi <9307662@qq.com>\n"
 "Language-Team: Chinese (Hong Kong) <zh_HK@li.org>\n"
@@ -420,7 +420,7 @@ msgstr "夜间模式"
 msgid "SpaceShip"
 msgstr "太空船"
 
-#: src/core/StelCore.cpp:161 qml/SettingsPanel.qml:42 qml/TimeDialog.qml:23
+#: src/core/StelCore.cpp:161 qml/SettingsPanel.qml:43 qml/TimeDialog.qml:23
 msgid "Date and Time"
 msgstr "日期及时间"
 
@@ -592,308 +592,6 @@ msgstr "水平翻转"
 msgid "Flip scene vertically"
 msgstr "垂直翻转"
 
-#: src/core/StelCore.cpp:1455
-msgid "Correction is disabled. Use only if you know what you are doing!"
-msgstr "目前禁止修正。如果您不了解您正在做什么，请不要使用此功能！"
-
-#: src/core/StelCore.cpp:1458
-#, qt-format
-msgid ""
-"This historical formula was obtained by C. Schoch in 1931 and was used by G. "
-"Henriksson in his article <em>Einstein's Theory of Relativity Confirmed by "
-"Ancient Solar Eclipses</em> (%1). See for more info %2here%3."
-msgstr ""
-"这个有历史意义的公式是由 C. Schoch 于 1931年得到的，被 G. Henriksson 在他的文"
-"章《古代的日食证明了爱因斯坦的相对论》[<em>Einstein's Theory of Relativity "
-"Confirmed by Ancient Solar Eclipses</em>]（%1）。要了解更多信息，请点击%2这"
-"里%3。"
-
-#: src/core/StelCore.cpp:1461
-#, qt-format
-msgid ""
-"This empirical equation was published by G. M. Clemence in the article "
-"<em>On the system of astronomical constants</em> (%1)."
-msgstr ""
-"这个经验公式由 G. M. Clemence 在文章《关于天文常数系统》[<em>On the system "
-"of astronomical constants</em>]（%1）中公布。"
-
-#: src/core/StelCore.cpp:1464
-#, qt-format
-msgid ""
-"This formula is based on a study of post-1650 observations of the Sun, the "
-"Moon and the planets by Spencer Jones (%1) and used by Jean Meeus in his "
-"<em>Astronomical Formulae for Calculators</em>. It was also adopted in the "
-"PC program SunTracker Pro."
-msgstr ""
-"此公式基于 Spencer Jones（%1）对1650年后期太阳、月球以及行星观测的研究，并被 "
-"Jean Meeus 在他的《用于计算器的天文学公式》[<em>Astronomical Formulae for "
-"Calculators</em>] 中使用。计算机程序 SunTracker Pro 也使用了这一公式。"
-
-#: src/core/StelCore.cpp:1468
-msgid ""
-"This is a slightly modified version of the IAU (1952) formula which was "
-"adopted in the <em>Astronomical Ephemeris</em> and in the <em>Canon of Solar "
-"Eclipses</em> by Mucke & Meeus (1983)."
-msgstr ""
-"这是一个由被 Mucke 和 Meeus 于1983年在《星历表》[<em>Astronomical Ephemeris</"
-"em>]和《日食的法规》[<em>Canon of Solar Eclipses</em>]中使用的 IAU (1952) 公"
-"式稍加修改之后的版本。"
-
-#: src/core/StelCore.cpp:1472
-msgid ""
-"The tables of Tuckerman (1962, 1964) list the positions of the Sun, the Moon "
-"and the planets at 5- and 10-day intervals from 601 BCE to 1649 CE. The same "
-"relation was also implicitly adopted in the syzygy tables of Goldstine "
-"(1973)."
-msgstr ""
-"塔克曼[Tuckerman]的表格（1962年，1964年）以5天和10天的间隔列出了太阳、月球和"
-"行星从公元前601年到公元1649年的位置。戈德斯坦[Goldstine]的表格（1973年）也含"
-"蓄地采用了相同的关系。"
-
-#: src/core/StelCore.cpp:1476
-#, qt-format
-msgid ""
-"This equation was published by P. M. Muller and F. R. Stephenson in the "
-"article <em>The accelerations of the earth and moon from early astronomical "
-"observations</em> (%1)."
-msgstr ""
-"此公式被 P. M. Muller 和 F. R. Stephenson 在文章《早期天文观测中的地球和月球"
-"的加速效应》[<em>The accelerations of the earth and moon from early "
-"astronomical observations</em>] （%1）中公布。"
-
-#: src/core/StelCore.cpp:1479
-#, qt-format
-msgid ""
-"This equation was published by F. R. Stephenson in the article <em>Pre-"
-"Telescopic Astronomical Observations</em> (%1)."
-msgstr ""
-"此公式由 F. R. Stephenson 在文章《望远镜前的天文学观测》[<em>Pre-Telescopic "
-"Astronomical Observations</em>]（%1）中公布。"
-
-#: src/core/StelCore.cpp:1482
-#, qt-format
-msgid ""
-"This 12th-order polynomial equation (outdated and superseded by Schmadel & "
-"Zech (1988)) was published by L. D. Schmadel and G. Zech in the article "
-"<em>Polynomial approximations for the correction delta T E.T.-U.T. in the "
-"period 1800-1975</em> (%1) as fit through data published by Brouwer (1952)."
-msgstr ""
-"这个十二阶的多项式方程（已过时并由 Schmadel 与 Zech 在1988年所取代）由 L. D. "
-"Schmadel 和 G. Zech 在文章《1800-1975年期间东部标准时间-国际标准时间校正 ΔT "
-"的多项式近似》[<em>Polynomial approximations for the correction delta T E.T.-"
-"U.T. in the period 1800-1975</em>]（%1）中公布。它与 Brouwer 于1952年公布的数"
-"据相吻合。"
-
-#: src/core/StelCore.cpp:1485
-msgid ""
-"This algorithm was adopted in P. Bretagnon & L. Simon's <em>Planetary "
-"Programs and Tables from -4000 to +2800</em> (1986) and in the PC "
-"planetarium program RedShift."
-msgstr ""
-"此算法于1986年被 P. Bretagnon 和 L. Simon 在《从 -4000 到 +2800 的行星程序和"
-"表格》[<em>Planetary Programs and Tables from -4000 to +2800</em> ]中，以及计"
-"算机程序 RedShift 中被采用。"
-
-#: src/core/StelCore.cpp:1488
-#, qt-format
-msgid ""
-"This formula was published by F. R. Stephenson and L. V. Morrison in the "
-"article <em>Long-term changes in the rotation of the earth - 700 B.C. to A."
-"D. 1980</em> (%1)."
-msgstr ""
-"这一公式由 F. R. Stephenson 和 L. V. Morrison 在题为《地球自转的长周期变化 - "
-"700 B.C. 到 A.D. 1980》(%1)的论文中发表。"
-
-#: src/core/StelCore.cpp:1491
-msgid "This algorithm is used in the PC planetarium program Guide 7."
-msgstr "天文馆程序 Guide 7 中使用了此算法。"
-
-#: src/core/StelCore.cpp:1494
-msgid ""
-"This algorithm was given by F. Espenak in his <em>Fifty Year Canon of Solar "
-"Eclipses: 1986-2035</em> (1987) and in his <em>Fifty Year Canon of Lunar "
-"Eclipses: 1986-2035</em> (1989)."
-msgstr ""
-"此算法由 F. Espenak 在他的《五十年的日食法规：1986-2035》[<em>Fifty Year "
-"Canon of Solar Eclipses: 1986-2035</em> ]（1987年）以及《五十年的日食法规："
-"1986-2035》[<em>Fifty Year Canon of Solar Eclipses: 1986-2035</em> ]（1989"
-"年） 中给出。"
-
-#: src/core/StelCore.cpp:1497
-#, qt-format
-msgid ""
-"This formula was obtained by K.M. Borkowski (%1) from an analysis of 31 "
-"solar eclipse records dating between 2137 BCE and 1715 CE."
-msgstr ""
-"这一公式由 K.M. Borkowski (%1) 在分析了 2137 BCE 到 1715 CE 之间的31次日食数"
-"据过后得出。"
-
-#: src/core/StelCore.cpp:1500
-#, qt-format
-msgid ""
-"This 12th-order polynomial equation was published by L. D. Schmadel and G. "
-"Zech in the article <em>Empirical Transformations from U.T. to E.T. for the "
-"Period 1800-1988</em> (%1) as data fit through values given by Stephenson & "
-"Morrison (1984)."
-msgstr ""
-"这个 12 阶多项式方程由 L. D. Schmadel 及 G. Zech 在论文 <em>Empirical "
-"Transformations from U.T. to E.T. for the Period 1800-1988</em> (%1) 中发布，"
-"方程用 Stephenson & Morrison (1984) 给出的数据拟合而成。"
-
-#: src/core/StelCore.cpp:1503
-msgid ""
-"This formula was adopted by M. Chapront-Touze & J. Chapront in the shortened "
-"version of the ELP 2000-85 lunar theory in their <em>Lunar Tables and "
-"Programs from 4000 B.C. to A.D. 8000</em> (1991)."
-msgstr "该公式是"
-
-#: src/core/StelCore.cpp:1506
-#, qt-format
-msgid ""
-"This equation was published by F. R. Stephenson and L. V. Morrison in the "
-"article <em>Long-Term Fluctuations in the Earth's Rotation: 700 BC to AD "
-"1990</em> (%1)."
-msgstr ""
-"这方程由 F. R. Stephenson 及 L. V. Morrison 在论文 <em>Long-Term "
-"Fluctuations in the Earth's Rotation: 700 BC to AD 1990</em> (%1) 中发表。"
-
-#: src/core/StelCore.cpp:1509
-#, qt-format
-msgid ""
-"F. R. Stephenson published this formula in his book <em>Historical Eclipses "
-"and Earth's Rotation</em> (%1)."
-msgstr ""
-"F. R. Stephenson 在他的书 <em>Historical Eclipses and Earth's Rotation</em> "
-"(%1) 中发表了这个公式。"
-
-#: src/core/StelCore.cpp:1512
-msgid ""
-"From J. Meeus, <em>Astronomical Algorithms</em> (2nd ed., 1998), and widely "
-"used. Table for 1620..2000, and includes a variant of Chapront, Chapront-"
-"Touze & Francou (1997) for dates outside 1620..2000."
-msgstr ""
-
-#: src/core/StelCore.cpp:1515
-#, qt-format
-msgid ""
-"The JPL Solar System Dynamics Group of the NASA Jet Propulsion Laboratory "
-"use this formula in their interactive website %1JPL Horizons%2."
-msgstr ""
-
-#: src/core/StelCore.cpp:1518
-#, qt-format
-msgid ""
-"This polynome was published by J. Meeus and L. Simons in article "
-"<em>Polynomial approximations to Delta T, 1620-2000 AD</em> (%1)."
-msgstr ""
-"此多项式由 J. Meeus 和 L. Simons 在文章《公元1620年-2000年ΔT 的多项式近似》"
-"[<em>Polynomial approximations to Delta T, 1620-2000 AD</em>]（%1）中公布。"
-
-#: src/core/StelCore.cpp:1521
-msgid ""
-"The fourth edition of O. Montenbruck & T. Pfleger's <em>Astronomy on the "
-"Personal Computer</em> (2000) provides simple 3rd-order polynomial data fits "
-"for the recent past."
-msgstr ""
-
-#: src/core/StelCore.cpp:1524
-msgid ""
-"E. M. Reingold & N. Dershowitz present this polynomial data fit in "
-"<em>Calendrical Calculations</em> (3rd ed. 2007) and in their "
-"<em>Calendrical Tabulations</em> (2002). It is based on Jean Meeus' "
-"<em>Astronomical Algorithms</em> (1991)."
-msgstr ""
-"E. M. Reingold 及 N. Dershowitz 在 <em>Calendrical Calculations</em> （第3版 "
-"2007）及 <em>Calendrical Tabulations</em> （2002）中发表了多项式数据拟合结"
-"果。方法基于 Jean Meeus 的 <em>Astronomical Algorithms</em> （1991）。"
-
-#: src/core/StelCore.cpp:1527
-#, qt-format
-msgid ""
-"This important solution was published by L. V. Morrison and F. R. Stephenson "
-"in article <em>Historical values of the Earth's clock error %1T and the "
-"calculation of eclipses</em> (%2) with addendum in (%3)."
-msgstr ""
-
-#: src/core/StelCore.cpp:1530
-#, qt-format
-msgid ""
-"From the Length of Day (LOD; as determined by Stephenson & Morrison (%2)), "
-"Victor Reijs derived a %1T formula by using a Simplex optimisation with a "
-"cosine and square function. This is based on a possible periodicy described "
-"by Stephenson (%2). See for more info %3here%4."
-msgstr ""
-
-#: src/core/StelCore.cpp:1533
-#, qt-format
-msgid ""
-"This solution by F. Espenak and J. Meeus, based on Morrison & Stephenson "
-"(2004) and a polynomial fit through tabulated values for 1600-2000, is used "
-"for the %1NASA Eclipse Web Site%2 and in their <em>Five Millennium Canon of "
-"Solar Eclipses: -1900 to +3000</em> (2006). This formula is also used in the "
-"solar, lunar and planetary ephemeris program SOLEX."
-msgstr ""
-
-#: src/core/StelCore.cpp:1533
-msgid "Used by default."
-msgstr "默认使用。"
-
-#: src/core/StelCore.cpp:1536
-#, qt-format
-msgid ""
-"This solution by B. Banjevic, based on Stephenson & Morrison (1984), was "
-"published in article <em>Ancient eclipses and dating the fall of Babylon</"
-"em> (%1)."
-msgstr ""
-
-#: src/core/StelCore.cpp:1539
-#, qt-format
-msgid ""
-"This solution by S. Islam, M. Sadiq and M. S. Qureshi, based on Meeus & "
-"Simons (2000), was published in article <em>Error Minimization of Polynomial "
-"Approximation of DeltaT</em> (%1) and revisited by Sana Islam in 2013."
-msgstr ""
-
-#: src/core/StelCore.cpp:1542
-#, qt-format
-msgid ""
-"This is a quadratic formula for calculation of %1T with coefficients defined "
-"by the user."
-msgstr "这是一个用于计算 %1T 的二次方程，系数由用户定义。"
-
-#: src/core/StelCore.cpp:1545 src/core/SimbadSearcher.cpp:133
-msgid "Error"
-msgstr "错误"
-
-#: src/core/StelCore.cpp:1594
-msgid "with meaningless values outside this range"
-msgstr "超出范围的无意义数值"
-
-#: src/core/StelCore.cpp:1620
-msgid ""
-"with a mean error of less than one second, max. error 1.9s, and meaningless "
-"values outside this range"
-msgstr "平均误差小于1秒，最大误差1.9秒，其余都是超出范围的无意义数值"
-
-#: src/core/StelCore.cpp:1642 src/core/StelCore.cpp:1647
-#: src/core/StelCore.cpp:1674 src/core/StelCore.cpp:1679
-msgid "with zero values outside this range"
-msgstr "此范围之外的值为零"
-
-#: src/core/StelCore.cpp:1652
-msgid "with a typical 1-second accuracy and zero values outside this range"
-msgstr "精确度一般在一秒内，超出该范围的数据无价值"
-
-#: src/core/StelCore.cpp:1689
-#, qt-format
-msgid "Valid range of usage: between years %1 and %2, %3."
-msgstr "在 %1 年和 %2，%3 年之间有效"
-
-#: src/core/StelCore.cpp:1691
-#, qt-format
-msgid "Valid range of usage: between years %1 and %2."
-msgstr "在 %1 年和 %2 年之间有效"
-
 #: src/core/StelProjector.cpp:129
 msgid "Maximum FOV: "
 msgstr "最大视野: "
@@ -1061,6 +759,10 @@ msgstr "位置解析错误"
 #: src/core/SimbadSearcher.cpp:131
 msgid "Querying"
 msgstr "正在查询"
+
+#: src/core/SimbadSearcher.cpp:133
+msgid "Error"
+msgstr "错误"
 
 #: src/core/SimbadSearcher.cpp:135
 msgid "Not found"
@@ -2801,7 +2503,7 @@ msgstr "赞比亚"
 msgid "Zimbabwe"
 msgstr "津巴布韦"
 
-#: qml/AboutDialog.qml:24 qml/SettingsPanel.qml:62
+#: qml/AboutDialog.qml:24 qml/SettingsPanel.qml:63
 msgid "About"
 msgstr "关于"
 
@@ -2809,7 +2511,7 @@ msgstr "关于"
 msgid "Unnamed"
 msgstr ""
 
-#: qml/LandscapesDialog.qml:5 qml/SettingsPanel.qml:46
+#: qml/LandscapesDialog.qml:5 qml/SettingsPanel.qml:47
 msgid "Landscape"
 msgstr "地景"
 
@@ -2822,7 +2524,7 @@ msgstr ""
 msgid "Pick Country"
 msgstr "国家/地区:"
 
-#: qml/LocationDialog.qml:25 qml/SettingsPanel.qml:50
+#: qml/LocationDialog.qml:25 qml/SettingsPanel.qml:51
 msgid "Location"
 msgstr "所在位置"
 
@@ -2868,11 +2570,11 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
-#: qml/StarloreDialog.qml:24 qml/SettingsPanel.qml:54
+#: qml/StarloreDialog.qml:24 qml/SettingsPanel.qml:55
 msgid "Starlore"
 msgstr "星空术语"
 
-#: qml/SettingsPanel.qml:58 qml/AdvancedDialog.qml:24
+#: qml/SettingsPanel.qml:59 qml/AdvancedDialog.qml:24
 msgid "Advanced"
 msgstr ""
 
@@ -2931,6 +2633,198 @@ msgstr ""
 #: qml/AnglePicker.qml:24
 msgid "Longitude"
 msgstr ""
+
+#~ msgid "Correction is disabled. Use only if you know what you are doing!"
+#~ msgstr "目前禁止修正。如果您不了解您正在做什么，请不要使用此功能！"
+
+#~ msgid ""
+#~ "This historical formula was obtained by C. Schoch in 1931 and was used by "
+#~ "G. Henriksson in his article <em>Einstein's Theory of Relativity "
+#~ "Confirmed by Ancient Solar Eclipses</em> (%1). See for more info %2here%3."
+#~ msgstr ""
+#~ "这个有历史意义的公式是由 C. Schoch 于 1931年得到的，被 G. Henriksson 在他"
+#~ "的文章《古代的日食证明了爱因斯坦的相对论》[<em>Einstein's Theory of "
+#~ "Relativity Confirmed by Ancient Solar Eclipses</em>]（%1）。要了解更多信"
+#~ "息，请点击%2这里%3。"
+
+#~ msgid ""
+#~ "This empirical equation was published by G. M. Clemence in the article "
+#~ "<em>On the system of astronomical constants</em> (%1)."
+#~ msgstr ""
+#~ "这个经验公式由 G. M. Clemence 在文章《关于天文常数系统》[<em>On the "
+#~ "system of astronomical constants</em>]（%1）中公布。"
+
+#~ msgid ""
+#~ "This formula is based on a study of post-1650 observations of the Sun, "
+#~ "the Moon and the planets by Spencer Jones (%1) and used by Jean Meeus in "
+#~ "his <em>Astronomical Formulae for Calculators</em>. It was also adopted "
+#~ "in the PC program SunTracker Pro."
+#~ msgstr ""
+#~ "此公式基于 Spencer Jones（%1）对1650年后期太阳、月球以及行星观测的研究，并"
+#~ "被 Jean Meeus 在他的《用于计算器的天文学公式》[<em>Astronomical Formulae "
+#~ "for Calculators</em>] 中使用。计算机程序 SunTracker Pro 也使用了这一公式。"
+
+#~ msgid ""
+#~ "This is a slightly modified version of the IAU (1952) formula which was "
+#~ "adopted in the <em>Astronomical Ephemeris</em> and in the <em>Canon of "
+#~ "Solar Eclipses</em> by Mucke & Meeus (1983)."
+#~ msgstr ""
+#~ "这是一个由被 Mucke 和 Meeus 于1983年在《星历表》[<em>Astronomical "
+#~ "Ephemeris</em>]和《日食的法规》[<em>Canon of Solar Eclipses</em>]中使用的 "
+#~ "IAU (1952) 公式稍加修改之后的版本。"
+
+#~ msgid ""
+#~ "The tables of Tuckerman (1962, 1964) list the positions of the Sun, the "
+#~ "Moon and the planets at 5- and 10-day intervals from 601 BCE to 1649 CE. "
+#~ "The same relation was also implicitly adopted in the syzygy tables of "
+#~ "Goldstine (1973)."
+#~ msgstr ""
+#~ "塔克曼[Tuckerman]的表格（1962年，1964年）以5天和10天的间隔列出了太阳、月球"
+#~ "和行星从公元前601年到公元1649年的位置。戈德斯坦[Goldstine]的表格（1973年）"
+#~ "也含蓄地采用了相同的关系。"
+
+#~ msgid ""
+#~ "This equation was published by P. M. Muller and F. R. Stephenson in the "
+#~ "article <em>The accelerations of the earth and moon from early "
+#~ "astronomical observations</em> (%1)."
+#~ msgstr ""
+#~ "此公式被 P. M. Muller 和 F. R. Stephenson 在文章《早期天文观测中的地球和月"
+#~ "球的加速效应》[<em>The accelerations of the earth and moon from early "
+#~ "astronomical observations</em>] （%1）中公布。"
+
+#~ msgid ""
+#~ "This equation was published by F. R. Stephenson in the article <em>Pre-"
+#~ "Telescopic Astronomical Observations</em> (%1)."
+#~ msgstr ""
+#~ "此公式由 F. R. Stephenson 在文章《望远镜前的天文学观测》[<em>Pre-"
+#~ "Telescopic Astronomical Observations</em>]（%1）中公布。"
+
+#~ msgid ""
+#~ "This 12th-order polynomial equation (outdated and superseded by Schmadel "
+#~ "& Zech (1988)) was published by L. D. Schmadel and G. Zech in the article "
+#~ "<em>Polynomial approximations for the correction delta T E.T.-U.T. in the "
+#~ "period 1800-1975</em> (%1) as fit through data published by Brouwer "
+#~ "(1952)."
+#~ msgstr ""
+#~ "这个十二阶的多项式方程（已过时并由 Schmadel 与 Zech 在1988年所取代）由 L. "
+#~ "D. Schmadel 和 G. Zech 在文章《1800-1975年期间东部标准时间-国际标准时间校"
+#~ "正 ΔT 的多项式近似》[<em>Polynomial approximations for the correction "
+#~ "delta T E.T.-U.T. in the period 1800-1975</em>]（%1）中公布。它与 Brouwer "
+#~ "于1952年公布的数据相吻合。"
+
+#~ msgid ""
+#~ "This algorithm was adopted in P. Bretagnon & L. Simon's <em>Planetary "
+#~ "Programs and Tables from -4000 to +2800</em> (1986) and in the PC "
+#~ "planetarium program RedShift."
+#~ msgstr ""
+#~ "此算法于1986年被 P. Bretagnon 和 L. Simon 在《从 -4000 到 +2800 的行星程序"
+#~ "和表格》[<em>Planetary Programs and Tables from -4000 to +2800</em> ]中，"
+#~ "以及计算机程序 RedShift 中被采用。"
+
+#~ msgid ""
+#~ "This formula was published by F. R. Stephenson and L. V. Morrison in the "
+#~ "article <em>Long-term changes in the rotation of the earth - 700 B.C. to "
+#~ "A.D. 1980</em> (%1)."
+#~ msgstr ""
+#~ "这一公式由 F. R. Stephenson 和 L. V. Morrison 在题为《地球自转的长周期变"
+#~ "化 - 700 B.C. 到 A.D. 1980》(%1)的论文中发表。"
+
+#~ msgid "This algorithm is used in the PC planetarium program Guide 7."
+#~ msgstr "天文馆程序 Guide 7 中使用了此算法。"
+
+#~ msgid ""
+#~ "This algorithm was given by F. Espenak in his <em>Fifty Year Canon of "
+#~ "Solar Eclipses: 1986-2035</em> (1987) and in his <em>Fifty Year Canon of "
+#~ "Lunar Eclipses: 1986-2035</em> (1989)."
+#~ msgstr ""
+#~ "此算法由 F. Espenak 在他的《五十年的日食法规：1986-2035》[<em>Fifty Year "
+#~ "Canon of Solar Eclipses: 1986-2035</em> ]（1987年）以及《五十年的日食法"
+#~ "规：1986-2035》[<em>Fifty Year Canon of Solar Eclipses: 1986-2035</em> ]"
+#~ "（1989年） 中给出。"
+
+#~ msgid ""
+#~ "This formula was obtained by K.M. Borkowski (%1) from an analysis of 31 "
+#~ "solar eclipse records dating between 2137 BCE and 1715 CE."
+#~ msgstr ""
+#~ "这一公式由 K.M. Borkowski (%1) 在分析了 2137 BCE 到 1715 CE 之间的31次日食"
+#~ "数据过后得出。"
+
+#~ msgid ""
+#~ "This 12th-order polynomial equation was published by L. D. Schmadel and "
+#~ "G. Zech in the article <em>Empirical Transformations from U.T. to E.T. "
+#~ "for the Period 1800-1988</em> (%1) as data fit through values given by "
+#~ "Stephenson & Morrison (1984)."
+#~ msgstr ""
+#~ "这个 12 阶多项式方程由 L. D. Schmadel 及 G. Zech 在论文 <em>Empirical "
+#~ "Transformations from U.T. to E.T. for the Period 1800-1988</em> (%1) 中发"
+#~ "布，方程用 Stephenson & Morrison (1984) 给出的数据拟合而成。"
+
+#~ msgid ""
+#~ "This formula was adopted by M. Chapront-Touze & J. Chapront in the "
+#~ "shortened version of the ELP 2000-85 lunar theory in their <em>Lunar "
+#~ "Tables and Programs from 4000 B.C. to A.D. 8000</em> (1991)."
+#~ msgstr "该公式是"
+
+#~ msgid ""
+#~ "This equation was published by F. R. Stephenson and L. V. Morrison in the "
+#~ "article <em>Long-Term Fluctuations in the Earth's Rotation: 700 BC to AD "
+#~ "1990</em> (%1)."
+#~ msgstr ""
+#~ "这方程由 F. R. Stephenson 及 L. V. Morrison 在论文 <em>Long-Term "
+#~ "Fluctuations in the Earth's Rotation: 700 BC to AD 1990</em> (%1) 中发表。"
+
+#~ msgid ""
+#~ "F. R. Stephenson published this formula in his book <em>Historical "
+#~ "Eclipses and Earth's Rotation</em> (%1)."
+#~ msgstr ""
+#~ "F. R. Stephenson 在他的书 <em>Historical Eclipses and Earth's Rotation</"
+#~ "em> (%1) 中发表了这个公式。"
+
+#~ msgid ""
+#~ "This polynome was published by J. Meeus and L. Simons in article "
+#~ "<em>Polynomial approximations to Delta T, 1620-2000 AD</em> (%1)."
+#~ msgstr ""
+#~ "此多项式由 J. Meeus 和 L. Simons 在文章《公元1620年-2000年ΔT 的多项式近"
+#~ "似》[<em>Polynomial approximations to Delta T, 1620-2000 AD</em>]（%1）中"
+#~ "公布。"
+
+#~ msgid ""
+#~ "E. M. Reingold & N. Dershowitz present this polynomial data fit in "
+#~ "<em>Calendrical Calculations</em> (3rd ed. 2007) and in their "
+#~ "<em>Calendrical Tabulations</em> (2002). It is based on Jean Meeus' "
+#~ "<em>Astronomical Algorithms</em> (1991)."
+#~ msgstr ""
+#~ "E. M. Reingold 及 N. Dershowitz 在 <em>Calendrical Calculations</em> （第3"
+#~ "版 2007）及 <em>Calendrical Tabulations</em> （2002）中发表了多项式数据拟"
+#~ "合结果。方法基于 Jean Meeus 的 <em>Astronomical Algorithms</em> （1991）。"
+
+#~ msgid "Used by default."
+#~ msgstr "默认使用。"
+
+#~ msgid ""
+#~ "This is a quadratic formula for calculation of %1T with coefficients "
+#~ "defined by the user."
+#~ msgstr "这是一个用于计算 %1T 的二次方程，系数由用户定义。"
+
+#~ msgid "with meaningless values outside this range"
+#~ msgstr "超出范围的无意义数值"
+
+#~ msgid ""
+#~ "with a mean error of less than one second, max. error 1.9s, and "
+#~ "meaningless values outside this range"
+#~ msgstr "平均误差小于1秒，最大误差1.9秒，其余都是超出范围的无意义数值"
+
+#~ msgid "with zero values outside this range"
+#~ msgstr "此范围之外的值为零"
+
+#~ msgid "with a typical 1-second accuracy and zero values outside this range"
+#~ msgstr "精确度一般在一秒内，超出该范围的数据无价值"
+
+#~ msgid "Valid range of usage: between years %1 and %2, %3."
+#~ msgstr "在 %1 年和 %2，%3 年之间有效"
+
+#~ msgid "Valid range of usage: between years %1 and %2."
+#~ msgstr "在 %1 年和 %2 年之间有效"
 
 #~ msgid "Select single constellation"
 #~ msgstr "选择单一星座"
