@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: es\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-06 09:55+0200\n"
-"PO-Revision-Date: 2020-08-02 19:42+0000\n"
+"PO-Revision-Date: 2020-08-06 12:05+0000\n"
 "Last-Translator: Szylu <chipolade@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/stellarium-mobile/"
 "app/pl/>\n"
@@ -372,9 +372,9 @@ msgstr ""
 "%5)"
 
 #: src/core/modules/StarWrapper.cpp:215
-#, fuzzy, qt-format
+#, qt-format
 msgid "Distance: %1 Light Years"
-msgstr "Odległość: %1 lat świetlnych"
+msgstr "Odległość: %1 lat/a świetlnych/ne"
 
 #: src/core/modules/StarWrapper.cpp:220
 #, qt-format
@@ -2926,9 +2926,8 @@ msgid "Name/City:"
 msgstr "Nazwa/Miasto:"
 
 #: qml/main.qml:75
-#, fuzzy
 msgid "It is daytime, fast forward time until…"
-msgstr "Jest dzień, przewiń do przodu, aż do..."
+msgstr "Jest dzień, przewiń do przodu, aż do…"
 
 #: qml/main.qml:214 qml/SettingsPanel.qml:24
 msgid "Settings"
@@ -2940,7 +2939,7 @@ msgstr "Otwórz szybki pasek"
 
 #: qml/main.qml:261
 msgid "GPS…"
-msgstr ""
+msgstr "GPS…"
 
 #: qml/main.qml:263
 msgid "GPS"
