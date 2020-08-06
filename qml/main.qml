@@ -72,6 +72,7 @@ Item {
 		anchors.fill: parent
 		forwardClicks: mode !== "DEFAULT"
 		property bool hasSelectedObject: stellarium.selectedObjectInfo !== ""
+        property string goNightMsg: qsTr("It is daytime, fast forward time until…")
 
 		// Trick to deselect current object when we click on it again.
 		property string lastSelectedObject
@@ -130,7 +131,7 @@ Item {
 					state = 1;
 				} else if (state === 1) {
 					if (stellarium.isDay()) {
-						rootMessage.show(qsTr("It is daytime, fast forward time until…"))
+                        rootMessage.show(stellarium.goNightMsg)
 						state = 2
 					} else {
 						stop();

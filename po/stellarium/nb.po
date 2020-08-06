@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nb\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-09 22:58+0200\n"
+"POT-Creation-Date: 2020-08-06 09:55+0200\n"
 "PO-Revision-Date: 2020-06-12 14:41+0000\n"
 "Last-Translator: Oliver <websites@posteo.de>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
@@ -1047,7 +1047,7 @@ msgstr "Ikke funnet"
 msgid "Found"
 msgstr "Funnet"
 
-#: src/main.cpp:319
+#: src/main.cpp:320
 msgid "This system does not support OpenGL."
 msgstr "Datamaskinen din støtter ikke OpenGL."
 
@@ -2835,27 +2835,28 @@ msgstr " (søking)"
 msgid "Name/City:"
 msgstr "Navn/By:"
 
-#: qml/main.qml:133
-msgid "It is daytime, fast forward time until..."
+#: qml/main.qml:75
+#, fuzzy
+msgid "It is daytime, fast forward time until…"
 msgstr "På dagen, spol frem til…"
 
-#: qml/main.qml:213 qml/SettingsPanel.qml:24
+#: qml/main.qml:214 qml/SettingsPanel.qml:24
 msgid "Settings"
 msgstr "Innstillinger"
 
-#: qml/main.qml:225
+#: qml/main.qml:226
 msgid "Open Quick Bar"
 msgstr "Åpne hurtigfelt"
 
-#: qml/main.qml:260
-msgid "GPS..."
-msgstr "GPS…"
+#: qml/main.qml:261
+msgid "GPS…"
+msgstr ""
 
-#: qml/main.qml:262
+#: qml/main.qml:263
 msgid "GPS"
 msgstr "GPS"
 
-#: qml/main.qml:333
+#: qml/main.qml:334
 msgid "Drag sky to move in time"
 msgstr "Dra himmelen for å endre tidspunkt"
 
@@ -2923,6 +2924,9 @@ msgstr "Breddegrad"
 #: qml/AnglePicker.qml:24
 msgid "Longitude"
 msgstr "Lengdegrad"
+
+#~ msgid "GPS..."
+#~ msgstr "GPS…"
 
 #~ msgid "custom marker"
 #~ msgstr "Egendefinert markør"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: es\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-09 22:58+0200\n"
+"POT-Creation-Date: 2020-08-06 09:55+0200\n"
 "PO-Revision-Date: 2020-08-02 19:42+0000\n"
 "Last-Translator: Szylu <chipolade@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/stellarium-mobile/"
@@ -1128,7 +1128,7 @@ msgstr "Nie znaleziono"
 msgid "Found"
 msgstr "Znaleziono"
 
-#: src/main.cpp:319
+#: src/main.cpp:320
 msgid "This system does not support OpenGL."
 msgstr "Ten system nie obsługuje OpenGL."
 
@@ -2925,27 +2925,28 @@ msgstr " (szukanie)"
 msgid "Name/City:"
 msgstr "Nazwa/Miasto:"
 
-#: qml/main.qml:133
-msgid "It is daytime, fast forward time until..."
+#: qml/main.qml:75
+#, fuzzy
+msgid "It is daytime, fast forward time until…"
 msgstr "Jest dzień, przewiń do przodu, aż do..."
 
-#: qml/main.qml:213 qml/SettingsPanel.qml:24
+#: qml/main.qml:214 qml/SettingsPanel.qml:24
 msgid "Settings"
 msgstr "Ustawienia"
 
-#: qml/main.qml:225
+#: qml/main.qml:226
 msgid "Open Quick Bar"
 msgstr "Otwórz szybki pasek"
 
-#: qml/main.qml:260
-msgid "GPS..."
-msgstr "GPS..."
+#: qml/main.qml:261
+msgid "GPS…"
+msgstr ""
 
-#: qml/main.qml:262
+#: qml/main.qml:263
 msgid "GPS"
 msgstr "GPS"
 
-#: qml/main.qml:333
+#: qml/main.qml:334
 msgid "Drag sky to move in time"
 msgstr "Przeciągnij niebo, aby poruszać się w czasie"
 
@@ -3014,6 +3015,9 @@ msgstr "Szerokość"
 #: qml/AnglePicker.qml:24
 msgid "Longitude"
 msgstr "Długość"
+
+#~ msgid "GPS..."
+#~ msgstr "GPS..."
 
 #~ msgid "constellation"
 #~ msgstr "gwiazdozbiór"

@@ -11,11 +11,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po_stellarium_stellarium-is\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-09 22:58+0200\n"
+"POT-Creation-Date: 2020-08-06 09:55+0200\n"
 "PO-Revision-Date: 2020-06-22 13:41+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
-"Language-Team: Icelandic <https://hosted.weblate.org/projects/"
-"stellarium-mobile/app/is/>\n"
+"Language-Team: Icelandic <https://hosted.weblate.org/projects/stellarium-"
+"mobile/app/is/>\n"
 "Language: is\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1088,7 +1088,7 @@ msgstr "Fannst ekki"
 msgid "Found"
 msgstr "Fannst"
 
-#: src/main.cpp:319
+#: src/main.cpp:320
 msgid "This system does not support OpenGL."
 msgstr "Stýrikerfið styður ekki OpenGL."
 
@@ -2865,27 +2865,28 @@ msgstr " (leita)"
 msgid "Name/City:"
 msgstr "Nafn/Borg:"
 
-#: qml/main.qml:133
-msgid "It is daytime, fast forward time until..."
+#: qml/main.qml:75
+#, fuzzy
+msgid "It is daytime, fast forward time until…"
 msgstr "Núna er dagur, spóla hratt áfram til..."
 
-#: qml/main.qml:213 qml/SettingsPanel.qml:24
+#: qml/main.qml:214 qml/SettingsPanel.qml:24
 msgid "Settings"
 msgstr "Stillingar"
 
-#: qml/main.qml:225
+#: qml/main.qml:226
 msgid "Open Quick Bar"
 msgstr "Opna flýtistiku"
 
-#: qml/main.qml:260
-msgid "GPS..."
-msgstr "GPS..."
+#: qml/main.qml:261
+msgid "GPS…"
+msgstr ""
 
-#: qml/main.qml:262
+#: qml/main.qml:263
 msgid "GPS"
 msgstr "GPS"
 
-#: qml/main.qml:333
+#: qml/main.qml:334
 msgid "Drag sky to move in time"
 msgstr "Dragðu himininn til að flakka í tíma"
 
@@ -2953,6 +2954,9 @@ msgstr "Breiddargráða"
 #: qml/AnglePicker.qml:24
 msgid "Longitude"
 msgstr "Lengdargráða"
+
+#~ msgid "GPS..."
+#~ msgstr "GPS..."
 
 #~ msgid "custom marker"
 #~ msgstr "sérsniðið merki"

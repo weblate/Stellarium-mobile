@@ -9,11 +9,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: stellarium-uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-09 22:58+0200\n"
+"POT-Creation-Date: 2020-08-06 09:55+0200\n"
 "PO-Revision-Date: 2020-06-10 06:55+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/"
-"stellarium-mobile/app/uk/>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/stellarium-"
+"mobile/app/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1142,7 +1142,7 @@ msgstr "Не знайдено"
 msgid "Found"
 msgstr "Знайдено"
 
-#: src/main.cpp:319
+#: src/main.cpp:320
 msgid "This system does not support OpenGL."
 msgstr "Система не підтримує OpenGL."
 
@@ -2927,27 +2927,28 @@ msgstr " (шукаємо)"
 msgid "Name/City:"
 msgstr "Назва/місто:"
 
-#: qml/main.qml:133
-msgid "It is daytime, fast forward time until..."
+#: qml/main.qml:75
+#, fuzzy
+msgid "It is daytime, fast forward time until…"
 msgstr "Зараз день, прокручуємо час до…"
 
-#: qml/main.qml:213 qml/SettingsPanel.qml:24
+#: qml/main.qml:214 qml/SettingsPanel.qml:24
 msgid "Settings"
 msgstr "Параметри"
 
-#: qml/main.qml:225
+#: qml/main.qml:226
 msgid "Open Quick Bar"
 msgstr "Відкрити швидку панель"
 
-#: qml/main.qml:260
-msgid "GPS..."
-msgstr "GPS…"
+#: qml/main.qml:261
+msgid "GPS…"
+msgstr ""
 
-#: qml/main.qml:262
+#: qml/main.qml:263
 msgid "GPS"
 msgstr "GPS"
 
-#: qml/main.qml:333
+#: qml/main.qml:334
 msgid "Drag sky to move in time"
 msgstr "Перетягніть небо, щоб пересунутися у часі"
 
@@ -3015,6 +3016,9 @@ msgstr "Широта"
 #: qml/AnglePicker.qml:24
 msgid "Longitude"
 msgstr "Довгота"
+
+#~ msgid "GPS..."
+#~ msgstr "GPS…"
 
 #~ msgid "custom marker"
 #~ msgstr "нетипова позначка"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: stellarium\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-09 22:58+0200\n"
+"POT-Creation-Date: 2020-08-06 09:55+0200\n"
 "PO-Revision-Date: 2015-11-30 07:20+0000\n"
 "Last-Translator: Balaji பாலாஜி <Unknown>\n"
 "Language-Team: Tamil <ta@li.org>\n"
@@ -1022,7 +1022,7 @@ msgstr "காணவில்லை"
 msgid "Found"
 msgstr "கிடைத்தது"
 
-#: src/main.cpp:319
+#: src/main.cpp:320
 msgid "This system does not support OpenGL."
 msgstr "இந்த கணினி  OpenGL க்கு ஆதரவள்ளிபது இல்லை"
 
@@ -2789,27 +2789,27 @@ msgstr ""
 msgid "Name/City:"
 msgstr "பெயர்/ஊர்:"
 
-#: qml/main.qml:133
-msgid "It is daytime, fast forward time until..."
+#: qml/main.qml:75
+msgid "It is daytime, fast forward time until…"
 msgstr ""
 
-#: qml/main.qml:213 qml/SettingsPanel.qml:24
+#: qml/main.qml:214 qml/SettingsPanel.qml:24
 msgid "Settings"
 msgstr "அமைவுகள்"
 
-#: qml/main.qml:225
+#: qml/main.qml:226
 msgid "Open Quick Bar"
 msgstr ""
 
-#: qml/main.qml:260
-msgid "GPS..."
+#: qml/main.qml:261
+msgid "GPS…"
 msgstr ""
 
-#: qml/main.qml:262
+#: qml/main.qml:263
 msgid "GPS"
 msgstr ""
 
-#: qml/main.qml:333
+#: qml/main.qml:334
 msgid "Drag sky to move in time"
 msgstr ""
 
