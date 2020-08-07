@@ -20,7 +20,6 @@ Sky cultures translation is not available there, see `po/stellarium-skycultures`
 ### Update translation
 
 - Translations `.pot` files are updated with command `make translate_core` and `make translate_skyculture` ( project need to be build first with qmake)
-- To sync po files with .pot files, use the script in `po/stellarium/translation_update.sh` 
 - To merge `po` files in `qm` files use the script `translation_generator.sh`
 
 

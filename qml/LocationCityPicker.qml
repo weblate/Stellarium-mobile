@@ -18,7 +18,7 @@
  */
 
 import QtQuick 2.2
-import QtQuick.Controls 1.4
+import QtQuick.Controls 2.2
 
 StelDialog {
 	id: root
@@ -28,23 +28,55 @@ StelDialog {
 	property string country
 	property string city
 
-    TextField{
-         id: citySearchField
-         anchors.left: parent.left
-         width: root.country ? root.width / 2 : root.width
-         onTextChanged: {
-             if (text.length > 0 ) {
-                 root.applyFilter(text);
-             } else {
-                 root.reload();
-             }
-         }
+    Rectangle {
+        id: searchFieldHolder
+        color: 'transparent'
+        border.width: 1*rootStyle.scale
+        border.color: 'white'
+        height: 45*rootStyle.scale
+        width: parent.width
+        anchors.margins: rootStyle.margin
+
+        Image {
+            id: loupeImage
+            source: "images/search.png"
+            anchors.left: parent.left
+            anchors.verticalCenter: parent.verticalCenter
+            anchors.leftMargin: rootStyle.margin
+            width: 24*rootStyle.scale
+            height: 24*rootStyle.scale
+        }
+
+        TextInput {
+            id: searchField
+            anchors {
+                top: parent.top
+                left: loupeImage.right
+                right: parent.right
+                bottom: parent.bottom
+                leftMargin: rootStyle.margin
+            }
+            inputMethodHints: Qt.ImhNoPredictiveText
+            verticalAlignment: Text.AlignVCenter
+            font.pixelSize: rootStyle.fontNormalSize
+            color: "#AAAAAA"
+
+            onTextChanged: {
+                if (text.length > 0 ) {
+                    root.applyFilter(text);
+                } else {
+                    root.reload();
+                }
+            }
+
+        }
     }
+
 
 	ListView {
 		id: countriesList
 		anchors.left: parent.left
-        anchors.top: citySearchField.bottom
+        anchors.top: searchFieldHolder.bottom
 		width: root.country ? root.width / 2 : root.width
 		Behavior on width {
 			NumberAnimation { easing.type: Easing.InOutQuad }
@@ -54,14 +86,17 @@ StelDialog {
 			withArrow: false
 			text: qsTr(modelData)
 			selected: root.country === modelData
-			onClicked: root.country = modelData
+            onClicked: {
+                root.country = modelData
+                searchField.text = ""
+            }
 		}
         model: stellarium.getCountryNames()
         clip: true
 	}
 	ListView {
         id: citiesList
-        anchors.top: citySearchField.bottom
+        anchors.top: searchFieldHolder.bottom
 		anchors.left: countriesList.right
 		anchors.right: parent.right
         height: root.height
@@ -82,21 +117,37 @@ StelDialog {
 	}
 
     function reload() {
-        var cList = stellarium.getCountryNames();
-        var temp = [];
-        for (var i = 0; i < cList.length; i++){
-            temp.push(cList[i])
+        if (!root.country) {
+            countriesList.model = stellarium.getCountryNames()
+        } else {
+            citiesList.model = stellarium.getCityNames(root.country, "")
         }
-        countriesList.model = temp;
     }
     function applyFilter(cName){
-        var cList = stellarium.getCountryNames();
+        var cList
+        if (!root.country) {
+            cList = stellarium.getCountryNames()
+        } else {
+            cList = stellarium.getCityNames(root.country, "")
+        }
+
         var temp = [];
+        cName = cName.toLowerCase()
         for (var i = 0; i < cList.length; i++)
         {
-            if (cList[i].includes(cName))
+            if (cList[i].toLowerCase().includes(cName)) {
                 temp.push(cList[i])
+            }
         }
-        countriesList.model = temp;
+        if (!root.country) {
+            countriesList.model = temp;
+        } else {
+           citiesList.model = temp
+        }
     }
+
+    Component.onCompleted: {
+        searchField.forceActiveFocus()
+    }
+
 }

@@ -855,7 +855,7 @@ const StelLocation& StelCore::getCurrentLocation() const
 
 const QSharedPointer<Planet> StelCore::getCurrentPlanet() const
 {
-	return position->getHomePlanet();
+    return position->getHomePlanet();
 }
 
 // Smoothly move the observer to the given location
