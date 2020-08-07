@@ -18,6 +18,7 @@
  */
 
 import QtQuick 2.2
+import QtQuick.Controls 2.2
 
 StelDialog {
 	id: root
@@ -37,6 +38,9 @@ StelDialog {
 		}
 		model: stellarium.getSkyCultureListI18()
 		clip: true
+        ScrollBar.vertical: ScrollBar {
+            active: true
+        }
 	}
 
 	Flickable {
