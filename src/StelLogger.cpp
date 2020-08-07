@@ -164,7 +164,7 @@ void StelLogger::init(const QString& logFilePath)
 	// write memory and CPU info
 #ifdef Q_OS_LINUX
 
-#if !(defined(Q_OS_ANDROID) || defined(Q_OS_IOS))
+#if !(defined(Q_OS_ANDROID) || defined(Q_OS_IOS) || defined(Q_OS_UBUNTU_TOUCH))
 	QFile infoFile("/proc/meminfo");
 	if(!infoFile.open(QIODevice::ReadOnly | QIODevice::Text))
 		writeLog("Could not get memory info.");
@@ -356,7 +356,7 @@ void StelLogger::debugLogHandler(QtMsgType, const QMessageLogContext&, const QSt
 
 void StelLogger::writeLog(QString msg)
 {
-#if !(defined(Q_OS_ANDROID) || defined(Q_OS_IOS))
+#if !(defined(Q_OS_ANDROID) || defined(Q_OS_IOS) || defined(Q_OS_UBUNTU_TOUCH))
 	msg += "\n";
 	logFile->write(qPrintable(msg), msg.size());
 	log += msg;
