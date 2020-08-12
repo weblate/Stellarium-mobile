@@ -24,6 +24,7 @@ Sky cultures translation is not available there, see `po/stellarium-skycultures`
 
 
 
+
 ## Copyrights:
     Original Stellarium dev team
     Noctua-Software
