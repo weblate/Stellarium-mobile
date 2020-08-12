@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: stellarium\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-06 13:58+0200\n"
-"PO-Revision-Date: 2020-07-24 07:41+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"PO-Revision-Date: 2020-08-11 03:30+0000\n"
+"Last-Translator: Bruce Cowan <bruce@bcowan.me.uk>\n"
 "Language-Team: English (United Kingdom) <https://hosted.weblate.org/projects/"
 "stellarium-mobile/app/en_GB/>\n"
 "Language: en_GB\n"
@@ -2536,7 +2536,7 @@ msgstr "About"
 
 #: qml/InfoPanel.qml:125
 msgid "Unnamed"
-msgstr ""
+msgstr "Unnamed"
 
 #: qml/LandscapesDialog.qml:5 qml/SettingsPanel.qml:47
 msgid "Landscape"
@@ -2544,12 +2544,11 @@ msgstr "Landscape"
 
 #: qml/LocationCityPicker.qml:25
 msgid "Pick City"
-msgstr ""
+msgstr "Pick City"
 
 #: qml/LocationCityPicker.qml:25
-#, fuzzy
 msgid "Pick Country"
-msgstr "Country:"
+msgstr "Pick Country"
 
 #: qml/LocationDialog.qml:25 qml/SettingsPanel.qml:51
 msgid "Location"
@@ -2560,9 +2559,8 @@ msgid "Use GPS"
 msgstr ""
 
 #: qml/LocationDialog.qml:37
-#, fuzzy
 msgid " (searching)"
-msgstr "Garching"
+msgstr " (searching)"
 
 #: qml/LocationDialog.qml:72
 msgid "Name/City:"
@@ -2570,7 +2568,7 @@ msgstr "Name/Town:"
 
 #: qml/main.qml:75
 msgid "It is daytime, fast forward time until…"
-msgstr ""
+msgstr "It is daytime, fast forward time until…"
 
 #: qml/main.qml:214 qml/SettingsPanel.qml:24
 msgid "Settings"
@@ -2606,9 +2604,8 @@ msgid "Advanced"
 msgstr ""
 
 #: qml/StelDialog.qml:24
-#, fuzzy
 msgid "Stellarium"
-msgstr "Stellarium %1"
+msgstr "Stellarium"
 
 #: qml/TimeBar.qml:34
 msgid "Real time"
@@ -2619,9 +2616,8 @@ msgid "Stopped"
 msgstr "Stopped"
 
 #: qml/TimeDialog.qml:31
-#, fuzzy
 msgid "Advance to night at startup"
-msgstr "Start/connect at startup"
+msgstr "Advance to night at startup"
 
 #: qml/AdvancedDialog.qml:45
 msgid "Show planet markers"
@@ -2636,9 +2632,8 @@ msgid "Show meridian line"
 msgstr "Show meridian line"
 
 #: qml/AdvancedDialog.qml:70 qml/AdvancedDialog.qml:75
-#, fuzzy
 msgid "Light pollution"
-msgstr "Light pollution:"
+msgstr "Light pollution"
 
 #: qml/AdvancedDialog.qml:87 qml/AdvancedDialog.qml:92
 #, fuzzy
