@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: stellarium\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-06 13:58+0200\n"
-"PO-Revision-Date: 2020-08-11 03:30+0000\n"
-"Last-Translator: Bruce Cowan <bruce@bcowan.me.uk>\n"
+"PO-Revision-Date: 2020-08-12 17:50+0000\n"
+"Last-Translator: Lionel Duboeuf <lduboeuf@ouvaton.org>\n"
 "Language-Team: English (United Kingdom) <https://hosted.weblate.org/projects/"
 "stellarium-mobile/app/en_GB/>\n"
 "Language: en_GB\n"
@@ -2636,9 +2636,8 @@ msgid "Light pollution"
 msgstr "Light pollution"
 
 #: qml/AdvancedDialog.qml:87 qml/AdvancedDialog.qml:92
-#, fuzzy
 msgid "Milky Way brightness"
-msgstr "Milky Way brightness:"
+msgstr "Milky Way brightness"
 
 #: qml/AdvancedDialog.qml:104 qml/AdvancedDialog.qml:109
 msgid "Thickness of lines"
