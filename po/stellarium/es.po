@@ -8,10 +8,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: es\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: lduboeuf@ouvaton.org\n"
 "POT-Creation-Date: 2020-08-06 13:58+0200\n"
-"PO-Revision-Date: 2020-08-06 16:11+0000\n"
-"Last-Translator: Josué <j2g2rp@gmail.com>\n"
+"PO-Revision-Date: 2020-09-04 07:12+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/"
 "stellarium-mobile/app/es/>\n"
 "Language: es\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.2-dev\n"
+"X-Generator: Weblate 4.3-dev\n"
 "X-Launchpad-Export-Date: 2016-11-20 05:39+0000\n"
 
 #: src/core/modules/ConstellationMgr.cpp:110 src/core/modules/StarMgr.cpp:328
@@ -28,7 +28,7 @@ msgstr ""
 #: src/core/StelApp.cpp:466 src/core/StelCore.cpp:163
 #: src/core/StelSkyLayerMgr.cpp:86 src/StelMainView.cpp:299
 msgid "Display Options"
-msgstr "Ver Opciones"
+msgstr "Opciones de visualización"
 
 #: src/core/modules/ConstellationMgr.cpp:111
 msgid "Constellation lines"
@@ -92,7 +92,7 @@ msgstr "Línea del ecuador"
 
 #: src/core/modules/GridLinesMgr.cpp:679
 msgid "Meridian line"
-msgstr "Línea Meridiano"
+msgstr "Línea de meridiano"
 
 #: src/core/modules/GridLinesMgr.cpp:680
 msgid "Horizon line"
@@ -196,7 +196,7 @@ msgstr "Nebulosa planetaria"
 
 #: src/core/modules/Nebula.cpp:357
 msgid "Dark Nebula"
-msgstr "Nebulosa Oscura"
+msgstr "Nebulosa oscura"
 
 #: src/core/modules/Nebula.cpp:360
 msgid "Cluster associated with nebulosity"
@@ -212,7 +212,7 @@ msgstr "Tipo no documentado"
 
 #: src/core/modules/NebulaMgr.cpp:123
 msgid "Deep-sky objects"
-msgstr "Objetos de Espacio profundo"
+msgstr "Objetos de espacio profundo"
 
 #: src/core/modules/Planet.cpp:136 src/core/modules/MinorPlanet.cpp:232
 #: src/core/modules/MinorPlanet.cpp:236 src/core/modules/Comet.cpp:141
@@ -224,7 +224,7 @@ msgstr "Magnitud absoluta: %1"
 #: src/core/modules/Planet.cpp:149
 #, qt-format
 msgid "Ecliptic Topocentric (of date): %1/%2"
-msgstr "Eclíptica Topocéntrica (de fecha): %1/%2"
+msgstr "Eclíptica topocéntrica (de fecha): %1/%2"
 
 #: src/core/modules/Planet.cpp:150
 #, qt-format
@@ -258,7 +258,7 @@ msgstr "Diámetro aparente: %1"
 #: src/core/modules/Comet.cpp:175
 #, qt-format
 msgid "Sidereal period: %1 days (%2 a)"
-msgstr "Período sideral: %1 días (%2 a)"
+msgstr "Período sidéreo: %1 días (%2 a)"
 
 #: src/core/modules/Planet.cpp:199
 #, qt-format
@@ -273,7 +273,7 @@ msgstr "Día solar medio: %1"
 #: src/core/modules/Planet.cpp:206
 #, qt-format
 msgid "Phase Angle: %1"
-msgstr "Ángulo de Fase: %1"
+msgstr "Ángulo de fase: %1"
 
 #: src/core/modules/Planet.cpp:207
 #, qt-format
@@ -422,7 +422,7 @@ msgstr "Modo nocturno"
 #. TRANSLATORS: "Planet name" displayed when "flying" to another planet with Ctrl+G.
 #: src/core/StelObserver.cpp:282
 msgid "SpaceShip"
-msgstr "Nave Espacial"
+msgstr "Nave espacial"
 
 #: src/core/StelCore.cpp:161 qml/SettingsPanel.qml:43 qml/TimeDialog.qml:23
 msgid "Date and Time"
@@ -462,23 +462,23 @@ msgstr "Establecer fecha y hora a la actual"
 
 #: src/core/StelCore.cpp:172
 msgid "Add 1 solar hour"
-msgstr "Añadir 1 hora solar"
+msgstr "Sumar 1 hora solar"
 
 #: src/core/StelCore.cpp:173
 msgid "Add 1 solar day"
-msgstr "Añadir 1 día solar"
+msgstr "Sumar 1 día solar"
 
 #: src/core/StelCore.cpp:174
 msgid "Add 1 solar week"
-msgstr "Añadir 1 semana solar"
+msgstr "Sumar 1 semana solar"
 
 #: src/core/StelCore.cpp:175
 msgid "Subtract 1 solar hour"
-msgstr "restar 1 hora solar"
+msgstr "Restar 1 hora solar"
 
 #: src/core/StelCore.cpp:176
 msgid "Subtract 1 solar day"
-msgstr "restar 1 día solar"
+msgstr "Restar 1 día solar"
 
 #: src/core/StelCore.cpp:177
 msgid "Subtract 1 solar week"
@@ -486,55 +486,55 @@ msgstr "Restar 1 semana solar"
 
 #: src/core/StelCore.cpp:178
 msgid "Add 1 sidereal day"
-msgstr "Añadir 1 día sidéreo"
+msgstr "Sumar 1 día sidéreo"
 
 #: src/core/StelCore.cpp:179
 msgid "Add 1 sidereal week"
-msgstr "Añadir 1 semana sidérea"
+msgstr "Sumar 1 semana sidérea"
 
 #: src/core/StelCore.cpp:180
 msgid "Add 1 sidereal month"
-msgstr "Agregar 1 mes sideral"
+msgstr "Sumar 1 mes sidéreo"
 
 #: src/core/StelCore.cpp:181
 msgid "Add 1 sidereal year"
-msgstr "Agregar 1 año sideral"
+msgstr "Sumar 1 año sidéreo"
 
 #: src/core/StelCore.cpp:182
 msgid "Add 1 sidereal century"
-msgstr "Agregar 1 siglo sideral"
+msgstr "Sumar 1 siglo sidéreo"
 
 #: src/core/StelCore.cpp:183
 msgid "Add 1 synodic month"
-msgstr "Añadir 1 mes sinódico"
+msgstr "Sumar 1 mes sinódico"
 
 #: src/core/StelCore.cpp:184
 msgid "Add 1 draconic month"
-msgstr "Añadir 1 mes dracónico"
+msgstr "Sumar 1 mes dracónico"
 
 #: src/core/StelCore.cpp:185
 msgid "Add 1 draconic year"
-msgstr "Añadir 1 año dracónico"
+msgstr "Sumar 1 año dracónico"
 
 #: src/core/StelCore.cpp:186
 msgid "Add 1 anomalistic month"
-msgstr "Añadir 1 mes anómalo"
+msgstr "Sumar 1 mes anómalo"
 
 #: src/core/StelCore.cpp:187
 msgid "Add 1 mean tropical month"
-msgstr "Añadir 1 mes tropical"
+msgstr "Sumar 1 mes tropical"
 
 #: src/core/StelCore.cpp:188
 msgid "Add 1 mean tropical year"
-msgstr "Añadir 1 año trópico"
+msgstr "Sumar 1 año trópico"
 
 #: src/core/StelCore.cpp:189
 msgid "Add 1 mean tropical century"
-msgstr "Agregar 1 siglo tropical medio"
+msgstr "Sumar 1 siglo tropical medio"
 
 #: src/core/StelCore.cpp:190
 msgid "Subtract 1 sidereal day"
-msgstr "Substraer 1 día sidéreo"
+msgstr "Restar 1 día sidéreo"
 
 #: src/core/StelCore.cpp:191
 msgid "Subtract 1 sidereal week"
@@ -542,39 +542,39 @@ msgstr "Restar 1 semana sidérea"
 
 #: src/core/StelCore.cpp:192
 msgid "Subtract 1 sidereal month"
-msgstr "Restar 1 mes sideral"
+msgstr "Restar 1 mes sidéreo"
 
 #: src/core/StelCore.cpp:193
 msgid "Subtract 1 sidereal year"
-msgstr "Substraer 1 año sideral"
+msgstr "Restar 1 año sidéreo"
 
 #: src/core/StelCore.cpp:194
 msgid "Subtract 1 sidereal century"
-msgstr "Restar 1 siglo sideral"
+msgstr "Restar 1 siglo sidéreo"
 
 #: src/core/StelCore.cpp:195
 msgid "Subtract 1 synodic month"
-msgstr "Substraer 1 mes sinódico"
+msgstr "Restar 1 mes sinódico"
 
 #: src/core/StelCore.cpp:196
 msgid "Subtract 1 draconic month"
-msgstr "Substraer 1 mes dracónico"
+msgstr "Restar 1 mes dracónico"
 
 #: src/core/StelCore.cpp:197
 msgid "Subtract 1 draconic year"
-msgstr "Substraer 1 año dracónico"
+msgstr "Restar 1 año dracónico"
 
 #: src/core/StelCore.cpp:198
 msgid "Subtract 1 anomalistic month"
-msgstr "Substraer 1 mes anómalo"
+msgstr "Restar 1 mes anómalo"
 
 #: src/core/StelCore.cpp:199
 msgid "Subtract 1 mean tropical month"
-msgstr "Substraer 1 mes tropical"
+msgstr "Restar 1 mes tropical medio"
 
 #: src/core/StelCore.cpp:200
 msgid "Subtract 1 mean tropical year"
-msgstr "Substraer 1 año tropical"
+msgstr "Restar 1 año tropical medio"
 
 #: src/core/StelCore.cpp:201
 msgid "Subtract 1 mean tropical century"
@@ -610,7 +610,7 @@ msgid ""
 "name for this projection method is <i>gnomonic projection</i>."
 msgstr ""
 "La proyección en perspectiva permite mantener el horizonte en línea recta. "
-"El nombre matemático de esta proyección es <i>proyección gnomónica<i>."
+"En matemáticas, esta proyección se conoce como <i>gnomónica</i>."
 
 #: src/core/StelProjectorClasses.cpp:63
 msgid "Equal Area"
@@ -697,14 +697,14 @@ msgstr ""
 
 #: src/core/StelProjectorClasses.cpp:322
 msgid "Orthographic"
-msgstr "Ortográfica"
+msgstr "Ortogonal"
 
 #: src/core/StelProjectorClasses.cpp:327
 msgid ""
 "Orthographic projection is related to perspective projection, but the point "
 "of perspective is set to an infinite distance."
 msgstr ""
-"La proyección ortográfica está relacionada con la proyección en perspectiva, "
+"La proyección ortogonal está relacionada con la proyección en perspectiva, "
 "pero el punto de vista se sitúa en el infinito."
 
 #: src/core/StelObject.cpp:112
@@ -758,7 +758,7 @@ msgstr "Zum sobre el objeto seleccionado"
 
 #: src/core/StelMovementMgr.cpp:109
 msgid "Zoom out"
-msgstr "Disminuir zoom"
+msgstr "Alejar"
 
 #: src/core/StelMovementMgr.cpp:110
 msgid "Track object"
@@ -790,7 +790,7 @@ msgstr "Encontrado"
 
 #: src/main.cpp:320
 msgid "This system does not support OpenGL."
-msgstr "Este sistema no soporta OpenGL."
+msgstr "Este sistema no admite OpenGL."
 
 #: src/StelMainView.cpp:298
 msgid "Save screenshot"
