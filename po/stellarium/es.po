@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: es\n"
 "Report-Msgid-Bugs-To: lduboeuf@ouvaton.org\n"
 "POT-Creation-Date: 2020-08-06 13:58+0200\n"
-"PO-Revision-Date: 2020-09-04 07:12+0000\n"
+"PO-Revision-Date: 2020-09-05 09:36+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/"
 "stellarium-mobile/app/es/>\n"
@@ -754,7 +754,7 @@ msgstr "Centrar sobre el objeto seleccionado"
 
 #: src/core/StelMovementMgr.cpp:108
 msgid "Zoom in on selected object"
-msgstr "Zum sobre el objeto seleccionado"
+msgstr "Acercar el objeto seleccionado"
 
 #: src/core/StelMovementMgr.cpp:109
 msgid "Zoom out"
@@ -766,11 +766,11 @@ msgstr "Seguir objeto"
 
 #: src/core/SimbadSearcher.cpp:56
 msgid "Network error"
-msgstr "Error en red"
+msgstr "Error de red"
 
 #: src/core/SimbadSearcher.cpp:93 src/core/SimbadSearcher.cpp:105
 msgid "Error parsing position"
-msgstr "Error al analizar la  posición"
+msgstr "Error al analizar la posición"
 
 #: src/core/SimbadSearcher.cpp:131
 msgid "Querying"
@@ -1408,17 +1408,17 @@ msgstr "Paseo de Culturas Estelares"
 #. TRANSLATORS: Name and description of script
 #: src/translations.h:251
 msgid "Earth Events from Mercury"
-msgstr "Eventos terrestres desde Mercurio"
+msgstr "Sucesos terrestres desde Mercurio"
 
 #. TRANSLATORS: Name and description of script
 #: src/translations.h:253
 msgid "Earth Events from Venus"
-msgstr "Eventos terrestres desde Venus"
+msgstr "Sucesos terrestres desde Venus"
 
 #. TRANSLATORS: Name and description of script
 #: src/translations.h:255
 msgid "Earth Events from Mars"
-msgstr "Eventos terrestres desde Marte"
+msgstr "Sucesos terrestres desde Marte"
 
 #. TRANSLATORS: Name of script
 #: src/translations.h:257
@@ -1481,8 +1481,7 @@ msgid ""
 "will rise & set 3 different times in one Mercury day."
 msgstr ""
 "Debido a las peculiaridades en la órbita de Mercurio y la rotación en "
-"ciertos lugares el sol saldrá y ocultará 3 diferentes momentos en un día de "
-"Mercurio"
+"ciertos lugares, el sol saldrá y se ocultará tres veces en un día mercuriano."
 
 #: src/translations.h:275
 msgid ""
@@ -1525,12 +1524,12 @@ msgid ""
 "emerges from Mars it is still eclipsed and dimmed in Mars' shadow, only to "
 "light up later."
 msgstr ""
-"Fobos encarrera delante de Marte y transita el sol, pasa a través de el y "
-"luego retrocede hacia el sol y parcialmente lo transita de nuevo (solo visto "
-"en el hemisferio sur de Deimos), después Marte eclipsa totalmente el sol "
-"mientras Fobos transita en la obscuridad entre Marte y Deimos. Cuando Fobos "
-"emerge desde Marte aún está eclipsado y desvanecido en la sombra,  sólo para "
-"iluminarse después."
+"Fobos se adelanta a Marte y circula por el Sol, lo atraviesa y luego "
+"retrocede y lo vuelve a transitar parcialmente (solo se ve en el hemisferio "
+"sur de Deimos); luego, Marte eclipsa totalmente el Sol mientras que Fobos "
+"transita en la oscuridad entre Marte y Deimos. Cuando Fobos emerge de Marte, "
+"sigue eclipsado y oscurecido por la sombra de Marte, para luego iluminarse "
+"nuevamente."
 
 #: src/translations.h:280
 msgid ""
