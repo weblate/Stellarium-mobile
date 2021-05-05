@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: stellarium\n"
 "Report-Msgid-Bugs-To: lduboeuf@ouvaton.org\n"
 "POT-Creation-Date: 2020-08-06 13:58+0200\n"
-"PO-Revision-Date: 2021-02-15 00:50+0000\n"
+"PO-Revision-Date: 2021-05-06 06:32+0000\n"
 "Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/"
 "stellarium-mobile/app/id/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5-dev\n"
+"X-Generator: Weblate 4.7-dev\n"
 "X-Launchpad-Export-Date: 2016-11-20 05:30+0000\n"
 
 #: src/core/modules/ConstellationMgr.cpp:110 src/core/modules/StarMgr.cpp:328
@@ -500,7 +500,7 @@ msgstr "Tambah 1 tahun sideris"
 
 #: src/core/StelCore.cpp:182
 msgid "Add 1 sidereal century"
-msgstr "Tambah 1  abad sideris"
+msgstr "Tambah 1 abad sideris"
 
 #: src/core/StelCore.cpp:183
 msgid "Add 1 synodic month"
@@ -1453,7 +1453,7 @@ msgstr ""
 
 #: src/translations.h:272
 msgid "Script which runs automatically at startup"
-msgstr "Skrip yang jalan secara otomatis saat startup."
+msgstr "Skrip yang berjalan otomatis saat startup"
 
 #: src/translations.h:273
 msgid ""
@@ -1469,22 +1469,31 @@ msgid ""
 "Due to the quirks in Mercury's orbit and rotation at certain spots the sun "
 "will rise & set 3 different times in one Mercury day."
 msgstr ""
+"Karena kekhasan orbit merkuri dan rotasi pada titik tertentu matahari akan "
+"terbit & terbenam 3 kali berbeda dalam satu hari Merkurius."
 
 #: src/translations.h:275
 msgid ""
 "Just before Mars eclipses the sun, Phobos pops out from behind and eclipses "
 "it first. Takes place between Scorpio and Sagittarius on April 26, 2017."
 msgstr ""
+"Tepat sebelum Mars gerhana matahari, Phobos muncul dari belakang dan gerhana "
+"terlebih dahulu. Berlangsung antara Scorpio dan Sagitarius pada 26 April "
+"2017."
 
 #: src/translations.h:276
 msgid ""
 "Just before Mars eclipses the sun, Phobos pops out from behind and eclipses "
 "it first. Takes place between Taurus and Gemini on July 23, 2031."
 msgstr ""
+"Tepat sebelum Mars gerhana matahari, Phobos muncul dari belakang dan gerhana "
+"terlebih dahulu. Berlokasi antara Taurus dan Gemini pada 23 Juli 2031."
 
 #: src/translations.h:277
 msgid "Phobos eclipsing the Sun as seen from Olympus Mons on Jan 10, 2068."
 msgstr ""
+"Phobos menutupi Matahari seperti yang terlihat dari Olympus Mons pada 10 "
+"Januari 2068."
 
 #: src/translations.h:278
 msgid ""
@@ -1492,6 +1501,9 @@ msgid ""
 "occultations of both on the same day are very rare. Here's one that takes "
 "place 1/23/2048. In real speed."
 msgstr ""
+"Okultasi Phobos di Bumi adalah hal biasa, begitu pula okultasi Jupiter. "
+"Tetapi okultasi keduanya pada hari yang sama sangat jarang. Ini salah satu "
+"yang terjadi pada 23/1/2048. Dalam kecepatan nyata."
 
 #: src/translations.h:279
 msgid ""
@@ -1502,47 +1514,55 @@ msgid ""
 "emerges from Mars it is still eclipsed and dimmed in Mars' shadow, only to "
 "light up later."
 msgstr ""
+"Phobos berlomba di depan Mars dan transit matahari, melewatinya dan kemudian "
+"mundur kembali ke arah matahari dan hanya sebagian transit lagi (hanya "
+"terlihat di belahan bumi selatan Deimos), kemudian Mars benar-benar gerhana "
+"matahari sementara Phobos transit dalam kegelapan antara Mars dan Deimos. "
+"Ketika Phobos muncul dari Mars masih gerhana dan meredup dalam bayangan "
+"Mars, hanya untuk terang kembali."
 
 #: src/translations.h:280
 msgid ""
 "Screensaver of various happenings in the Solar System. 187 events in all!"
-msgstr ""
+msgstr "Screensaver dari berbagai kejadian di Tata Surya. ada 187 kejadian!"
 
 #: src/translations.h:281
 msgid "A tour of the western constellations."
-msgstr ""
+msgstr "Tur konstelasi barat."
 
 #: src/translations.h:282
 msgid "Look at the Sun from big planets of Solar System and Pluto."
-msgstr ""
+msgstr "Melihat Matahari dari planet besar Tata Surya dan Pluto."
 
 #: src/translations.h:283
 msgid "Best views of Earth from other Solar System bodies in the 21st Century."
-msgstr ""
+msgstr "Pemandangan terbaik Bumi dari Tata Surya lainnya di abad ke-21."
 
 #: src/translations.h:284
 msgid "Transit of Venus as seen from Sydney Australia, 6th June 2012."
-msgstr ""
+msgstr "Transit Venus yang terlihat dari Sydney Australia, 6 Juni 2012."
 
 #: src/translations.h:285
 msgid ""
 "A demonstration of the analemma - the path of the Sun across the sky during "
 "the year."
-msgstr ""
+msgstr "Demonstrasi analemma - jalur Matahari melintasi langit sepanjang tahun."
 
 #: src/translations.h:286
 msgid ""
 "Flash of the supernova observed by Tycho Brahe in 1572. The Supernovae "
 "plugin has to be enabled."
 msgstr ""
+"Kilatan supernova yang diamati oleh Tycho Brahe pada tahun 1572. Plugin "
+"Supernova harus diaktifkan."
 
 #: src/translations.h:287
 msgid "Earth Greatest Elongations and Brilliancies from Mars 2000-3000"
-msgstr ""
+msgstr "Elongasi dan Kecemerlangan Terbesar di Bumi dari Mars 2000-3000"
 
 #: src/translations.h:288
 msgid "Earth Greatest Elongations from Jupiter 2000-3000"
-msgstr ""
+msgstr "Elongasi Terbesar Bumi dari Jupiter 2000-3000"
 
 #: src/translations.h:292
 msgid "Andorra"
@@ -2006,11 +2026,11 @@ msgstr "Saint Kitts dan Nevis"
 
 #: src/translations.h:407
 msgid "Democratic People's Republic of Korea"
-msgstr "Republik Demokrat Rakyat Korea (Korea Utara)"
+msgstr "Korea Utara"
 
 #: src/translations.h:408
 msgid "Republic of Korea"
-msgstr "Republik Korea (Korea Selatan)"
+msgstr "Korea Selatan"
 
 #: src/translations.h:409
 msgid "Kuwait"
